@@ -1,0 +1,34 @@
+name: Publish
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - actions
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Logseq Publish
+        uses: pengx17/logseq-publish@v0.1
+        with:
+          dest: www
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./www
+          cname: ${{ secrets.CNAME }}
+          publish_branch: gh-pages
