@@ -1,0 +1,1 @@
+* Why is ping a wireguard-go host is not working (simply timeout) when SetPromiscuousMode is set to true

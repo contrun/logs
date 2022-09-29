@@ -1,0 +1,13 @@
+* Why do we need segment loads/stores since we already have stride loads/stores in riscv?
+* Can user space program catch CPU exception without the help of supervisor? If yes, what does the error handling code look like? If no, is the handling of division by zero exception overhead too high?
+* Real world use of fractional LMUL of risc-v v instructions [[https://github.com/riscv/riscv-v-spec/blob/master/fraclmul.adoc][riscv-v-spec/fraclmul.adoc at master · riscv/riscv-v-spec]]?
+* Register allocation algorithm [[https://dl.acm.org/doi/10.1145/872726.806984][Register allocation & spilling via graph coloring | ACM SIGPLAN Notices]].
+* What problems does mlir ([[https://mlir.llvm.org/][MLIR]]) intend to resolve?
+* The support of riscv v-extension in llvm [[https://lists.llvm.org/pipermail/llvm-dev/2020-October/145850.html][[llvm-dev] [RFC] Code generation for RISC-V V-extension]].
+* Can riscv binaries compile once and run everywhere since some riscv extensions are not available in the target machine? If yes, how?
+* What is an mlir dialect? What does it do? [[https://discourse.llvm.org/t/rfc-add-risc-v-vector-extension-rvv-dialect/4146][[RFC] Add RISC-V Vector Extension (RVV) Dialect - MLIR - LLVM Discussion Forums]]
+* What's so scalable about scalable vectorization? [[https://www.phoronix.com/news/LLVM-RISC-V-Vectorization-Def][LLVM 16 Enabling Scalable Vectorization By Default For RISC-V - Phoronix]]
+* [[https://microsoft.github.io/z3guide/][Documentation for Online Z3 Guide | Online Z3 Guide]]
+* Why memory content in ZK VM does not need to be recorded? What's the use of recording registers content?
+* Why the vector commitment is only obtained from a specific register? Tradeoff. May require too many memory.
+* What problem does [[http://www.noiseprotocol.org/noise.html][The Noise Protocol Framework]] try to solve?

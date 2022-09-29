@@ -1,0 +1,3 @@
+* Modern Compiler Construction in Java P8: Every grammar symbol corresponds to an abstact class. How do we initiate our parsing process? Do we make a method ~bool visitToken(token Token)~? As there are only a few production rules match this context (e.g. if we saw ~a +~, the token following-up must be a expression), simply run each visitToken would be grossly inefficient. We need some kind of pattern match for their subclasses.
+* Modern Compiler Construction in Java P8: How do we serialize the abstract syntax tree? Provide a ~void visit()~ method for every class?
+*
