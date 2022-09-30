@@ -6,3 +6,4 @@ We can store the value in the leaf node and calculate the hash with the both key
 * How can we create non-inclusion proof with KZG commitment?
 * What if we want to update the elementary database create from KZG commitment? Must we create a new one? This seems to be neccessary as adding or delete key-value means creating a new polynomial.
 * How can we construct a non-inclusion proof from Merkle tree?
+* [[https://arxiv.org/abs/2102.02308][[2102.02308] Fuzzing Hardware Like Software]]
