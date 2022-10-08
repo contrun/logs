@@ -1,6 +1,7 @@
 * Give a concrete example of “real pairing check” in the plonk paper (p9). 
 By a “real pairing check” we mean a check of the form \( (a \times T_1) \times (T_2 \times b) = 0 \)
 for some matrices \( T_1 \), \( T_2 \) over \( \mathbb{F} \). What are \( T_1 \), \( T_2 \) concretely?
+In the polynomial commitment scheme given in plonk paper p11, T
 * What assumption does the security of elliptic curve pairing algorithms depend on? Let \( e: G_1 \times G_2 \to G_t \) be a pairing,  is it it is hard to find non-tirivial solutions to \( e(g_1, g_2) * e(h_1, h_2) = 1 \)?
 * What did the efficient E do in Knowlege soundness in the Algebraic Group Model (plonk paper p10)? E was only given access to the coefficients of witness \( \omega \). Is it only intended to prove the adversary did adhere to the rules of Algebraic Group Model? What is E's relationship to the extractors in SNARKs?
 * How are \( z_1, \dots, z_n\) chosen in the polynomial commitment scheme given in the plonk paper p11. Are they fixed constants or given by a random oracle?
