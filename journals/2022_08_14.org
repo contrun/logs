@@ -37,5 +37,3 @@ define void @Derived_SetC(%Derived* %this, i32 %value) nounwind {
 }
 #+END_SRC
 ~%1 = bitcast %Derived* %this to %BaseB*~ shouldn't be working as the memory layouts of ~%Derived~ and ~%BaseB~ are different.
-*
-*
