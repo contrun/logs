@@ -6,4 +6,4 @@ In the polynomial commitment scheme given in plonk paper p11, \( T_1, T_2 \) rep
 * What did the efficient E do in Knowlege soundness in the Algebraic Group Model (plonk paper p10)? E was only given access to the coefficients of witness \( \omega \). Is it only intended to prove the adversary did adhere to the rules of Algebraic Group Model? What is E's relationship to the extractors in SNARKs?
 * How are \( z_1, \dots, z_n\) chosen in the polynomial commitment scheme given in the plonk paper p11. Are they fixed constants or given by a random oracle?
 * Why is TCP hole-punching significantly harder than UDP hole-punching? Is it because middleboxes use connection tracking facilities to block uninitiated TCP connections, e.g. the home router would ignore a SYN packet from the another side, if both peers are behind NAT, then both sides will have no chance to establish a new connection.
-* w
+* [[https://research.protocol.ai/publications/on-the-impossibility-of-algebraic-vector-commitments-in-pairing-free-groups/][On the Impossibility of Algebraic Vector Commitments in Pairing-Free Groups | Protocol Labs Research]]
