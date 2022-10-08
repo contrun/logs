@@ -1,1 +1,3 @@
-* Give a concrete example of “real pairing check” in the plonk paper (p9).
+* Give a concrete example of “real pairing check” in the plonk paper (p9). 
+By a “real pairing check” we mean a check of the form \( (a \times T_1) \times (T_2 \times b) = 0 \)
+for some matrices \(\)T1, T2 over F.
