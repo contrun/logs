@@ -61,51 +61,24 @@
  {:block/name "now",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
- {:block/name "oct 2nd, 2022",
-  :block/created-at 1664680965116,
-  :block/updated-at 1664681992843}
- {:block/name "oct 3rd, 2022",
-  :block/created-at 1664736232645,
-  :block/updated-at 1664810194832}
- {:block/name "oct 4th, 2022",
-  :block/created-at 1664832307521,
-  :block/updated-at 1664897225044}
- {:block/name "oct 5th, 2022",
-  :block/created-at 1664919058819,
-  :block/updated-at 1664958230619}
- {:block/name "oct 6th, 2022",
-  :block/created-at 1665020340408,
-  :block/updated-at 1665021668105}
- {:block/name "oct 7th, 2022",
-  :block/created-at 1665157116251,
-  :block/updated-at 1665157300691}
- {:block/name "oct 8th, 2022",
-  :block/created-at 1665179710724,
-  :block/updated-at 1665179710724}
- {:block/name "resolve",
-  :block/created-at 1664680966147,
-  :block/updated-at 1664680966147}
  {:block/name "sep 10th, 2022",
-  :block/created-at 1664681510890,
-  :block/updated-at 1664681510890}
+  :block/created-at 1664074616597,
+  :block/updated-at 1664074616597}
  {:block/name "sep 25th, 2022",
-  :block/created-at 1664681511949,
-  :block/updated-at 1664681511949}
+  :block/created-at 1664074616371,
+  :block/updated-at 1664074616371}
  {:block/name "sep 27th, 2022",
-  :block/created-at 1664681512699,
-  :block/updated-at 1664681512699}
+  :block/created-at 1664537284682,
+  :block/updated-at 1664537284682}
  {:block/name "sep 28th, 2022",
-  :block/created-at 1664681513428,
-  :block/updated-at 1664681513428}
+  :block/created-at 1664537284698,
+  :block/updated-at 1664537284698}
  {:block/name "sep 29th, 2022",
-  :block/created-at 1664681514111,
-  :block/updated-at 1664681514111}
+  :block/created-at 1664537284729,
+  :block/updated-at 1664537304813}
  {:block/name "sep 30th, 2022",
-  :block/created-at 1664681514379,
-  :block/updated-at 1664681514379}
- {:block/name "ssg",
-  :block/created-at 1664680966158,
-  :block/updated-at 1664680966158}
+  :block/created-at 1664537284761,
+  :block/updated-at 1664537370224}
  {:block/name "todo",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}

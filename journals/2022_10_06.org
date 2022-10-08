@@ -1,0 +1,3 @@
+* How do transactions in CQRS work? Eventually one event will carry out some IO operation. What if the IO operation failed? How can this event be aborted? What if some other events were bounded to this event, e.g. Alice transfer to $100 to Bob?
+* Design a transaction which is hard to rollback, or whose side effect is still visible even if it is rollbacked? An example is that a transaction increased monotonically increasing ID. If the counter is not decreased (which is easier to implement), then the side effect is still visible.
+* Create a concrete SQL expression which would lead to dead lock? How can we detect dead lock with the logical analyzer?

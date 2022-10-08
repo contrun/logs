@@ -1,0 +1,1 @@
+* Reactive Design Patterns p261 says that sender() is missing from typed actors because it is infeasible to have this in fully type-checked environment. Is that so?
