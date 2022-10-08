@@ -61,6 +61,9 @@
  {:block/name "now",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "oct 1st, 2022",
+  :block/created-at 1665231264313,
+  :block/updated-at 1665231264313}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1664680965116,
   :block/updated-at 1664681992843}
@@ -82,9 +85,6 @@
  {:block/name "oct 8th, 2022",
   :block/created-at 1665179710724,
   :block/updated-at 1665179710724}
- {:block/name "resolve",
-  :block/created-at 1664680966147,
-  :block/updated-at 1664680966147}
  {:block/name "sep 10th, 2022",
   :block/created-at 1664681510890,
   :block/updated-at 1664681510890}
@@ -103,9 +103,6 @@
  {:block/name "sep 30th, 2022",
   :block/created-at 1664681514379,
   :block/updated-at 1664681514379}
- {:block/name "ssg",
-  :block/created-at 1664680966158,
-  :block/updated-at 1664680966158}
  {:block/name "todo",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
