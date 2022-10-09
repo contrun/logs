@@ -1,1 +1,3 @@
 * What property ensures the \( g = \sigma(f) \) in plonk paper P20?
+Then
+*
