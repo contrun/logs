@@ -4,3 +4,4 @@ Let \( a = g^n \)
 * Is the constraint system given in plonk paper p22 general enough to be Turing complete? What kind of circuits are general enough to be Turing complete? Give some sufficient and necessary conditions.
 * How do we convert the executation of a program into a constraint system? How do we convert a constraint system to a polynomial commitment? How do we convert from a series of equations to one equation for verification in the constraint system?
 * How to compile jump/compare instructions to circuits?
+* How to deal with instruction exceptions (e.g. division by zero) in ZK VM?
