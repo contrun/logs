@@ -1,1 +1,1 @@
-* P20
+* What property ensures the \( g = \sigma(f) \) in plonk paper P20?
