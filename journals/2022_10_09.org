@@ -1,3 +1,3 @@
 * What property ensures the \( g = \sigma(f) \) in plonk paper P20?
 Let \( a = g^n \)
-* What is the meaning of polynomial permuation in constraint systems?
+* What is the meaning of polynomial permuation in constraint systems? What about extended permutation?
