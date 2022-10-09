@@ -1,4 +1,4 @@
 * What property ensures the \( g = \sigma(f) \) in plonk paper P20?
 Let \( a = g^n \)
 * What is the meaning of polynomial permuation in constraint systems? What about extended permutation?
-* How do we convert from a series of equations to one equation
+* How do we convert the executation of a program How do we convert a constraint system to a polynomial commitment? How do we convert from a series of equations to one equation for verification in the constraint system?
