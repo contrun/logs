@@ -1,2 +1,1 @@
 * Ask pattern vs callback?
-*
