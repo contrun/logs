@@ -1,1 +1,1 @@
-* How do we convert syscalls and its result to circuits to ZK VM? Can we convert the model of syscalls to memory read and memory write?
+* How do we convert syscalls and its result to circuits to ZK VM? Can we convert the model of syscalls to memory read and memory write if we can be mmap all the IO devices?
