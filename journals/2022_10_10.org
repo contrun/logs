@@ -1,2 +1,3 @@
 * How do we convert syscalls and its result to circuits to ZK VM? Can we convert the model of syscalls to memory read and memory write if we can be mmap all the IO devices?
-* How can a ZK VM model
+* How can a ZK VM model undefined, unspecified and non-deterministic behaviors?
+*
