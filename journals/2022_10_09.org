@@ -2,6 +2,8 @@
 Let \( a = g^n \)
 * What is the meaning of polynomial permutation in constraint systems? What about extended permutation?
 * Is the constraint system given in plonk paper p22 general enough to be Turing complete? What kind of circuits are general enough to be Turing complete? Give some sufficient and necessary conditions.
++ [[https://stackoverflow.com/questions/9439001/what-is-the-minimum-instruction-set-required-for-any-assembly-language-to-be-con][microprocessors - What is the minimum instruction set required for any Assembly language to be considered useful? - Stack Overflow]]
++ [[https://en.wikipedia.org/wiki/Minimal_instruction_set_computer][Minimal instruction set computer - Wikipedia]]
 * How do we convert the execution of a program into a constraint system? How do we convert a constraint system to a polynomial commitment? How do we convert from a series of equations to one equation for verification in the constraint system?
 * How to compile jump/compare instructions to circuits?
 * How to deal with instruction exceptions (e.g. division by zero) in ZK VM?
