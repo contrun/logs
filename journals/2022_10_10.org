@@ -4,4 +4,19 @@
 * How to pin point division by zero instruction in x86? Linux deliver a SIGFPE (see [[https://www.gnu.org/software/libc/manual/html_node/Program-Error-Signals.html][Program Error Signals (The GNU C Library)]]) to the program when a processor division by zero exception is caught. How can we know which instruction caused this exception? Note the exception can be only captured by the operating system and the signal is delivered asynchronously by the operating system.
 * Why is the python interpreter not aborted when I run ~python -c 'print(1/0)'~?
 It seems the python interpreter correctly caught the exception without setting up a custom signal handler to SIGFPE. This can be verified by ~strace -f python -c 'print(1/0)' |& less~, which has the following output ~rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0~.
+@aol ➜ c  cat fpe.c 
+#include <stdio.h>
+int main() {
+ return printf("%f\n", 1L / 0);
+}
+@aol ➜ c  make fpe
+cc     fpe.c   -o fpe
+fpe.c: In Funktion »main«:
+fpe.c:3:27: Warnung: Division durch Null [-Wdiv-by-zero]
+    3 |  return printf("%f\n", 1L / 0);
+      |                           ^
+@aol ➜ c  ./fpe 
+[1]    1893327 floating point exception (core dumped)  ./fpe
+@aol ➜ c  echo $?
+136
 *
