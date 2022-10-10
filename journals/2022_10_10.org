@@ -26,5 +26,4 @@ fpe.c:3:27: Warnung: Division durch Null [-Wdiv-by-zero]
 @aol ➜ c  echo $?
 136
 #+END_SRC
-*
-*
+* How to compute polynomial multiplication with
