@@ -1,0 +1,1 @@
+* How do we model syscalls in ZK VM? Can we convert the model of syscalls
