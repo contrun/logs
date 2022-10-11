@@ -1,1 +1,1 @@
-* What's the magnitude of a normal program
+* What's the magnitude of circuit gates that a normal program has when compiled by ZK VM?
