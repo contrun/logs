@@ -1,2 +1,2 @@
 * What's the magnitude of circuit gates that a normal program has when compiled by ZK VM?
-* What's the use of representing identity permutations as degree-1 polynomials in plonk paper p26? Why must we add a multiplicative factor to the lef
+* What's the use of representing identity permutations as degree-1 polynomials in plonk paper p26? Why must we add a multiplicative factor to the right and output elements?
