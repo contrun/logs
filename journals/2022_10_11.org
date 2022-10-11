@@ -1,4 +1,4 @@
 * What's the magnitude of circuit gates that a normal program has when compiled by ZK VM?
 * What's the use of representing identity permutations as degree-1 polynomials in plonk paper p26? Why must we add a multiplicative factor to the right and output elements?
 * How does revocation in GPG work? It the revocation certificate a special signature (like signing the message "THIS PUBLIC KEY IS LOST, DON'T USE IT ANY MORE", how do we avoid this payload collides with normal payload) created at an eariler time which is generally agreed that if it is published then anyone should not trust the public key anymore?
-* How does key aggregation for Schnorr signature works? [[https://eprint.iacr.org/2018/068][Simple Schnorr Multi-Signatures with Applications to Bitcoin]]. Schnorr signature is not automatically homomorphic. Let P be
+* How does key aggregation for Schnorr signature works? [[https://eprint.iacr.org/2018/068][Simple Schnorr Multi-Signatures with Applications to Bitcoin]]. Schnorr signature is not automatically homomorphic. Let \( G \) be a base point of the elli
