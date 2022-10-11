@@ -1,3 +1,3 @@
 * What's the magnitude of circuit gates that a normal program has when compiled by ZK VM?
 * What's the use of representing identity permutations as degree-1 polynomials in plonk paper p26? Why must we add a multiplicative factor to the right and output elements?
-* How does revocation in GPG work? It the revocation certificate a special signature created at a
+* How does revocation in GPG work? It the revocation certificate a special signature created at an eariler time which is generally agreed that if it is published then anyone should not trust the public key anymore?
