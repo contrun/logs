@@ -1,0 +1,1 @@
+* Let \( v \) be a vector, denote right shift \( v \) by n by \(\)
