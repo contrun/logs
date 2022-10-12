@@ -1,1 +1,1 @@
-* Let \( v \) be a vector, denote right shift \( v \) by n by \(\)
+* Let \( v \) be a vector, denote right shift \( v \) by n by \( v^{^\rightarrow  n} \). If the polynomial commitment of \( v \) is
