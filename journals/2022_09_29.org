@@ -11,6 +11,9 @@
 It is quite secure as long as the number of secrets we want to protect does not exceed the degree of the polynomial  that hides the secrets. Say we want to hide one secret with a linear function. Even if we give one point on \((s, t)\) on the curve. We still have infinite many functions satisfies \( f(s) = t\). For example any function of the form \( f(x)-t = m(x-s) \). More generally, \( f(x) \) can be the product of a lower degree interpoled from the points and another arbitray polynomial.
 Another thing we want to keep in mind is that the seret is normally fixed (i.e. not randomly generated). We can just embedded it into the polynomial (for example, use it as the coefficient of the polynomial). If we want to distribute a new secret, say \(s\) with the polynomial, say \(p\), then we need to obtain the root of \(s\) in \(p\), this may be not easy.
 * How to convert a polynomial commitment scheme to a vector commitment scheme?
+:PROPERTIES:
+:id: 6342705c-75ea-449a-8f7b-8076492c1724
+:END:
 + Let \((m_0, m_1, m_2, ... , m_t) \in M^{(t+1)}\) be a vector of messages, let \(f: M \to \Z_p\) be a injective function. We can commit the polynomial \(q = \sum_{i=0}^n{f(m_i) * x^{i}}\).
 + The paper has another method. Let \((k_0, k_1, ... , k_t) \in \Z_p^{(t+1)}\) be a few elements (chosen constants? we can fix a random \( \omega \in \Z_p\), take \((1, \omega, \omega^2, ..., \omega^t)\)) in the finite field. These exists a unique polynomial \(p\) satisfies \(\forall i, p(f(m_i)) = k_i\) (\(\forall i, p(k_i) = f(m_i)\) will also work) is unique, we can commit \(p\).
 Why do we commit the polynomial \(p\) instead of the polynomial \(q\)? Is it because the polynomial \(q\) may does not have a degree high enough, while \(p\) is guaranteed to be of degree \(t\)?
