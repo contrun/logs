@@ -4,3 +4,4 @@
 * What ensures the instructions executed are the instructions from our program (and the exectution flow is legal)? By the initial value of program counter (pc) and enforcing the transition rule of pc? How do we make sure the current pc value coresponds to the correct instructions in the program? Using lookup arguments to ensure pc and ins corespond to the instructions in the program.
 * How do we ensure the sorting is legal in the memory table? Using permutation arguments and rules to   ensure the table is sorted.
 * The limitation of feedback-directed optimization in dynamic language. To what extent, Mike Pall said on [[http://lua-users.org/lists/lua-l/2009-06/msg00071.html][Re: [ANN] llvm-lua 1.0]] is still true?
+* [[https://www.microsoft.com/en-us/research/publication/pipezk-accelerating-zero-knowledge-proof-with-a-pipelined-architecture/][PipeZK: Accelerating Zero-Knowledge Proof with a Pipelined Architecture - Microsoft Research]]. Accelerating
