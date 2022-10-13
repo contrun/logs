@@ -1,0 +1,1 @@
+* Why does vanilla lua only have false coroutines semantics? [[https://coco.luajit.org/][Coco — True C Coroutines for Lua]]. True C coroutine semantics mean you can yield from a coroutine across a C call boundary and resume back to it.
