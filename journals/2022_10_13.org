@@ -1,2 +1,3 @@
 * Why does vanilla lua only have false coroutines semantics? [[https://coco.luajit.org/][Coco — True C Coroutines for Lua]]. True C coroutine semantics mean you can yield from a coroutine across a C call boundary and resume back to it.
 * What does luajit use dynasm for? To compile lua code into assembly code? How does luajit do such thing?
+* [[http://lua-users.org/lists/lua-l/2009-11/msg00089.html][LuaJIT 2.0 intellectual property disclosure and research opportunities]]
