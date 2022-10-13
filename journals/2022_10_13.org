@@ -1,5 +1,5 @@
 * Why does vanilla lua only have false coroutines semantics? [[https://coco.luajit.org/][Coco — True C Coroutines for Lua]]. True C coroutine semantics mean you can yield from a coroutine across a C call boundary and resume back to it.
 * What does luajit use dynasm for? To compile lua code into assembly code? How does luajit do such thing?
 * [[http://lua-users.org/lists/lua-l/2009-11/msg00089.html][LuaJIT 2.0 intellectual property disclosure and research opportunities]]
-* Idea: applying the techniques demostrated in [[https://publications.cispa.saarland/3773/][Jit-Picking: Differential Fuzzing of JavaScript Engines - CISPA]] to luajit.
+* Idea: applying the techniques demostrated in [[https://publications.cispa.saarland/3773/][Jit-Picking: Differential Fuzzing of JavaScript Engines - CISPA]] to luajit. The problems listed at [[https://web.archive.org/web/20210303083637/http://wiki.luajit.org/Reducing-Testcases][Reducing Test Cases for Bugs]] are exactly the reaon why jit-picking is so effective.
 *
