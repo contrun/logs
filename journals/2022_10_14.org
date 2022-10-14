@@ -1,0 +1,1 @@
+* How does windows administrator prompt work? What can a malicious program fake
