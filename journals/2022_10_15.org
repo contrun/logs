@@ -1,1 +1,1 @@
-* Define the duality of generative approach and recognition approach
+* Formally define the duality of generative approach (e.g. context free gramma) and recognition approach of formal languages.
