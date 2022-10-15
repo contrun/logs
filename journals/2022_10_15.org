@@ -1,1 +1,2 @@
 * Formally define the duality of generative approach (e.g. context free gramma) and recognition approach (e.g. automaton) of formal languages. Prove that the expression power of regular expression and automation are equivalent.
+* Show that
