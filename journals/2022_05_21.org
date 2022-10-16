@@ -1,3 +1,3 @@
-* Inconsistency in Python: yield generators coroutines functions, variable scope in with or try and if or for, immutable and mutable data structure (pass by reference), overriding builtin classes and user-defined classes, the meaning of else in if and for or try
+* Inconsistency in Python: yield generators coroutines functions, variable scope in with or try and if or for, immutable and mutable data structure (pass by reference), overriding builtin classes and user-defined classes, the meaning of else in if and for or try. [[Fluent Python]]
 * Compare various resource clean up techniques, bracket in haskell or zio, defer in go, context manager in python, Drop::drop in rust, destructor in c++. [[further investigation needed]]
 * Fluent Python p539, wouldn't reading and writing Signal without acquiring and releasing be a problem? [[Fluent Python]]
