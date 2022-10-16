@@ -9,5 +9,6 @@
 * What's so scalable about scalable vectorization? [[https://www.phoronix.com/news/LLVM-RISC-V-Vectorization-Def][LLVM 16 Enabling Scalable Vectorization By Default For RISC-V - Phoronix]] [[scalable vectorization]] [[llvm]]
 * [[https://microsoft.github.io/z3guide/][Documentation for Online Z3 Guide | Online Z3 Guide]] [[formal methods]] [[Z3]]
 * Why memory content in ZK VM does not need to be recorded? What's the use of recording registers content? [[zero knowledge virtual machines]]
-* Why the vector commitment is only obtained from a specific register? Tradeoff. May require too many memory.
-* What problem does [[http://www.noiseprotocol.org/noise.html][The Noise Protocol Framework]] try to solve?
+* Why the vector commitment is only obtained from a specific register? [[zero knowledge virtual machines]] 
+Tradeoff. May require too many memory.
+* What problem does [[http://www.noiseprotocol.org/noise.html][The Noise Protocol Framework]] try to solve? [[noise framework]]
