@@ -1,0 +1,7 @@
+* Prove the Grammar and Automaton re Regular Grammar
+Context-Free Grammar
+Context-Sensitive Grammar
+
+Finite-State Automaton
+Push-Down Automaton
+Turing Machine
