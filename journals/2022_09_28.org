@@ -6,8 +6,8 @@
 * The support of riscv v-extension in llvm [[https://lists.llvm.org/pipermail/llvm-dev/2020-October/145850.html][[llvm-dev] [RFC] Code generation for RISC-V V-extension]]. [[riscv]] [[llvm]]
 * Can riscv binaries compile once and run everywhere since some riscv extensions are not available in the target machine? If yes, how? [[riscv]]
 * What is an mlir dialect? What does it do? [[https://discourse.llvm.org/t/rfc-add-risc-v-vector-extension-rvv-dialect/4146][[RFC] Add RISC-V Vector Extension (RVV) Dialect - MLIR - LLVM Discussion Forums]] [[mlir]]
-* What's so scalable about scalable vectorization? [[https://www.phoronix.com/news/LLVM-RISC-V-Vectorization-Def][LLVM 16 Enabling Scalable Vectorization By Default For RISC-V - Phoronix]]
-* [[https://microsoft.github.io/z3guide/][Documentation for Online Z3 Guide | Online Z3 Guide]]
-* Why memory content in ZK VM does not need to be recorded? What's the use of recording registers content?
+* What's so scalable about scalable vectorization? [[https://www.phoronix.com/news/LLVM-RISC-V-Vectorization-Def][LLVM 16 Enabling Scalable Vectorization By Default For RISC-V - Phoronix]] [[scalable vectorization]] [[llvm]]
+* [[https://microsoft.github.io/z3guide/][Documentation for Online Z3 Guide | Online Z3 Guide]] [[formal methods]] [[Z3]]
+* Why memory content in ZK VM does not need to be recorded? What's the use of recording registers content? [[zero knowledge virtual machines]]
 * Why the vector commitment is only obtained from a specific register? Tradeoff. May require too many memory.
 * What problem does [[http://www.noiseprotocol.org/noise.html][The Noise Protocol Framework]] try to solve?
