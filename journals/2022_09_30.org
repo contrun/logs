@@ -1,9 +1,9 @@
 * Why is Merkle tree both a zero-knowledge set and key-value store? [[Merkle tree]]
 We can store the value in the leaf node and calculate the hash with the both key and the value.
 * How does distributed key generation work? Let \( (sk_i, g^{sk_i})_{i = 0}^n \) be a set of key pairs, then \( (\sum_{i=0}^n{sk_i}, \prod_{i=0}^n g^{sk_i}) \) is also a key pair. But if one partipant is evil, then the resulting key pair may be invalid. How can we prevent that? [[distributed key generation]]
-* When the polynomial is distributed to a set of participants (all of which have known only one point on the curve of the polynomial), can we distributedly create commitment and witness for that polynomial? That is verified distributed
-* How can we fast reconstruct the polynomial from a set of points where some points may be faulty? Let the polynomial be of degree \(t\), \(n\) points are given, we can naively randomly choose a set of \(t+1\) points (with \( C_n^{t+1} \) choices), then when all points are given by the honest party, the resulting polynomial must be the same. The question is that can evil parties compounds so that say when there are two evil party, can the two results given from two different combination of \(t\) honest parties and one evil party be the same?
-* How can we create non-inclusion proof with KZG commitment?
+* When the polynomial is distributed to a set of participants (all of which have known only one point on the curve of the polynomial), can we distributedly create commitment and witness for that polynomial?  [[verified secret sharing]]
+* How can we fast reconstruct the polynomial from a set of points where some points may be faulty? Let the polynomial be of degree \(t\), \(n\) points are given, we can naively randomly choose a set of \(t+1\) points (with \( C_n^{t+1} \) choices), then when all points are given by the honest party, the resulting polynomial must be the same. The question is that can evil parties compounds so that say when there are two evil party, can the two results given from two different combination of \(t\) honest parties and one evil party be the same? [[secret sharing]]
+* How can we create non-inclusion proof with KZG commitment? [[KZG commitments]]
 * What if we want to update the elementary database create from KZG commitment? Must we create a new one? This seems to be neccessary as adding or delete key-value means creating a new polynomial.
 * How can we construct a non-inclusion proof from Merkle tree?
 * [[https://arxiv.org/abs/2102.02308][[2102.02308] Fuzzing Hardware Like Software]]
