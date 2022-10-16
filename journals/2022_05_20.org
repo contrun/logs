@@ -1,2 +1,2 @@
-* Fluent Python p88, what if we used up all the parts of the hash value, and there exists a different key in those buckets, i.e. what to do when a != b and hash(a) == hash(b)?
+* Fluent Python p88, what if we used up all the parts of the hash value, and there exists a different key in those buckets, i.e. what to do when a != b and hash(a) == hash(b)? [[]]
 * Will the id of a python object change if it is moved?

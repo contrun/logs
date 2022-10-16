@@ -1,4 +1,4 @@
-* Why is systemd creating so many bpf programs and bpf maps?
+* Why is systemd creating so many bpf programs and bpf maps? [[systemd]] [[bpf]] [[troubleshooting]]
 :PROPERTIES:
 :heading: true
 :END:
