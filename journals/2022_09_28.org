@@ -1,4 +1,4 @@
-* Why do we need segment loads/stores since we already have stride loads/stores in riscv?
+* Why do we need segment loads/stores since we already have stride loads/stores in riscv? [[riscv]]
 * Can user space program catch CPU exception without the help of supervisor? If yes, what does the error handling code look like? If no, is the handling of division by zero exception overhead too high?
 * Real world use of fractional LMUL of risc-v v instructions [[https://github.com/riscv/riscv-v-spec/blob/master/fraclmul.adoc][riscv-v-spec/fraclmul.adoc at master · riscv/riscv-v-spec]]?
 * Register allocation algorithm [[https://dl.acm.org/doi/10.1145/872726.806984][Register allocation & spilling via graph coloring | ACM SIGPLAN Notices]].
