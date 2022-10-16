@@ -27,4 +27,4 @@ fpe.c:3:27: Warnung: Division durch Null [-Wdiv-by-zero]
 @aol ➜ c  echo $?
 136
 #+END_SRC
-* How to compute polynomial multiplication with fast fourier transform? [[https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf][The Fast Fourier Transform and Polynomial Multiplication]]. [[further investigation needed]]
+* How to compute polynomial multiplication with fast fourier transform? [[https://cse.hkust.edu.hk/mjg_lib/Classes/COMP3711H_Fall16/lectures/FFT_Slides.pdf][The Fast Fourier Transform and Polynomial Multiplication]]. [[further investigation needed]] [[algorithms]]
