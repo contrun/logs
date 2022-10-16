@@ -1,7 +1,7 @@
 * What property ensures the \( g = \sigma(f) \) in plonk paper P20? [[plonk]]
 Let \( a = g^n \)
 * What is the meaning of polynomial permutation in constraint systems? What about extended permutation? [[plonk]]
-Only
+copy-satisfy is the primitive needed in the plonk protocol. It meet
 * Is the constraint system given in plonk paper p22 general enough to be Turing complete? What kind of circuits are general enough to be Turing complete? Give some sufficient and necessary conditions.
 + [[https://stackoverflow.com/questions/9439001/what-is-the-minimum-instruction-set-required-for-any-assembly-language-to-be-con][microprocessors - What is the minimum instruction set required for any Assembly language to be considered useful? - Stack Overflow]]
 + [[https://en.wikipedia.org/wiki/Minimal_instruction_set_computer][Minimal instruction set computer - Wikipedia]]
