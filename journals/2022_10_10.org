@@ -1,9 +1,9 @@
 * How do we convert syscalls and its result to circuits to ZK VM? Can we convert the model of syscalls to memory read and memory write if we can be mmap all the IO devices? [[zero knowledge virtual machines]] [[further investigation needed]] 
 It seems that syscalls in ZK VM must be implemented case by case.
 * How can a ZK VM model undefined, unspecified and non-deterministic and unpredictable behaviors? Can we verify if the trace of one execution are legal even if non-determinism exists? Examples of non-determinisim (memory access in a multi-thread environment, unpredictable operating systems signal sending, access an uninitialized memory). [[zero knowledge virtual machines]] [[further investigation needed]]
-* [[https://riscv.org/wp-content/uploads/2018/05/10.45-clifford-barcelona.pdf][Undefined, Unspecified, Non-deterministic, and Implementation Defined Behavior in Verifiable Specs]]
+* [[https://riscv.org/wp-content/uploads/2018/05/10.45-clifford-barcelona.pdf][Undefined, Unspecified, Non-deterministic, and Implementation Defined Behavior in Verifiable Specs]] [[riscv]]
 * How to pin point division by zero instruction in x86? Linux deliver a SIGFPE (see [[https://www.gnu.org/software/libc/manual/html_node/Program-Error-Signals.html][Program Error Signals (The GNU C Library)]]) to the program when a processor division by zero exception is caught. How can we know which instruction caused this exception? Note the exception can be only captured by the operating system and the signal is delivered asynchronously by the operating system.
-[[https://stackoverflow.com/questions/49082174/signal-handlingsigfpe][c++ - Signal handling(SIGFPE) - Stack Overflow]]
+[[https://stackoverflow.com/questions/49082174/signal-handlingsigfpe][c++ - Signal handling(SIGFPE) - Stack Overflow]] [[further investigation needed]] 
 #+BEGIN_QUOTE
 In x86, this is because [[https://wiki.osdev.org/Exceptions][divide error is a /fault/]], which means when control flow returns, the program counter ( ~%rip~ ) will point to the address of the previous faulty code, *not* the next instruction. A normal strategy of handling SIGFPE is using  ~setjmp~  to jump to a recoverable state from the signal handler.
 #+END_QUOTE
