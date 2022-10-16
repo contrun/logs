@@ -1,2 +1,3 @@
 * Prove the Grammar and Automaton relationship. Regular Grammar <-> Finite-State Automaton
 , Context-Free Grammar <-> Push-Down Automaton, Context-Sensitive Grammar <-> Turing Machine. [[compiling techniques]] [[6.035]]
+* Number-theoretic transform vs discrete Fourier transform?
