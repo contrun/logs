@@ -1,7 +1,2 @@
-* Prove the Grammar and Automaton re Regular Grammar
-Context-Free Grammar
-Context-Sensitive Grammar
-
-Finite-State Automaton
-Push-Down Automaton
-Turing Machine
+* Prove the Grammar and Automaton relationship. Regular Grammar <-> Finite-State Automaton
+, Context-Free Grammar <-> Push-Down Automaton, Context-Sensitive Grammar <-> Turing Machine.
