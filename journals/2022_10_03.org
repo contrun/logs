@@ -1,1 +1,1 @@
-* How do actor systems look up actor references? Must they implement a lock to get actor information? They do the bookkeeping work only in actor startup and shutdown? What if the actor reference refer to a remote actor? Do they need a consensus module then?
+* How do actor systems look up actor references? Must they implement a lock to get actor information? They do the bookkeeping work only in actor startup and shutdown? What if the actor reference refer to a remote actor? Do they need a consensus module then? [[actors]]
