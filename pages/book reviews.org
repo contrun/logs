@@ -1,1 +1,1 @@
-* [[Fluent Python]]
+* {{embed [[Fluent Python]]}}
