@@ -1,3 +1,4 @@
 * Prove the Grammar and Automaton relationship. Regular Grammar <-> Finite-State Automaton
 , Context-Free Grammar <-> Push-Down Automaton, Context-Sensitive Grammar <-> Turing Machine. [[compiling techniques]] [[6.035]]
-* Number-theoretic transform vs discrete Fourier transform?
+* Number-theoretic transform vs discrete Fourier transform? [[algorithms]] [[further investigation needed]] 
+The NTT is a generalization of the classic DFT to finite fields. Does NTF only change the multiplication and addtion?
