@@ -1,1 +1,1 @@
-* In the pull pattern, consumers ask the producers for more data to make progress. What if the consumers never ask for more data, must the producer save the data indefinitely? How do we decide when to drop some datum?
+* In the pull pattern, consumers ask the producers for more data to make progress. What if the consumers never ask for more data, must the producer save the data indefinitely? How do we decide when to drop some datum? [[reactive systems]]
