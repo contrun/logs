@@ -1,4 +1,4 @@
-* Mapping High Level Constructs to LLVM IR: Will simple casting from subclass to superclass work in multiple inheritance?
+* Mapping High Level Constructs to LLVM IR: Will simple casting from subclass to superclass work in multiple inheritance? [[compiling techniques]]
 :PROPERTIES:
 :id: 62f86517-4433-4a29-9d2b-af0a0a38fbec
 :END:
