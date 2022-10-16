@@ -1,7 +1,7 @@
-* What problems can [[https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11][Constant-Size Commitments to Polynomials and Their Applications | SpringerLink]] solve?
-* Commitment \(cm \in CM\) to a message \(m \in M\) is binding if one can not regret, that is, an adversary has slim change to obtain another message \(m_1\) such that \(m_1\) also has commitment \(cm\).
-* Commitment \(cm \in CM\) to a message \(m \in M\) is hiding if one can not find out what \(m\) is, that is, \(cm\) is almost uniformly distributed in \(CM\).
-* Examples of commitment schemes.
+* What problems can [[https://link.springer.com/chapter/10.1007/978-3-642-17373-8_11][Constant-Size Commitments to Polynomials and Their Applications | SpringerLink]] solve? [[KZG commitments]]
+* Commitment \(cm \in CM\) to a message \(m \in M\) is binding if one can not regret, that is, an adversary has slim change to obtain another message \(m_1\) such that \(m_1\) also has commitment \(cm\). [[commitment schemes]]
+* Commitment \(cm \in CM\) to a message \(m \in M\) is hiding if one can not find out what \(m\) is, that is, \(cm\) is almost uniformly distributed in \(CM\). [[commitment schemes]]
+* Examples of commitment schemes. [[commitment schemes]] 
 + Discrete logarithm commitment (non-standard termiology): Given \(m \in \Z_p\), \(g \in G\) where \(G\) is a group in which the discrete logarithm problem is assumed to be hard to solve, \(g\) is one generator of the group, \(cm(m) = g^m\).
 + Pedersen commitment: Given \(m \in \Z_p\), \(g, h \in G\) where \(G\) is a group in which the discrete logarithm problem is assumed to be hard to solve, \(g, h\) are generators of the group, \(cm(m) = (g^m*h^r, r)\), where the blinding factor \(r\) is a randomly choosed element of \(\Z_p\).
 + Merkle tree commitment: Given message \(m\) and cryptographic hash function \(H\), a binary tree \(T\), let every leaf nodes contains the hash of some message, let every non-leaf node contains the hash of \(H(L||R)\), where \(L\) is the hash result contained in its left child, \(R\) is the hash result contained in its right child. Then the path from message \(m\) to root \(r\), along with the data contained in the nodes is a commitment.
