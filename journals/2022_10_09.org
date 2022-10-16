@@ -1,8 +1,8 @@
 * What property ensures the \( g = \sigma(f) \) in plonk paper P20? [[plonk]]
 Let \( a = g^n \)
 * What is the meaning of polynomial permutation in constraint systems? What about extended permutation? [[plonk]]
-copy-satisfy is the primitive needed in the plonk protocol. It means everything within the partition has the same value. In terms of circuits, it means the values of gates belonging to the same partition are equal (like ).
-* Is the constraint system given in plonk paper p22 general enough to be Turing complete? What kind of circuits are general enough to be Turing complete? Give some sufficient and necessary conditions.
+copy-satisfy is the primitive needed in the plonk protocol. It means everything within the partition has the same value. In terms of circuits, it means the values of gates belonging to the same partition are equal (like some input of a wire is the outputs of another wire).
+* Is the constraint system given in plonk paper p22 general enough to be Turing complete? What kind of circuits are general enough to be Turing complete? Give some sufficient and necessary conditions. [[plonk]]
 + [[https://stackoverflow.com/questions/9439001/what-is-the-minimum-instruction-set-required-for-any-assembly-language-to-be-con][microprocessors - What is the minimum instruction set required for any Assembly language to be considered useful? - Stack Overflow]]
 + [[https://en.wikipedia.org/wiki/Minimal_instruction_set_computer][Minimal instruction set computer - Wikipedia]]
 * How do we convert the execution of a program into a constraint system? How do we convert a constraint system to a polynomial commitment? How do we convert from a series of equations to one equation for verification in the constraint system?
