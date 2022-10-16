@@ -1,3 +1,3 @@
-* [[https://dl.acm.org/doi/abs/10.1145/1346281.1346323]Learning from mistakes: a comprehensive study on real world concurrency bug characteristics | Proceedings of the 13th international conference on Architectural support for programming languages and operating systems]] [[concurrency]]
+* [[https://dl.acm.org/doi/abs/10.1145/1346281.1346323]Learning from mistakes: a comprehensive study on real world concurrency bug characteristics | Proceedings of the 13th international conference on Architectural support for programming languages and operating systems]] [[concurrent programming]]
 * [[https://guide.elm-lang.org/][Introduction · An Introduction to Elm]] [[programming languages]]
 * How does MappingProxyType in python work (proxy access to underlying data structur, but deny writes)? [[python]]
