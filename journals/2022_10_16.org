@@ -1,4 +1,4 @@
 * Prove the Grammar and Automaton relationship. Regular Grammar <-> Finite-State Automaton, Context-Free Grammar <-> Push-Down Automaton, Context-Sensitive Grammar <-> Turing Machine. [[compiling techniques]] [[6.035]]
-Finite-State Automaton <-> Regular Grammar: regular grammar has three operations union, string concatenation and Kleene star.
+Finite-State Automaton <-> Regular Grammar: regular grammar has three operations union, string concatenation and Kleene star. For every terminal symbols in the regular language, we construct a terminal state for the finite-state automaton,
 * Number-theoretic transform vs discrete Fourier transform? [[algorithms]] [[further investigation needed]]
 The NTT is a generalization of the classic DFT to finite fields. Does NTF only change the multiplication and addtion? Since we can do Fourier transform on a group. It seems that we only need to change addition.
