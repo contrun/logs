@@ -1,2 +1,2 @@
 * Why is Hindley–Milner type system so famous? What's HIndley-Milner type system's major selling point? Why is it not widely used in object oriented languages? [[type systems]]
-*
+* Why is static so famous? What's HIndley-Milner type system's major selling point?
