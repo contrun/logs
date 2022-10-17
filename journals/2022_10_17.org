@@ -1,1 +1,2 @@
-* Why is Hindley–Milner type system so
+* Why is Hindley–Milner type system so famous? What's HIndley-Milner type system's major selling point? Why is it not widely used in object oriented la[[type systems]]
+*
