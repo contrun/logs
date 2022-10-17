@@ -1,1 +1,1 @@
-* Give an example
+* Why is Hindley–Milner type system so
