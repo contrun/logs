@@ -14,4 +14,5 @@ The proof of pumping lemma for regular language assume the existence of a string
 + A naive implementation would be tweaking the secret key by adding itwith \( H(\text{dst}) \) where \( H \) is a hash function which maps domain separation tag \(\text{dst}\) to a scalar.
 + This is also akin to key derivation functions. Key derivation functions have somewhat similar mechanism, but it is normally used to derive a symmetric key.
 + We can apply this kind of mechanism to [[https://en.bitcoinwiki.org/wiki/Mnemonic_phrase][BIP39 (Mnemonic Phrase) - Bitcoin Seed Passphrase - BitcoinWiki]]. In this way, we can use the saem mnemonic phrase and generate different keys for different wallets.
-* Prove the security of BLS sign
+* Prove the security of BLS signature scheme providing that the computational Diffe-Hellman problem is hard to solve.
+Let \( pk, m \) be a
