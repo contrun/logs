@@ -1,3 +1,4 @@
 * {{embed [[Fluent Python]]}}
 * {{embed [[Modern Compiler Construction in Java]]}}
 * {{embed [[Clause and Effect]]}}
+* {{embed [[Introduction to Automata Theory, Languages, and Computation]]}}
