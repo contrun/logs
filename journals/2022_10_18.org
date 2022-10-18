@@ -10,8 +10,8 @@ The proof of pumping lemma for regular language assume the existence of a string
 :PROPERTIES:
 :id: 634e5b8a-bfbd-41dc-adcf-c4221f4174dd
 :END:
-We use domain separation tag to avoid collision in different application domains (like salt in hashing). In elliptic curve cryptography, the public key is just a scalar multipled with the base point. When we use brute force to obtain the private key from the public key, all applications used the same curve is susceptible. This does not really seem to be defect in the real world. Is this because the secret key used will almost certainly freshly-generated in real world applications?
-A naive implementation would be tweaking the secret key by adding itwith \( H(\text{dst}) \) where \( H \) is a hash function which maps domain separation tag \(\text{dst}\) to a scalar.
-This is also akin to key derivation functions. Key derivation functions have somewhat similar mechanism, but it is normally used to derive a symmetric key.
-s
++ We use domain separation tag to avoid collision in different application domains (like salt in hashing). In elliptic curve cryptography, the public key is just a scalar multipled with the base point. When we use brute force to obtain the private key from the public key, all applications used the same curve is susceptible. This does not really seem to be defect in the real world. Is this because the secret key used will almost certainly freshly-generated in real world applications?
++ A naive implementation would be tweaking the secret key by adding itwith \( H(\text{dst}) \) where \( H \) is a hash function which maps domain separation tag \(\text{dst}\) to a scalar.
++ This is also akin to key derivation functions. Key derivation functions have somewhat similar mechanism, but it is normally used to derive a symmetric key.
++ We can apply this kind of mechanism to [[https://en.bitcoinwiki.org/wiki/Mnemonic_phrase][BIP39 (Mnemonic Phrase) - Bitcoin Seed Passphrase - BitcoinWiki]].
 *
