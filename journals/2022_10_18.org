@@ -10,4 +10,4 @@ The proof of pumping lemma for regular language assume the existence of a string
 :PROPERTIES:
 :id: 634e5b8a-bfbd-41dc-adcf-c4221f4174dd
 :END:
-We use domain separation tag to avoid collision in different application domain. In elliptic curve cryptography, the public key is just a scalar multipled with the base point.
+We use domain separation tag to avoid collision in different application domain. In elliptic curve cryptography, the public key is just a scalar multipled with the base point. When we try to obtain the private key from the public key,
