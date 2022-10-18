@@ -16,4 +16,5 @@ The proof of pumping lemma for regular language assume the existence of a string
 + We can apply this kind of mechanism to [[https://en.bitcoinwiki.org/wiki/Mnemonic_phrase][BIP39 (Mnemonic Phrase) - Bitcoin Seed Passphrase - BitcoinWiki]]. In this way, we can use the saem mnemonic phrase and generate different keys for different wallets.
 * Prove the security of BLS signature scheme providing that the computational Diffe-Hellman problem is hard to solve.
 + Signature generation: Let \( (sk, pk) \) be a key pair, \( m \) be a message to be signed (assume \( m \) is a point in the elliptic curve, otherwise hash it to the curve), the BLS signature of \( m \) is \( \sigma = sk * m \).
-+ Signature verification: let \( e: G_1 \times G_2 \to G_T \) be a bilinear pairing. If \( e(pk, m) = e(g, \sigma) \), then
++ Signature verification: let \( e: G_1 \times G_2 \to G_T \) be a bilinear pairing. If \( e(pk, m) = e(g, \sigma) \), then output VALID, else INVALID.
++
