@@ -1,3 +1,3 @@
 * {{embed [[Fluent Python]]}}
 * {{embed [[Modern Compiler Construction in Java]]}}
-* {{embed [[Clauses and Effects]]}}
+* {{embed [[Clause and Effect]]}}

@@ -1,2 +1,2 @@
-* If we have X :- G1, G2, Y :- G3, G4, both X and Y unify Z, what if G1, G2 failed but G3, G4 succeeded? [[Clauses and Effects]]
-* How do we divide the goal into many sub goals, i.e. we want to prove X, X can be divided into two branches X1 and X2, we have the rules X1 :- G1 and X2 :- G2, can prolog support this kind of proof? [[Clauses and Effects]]
+* If we have X :- G1, G2, Y :- G3, G4, both X and Y unify Z, what if G1, G2 failed but G3, G4 succeeded? [[Clause and Effect]]
+* How do we divide the goal into many sub goals, i.e. we want to prove X, X can be divided into two branches X1 and X2, we have the rules X1 :- G1 and X2 :- G2, can prolog support this kind of proof? [[Clause and Effect]]
