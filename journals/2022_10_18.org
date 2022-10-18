@@ -1,4 +1,4 @@
 * How to build a parser automatically by converting the context free gramma to a push-down automaton? [[compiling techniques]]
 * Pumping lemma of regular languages: Let \( L \) be a regular language, \( \exists \) a constant \( n \) (depending on \( L \)) such that \( \forall w \in L \) such that \( \|w\| \ge n \), \( \exists x, y, z\) such that \( w = xyz \), \( y \ne \epsilon \),  \( \| xy\| \le n \), \( \forall k \ge 0, xy^kz \in L \). [[Introduction to Automata Theory, Languages, and Computation]] [[theoretical computer science]]
 * How can pumping lemma hold for language with finite many symbols, e.g. \( L = {0} \)? Is \( L \) not a regular language?
-The proof of pumping lemma for regular language assume the existence of a symbol with length more than the states of the corresponding finite-state automaton (it then continues by pi)
+The proof of pumping lemma for regular language assume the existence of a string with length more than the states of the corresponding finite-state automaton (it then continues by applying pigeonhole principle to the set of states in the transtion path). But the question is how can we be sure there exists a string of
