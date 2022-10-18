@@ -6,10 +6,11 @@ The proof of pumping lemma for regular language assume the existence of a string
 * [[https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/][A regular expression to check for prime numbers — Noulakaz]] [[regular expressions]]
 * Is there any multi-signature algorithms that can aggregate multiple signatures without before-hand collaboration, i.e. let \( (pk_i, m, s_i)_{i=1}^n | s_i \text{ is a signature of } pk_i \text{ to the message } m_i \) be an arbitrary set of valid signatures (\( pk_i \) may not generate signatures based on the existence of other \({pk_j}\)), can we just compress these signatures? [[signature schemes]]
 * Why is dotty named dotty? [[https://lampwww.epfl.ch/~amin/dot/fool.pdf][Dependent Object Types: Towards a foundation for Scala’s type system]] [[scala]]
-* Domain separation tag like mechanism for private key? [[collision attacks]]
+* Domain separation tag like mechanism for private key? [[collision attacks]] [[key derivation functions]]
 :PROPERTIES:
 :id: 634e5b8a-bfbd-41dc-adcf-c4221f4174dd
 :END:
 We use domain separation tag to avoid collision in different application domains (like salt in hashing). In elliptic curve cryptography, the public key is just a scalar multipled with the base point. When we use brute force to obtain the private key from the public key, all applications used the same curve is susceptible. This does not really seem to be defect in the real world. Is this because the secret key used will almost certainly freshly-generated in real world applications?
 A naive implementation would be tweaking the secret key by adding itwith \( H(\text{dst}) \) where \( H \) is a hash function which maps domain separation tag \(\text{dst}\) to a scalar.
 This is also akin to key derivation functions. Key derivation functions have somewhat similar mechanism, but it is normally used to derive a symmetric key.
+*
