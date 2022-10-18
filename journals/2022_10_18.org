@@ -6,3 +6,6 @@ The proof of pumping lemma for regular language assume the existence of a string
 * [[https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/][A regular expression to check for prime numbers — Noulakaz]] [[regular expressions]]
 * Is there any multi-signature algorithms that can aggregate multiple signatures without before-hand collaboration, i.e. let \( (pk_i, m, s_i)_{i=1}^n | s_i \text{ is a signature of } pk_i \text{ to the message } m_i \) be an arbitrary set of valid signatures (\( pk_i \) may not generate signatures based on the existence of other \({pk_j}\)), can we just compress these signatures? [[signature schemes]]
 * Why is dotty named dotty? [[https://lampwww.epfl.ch/~amin/dot/fool.pdf][Dependent Object Types: Towards a foundation for Scala’s type system]] [[scala]]
+* :PROPERTIES:
+:id: 634e5b8a-bfbd-41dc-adcf-c4221f4174dd
+:END:
