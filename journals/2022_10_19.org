@@ -1,1 +1,1 @@
-* How does deep packet inspection of TLS connections work? [[https://tlsfingerprint.io/][TLSfingerprint.io]]
+* How does fingerprinting TLS connections work? [[https://tlsfingerprint.io/][TLSfingerprint.io]] [[deep packet inspection]]
