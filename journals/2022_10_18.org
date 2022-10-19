@@ -7,7 +7,7 @@ The proof of pumping lemma for regular language assume the existence of a string
 * Is there any multi-signature algorithms that can aggregate multiple signatures without before-hand collaboration, i.e. let \( (pk_i, m_i, s_i)_{i=1}^n | s_i \text{ is a signature of } pk_i \text{ to the message } m_i \) be an arbitrary set of valid signatures (\( pk_i \) may not generate signatures based on the existence of other \({pk_j}\)), can we just compress these signatures? [[signature schemes]]
 BLS signature aggregation can do that.
 + signature generation: \( s = \sum_i s_i \).
-+ signature verification: \( e(G, s) = \sum e\(p)\)
++ signature verification: \( e(G, s) = \sum{e(p_i, m_i)} \), where \( e: G_1 \times G_2 \to G_T \) is a bilinear pairing
 * Why is dotty named dotty? [[https://lampwww.epfl.ch/~amin/dot/fool.pdf][Dependent Object Types: Towards a foundation for Scala’s type system]] [[scala]]
 * Domain separation tag like mechanism for private key? [[collision attacks]] [[key derivation functions]]
 :PROPERTIES:
