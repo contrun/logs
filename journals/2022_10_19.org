@@ -1,2 +1,2 @@
 * How does fingerprinting TLS connections work? [[https://tlsfingerprint.io/][TLSfingerprint.io]] [[deep packet inspection]]
-* Let \(g, g^a,. g^b, h \) be a tuple of points in a elliptic curve \(C\), let \(e: C \times C \to G\) be a pairing, what is the benefit of checking \( e(g, h) = e(g^a, g^b) \) over solving decision Diffie-Hellman problem manually (i.e. check whether \( h = g^{ab} \))?
+* Let \(g, g^a,. g^b, h \) be a tuple of points in a elliptic curve \(C\), let \(e: C \times C \to G\) be a pairing, what is the benefit of checking \( e(g, h) = e(g^a, g^b) \) over checking whether \( h = g^{ab} \) (i.e. solving decision Diffie-Hellman problem)?
