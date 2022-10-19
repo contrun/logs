@@ -1,1 +1,2 @@
 * How does fingerprinting TLS connections work? [[https://tlsfingerprint.io/][TLSfingerprint.io]] [[deep packet inspection]]
+* What is the benefit of using pairing over decide whether
