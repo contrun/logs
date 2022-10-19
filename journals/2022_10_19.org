@@ -1,6 +1,6 @@
 * How does fingerprinting TLS connections work? [[https://tlsfingerprint.io/][TLSfingerprint.io]] [[deep packet inspection]]
 * Let \(g, g^a,. g^b, h \) be a tuple of points in a elliptic curve \(C\), let \(e: C \times C \to G\) be a pairing, what is the benefit of checking \( e(g, h) = e(g^a, g^b) \) over checking whether \( h = g^{ab} \) (i.e. solving decision Diffie-Hellman problem)? [[pairing-based cryptography]] [[Diffie-Hellman assumptions]]
 * What kind of attack can occur when there exists same message in BLS signature aggregation? What if we want to verify the signatures the the same message? [[https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html#name-aggregateverify][BLS Signatures]]. [[BLS signatures]]
-Rogue key attack: [[https://wahby.net/standards-acs19.pdf][BLS signatures, hashing to curves, and more: Dispatches from the IETF]] p
+Rogue key attack: [[https://wahby.net/standards-acs19.pdf][BLS signatures, hashing to curves, and more: Dispatches from the IETF]] p59.
 * How does go deal with un-movable data structures? Can variables on the goroutine stack always move? If the variable is a reference to another variable in the stack, problem would occur. [[https://speakerdeck.com/aarzilli/internal-architecture-of-delve?slide=13][Internal Architecture of Delve - Speaker Deck]] [[golang]]
 *
