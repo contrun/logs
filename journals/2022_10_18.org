@@ -9,7 +9,7 @@ BLS signature aggregation can do that.
 + signature generation: \( s = \sum_i s_i \).
 + signature verification: check \( e(g, s) = \sum{e(pk_i, m_i)} \), where \( e: G_1 \times G_2 \to G_T \) is a bilinear pairing, \(g\) is the base point of \(G_1\), we assume \(m_i\) are points of \(G_2\) (otherwise hash them to the curve).
 Schnorr signature aggregation appears to be unable to do that.
-+ signature generation: let \( pk = \sum{pk_i} \), \( e_i = H(pk \parallel m_i) \), \(r_i\) is a random scalar, \(g_i = (r_i - e_i \times sk_i) \times g \), then the signature is \( (\sum_i s_i, \sum g_i) \).
++ signature generation: let \( pk = \sum{pk_i} \), \( e_i = H(pk \parallel m_i) \), \(r_i\) is a random scalar, \(g_i = (r_i - e_i \times sk_i) \times g \), then the signature \( (s, p) \) is \( (\sum_i s_i, \sum g_i) \).
 + signature verification: check
 * Why is dotty named dotty? [[https://lampwww.epfl.ch/~amin/dot/fool.pdf][Dependent Object Types: Towards a foundation for Scala’s type system]] [[scala]]
 * Domain separation tag like mechanism for private key? [[collision attacks]] [[key derivation functions]]
