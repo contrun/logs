@@ -1,3 +1,6 @@
 * ckb cell data vs data stored in ckb transaction witness.
+:PROPERTIES:
+:id: 6350f733-547b-4c8b-8764-16a1333bab5b
+:END:
 [[https://github.com/nervosnetwork/rfcs/blob/44fe9854fd957ff807e7ef1b590781707f12ead8/rfcs/0022-transaction-structure/0022-transaction-structure.md#transaction-hash][rfcs/0022-transaction-structure.md at 44fe9854fd957ff807e7ef1b590781707f12ead8 · nervosnetwork/rfcs]]. Both places can store arbitrary data. Can the only difference be data stored in witness is used to store things like signature which is signed to the whole transaction excluding witness? [[ckb]]
-* What is the benefit of using
+* What is the benefit of store data in witness instead of cell data? May be related to ((6350f733-547b-4c8b-8764-16a1333bab5b)) [[ckb]]
