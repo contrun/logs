@@ -1,7 +1,7 @@
 * Network encapsulation protocols (e.g. geneva) vs overlay networks. Are geneva etc only intended for data center? What do they do to make them better suited for data center? Including more Enterprise-grade TM features like multi-tenancy? [[networking]]
 * Why is it even possible to implement a userspace rcu library? [[http://liburcu.org/][Userspace RCU]] [[RCU]] [[concurrent programming]]
 * Why is sparse merkle tree (SMT) a key-value store? What's the type of key and value of this store? What do the nodes in the tree store? What are membership and non-membership proofs in SMT concretely? How do we obtain non-membership proofs? [[https://eprint.iacr.org/2016/683][Efficient Sparse Merkle Trees: Caching Strategies and Secure (Non-)Membership Proofs]] [[Merkle tree]]
-Let \( T \) be a Merkle tree with \( n \) branches, then the key is a \( 2^{n-1} }\)
+Let \( T \) be a Merkle tree with \( n \) branches, then the key is a \( 2^{n-1} \) bit array which represents the path from the root node to the leaf node.
 * How to calculate the Schnorr signature of a message? Why is it homomorpic, i.e. let sig1 = sign(pk1, message), sig2 = sign(pk2, message), then (sig1+sig2) is a valid signature (pk1 + pk2) to the message. How useful is it in real world? [[Schnorr signatures]]
 * Why does taproot need Schnorr signature? [[Schnorr signatures]]
 * What to do when the operands of vector instructions are not aligned? [[vectorization]]
