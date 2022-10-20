@@ -1,0 +1,1 @@
+* Data stored in ckb cell data vs data stored in ckb transaction witness.[[https://github.com/nervosnetwork/rfcs/blob/44fe9854fd957ff807e7ef1b590781707f12ead8/rfcs/0022-transaction-structure/0022-transaction-structure.md#transaction-hash][rfcs/0022-transaction-structure.md at 44fe9854fd957ff807e7ef1b590781707f12ead8 · nervosnetwork/rfcs]]
