@@ -6,4 +6,4 @@
 * What is the benefit of store data in witness instead of cell data?
 [[https://github.com/nervosnetwork/ckb-production-scripts/blob/716433e2eb6fb862acbe8d858ab7f294d894faf5/c/xudt_rce.c#L390-L407][ckb-production-scripts/xudt_rce.c at 716433e2eb6fb862acbe8d858ab7f294d894faf5 · nervosnetwork/ckb-production-scripts]]. May be related to ((6350f733-547b-4c8b-8764-16a1333bab5b)) [[ckb]]
 * How does sudo remember recect session?
-I don't have re-enter password shortly after I have entered password. How can sudo remember the context?
+I don't have re-enter password shortly after I have entered password in the same terminal, but I dohave to re-enter password in a new termial. How can sudo remember the context? Does it remember the
