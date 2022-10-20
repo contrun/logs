@@ -5,3 +5,4 @@
 [[https://github.com/nervosnetwork/rfcs/blob/44fe9854fd957ff807e7ef1b590781707f12ead8/rfcs/0022-transaction-structure/0022-transaction-structure.md#transaction-hash][rfcs/0022-transaction-structure.md at 44fe9854fd957ff807e7ef1b590781707f12ead8 · nervosnetwork/rfcs]]. Both places can store arbitrary data. Can the only difference be data stored in witness is used to store things like signature which is signed to the whole transaction excluding witness? [[ckb]]
 * What is the benefit of store data in witness instead of cell data?
 [[https://github.com/nervosnetwork/ckb-production-scripts/blob/716433e2eb6fb862acbe8d858ab7f294d894faf5/c/xudt_rce.c#L390-L407][ckb-production-scripts/xudt_rce.c at 716433e2eb6fb862acbe8d858ab7f294d894faf5 · nervosnetwork/ckb-production-scripts]]. May be related to ((6350f733-547b-4c8b-8764-16a1333bab5b)) [[ckb]]
+* How does sudo re
