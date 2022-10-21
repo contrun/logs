@@ -1,2 +1,2 @@
 * How does atomic swap work? [[atomic swap]]
-*
+* What is adaptor signature? How to use adaptor signature to achieve atomic swap? [[adaptor signatures]] [[atomic swap]]
