@@ -1,3 +1,3 @@
 * How do atomic swaps work? [[https://bitcointalk.org/index.php?topic=193281.0][Alt chains and atomic transfers]] [[atomic swaps]]
 * What are adaptor signatures? Can adaptor signatures used to achieve atomic swap? [[https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-05-milan-meetup/slides.pdf][Scriptless Scripts]] [[adaptor signatures]] [[atomic swaps]]
-*
+* [[https://lightning.network/lightning-network-paper.pdf][The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments]]
