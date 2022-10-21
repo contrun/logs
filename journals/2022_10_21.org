@@ -1,1 +1,2 @@
-* How does atomic swap work?
+* How does atomic swap work? [[atomic swap]]
+*
