@@ -1,1 +1,1 @@
-* What kind of constraits are circ able to verify and not able to verify? [[https://eprint.iacr.org/2020/1586][CirC: Compiler infrastructure for proof systems, software verification, and more]] [[formal methods]]
+* What kind of constraits are circ able to verify and not able to verify? [[https://eprint.iacr.org/2020/1586][CirC: Compiler infrastructure for proof systems, software verification, and more]] [[circ]]
