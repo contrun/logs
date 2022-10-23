@@ -6,4 +6,5 @@
 + To avoid infinite loop in left recursion
 Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
 * How to minimize gramma? How to prove two grammars are equivalent?
-* Multiple Productions With Same Prefix in RHS
+* What to do when multiple productions with same prefix in RHS?
+We can convert (NT → if then, NT → if then else)
