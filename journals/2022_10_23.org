@@ -18,4 +18,5 @@ The Turing machines have two-way tapes, while pushdown automata only have access
 * How to construct a parse table from a grammar?
 NFA <-> context free grammar
 * How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict?
-Parse table itself is not enough. We need look-ahead to solve reduce/reduce conflict. What about
+Parse table itself is not enough. We need look-ahead to solve reduce/reduce conflict. What about shift/reduce conflict?
+* What is the parse table like when there are conflicts? Do we have multiple
