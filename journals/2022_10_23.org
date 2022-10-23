@@ -20,3 +20,5 @@ NFA <-> context free grammar
 * How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict? [[compiling techniques]] [[6.035]] 
 [[https://raw.githubusercontent.com/6035/sp22/main/materials/lecture/lec04-f19-shift-reduce-parsing.pdf][Parse Table Construction]] p118 claims parse table itself is not enough. We need look-ahead to solve reduce/reduce conflict. What about shift/reduce conflict?
 * What is the parse table like when there are conflicts? Do we have multiple choices, and we need to remember the path token? [[compiling techniques]] [[6.035]]
+* When to choose which parsing methods? [[compiling techniques]] [[6.035]]
+We have many parsing methods. LR(1), SLR,
