@@ -5,6 +5,6 @@
 :id: 63551a75-380b-406a-b444-6dec7befc406
 :END:
 + For precedence
-2 - 2*2, Convert from (Expr -> Int, Expr -> Expr + Int, Expr -> Expr * Int) to (Expr -> Int, Expr -> Multiplicand * Intermi, Expr -> Multicant)
+2+2*2, Convert from (Expr -> Int, Expr -> Expr + Int, Expr -> Expr * Int) to (Expr -> Int, Expr -> Multiplicand * IntermediateExpr, Expr -> Multicant)
 + To avoid infinite loop in left recursion
 Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
