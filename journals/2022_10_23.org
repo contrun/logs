@@ -9,7 +9,7 @@ Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> Termin
 * What to do when multiple productions with same prefix in RHS? [[compiling techniques]] [[6.035]] 
 We can convert (NT → if then, NT → if then else) to (NT → if then NT’, NT’ → else, NT’ → \(\epsilon\)). Are there grammars that are not so easy to convert? What to do then?
 * What to do when there are multiple choices in the pushdown automaton? [[compiling techniques]] [[6.035]]
-Must we hack the grammar to avoid ambiguity first? Can we do such thing?
+Must we hack the grammar to avoid ambiguity first? Can we do such thing? Can we do such thing automatically? The parser generators need to do such thing.
 This is called reduce/reduce conflict and shift/reduce conflict in the 6.035 slides. [[https://raw.githubusercontent.com/6035/sp22/main/materials/lecture/lec04-f19-shift-reduce-parsing.pdf][Introduction to Shift-Reduce Parsing]]
 * Do there exist intrinsic ambiguity in some grammars, i.e. the ambiguity can not be eliminated? What kind of languages have intrinsic ambiguity?
 * Give a example program that is expressible with Turing machine but not with pushdown automaton.
