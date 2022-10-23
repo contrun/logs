@@ -12,5 +12,6 @@ We can convert (NT → if then, NT → if then else) to (NT → if then NT’, N
 Must we hack the grammar to avoid ambiguity first? Can we do such thing? Can we do such thing automatically? The parser generators need to do such thing.
 This is called reduce/reduce conflict and shift/reduce conflict in the [[https://raw.githubusercontent.com/6035/sp22/main/materials/lecture/lec04-f19-shift-reduce-parsing.pdf][Introduction to Shift-Reduce Parsing]]. The key point is twhether to choose reduce or shift and using which production rule to reduce.
 * Do there exist intrinsic ambiguity in some grammars, i.e. the ambiguity can not be eliminated? What kind of languages have intrinsic ambiguity? [[theoretical computer science]]
+What's the connection between non-determinism of finite state automaton and ambivalent
 * Give a example program that is expressible with Turing machine but not with pushdown automaton. [[theoretical computer science]] 
 The Turing machines have two-way tapes, while pushdown automata only have access to the top of a stack.
