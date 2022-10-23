@@ -1,10 +1,11 @@
 * How can we dynamcly unroll the loop, i.e. if the loop variable is not a fixed constant? [[circ]]
 * Can we turn circ into a symbolic execution engine? [[circ]]
-* Hacks used in parsing. [[compiling techniques]]
+* Hacks used in parsing. [[compiling techniques]] [[6.035]] 
 + To enforce precedence in operators
 2+2*2, Convert from (Expr -> Int, Expr -> Expr + Int, Expr -> Expr * Int, Expr -> Int + Expr, Expr -> Int * Expr) to (Expr -> Int, Expr -> IntermediateExpr, Expr -> Int * IntermediateExpr, Expr -> IntermediateExpr * Int, IntermediateExpr -> IntermediateExpr + Int, IntermediateExpr -> Int + IntermediateExpr)
 + To avoid infinite loop in left recursion
 Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
-* How to minimize gramma? How to prove two grammars are equivalent?
-* What to do when multiple productions with same prefix in RHS?
+* How to minimize gramma? How to prove two grammars are equivalent? [[compiling techniques]]
+* What to do when multiple productions with same prefix in RHS? [[compiling techniques]] [[6.035]] 
 We can convert (NT → if then, NT → if then else) to (NT → if then NT’, NT’ → else, NT’ → \(\epsilon\)). Are there grammars that are not so easy to convert? What to do then?
+* What to do when there are multiple choices in the push
