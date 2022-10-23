@@ -16,5 +16,6 @@ Are there any connection between non-determinism of finite state automaton and a
 * Give a example program that is expressible with Turing machine but not with pushdown automaton. [[theoretical computer science]] 
 The Turing machines have two-way tapes, while pushdown automata only have access to the top of a stack.
 * How to construct a parse table from a grammar?
-NFA <-> context
+NFA <-> context free grammar
 * How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict?
+Parse table itself is not enough. We need look-ahead to solve reduce/reduce conflict. What about
