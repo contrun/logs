@@ -9,4 +9,5 @@ Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> Termin
 * What to do when multiple productions with same prefix in RHS? [[compiling techniques]] [[6.035]] 
 We can convert (NT → if then, NT → if then else) to (NT → if then NT’, NT’ → else, NT’ → \(\epsilon\)). Are there grammars that are not so easy to convert? What to do then?
 * What to do when there are multiple choices in the pushdown automaton? [[compiling techniques]] [[6.035]]
-When
+Must we hack the grammar to avoid ambiguity first?
+* What kind of ambiguity is inherent to the grammar, i.e. the ambiguity can not be eliminated
