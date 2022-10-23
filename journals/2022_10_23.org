@@ -15,8 +15,8 @@ This is called reduce/reduce conflict and shift/reduce conflict in the [[https:/
 Are there any connection between non-determinism of finite state automaton and ambivalent context free grammar?
 * Give a example program that is expressible with Turing machine but not with pushdown automaton. [[theoretical computer science]] 
 The Turing machines have two-way tapes, while pushdown automata only have access to the top of a stack.
-* How to construct a parse table from a grammar?
+* How to construct a parse table from a grammar? [[compiling techniques]] [[6.035]] 
 NFA <-> context free grammar
-* How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict?
+* How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict? [[compiling techniques]] [[6.035]] 
 Parse table itself is not enough. We need look-ahead to solve reduce/reduce conflict. What about shift/reduce conflict?
-* What is the parse table like when there are conflicts? Do we have multiple
+* What is the parse table like when there are conflicts? Do we have multiple choices, and we need to remember the path token? [[compiling techniques]] [[6.035]]
