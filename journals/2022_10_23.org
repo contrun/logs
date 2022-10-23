@@ -4,4 +4,4 @@
 + For precedence
 2 - 2*2
 + For infinite loop in left recursion
-Term -> Term
+Convert from Term -> Term AnotherTerm, Term -> TerminalTerm
