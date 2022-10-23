@@ -1,1 +1,1 @@
-* How can we dynamcly unroll the loop
+* How can we dynamcly unroll the loop, i.e. if the loop variable is not a fixed constant? [[circ]]
