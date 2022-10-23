@@ -3,5 +3,5 @@
 * Hacks used in parsing. [[compiling techniques]]
 + For precedence
 2 - 2*2
-+ For infinite loop in left recursion
-Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> R AnotherTerm, R -> \(\))
++ To avoid infinite loop in left recursion
+Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
