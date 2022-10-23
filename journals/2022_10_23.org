@@ -15,4 +15,4 @@ This is called reduce/reduce conflict and shift/reduce conflict in the [[https:/
 Are there any connection between non-determinism of finite state automaton and ambivalent context free grammar?
 * Give a example program that is expressible with Turing machine but not with pushdown automaton. [[theoretical computer science]] 
 The Turing machines have two-way tapes, while pushdown automata only have access to the top of a stack.
-* What
+* How to construct a parse table from a grammar? The first thing is to determine the states.
