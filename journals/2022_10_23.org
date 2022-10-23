@@ -17,4 +17,4 @@ Are there any connection between non-determinism of finite state automaton and a
 The Turing machines have two-way tapes, while pushdown automata only have access to the top of a stack.
 * How to construct a parse table from a grammar?
 The first thing is to determine the states.
-* Can parse table solving the
+* How to construct a parse table which solves the problem of reduce/reduce conflict and reduce/shift conflict?
