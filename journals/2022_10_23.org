@@ -2,6 +2,6 @@
 * Can we turn circ into a symbolic execution engine? [[circ]]
 * Hacks used in parsing. [[compiling techniques]]
 + To enforce precedence in operators
-2+2*2, Convert from (Expr -> Int, Expr -> Expr + Expr, Expr -> Expr * Expr) to (Expr -> Int, Expr -> Multiplicand * IntermediateExpr, IntermediateExpr -> Expr + Expr)
+2+2*2, Convert from (Expr -> Int, Expr -> Expr + Int, Expr -> Expr * Expr) to (Expr -> Int, Expr -> Int * IntermediateExpr, IntermediateExpr -> Expr + Expr)
 + To avoid infinite loop in left recursion
 Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
