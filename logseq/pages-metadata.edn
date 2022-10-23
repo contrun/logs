@@ -1,12 +1,42 @@
-[{:block/name "a",
+[{:block/name "6.035",
+  :block/created-at 1666250547650,
+  :block/updated-at 1666250547650}
+ {:block/name "a",
   :block/created-at 1644806551826,
   :block/updated-at 1644806551826}
+ {:block/name "actors",
+  :block/created-at 1666250548180,
+  :block/updated-at 1666250548180}
+ {:block/name "adaptor signatures",
+  :block/created-at 1666344450405,
+  :block/updated-at 1666344450405}
+ {:block/name "algorithms",
+  :block/created-at 1666250547651,
+  :block/updated-at 1666250547651}
+ {:block/name "atomic swaps",
+  :block/created-at 1666333679240,
+  :block/updated-at 1666333679240}
  {:block/name "aug 14th, 2022",
   :block/created-at 1660445975391,
   :block/updated-at 1660446209729}
+ {:block/name "automata",
+  :block/created-at 1666250547689,
+  :block/updated-at 1666250547689}
  {:block/name "b",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "bls signatures",
+  :block/created-at 1666250547691,
+  :block/updated-at 1666250547691}
+ {:block/name "book reviews",
+  :block/created-at 1666250547747,
+  :block/updated-at 1666250547747}
+ {:block/name "bpf",
+  :block/created-at 1666250547934,
+  :block/updated-at 1666250547934}
+ {:block/name "building systems",
+  :block/created-at 1666250548004,
+  :block/updated-at 1666250548004}
  {:block/name "c",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
@@ -19,30 +49,133 @@
  {:block/name "card",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "circ",
+  :block/created-at 1666439055631,
+  :block/updated-at 1666439055631}
+ {:block/name "ckb",
+  :block/created-at 1666250879302,
+  :block/updated-at 1666250879302}
+ {:block/name "clause and effect",
+  :block/created-at 1666250547746,
+  :block/updated-at 1666250547746}
+ {:block/name "collision attacks",
+  :block/created-at 1666250547691,
+  :block/updated-at 1666250547691}
+ {:block/name "command query responsibility segregation",
+  :block/created-at 1666250548194,
+  :block/updated-at 1666250548194}
+ {:block/name "commitment schemes",
+  :block/created-at 1666250548105,
+  :block/updated-at 1666250548105}
+ {:block/name "compiling techniques",
+  :block/created-at 1666250547636,
+  :block/updated-at 1666250547636}
+ {:block/name "concurrent programming",
+  :block/created-at 1666250547948,
+  :block/updated-at 1666250547948}
  {:block/name "contents",
   :block/created-at 1644806551826,
   :block/updated-at 1644806551826}
+ {:block/name "databases",
+  :block/created-at 1666250548142,
+  :block/updated-at 1666250548142}
+ {:block/name "deep packet inspection",
+  :block/created-at 1666250547710,
+  :block/updated-at 1666250547710}
+ {:block/name "development practices",
+  :block/created-at 1666250548143,
+  :block/updated-at 1666250548143}
+ {:block/name "diffie-hellman assumptions",
+  :block/created-at 1666250547710,
+  :block/updated-at 1666250547710}
+ {:block/name "direct server return",
+  :block/created-at 1666250548188,
+  :block/updated-at 1666250548188}
+ {:block/name "distributed key generation",
+  :block/created-at 1666250548123,
+  :block/updated-at 1666250548123}
  {:block/name "doing",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
  {:block/name "done",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "elm",
+  :block/created-at 1666250547948,
+  :block/updated-at 1666250547948}
  {:block/name "favorites",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "fluent python",
+  :block/created-at 1666250547745,
+  :block/updated-at 1666250547745}
+ {:block/name "formal methods",
+  :block/created-at 1666250548070,
+  :block/updated-at 1666250548070}
+ {:block/name "further investigation needed",
+  :block/created-at 1666250547651,
+  :block/updated-at 1666250547651}
+ {:block/name "fuzzing",
+  :block/created-at 1666250548125,
+  :block/updated-at 1666250548125}
+ {:block/name "golang",
+  :block/created-at 1666250547711,
+  :block/updated-at 1666250547711}
+ {:block/name "hardware acceleration",
+  :block/created-at 1666250548263,
+  :block/updated-at 1666250548263}
+ {:block/name "hardware-software co-design",
+  :block/created-at 1666250548004,
+  :block/updated-at 1666250548004}
+ {:block/name "haskell",
+  :block/created-at 1666250548139,
+  :block/updated-at 1666250548139}
+ {:block/name "hole punching",
+  :block/created-at 1666250548006,
+  :block/updated-at 1666250548006}
  {:block/name "in-progress",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
- {:block/name "include",
-  :block/created-at 1665370070840,
-  :block/updated-at 1665370070840}
+ {:block/name
+  "introduction to automata theory, languages, and computation",
+  :block/created-at 1666250547689,
+  :block/updated-at 1666250547689}
  {:block/name "jul 17th, 2022",
   :block/created-at 1660445975423,
   :block/updated-at 1660445975423}
+ {:block/name "jvm",
+  :block/created-at 1666250548141,
+  :block/updated-at 1666250548141}
+ {:block/name "key derivation functions",
+  :block/created-at 1666250547691,
+  :block/updated-at 1666250547691}
+ {:block/name "kzg commitments",
+  :block/created-at 1666250547755,
+  :block/updated-at 1666250547755}
  {:block/name "later",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "learning methodology",
+  :block/created-at 1666250548004,
+  :block/updated-at 1666250548004}
+ {:block/name "lightning network",
+  :block/created-at 1666353147985,
+  :block/updated-at 1666353147985}
+ {:block/name "linux",
+  :block/created-at 1666271525441,
+  :block/updated-at 1666271525441}
+ {:block/name "llvm",
+  :block/created-at 1666250548069,
+  :block/updated-at 1666250548069}
+ {:block/name "llvm tablegen",
+  :block/created-at 1666250548050,
+  :block/updated-at 1666250548050}
+ {:block/name "lua",
+  :block/created-at 1666250548274,
+  :block/updated-at 1666250548274}
+ {:block/name "luajit",
+  :block/created-at 1666250548274,
+  :block/updated-at 1666250548274}
  {:block/name "mar 17th, 2022",
   :block/created-at 1647507565895,
   :block/updated-at 1647508657281}
@@ -58,6 +191,21 @@
  {:block/name "may 25th, 2022",
   :block/created-at 1654767649489,
   :block/updated-at 1654767649489}
+ {:block/name "merkle tree",
+  :block/created-at 1666250548049,
+  :block/updated-at 1666250548049}
+ {:block/name "mlir",
+  :block/created-at 1666250548069,
+  :block/updated-at 1666250548069}
+ {:block/name "modern compiler construction in java",
+  :block/created-at 1666250547746,
+  :block/updated-at 1666250547746}
+ {:block/name "networking",
+  :block/created-at 1666250548048,
+  :block/updated-at 1666250548048}
+ {:block/name "noise framework",
+  :block/created-at 1666250548070,
+  :block/updated-at 1666250548070}
  {:block/name "now",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
@@ -76,9 +224,36 @@
  {:block/name "oct 14th, 2022",
   :block/created-at 1665676802403,
   :block/updated-at 1665739268545}
+ {:block/name "oct 15th, 2022",
+  :block/created-at 1666250547637,
+  :block/updated-at 1666250547637}
+ {:block/name "oct 16th, 2022",
+  :block/created-at 1666250547652,
+  :block/updated-at 1666250547652}
+ {:block/name "oct 17th, 2022",
+  :block/created-at 1666250547662,
+  :block/updated-at 1666250547662}
+ {:block/name "oct 18th, 2022",
+  :block/created-at 1666250547692,
+  :block/updated-at 1666250547692}
+ {:block/name "oct 19th, 2022",
+  :block/created-at 1666250547712,
+  :block/updated-at 1666250547712}
  {:block/name "oct 1st, 2022",
   :block/created-at 1665231264313,
   :block/updated-at 1665231264313}
+ {:block/name "oct 20th, 2022",
+  :block/created-at 1666250547472,
+  :block/updated-at 1666353273858}
+ {:block/name "oct 21st, 2022",
+  :block/created-at 1666309854521,
+  :block/updated-at 1666353147985}
+ {:block/name "oct 22nd, 2022",
+  :block/created-at 1666368003099,
+  :block/updated-at 1666439055632}
+ {:block/name "oct 23rd, 2022",
+  :block/created-at 1666480781553,
+  :block/updated-at 1666525385826}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1665231086073,
   :block/updated-at 1665231086073}
@@ -103,6 +278,66 @@
  {:block/name "oct 9th, 2022",
   :block/created-at 1665296134132,
   :block/updated-at 1665367391648}
+ {:block/name "pairing-based cryptography",
+  :block/created-at 1666250547711,
+  :block/updated-at 1666250547711}
+ {:block/name "paper reviews",
+  :block/created-at 1666250547755,
+  :block/updated-at 1666250547755}
+ {:block/name "pedersen commitments",
+  :block/created-at 1666250548103,
+  :block/updated-at 1666250548103}
+ {:block/name "personal information management",
+  :block/created-at 1666250548006,
+  :block/updated-at 1666250548006}
+ {:block/name "pinecone",
+  :block/created-at 1666250548007,
+  :block/updated-at 1666250548007}
+ {:block/name "plonk",
+  :block/created-at 1666250547755,
+  :block/updated-at 1666250547755}
+ {:block/name "polynomial commitments",
+  :block/created-at 1666250548104,
+  :block/updated-at 1666250548104}
+ {:block/name "python",
+  :block/created-at 1666250547949,
+  :block/updated-at 1666250547949}
+ {:block/name "quic",
+  :block/created-at 1666250548006,
+  :block/updated-at 1666250548006}
+ {:block/name "rcu",
+  :block/created-at 1666250548049,
+  :block/updated-at 1666250548049}
+ {:block/name "reactive design patterns",
+  :block/created-at 1666250548176,
+  :block/updated-at 1666250548176}
+ {:block/name "reactive systems",
+  :block/created-at 1666250548184,
+  :block/updated-at 1666250548184}
+ {:block/name "register alloction",
+  :block/created-at 1666250548068,
+  :block/updated-at 1666250548068}
+ {:block/name "regular expressions",
+  :block/created-at 1666250547689,
+  :block/updated-at 1666250547689}
+ {:block/name "riscv",
+  :block/created-at 1666250548004,
+  :block/updated-at 1666250548004}
+ {:block/name "scala",
+  :block/created-at 1666250547690,
+  :block/updated-at 1666250547690}
+ {:block/name "scalable vectorization",
+  :block/created-at 1666250548069,
+  :block/updated-at 1666250548069}
+ {:block/name "schedulers",
+  :block/created-at 1666250548140,
+  :block/updated-at 1666250548140}
+ {:block/name "schnorr signatures",
+  :block/created-at 1666250547690,
+  :block/updated-at 1666250547690}
+ {:block/name "secret sharing",
+  :block/created-at 1666250548124,
+  :block/updated-at 1666250548124}
  {:block/name "sep 10th, 2022",
   :block/created-at 1664681510890,
   :block/updated-at 1664681510890}
@@ -111,7 +346,7 @@
   :block/updated-at 1664681511949}
  {:block/name "sep 27th, 2022",
   :block/created-at 1664681512699,
-  :block/updated-at 1664681512699}
+  :block/updated-at 1666257342540}
  {:block/name "sep 28th, 2022",
   :block/created-at 1664681513428,
   :block/updated-at 1664681513428}
@@ -121,12 +356,75 @@
  {:block/name "sep 30th, 2022",
   :block/created-at 1664681514379,
   :block/updated-at 1664681514379}
+ {:block/name "shamir's secret sharing",
+  :block/created-at 1666250548104,
+  :block/updated-at 1666250548104}
+ {:block/name "signature schemes",
+  :block/created-at 1666250547690,
+  :block/updated-at 1666250547690}
+ {:block/name "sql",
+  :block/created-at 1666250548195,
+  :block/updated-at 1666250548195}
+ {:block/name "ssh",
+  :block/created-at 1666250548007,
+  :block/updated-at 1666250548007}
+ {:block/name "static single aassignment",
+  :block/created-at 1666250547661,
+  :block/updated-at 1666250547661}
+ {:block/name "system programming",
+  :block/created-at 1666250548068,
+  :block/updated-at 1666250548068}
+ {:block/name "systemd",
+  :block/created-at 1666250547934,
+  :block/updated-at 1666250547934}
+ {:block/name "taproot",
+  :block/created-at 1666250548249,
+  :block/updated-at 1666250548249}
+ {:block/name "theoretical computer science",
+  :block/created-at 1666250547688,
+  :block/updated-at 1666250547688}
  {:block/name "todo",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "transactions",
+  :block/created-at 1666250548194,
+  :block/updated-at 1666250548194}
+ {:block/name "troubleshooting",
+  :block/created-at 1666250547934,
+  :block/updated-at 1666250547934}
+ {:block/name "type systems",
+  :block/created-at 1666250547661,
+  :block/updated-at 1666250547661}
+ {:block/name "use cases",
+  :block/created-at 1666250548008,
+  :block/updated-at 1666250548008}
+ {:block/name "vector commitments",
+  :block/created-at 1666250548104,
+  :block/updated-at 1666250548104}
+ {:block/name "vectorization",
+  :block/created-at 1666250548049,
+  :block/updated-at 1666250548049}
+ {:block/name "verified secret sharing",
+  :block/created-at 1666250548124,
+  :block/updated-at 1666250548124}
  {:block/name "wait",
   :block/created-at 1644806551826,
   :block/updated-at 1644806551826}
  {:block/name "waiting",
-  :block/created-at 1644806551827, 
-  :block/updated-at 1644806551827}]
+  :block/created-at 1644806551827,
+  :block/updated-at 1644806551827}
+ {:block/name "webrtc",
+  :block/created-at 1666250548007,
+  :block/updated-at 1666250548007}
+ {:block/name "wireguard",
+  :block/created-at 1666250547990,
+  :block/updated-at 1666250547990}
+ {:block/name "z3",
+  :block/created-at 1666250548070,
+  :block/updated-at 1666250548070}
+ {:block/name "zero knowledge virtual machines",
+  :block/created-at 1666250548070,
+  :block/updated-at 1666250548070}
+ {:block/name "zio",
+  :block/created-at 1666250548141, 
+  :block/updated-at 1666250548141}]
