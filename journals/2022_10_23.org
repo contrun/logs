@@ -6,3 +6,4 @@
 + To avoid infinite loop in left recursion
 Convert from (Term -> Term AnotherTerm, Term -> TerminalTerm) to (Term -> TerminalTerm R, R -> AnotherTerm R, R -> \(\epsilon\))
 * How to minimize gramma? How to prove two grammars are equivalent?
+* Can all grammars be hacked
