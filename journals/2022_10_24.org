@@ -1,2 +1,2 @@
 * Recognize common distraction-mongers. [[http://www.minimizedistraction.com/][A Call To Minimize Distration]]
-* [[https://neptune.cash/learn/stark-anatomy/][Neptune – a sea of freedom]]
+* [[https://neptune.cash/learn/stark-anatomy/][Anatomy of a STARK]] [[zk-STARK]]
