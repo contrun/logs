@@ -1,4 +1,4 @@
-* Recognize common distraction-mongers. [[http://www.minimizedistraction.com/][A Call To Minimize Distration]]
+* Recognize common distraction-mongers. [[http://www.minimizedistraction.com/][A Call To Minimize Distration]] [[productivity]]
 * [[https://aszepieniec.github.io/stark-anatomy/][Anatomy of a STARK, Part 0: Introduction]] [[zk-STARK]]
 * How to forge a proof when the scalar in the trusted setup is not erased? [[zk-SNARK]]
 * What does recursive mean in triton-vm? How does trion-vm interact with external resources? [[zero knowledge virtual machines]]
