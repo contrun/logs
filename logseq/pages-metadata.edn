@@ -256,7 +256,7 @@
   :block/updated-at 1666525385826}
  {:block/name "oct 24th, 2022",
   :block/created-at 1666580044189,
-  :block/updated-at 1666580179289}
+  :block/updated-at 1666584577267}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1665231086073,
   :block/updated-at 1665231086073}
@@ -429,5 +429,8 @@
   :block/created-at 1666250548070,
   :block/updated-at 1666250548070}
  {:block/name "zio",
-  :block/created-at 1666250548141, 
-  :block/updated-at 1666250548141}]
+  :block/created-at 1666250548141,
+  :block/updated-at 1666250548141}
+ {:block/name "zk-stark",
+  :block/created-at 1666584577267, 
+  :block/updated-at 1666584577267}]
