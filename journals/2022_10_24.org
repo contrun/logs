@@ -1,2 +1,3 @@
 * Recognize common distraction-mongers. [[http://www.minimizedistraction.com/][A Call To Minimize Distration]]
 * [[https://neptune.cash/learn/stark-anatomy/][Anatomy of a STARK]] [[zk-STARK]]
+* How to forge a proof when the scalar in the trusted setup is not erased?sdf
