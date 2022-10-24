@@ -106,6 +106,9 @@
  {:block/name "favorites",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "fiat–shamir heuristic",
+  :block/created-at 1666617594569,
+  :block/updated-at 1666617594569}
  {:block/name "fluent python",
   :block/created-at 1666250547745,
   :block/updated-at 1666250547745}
@@ -256,7 +259,7 @@
   :block/updated-at 1666525385826}
  {:block/name "oct 24th, 2022",
   :block/created-at 1666580044189,
-  :block/updated-at 1666597694610}
+  :block/updated-at 1666617594570}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1665231086073,
   :block/updated-at 1665231086073}
