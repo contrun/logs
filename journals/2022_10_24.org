@@ -3,5 +3,5 @@
 * How to forge a proof when the scalar in the trusted setup is not erased? [[zk-SNARK]]
 * What does recursive mean in triton-vm? How does trion-vm interact with external resources? [[zero knowledge virtual machines]]
 We can store external resources in the input. What about programs that need dynamic inputs (i.e. inputs that can be determined only in runtime)? Can we use recursiveness to alleviate this problem?
-* Ways to automate Fiat-Shamir
-transform
+* Ways to automate Fiat-Shamir transform.
++ [[https://github.com/dalek-cryptography/merlin][dalek-cryptography/merlin: Composable proof transcripts for public-coin arguments of knowledge]]
