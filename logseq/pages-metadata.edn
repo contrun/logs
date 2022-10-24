@@ -256,7 +256,7 @@
   :block/updated-at 1666525385826}
  {:block/name "oct 24th, 2022",
   :block/created-at 1666580044189,
-  :block/updated-at 1666597049676}
+  :block/updated-at 1666597694610}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1665231086073,
   :block/updated-at 1665231086073}
@@ -302,6 +302,9 @@
  {:block/name "polynomial commitments",
   :block/created-at 1666250548104,
   :block/updated-at 1666250548104}
+ {:block/name "productivity",
+  :block/created-at 1666597694609,
+  :block/updated-at 1666597694609}
  {:block/name "python",
   :block/created-at 1666250547949,
   :block/updated-at 1666250547949}
