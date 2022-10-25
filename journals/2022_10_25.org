@@ -1,3 +1,2 @@
 * Why is Fast Reed-Solomon Interactive Oracle Proofs of Proximity called Reed-Solomon? Is it related to the Reed-Solomon erasure code? [[zk-STARK]]
-[[https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security][]]
-* Anatomy of a STARK, Part 3: FRI
+[[https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security][Anatomy of a STARK, Part 3: FRI]] states "Intuitively, a prover who lies in one location is hardly cheating, because it is a single error in an error-correcting code."
