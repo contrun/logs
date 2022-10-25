@@ -262,7 +262,7 @@
   :block/updated-at 1666617594570}
  {:block/name "oct 25th, 2022",
   :block/created-at 1666655514288,
-  :block/updated-at 1666696053691}
+  :block/updated-at 1666696346710}
  {:block/name "oct 2nd, 2022",
   :block/created-at 1665231086073,
   :block/updated-at 1665231086073}
@@ -392,6 +392,16 @@
  {:block/name "taproot",
   :block/created-at 1666250548249,
   :block/updated-at 1666250548249}
+ {:block/name "the stark protocol is ",
+  :block/created-at 1666696329425,
+  :block/updated-at 1666696329425}
+ {:block/name "the stark protocol is /also",
+  :block/created-at 1666696329425,
+  :block/updated-at 1666696329425}
+ {:block/name
+  "the stark protocol is /also/ defined in terms of reed-solomon codewords.",
+  :block/created-at 1666696329425,
+  :block/updated-at 1666696329425}
  {:block/name "theoretical computer science",
   :block/created-at 1666250547688,
   :block/updated-at 1666250547688}
