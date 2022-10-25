@@ -1,3 +1,4 @@
 * Notarization/origin verification/TPM signing for code in the public?
 + Some platforms (e.g. macOS) require notarization for software to be distributed on its platform by a developer certificate issued by the platform owner. This certificate should never be put to the public.
-+ In some cases (e.g. keepassxc browser extesion), the origin of a browser extension request must be verified before we can trust the request.
++ In some cases (e.g. keepassxc browser extension), the origin of a browser extension request must be verified before we can trust the request. We must not allow third party to fake extension identity.
++ Verified boot for linux is particularly ugly as we have
