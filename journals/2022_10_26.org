@@ -1,1 +1,2 @@
-* Notarization/origin verfi
+* Notarization/origin verification/TPM signing for code in the public?
++ Some platforms (e.g. macOS) require notarization for software to be distr
