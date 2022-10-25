@@ -1,2 +1,2 @@
 * Why is Fast Reed-Solomon Interactive Oracle Proofs of Proximity called Reed-Solomon? Is it related to the Reed-Solomon erasure code? [[zk-STARK]]
-https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security
+[[https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security]]
