@@ -7,4 +7,4 @@ Further reference:
 + [[https://0pointer.de/blog/brave-new-trusted-boot-world.html][Brave New Trusted Boot World]]
 * How can one know the memory occupation of a variable? [[https://nnethercote.github.io/perf-book/profiling.html][Profiling - The Rust Performance Book]] [[further investigation needed]]
 * Why can't debuginfo contain information about register-variable mapping? [[system programming]] [[further investigation needed]] 
-<optimized out> values are normally saved in registers? Is it too possible to save the information of which register stores the value of this variable?
+<optimized out> values are normally saved in registers? Is it possible to save the information of which register stores the value of this variable? This is hard to track because intructions can overwrite the content of registers anytime?
