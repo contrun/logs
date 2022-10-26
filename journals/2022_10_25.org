@@ -4,4 +4,4 @@
 + FRI: somewhat like a polynomial commitment scheme.
 + STARK: a zero knowledge way to prove things.
 * What is the use of coset in FRI? [[zk-STARK]] 
-[[the STARK protocol is /also/ defined in terms of Reed-Solomon codewords.][Anatomy of a STARK, Part 3: FRI | Anatomy of a STARK]] states "The STARK protocol is also defined in terms of Reed-Solomon codewords."
+[[https://aszepieniec.github.io/stark-anatomy/fri.html#coset-fri][Anatomy of a STARK, Part 3: FRI | Anatomy of a STARK]] states "The STARK protocol is also defined in terms of Reed-Solomon codewords."
