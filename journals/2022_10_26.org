@@ -1,7 +1,7 @@
-* Notarization/origin verification/TPM signing for code in the public?
+* Notarization/origin verification/TPM signing for code in the public? [[development practices]] 
 There are a few use cases that are similar to some extent.
 + Some platforms (e.g. macOS) require notarization for software to be distributed on its platform by a developer certificate issued by the platform owner. This certificate should never be put to the public.
 + In some cases (e.g. keepassxc browser extension), the origin of a browser extension request must be verified before we can trust the request. We must not allow third party to fake extension identity.
 + Verified boot for linux is particularly ugly as we have so many Linux distributions. OEM does not know which keys to trust. They only trust microsoft's key by default.
 Further reference:
-+ [[https://0pointer.de/blog/brave-new-trusted-boot-world.html?utm_source=pocket_mylist][Brave New Trusted Boot World]]
++ [[https://0pointer.de/blog/brave-new-trusted-boot-world.html][Brave New Trusted Boot World]]
