@@ -5,3 +5,4 @@ There are a few use cases that are similar to some extent.
 + Verified boot for linux is particularly ugly as we have so many Linux distributions. OEM does not know which keys to trust. They only trust microsoft's key by default.
 Further reference:
 + [[https://0pointer.de/blog/brave-new-trusted-boot-world.html][Brave New Trusted Boot World]]
+* How can one know the memory occupation of a variable?
