@@ -1,2 +1,3 @@
 * {{embed [[plonk]]}}
 * {{embed [[KZG commitments]]}}
+* {{embed [[circ]]}}
