@@ -3,4 +3,5 @@
 [[https://raw.githubusercontent.com/jespercockx/agda-lecture-notes/master/agda.pdf][Programming and Proving in Agda]]
 + First class type
 + Total functions
-+ Deped
++ Depedent type
++ Proof assistent
