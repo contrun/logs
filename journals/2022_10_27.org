@@ -1,1 +1,2 @@
 * What is an NP language?
+* Agda vs Haskell?
