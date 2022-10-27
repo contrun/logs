@@ -1,2 +1,3 @@
 * What is an NP language?
 * Agda vs Haskell?
+[[https://raw.githubusercontent.com/jespercockx/agda-lecture-notes/master/agda.pdf][Programming and Proving in Agda]]
