@@ -10,6 +10,9 @@
  {:block/name "adaptor signatures",
   :block/created-at 1666344450405,
   :block/updated-at 1666344450405}
+ {:block/name "agda",
+  :block/created-at 1666931666547,
+  :block/updated-at 1666931666547}
  {:block/name "algorithms",
   :block/created-at 1666250547651,
   :block/updated-at 1666250547651}
@@ -124,6 +127,9 @@
  {:block/name "fuzzing",
   :block/created-at 1666250548125,
   :block/updated-at 1666250548125}
+ {:block/name "generic programming",
+  :block/created-at 1666931458425,
+  :block/updated-at 1666931458425}
  {:block/name "golang",
   :block/created-at 1666250547711,
   :block/updated-at 1666250547711}
@@ -206,6 +212,9 @@
  {:block/name "modern compiler construction in java",
   :block/created-at 1666250547746,
   :block/updated-at 1666250547746}
+ {:block/name "multiple inheritance",
+  :block/created-at 1666931075680,
+  :block/updated-at 1666931075680}
  {:block/name "networking",
   :block/created-at 1666250548048,
   :block/updated-at 1666250548048}
@@ -271,10 +280,10 @@
   :block/updated-at 1666776463526}
  {:block/name "oct 27th, 2022",
   :block/created-at 1666830954079,
-  :block/updated-at 1666859099889}
+  :block/updated-at 1666931670088}
  {:block/name "oct 28th, 2022",
   :block/created-at 1666917898053,
-  :block/updated-at 1666928387084}
+  :block/updated-at 1666931791428}
  {:block/name "oct 29th, 2022",
   :block/created-at 1666928236172,
   :block/updated-at 1666928236172}
@@ -368,6 +377,9 @@
  {:block/name "secret sharing",
   :block/created-at 1666250548124,
   :block/updated-at 1666250548124}
+ {:block/name "self-type",
+  :block/created-at 1666931113840,
+  :block/updated-at 1666931113840}
  {:block/name "sep 10th, 2022",
   :block/created-at 1664681510890,
   :block/updated-at 1664681510890}
@@ -425,6 +437,9 @@
  {:block/name "troubleshooting",
   :block/created-at 1666250547934,
   :block/updated-at 1666250547934}
+ {:block/name "type classes",
+  :block/created-at 1666931113839,
+  :block/updated-at 1666931113839}
  {:block/name "type systems",
   :block/created-at 1666250547661,
   :block/updated-at 1666250547661}
