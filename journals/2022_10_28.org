@@ -1,4 +1,4 @@
-* [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and its solutions. [[expression problem]]
+* [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and [[https://en.wikipedia.org/wiki/Expression_problem#Solutions][its solutions]]. [[expression problem]]
 ** The problem
 [[https://wen.works/assets/pubs/oopsla2020.pdf][Featherweight Go]] P1:
 #+BEGIN_QUOTE
@@ -17,7 +17,7 @@ We want to make it easy to add either rows or columns.
 *** Objective-oriented programming, easy to add new cases to the data type (just create new subclasses), hard to new functions over the data type (hard to retain static type safety while adding new methods to classes).
 *** Functional programming, easy to add new function over the data type (just create new functions), hard to add new cases to the data type (hard to create new branches for the union data type without modifying exiting code).
 ** The solutions
-[[https://en.wikipedia.org/wiki/Expression_problem#Solutions][Expression problem - Wikipedia]]. What about open union/scala's implicit/Walder's original solution?
+What about open union/scala's implicit/Walder's original solution?
 *** [[https://en.wikipedia.org/wiki/Multiple_dispatch][Multiple dispatch]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Chambers_&_Leavens,_Multi-Methods-12][[12]]]
 [[https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/3/][The unreasonable effectiveness of the Julia programming language | Ars Technica]]
 *** [[https://en.wikipedia.org/wiki/Ruby_syntax#Open_classes][Open classes]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Clifton_et._al.,_MultiJava_Open_Classes-13][[13]]]
