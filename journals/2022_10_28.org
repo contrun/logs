@@ -1,6 +1,12 @@
 * [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and its solutions. [[expression problem]]
 ** The problem
 #+BEGIN_QUOTE
- 
-+ Objective-oriented programming, easy to add new cases to the data type (just create new subclasses), hard to new functions over the data type (hard to retain static type safety, TODO: elaborate on this).
+The goal is to define a data type by cases, where one can add new cases to the data
+type and new functions over the data type, without recompiling existing code, and
+while retaining static type safety.
+#+END_QUOTE 
++ 
 + Functional programming, easy to add new function over the data type (just create new functions), hard to add new cases to the data type (hard to create new branches for the union data type without modifying exiting code).
+*** Objective-oriented programming, easy to add new cases to the data type (just create new subclasses), hard to new functions over the data type (hard to retain static type safety, TODO: elaborate on this).
+** The solutions
+***
