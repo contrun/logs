@@ -29,3 +29,5 @@ Example, we can implement Functor for Applicative, and previous functions like ~
 ** Popular languages' solutions
 *** Haskell
 Type classes
+*** Julia
+Multiple dispatch
