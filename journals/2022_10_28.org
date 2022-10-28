@@ -1,4 +1,7 @@
 * [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and [[https://en.wikipedia.org/wiki/Expression_problem#Solutions][its solutions]]. [[expression problem]]
+:PROPERTIES:
+:collapsed: true
+:END:
 ** The problem
 [[https://wen.works/assets/pubs/oopsla2020.pdf][Featherweight Go]] P1:
 #+BEGIN_QUOTE
@@ -36,5 +39,3 @@ Multiple dispatch
 #+BEGIN_QUOTE
 One can come close to solving The Expression Problem in Go as it exists now, using dynamic checking via type assertions.
 #+END_QUOTE
-**
-**
