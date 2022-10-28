@@ -3,4 +3,4 @@ The goal is to define a data type by cases, where one can add new cases to the d
 type and new functions over the data type, without recompiling existing code, and
 while retaining static type safety.
 + Objective-oriented programming, easy to add new cases to the data type (just create a new subclass), hard to new functions over the data type.
-+ Functional programming, easy to add new function over the data type (just create )
++ Functional programming, easy to add new function over the data type (just create new functions), hard to add new cases to the data type (can't create new branches for the union data type without modifying exiting
