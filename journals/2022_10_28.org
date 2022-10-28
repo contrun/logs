@@ -42,4 +42,4 @@ One can come close to solving The Expression Problem in Go as it exists now, usi
 * Method resolution confliction in multiple inheritance.
 [[https://en.wikipedia.org/wiki/Multiple_inheritance][Multiple inheritance - Wikipedia]]
 * [[https://docs.scala-lang.org/tour/self-types.html][Scala self type]] vs [[https://en.wikipedia.org/wiki/Type_class][haskell type class]]
-Self type makes a methods of on trait available to another trait. The notation of self type is reminiscent of type class declaration in functions (~ this: User => ~ vs ~ f: (User u) => ~). It seems the usage of both features are also similar (they both refine some para)
+Self type makes a methods of on trait available to another trait. The notation of self type is reminiscent of type class declaration in functions (~ this: User => ~ vs ~ f: (User u) => ~). It seems the usage of both features are also similar (they both refine some parameter to have more methods and then use it in the body of the trait)
