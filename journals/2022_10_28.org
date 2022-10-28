@@ -36,3 +36,5 @@ Multiple dispatch
 #+BEGIN_QUOTE
 One can come close to solving The Expression Problem in Go as it exists now, using dynamic checking via type assertions.
 #+END_QUOTE
+**
+**
