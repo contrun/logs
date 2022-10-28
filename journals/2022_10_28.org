@@ -1,7 +1,4 @@
 * [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and [[https://en.wikipedia.org/wiki/Expression_problem#Solutions][its solutions]]. [[expression problem]]
-:PROPERTIES:
-:collapsed: true
-:END:
 ** The problem
 [[https://wen.works/assets/pubs/oopsla2020.pdf][Featherweight Go]] P1:
 #+BEGIN_QUOTE
@@ -45,4 +42,7 @@ One can come close to solving The Expression Problem in Go as it exists now, usi
 Self type makes a methods of on trait available to another trait. The notation of self type is reminiscent of type class declaration in functions (~ this: User => ~ vs ~ f: (User u) => ~). It seems the usage of both features are also similar (they both refine some parameter to have more methods and then use it in the body of the trait/function). Do we have self type for type classes (i.e. can we refine type class by requiring some class to be available)? Give some real world example of self-type.
 * Type classes vs traits/interfaces [[type classes]] 
 In a quick glance, type classes, traits and interfaces both require the implementor to implement some methods. What are the difference between these concepts? For one thing, type classes itself are not types. We can say the implementor of traits/interfaces are subclass of traits/interfaces, as we can use this implementor whenever its parent traits/interfaces are required. But type classes are not used in the same way as traits/interfaces. The type class is merely an additional constraint to the function signature. It is not a standalone type parameter.
-* Comparing the implementation of generics among popular languages. [[generic programming
+* Comparing the implementation of generics among popular languages. [[generic programming]]
++ Type erasure
++ Monomorphism
+*
