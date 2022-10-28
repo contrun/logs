@@ -31,3 +31,8 @@ Example, we can implement Functor for Applicative, and previous functions like ~
 Type classes
 *** Julia
 Multiple dispatch
+*** Go
+#+BEGIN_QUOTE
+One can come close to solving The Expression Problem in Go as it exists now, using dynamic
+checking via type assertions.
+#+END_QUOTE
