@@ -32,7 +32,7 @@ Type classes
 *** Julia
 Multiple dispatch
 *** Go
+[[https://wen.works/assets/pubs/oopsla2020.pdf][Featherweight Go]] P1:
 #+BEGIN_QUOTE
-One can come close to solving The Expression Problem in Go as it exists now, using dynamic
-checking via type assertions.
+One can come close to solving The Expression Problem in Go as it exists now, using dynamic checking via type assertions.
 #+END_QUOTE
