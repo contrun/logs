@@ -17,5 +17,7 @@ while retaining static type safety.
 *** [[https://en.wikipedia.org/wiki/Type_class][Type classes]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Wehr_&_Thiemann,_JavaGI_Type_Classes-15][[15]]]
 Example, we can implement Functor for Applicative, and previous functions like ~f: (Functor F) =>  F a  -> F a~ still works for Applicative, and we can create any new function like ~f: (Functor F) => ...~.
 *** Tagless-final[[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Carette_et_al.,_Finally_tagless,_partially_evaluated:_Tagless_staged_interpreters_for_simpler_typed_languages-16][[16]]] / Object algebras[[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Oliveira_&_Cook,_Object_Algebras-17][[17]]]
-*** - Polymorphic Variants
+*** Polymorphic Variants
 ** Popular languages' solutions
+*** Haskell
+Type classes
