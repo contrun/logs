@@ -1,5 +1,5 @@
-* What is an NP language?
-* Agda vs Haskell?
+* What is an NP language? [[theoretical computer science]]
+* Agda vs Haskell? [[agda]] [[haskell]] 
 [[https://raw.githubusercontent.com/jespercockx/agda-lecture-notes/master/agda.pdf][Programming and Proving in Agda]]
 + First class type
 + Total functions
