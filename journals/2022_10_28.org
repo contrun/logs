@@ -11,9 +11,10 @@ while retaining static type safety.
 ** The solutions
 [[https://en.wikipedia.org/wiki/Expression_problem#Solutions][Expression problem - Wikipedia]]. What about open union/scala's implicit/Walder's original solution?
 *** - [[https://en.wikipedia.org/wiki/Multiple_dispatch][Multiple dispatch]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Chambers_&_Leavens,_Multi-Methods-12][[12]]]
+[[https://arstechnica.com/science/2020/10/the-unreasonable-effectiveness-of-the-julia-programming-language/3/][The unreasonable effectiveness of the Julia programming language | Ars Technica]]
 *** - [[https://en.wikipedia.org/wiki/Ruby_syntax#Open_classes][Open classes]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Clifton_et._al.,_MultiJava_Open_Classes-13][[13]]]
 *** - [[https://en.wikipedia.org/wiki/Coproduct][Coproducts]] of [[https://en.wikipedia.org/wiki/Functor][functors]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-14][[14]]]
 *** - [[https://en.wikipedia.org/wiki/Type_class][Type classes]][[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Wehr_&_Thiemann,_JavaGI_Type_Classes-15][[15]]]
-Example, we can implement Functor for Applicative, and previous functions like ~f: Functor F: ~
+Example, we can implement Functor for Applicative, and previous functions like ~f: (Functor F)~
 *** - Tagless-final[[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Carette_et_al.,_Finally_tagless,_partially_evaluated:_Tagless_staged_interpreters_for_simpler_typed_languages-16][[16]]] / Object algebras[[https://en.wikipedia.org/wiki/Expression_problem#cite_note-Oliveira_&_Cook,_Object_Algebras-17][[17]]]
 *** - Polymorphic Variants
