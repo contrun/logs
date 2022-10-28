@@ -46,3 +46,4 @@ In a quick glance, type classes, traits and interfaces both require the implemen
 For a starter, see [[https://wen.works/assets/pubs/oopsla2020.pdf][Featherweight Go]] P3.
 + Type erasure
 + Monomorphism
+*
