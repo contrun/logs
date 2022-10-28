@@ -1,4 +1,5 @@
-* [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and its solutions.
+* [[https://homepages.inf.ed.ac.uk/wadler/papers/expression/expression.txt][The expression problem]] and its solutions. [[expression problem]]
 The goal is to define a data type by cases, where one can add new cases to the data
 type and new functions over the data type, without recompiling existing code, and
 while retaining static type safety.
++ Objective-oriented programming, easier to add
