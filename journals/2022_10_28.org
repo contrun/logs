@@ -41,3 +41,4 @@ One can come close to solving The Expression Problem in Go as it exists now, usi
 #+END_QUOTE
 * Method resolution confliction in multiple inheritance.
 [[https://en.wikipedia.org/wiki/Multiple_inheritance][Multiple inheritance - Wikipedia]]
+* [[https://docs.scala-lang.org/tour/self-types.html]] vs haskell type class
