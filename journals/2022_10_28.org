@@ -9,4 +9,5 @@ while retaining static type safety.
 *** Objective-oriented programming, easy to add new cases to the data type (just create new subclasses), hard to new functions over the data type (hard to retain static type safety, TODO: elaborate on this).
 *** Functional programming, easy to add new function over the data type (just create new functions), hard to add new cases to the data type (hard to create new branches for the union data type without modifying exiting code).
 ** The solutions
+[[https://en.wikipedia.org/wiki/Expression_problem#Solutions][Expression problem - Wikipedia]]
 ***
