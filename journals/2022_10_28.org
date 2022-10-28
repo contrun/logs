@@ -43,5 +43,5 @@ One can come close to solving The Expression Problem in Go as it exists now, usi
 [[https://en.wikipedia.org/wiki/Multiple_inheritance][Multiple inheritance - Wikipedia]]
 * [[https://docs.scala-lang.org/tour/self-types.html][Scala self type]] vs [[https://en.wikipedia.org/wiki/Type_class][haskell type class]] [[self-type]] [[type classes]]
 Self type makes a methods of on trait available to another trait. The notation of self type is reminiscent of type class declaration in functions (~ this: User => ~ vs ~ f: (User u) => ~). It seems the usage of both features are also similar (they both refine some parameter to have more methods and then use it in the body of the trait/function). Do we have self type for type classes (i.e. can we refine type class by requiring some class to be available)? Give some real world example of self-type.
-* Type classes vs trait/interface
-On a glimsary
+* Type classes vs traits/interfaces
+In a quick glance, type classes, traits and interfaces both require the implementor to implement some methods.
