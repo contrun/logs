@@ -39,4 +39,5 @@ Multiple dispatch
 #+BEGIN_QUOTE
 One can come close to solving The Expression Problem in Go as it exists now, using dynamic checking via type assertions.
 #+END_QUOTE
-* Method resolution confliction in multiple inheritance
+* Method resolution confliction in multiple inheritance.
+[[https://en.wikipedia.org/wiki/Multiple_inheritance][Multiple inheritance - Wikipedia]]
