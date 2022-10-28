@@ -43,6 +43,5 @@ Self type makes a methods of on trait available to another trait. The notation o
 * Type classes vs traits/interfaces [[type classes]] 
 In a quick glance, type classes, traits and interfaces both require the implementor to implement some methods. What are the difference between these concepts? For one thing, type classes itself are not types. We can say the implementor of traits/interfaces are subclass of traits/interfaces, as we can use this implementor whenever its parent traits/interfaces are required. But type classes are not used in the same way as traits/interfaces. The type class is merely an additional constraint to the function signature. It is not a standalone type parameter.
 * Comparing the implementation of generics among popular languages. [[generic programming]]
-+ Type erasure
+For a starter, see + Type erasure
 + Monomorphism
-*
