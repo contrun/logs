@@ -1,1 +1,2 @@
 * Why can't mosh forward ssh agent?
+* What's the benefit of zkSNARK over zkSTARK? [[zk-SNARK]] [[zk-STARK]]
