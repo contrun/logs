@@ -1,1 +1,1 @@
-* Can zkSNARK systems handle s
+* Benchmark the memory requirements of zkSNARK libraries and determine which part of the process is most memory-demanding? [[zk-SNARK]]
