@@ -43,10 +43,10 @@ def fast_interpolate( domain, values, primitive_root, root_order ):
 
     return left_interpolant * right_zerofier + right_interpolant * left_zerofier
 #+END_SRC
-* Any way to directly translate regular expression to non-deterministic finite automaton? [[compiling techniques]] [[Engineering a Compiler]]
+* Any way to directly translate regular expressions to non-deterministic finite automata? [[compiling techniques]] [[Engineering a Compiler]]
 :PROPERTIES:
 :id: 636f660c-a8ef-4fd3-a7b4-70564526d252
 :END:
-
+The translation fP72
 \( \text{ regular expression } \xrightarrow{ \text{Thompson's construction} } \text{ non-deterministic finite automaton } \xrightarrow{ \text{subset construction} } \text{deterministic finite automaton}  \xrightarrow{ \text{Kleene's construction} } \text{regular expression} \)
 *
