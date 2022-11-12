@@ -170,6 +170,7 @@
  :publishing/all-pages-public? true
  :favorites []
  :graph/settings {:journal? false, :builtin-pages? false}
+ :file/name-format :triple-lowbar
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
