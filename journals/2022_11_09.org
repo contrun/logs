@@ -1,0 +1,44 @@
+* Give flow diagrams of how async functions are registered and called in rust. [[asynchronous programming]]
+Async function -> executor -> epoll set.
+What kind of information is kept here? We need this information to find out which async block to run when the OS tell us we can continue.
+OS notification (epoll etc) -> reactor (is it a waker that is notified by epoll and notify executor in turn?) -> executor (it is a scheduler which keeps a list of all tasks and a list of tasks that are ready to continue?) -> async function (is it a task?).
+[[https://docs.rs/mio/0.8.5/mio/guide/index.html][mio::guide - Rust]]
+[[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/io/mod.rs#L158-L204][tokio poll dispatch process]]
++ Obtain a file descriptor for the interested operation
++ Register the fd as a source to ~mio::Poll~, also pass a customized token to identify this task
++ Call ~mio::Poll::poll()~ to see if there is any task ready
++ Obtain the token in the ~poll~ result and find out which ~ScheduledIo~ this task is associated with
++ For each waiter, reader, writer in th ~ScheduledIo~ struct, if it is interested in this event, run the corresponding ~waker.wake()~,
++ Change necessary executor data structure, see ((636b6972-6334-4719-aeff-f316b82e90b4)) 
++ Wait for executor to execute ready tasks
+* How do we distinguish tasks using the same underlying file descriptor? [[asynchronous programming]]
+For example, one future may read from the file descriptor ~fd~, another may write to ~fd~.
+In tokio, a user-specified token is passed to mio (which in turn pass it to linux epoll) so as to determine which task generates this notification.
+[[https://docs.rs/mio/0.8.5/mio/struct.Poll.html][Poll in mio - Rust]]
+#+BEGIN_QUOTE
+To use Poll, an event::Source must first be registered with the Poll instance using the register method on its associated Register, supplying readiness interest. The readiness interest tells Poll which specific operations on the handle to monitor for readiness. A Token is also passed to the register function. When Poll returns a readiness event, it will include this token. This associates the event with the event source that generated the event.
+#+END_QUOTE
+[[https://github.com/tokio-rs/mio/blob/0accf7dc22f197245e6a1aa84096262cd6f6e4d4/src/sys/unix/selector/epoll.rs#L119-L128][mio epoll.rs pass token to linux]]
+* Waiters vs reader and writer in tokio ScheduledIo.
+Are waiters for other kind of notifications (e.g. fd closed, hup, error)
+[[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/docs/reactor-refactor.md#reworking-the-scheduledio-type][tokio/reactor-refactor.md at 236d02666765bc3a37ad8286983300854ab0f8a4 · tokio-rs/tokio]]
+* Give a concrete example of ~Waker~, show how it is initialized and how it is called. [[asynchronous programming]]
+:PROPERTIES:
+:id: 636b6972-6334-4719-aeff-f316b82e90b4
+:END:
+[[https://docs.rs/futures/latest/futures/task/struct.Waker.html][Waker in futures::task - Rust]]
+#+BEGIN_QUOTE
+The typical life of a  ~Waker~  is that it is constructed by an executor, wrapped in a [[https://docs.rs/futures/latest/futures/task/struct.Context.html][ ~Context~ ]], then passed to [[https://docs.rs/futures/latest/futures/future/trait.Future.html#tymethod.poll][ ~Future::poll()~ ]]. Then, if the future chooses to return [[https://docs.rs/futures/latest/futures/task/enum.Poll.html#variant.Pending][ ~Poll::Pending~ ]], it must also store the waker somehow and call [[https://docs.rs/futures/latest/futures/task/struct.Waker.html#method.wake][ ~Waker::wake()~ ]] when the future should be polled again.
+#+END_QUOTE
+A waker is created [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/harness.rs#L85-L141][here]] when tokio tries to poll the task, which calls [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/waker.rs#L117-L130][~raw_waker~]] to actually create the waker. The wake function calls [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/harness.rs#L247-L279][~wake_by_val~]] to [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/mod.rs#L249-L270][schedule the task]].
+* FRI as a polynomial commitment scheme. [[fast Reed-Solomon interactive oracle proofs of proximity]] [[polynomial commitments]] 
+Let \( f \) be a polynomial to be committed, \( S = \{\omega^i |  \omega \text{ is an agreed generator of the multiplicative group} \} \).
+For the opening of \( f \) at value in the domain \( S \)
++ Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
++ Open: for a given leaf \( i \), send \( f(\omega^i) \) along with the authentication path \( p \).
++ Verify: check leaf \( f(\omega^i) \)'s membership in Merkle tree by authentication path \( p \).
+For the opening of \( f \) at value in the domain \( \mathbb{F} \)
+TODO: clarify this, reference [[https://neptune.cash/learn/stark-anatomy/fri/][ Anatomy of a STARK Part 3: FRI ]]
++ Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
++ Open: for a value \( z \), let \( y = f(z) \), send the proof that the polynomial \( \frac{f(X) - y}{X - z} \) is of degree \(\mathrm{deg}(f) - 1 \)
++ Verify: check leaf \( f(\omega^i) \)'s membership in Merkle tree by authentication path \( p \).

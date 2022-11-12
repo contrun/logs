@@ -1,0 +1,2 @@
+* [[https://eprint.iacr.org/2021/1591][Practical Asynchronous Distributed Key Generation]] [[distributed key generation]]
+* How does [[https://en.wikipedia.org/wiki/Immobiliser][immobiliser]] work? How to prevent copying the physical car key? How does reporting key loss work? How does the car manufacturer issue new keys? [[automotive engineering]]

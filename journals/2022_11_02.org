@@ -1,0 +1,7 @@
+* Is the method ID of risc0 just a hash of the method elf file? [[risc0]]
+Yes. [[https://www.risczero.com/docs/explainers/zkvm/][Overview of the zkVM | RISC Zero]]
+#+BEGIN_QUOTE
+The binary file is hashed to create a method ID that uniquely identifies the binary being executed.
+#+END_QUOTE
+* Can we upgrade a zkVM program while providing some kind of backward/forward compatibility? Are our best take keeping a version number in the serialized proof data? [[zero knowledge virtual machines]] 
+Can the proof given new prover verified by the old verifier? Can the new verifier verify the proof given by a old prover?

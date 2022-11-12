@@ -1,0 +1,6 @@
+* Reed–Solomon codes vs Shamir's secret sharing [[Reed–Solomon codes]] [[Shamir's secret sharing]]
++ They are quite similar regarding how to save the information, i.e. both of they look the whole information as a polynomial, distribute the evaluation of this polynomial in certain points and recover the polynomial by interpolation.
++ The difference is that Reed-Solomon codes are used for redundancy, while Shamir's secret sharing is used for secret sharing.
+* Efficient calculation of finite field arithmetic. [[finite field arithmetic]]
+Finite field \(\Z_{p^n})\) can be represented as the polynomial ring over \( \Z_p \) modulo a irreducible polynomial \(f\) of degree \( n \). The finite field arithmetic can then be calculated by polynomial arithmetic. The calculation of multiplication of division this way seems to be inefficient. In [[https://doi.org/10.1137/0108018][Polynomial Codes Over Certain Finite Fields]], the authors mentioned a way to obtain a multiplicative generator of the field and then make a multiplication table by obtaining a linear recurring sequence. Any other efficient algorithms?
+* [[https://doi.org/10.1137/0107003][Linear recurring sequences]] for finite field arithmetic? [[finite field arithmetic]]

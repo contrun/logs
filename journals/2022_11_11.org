@@ -1,0 +1,16 @@
+* How to verify the link between boundary quotients and transition quotient? [[zk-STARK]] 
+:PROPERTIES:
+:id: 636e6712-fdbf-4b74-900e-3a82396e31c7
+:END:
+[[https://neptune.cash/learn/stark-anatomy/stark/][Part 4: The STARK Polynomial IOP]]
+#+BEGIN_QUOTE
+For all points of the transition quotient codeword that were queried in the first round of FRI do:
++ Let the point be \((x, y)\) .
++ Query the matching points on the boundary quotient codewords. Note that there are two of them, \( x \) and \(\omicron x\), indicating points "one cycle apart".
++ Multiply the y-coordinates of these points by the zerofiers' values in \( x \) and \(\omicron x\).
++ Add the boundary interpolants' values.
++ Evaluate the master transition constraint in this point.
++ Divide by the value of the transition zerofier in \(x\).
++ Verify that the resulting value equals \(y\).
+#+END_QUOTE
+* Why don't we also reduce boundary quotients into one in [[https://neptune.cash/learn/stark-anatomy/stark/][Part 4: The STARK Polynomial IOP]] [[zk-STARK]]

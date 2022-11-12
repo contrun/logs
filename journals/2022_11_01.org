@@ -1,0 +1,2 @@
+* How does risc0 implement GPIO? [[zero knowledge virtual machines]] 
+[[https://github.com/risc0/risc0/blob/9492eded706e6704b3df25f9c1e23a4669d4f91c/risc0/zkvm/sdk/rust/platform/src/io.rs][io.rs]]

@@ -1,0 +1,23 @@
+* How do we expand a column by embedding redundant information in zkVM? [[zero knowledge virtual machines]] 
+In [[https://www.risczero.com/docs/explainers/proof-system/constructing-a-seal#lesson-4-constructing-trace-polynomials][Lesson 4: Constructing Trace Polynomials]], we expand a column into 4 columns. What is the rule of expansion? The resulting polynomial's degree is 4 times the degree of the unexpanded polynomial? The evaluation of the polynomial at \(D(5^{12})\) is the same as the original polynomial? How do we do that? It seems that we can fill the execution trace with random values, since we can interpolate a polynomial which evaluates to the correct value on the desired points.
+#+BEGIN_QUOTE
+We say the  ~block~  is a  ~degree 4 expansion~  of the  ~column~ , and that the Reed-Solomon encoding has  ~rate~  1441​. [[https://www.risczero.com/docs/reference-docs/about-rs-codes][Reed-Solmon encoding]] improves the soundness of the protocol by amplifying any errors in an invalid trace.
+#+END_QUOTE
+* How does the guarantee of pinned types never being moved actually work?
+[[https://rust-lang.github.io/async-book/04_pinning/01_chapter.html#pinning-in-practice][Pinning - Asynchronous Programming in Rust]]
+#+BEGIN_QUOTE
+The  ~Pin~  type wraps pointer types, guaranteeing that the values behind the pointer won't be moved if it is not implementing  ~Unpin~ . For example,  ~Pin<&mut T>~ ,  ~Pin<&T>~ ,  ~Pin<Box<T>>~  all guarantee that  ~T~  won't be moved if  ~T: !Unpin~ .
+#+END_QUOTE
+We may need
++ recognize all the functions that move one pointee (e.g. ~std::mem::swap~).
++ change all the signatures of these functions to require them to use type which implement ~Unpin~.
+This is not practical as it is hard (if possible at all) to change all existing functions that move the pointees. Instead we disallow obtaining a ~&mut T~ from ~Pin<Smart Pointer of T>~.
+* Why does pinning to the stack require unsafe while pinning to the heap does not require unsafe?
+[[https://rust-lang.github.io/async-book/04_pinning/01_chapter.html#pinning-in-practice][Pinning - Asynchronous Programming in Rust]]
+#+BEGIN_QUOTE
++ Pinning a  ~!Unpin~  object to the stack requires  ~unsafe~.
++ Pinning a  ~!Unpin~  object to the heap does not require  ~unsafe~ . There is a shortcut for doing this using  ~Box::pin~ .
+#+END_QUOTE
+* How to calculate the inverse Fourier transform Fourier transform? [[algorithms]] 
+[[https://vitalik.ca/general/2019/05/12/fft.html][Fast Fourier Transforms]]
+* [[https://jumpcrypto.com/accelerating-msm/][Accelerating Multi-Scalar Multiplication in Hardware… and Software]] [[hardware acceleration]]

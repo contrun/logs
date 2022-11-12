@@ -1,0 +1,34 @@
+* Why verifying low-degreeness of polynomial is so powerful? zk-STARK reduces from an AIR instance to a pair of RPT problems, solved using the FRI protocol. [[zk-STARK]] 
+It seems to because if one polynomial can be divided by another polynomial, then the quotient of these two polynomial will have low degree. We can thus verify the divisibility of two polynomials by verify the low-degreeness of the quotient.
+[[https://eprint.iacr.org/2018/046.pdf][Scalable, transparent, and post-quantum secure computational integrity]] P33
+\( \text{algebraic intermediate representation (AIR)} \xrightarrow{\text{placement + routing}} \text{algebraic placement and routing (APR)} \xrightarrow{\text{algebraic linking}} \text{Reed-Solomon proximity testing (RPT)} \xrightarrow{\text{proximity testing}} \text{fast Reed-Solomon interactive oracle proofs of proximity (FRI)} \)
+See also [Low Degree Testing. The Secret Sauce of Succinctness | by StarkWare | StarkWare | Medium](https://medium.com/starkware/low-degree-testing-f7614f5172db)
+* Fast Reed-Solomon interactive oracle proofs of proximity (FRI). [[fast Reed-Solomon interactive oracle proofs of proximity]] [[zk-STARK]] 
+In FRI, the Reed-Solomon proximity test of a degree \( 2^n \) polynomial \( f^{(0)} \in RS[\mathbb{F}, L_0 , \rho] \) is reduced to the Reed-Solomon proximity test of a degree \( 2^{n-1} \) polynomial \( f^{(1)} \in RS[\mathbb{F}, L_1 , \rho] \) in the following process. Assume \( f^{(0)}(x) = P_0(x^2) + xP_1(x^2) \), randomly choose \( x^{(0)}, y \in \mathbb{F} \), let \( f^{(1)}(x) = P_0(x) + x^{(0)}P_1(x) \), then we verify \( f^{(0)}, f^{(1)} \) given by the prover are indeed the genuine polynomials by verifying the following. Let \( s_0, s_1 \in \mathbb{F} \) be the distinct roots of \( y \), i.e. \( s_0^2 = s_1^2 = y \), let \( \alpha_0 = f^{(0)}(s_0), \alpha_1 = f^{(0)}(s_1), \beta = f^{(1)}(y) \), then verify \( (s_0, \alpha_0), (s_1, \alpha_1), (x^{(0)}, \beta) \) are on the same line. Repeat this process until the polynomial \( f^(i) \) is a constant. In that case the evaluation domain is several constants. The prover just send the desired constant from this domain.
+* How does FRI achieve soundness and zero knowledge? [[fast Reed-Solomon interactive oracle proofs of proximity]] 
+Zero knowledge seems to be archived by the random \( x^{(0)}, y\). The soundness is boosted by repeatedly choosing different \( x^{(0)}, y \).
+#+BEGIN_QUOTE
+Testing the consistency of \( f^{(0)} \) and \( f^{(1)} \) requires three field elements
+per test (repeating the test boosts soundness).
+#+END_QUOTE
+[[https://www.risczero.com/assets/files/fibonacci-stark-52bf8c792850625a5d1e706e635f52e7.pdf][RISC Zero Proof System: A Concrete Example]] p9
+#+BEGIN_QUOTE
+In the original STARK protocol, the Verifier tests (i) at a number of test points; the soundness of the protocol depends on the number of tests. The DEEP-ALI technique allows us to achieve a high degree of soundness with a single test.
+#+END_QUOTE
+* Witness indistinguishable proof system vs perfect zero knowledge proof system. [[zero knowledge proofs]]
+What is the precise definition of witness indistinguishable proof system? Give some samples that are witness indistinguishable but not perfect zero knowledge.
+* What's the use of random padding in the end of the columns of risc0? How does padding make risc0 a zero-knowledge protocol? [[risc0]] [[further investigation needed]] 
+[[https://www.risczero.com/assets/files/fibonacci-stark-52bf8c792850625a5d1e706e635f52e7.pdf][RISC Zero Proof System: A Concrete Example]] p3
+#+BEGIN_QUOTE
+Before encoding each column as a polynomial, we append random padding to the end of the Execution Trace, which allows for a zero-knowledge protocol. 
+#+END_QUOTE
+The purpose of the padding seems to make the polynomial obtained by inverse number theoretic transform unguessable.
+[[https://www.risczero.com/assets/files/fibonacci-stark-52bf8c792850625a5d1e706e635f52e7.pdf][RISC Zero Proof System: A Concrete Example]] p6
+#+BEGIN_QUOTE
+We only reveal information about the disguised trace, and the random padding we appended is sufficient to prevent an attacker from deducing any connection between the disguised trace and the actual trace.
+#+END_QUOTE
+* Why does not sympy inverse number theoretic transform need a generator? [[further investigation needed]] 
+[[https://www.risczero.com/assets/files/fibonacci-stark-52bf8c792850625a5d1e706e635f52e7.pdf][RISC Zero Proof System: A Concrete Example]] p4
+#+BEGIN_QUOTE
+In Python using sympy, intt([24, 30, 54, 84, 78, 15, 29, 50], prime=97) returns [94, 68, 41, 69, 25, 72, 85, 55.
+#+END_QUOTE

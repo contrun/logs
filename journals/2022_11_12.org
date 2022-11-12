@@ -1,0 +1,45 @@
+* How does zk-STARK achieve zero knowledge? [[zk-STARK]]
+[[https://neptune.cash/learn/stark-anatomy/stark/][Part 4: The STARK Polynomial IOP]]
+#+BEGIN_QUOTE
+With respect to randomizing the STARK proof system, it is worth 
+separating the mechanism into two parts and randomize them separately.
++ The FRI bounded degree proof. This component is randomized by adding a randomizer codeword to the nonlinear combination. This randomizer codeword corresponds to a polynomial of maximal degree whose coefficients are drawn uniformly at random.
++ The linking part that establishes that the boundary quotients are linked to the transition quotient(s). To randomize this, the execution trace for every register is extended with \(4s\) uniformly random field elements. The number \(4s\) comes from the number \(s\) of colinearity checks in the FRI protocol: every colinearity check induces two queries in the initial codeword. The two values of the transition quotient codeword need to be linked two four values of the boundary quotient codewords.
+#+END_QUOTE
+* Transform a zero-knowledge proof system into a signature scheme. [[signature schemes]] [[zk-STARK]] 
+Given a proof system that the prover can prove the knowledge of a secret \( s \) corresponding to the public information \( p \)  by providing the proof \( \pi \). If the proving process depends on Fiat-Shamir heuristic, we can make the hashing process of Fiat-Shamir transform also consider the message \( m \) to sign as an input. This way the proof is dependent on \( m \), denoting it by \( \pi(m) \). Then we can view the verification of the proof that the prover do have the knowledge of the secret \( s \) corresponding to the public information \( p \) with \( \pi(m) \) as the verification of \( \pi(m) \) is a valid signature of \( s \) signing the message \( m \). A concrete example can be found on [[https://neptune.cash/learn/stark-anatomy/rescue-prime/][Part 5: A Rescue-Prime STARK]].
+* What is the theoretical computation complexity limit of polynomial multiplication? [[algorithms]]
+Using fast Fourier transform, we can reduce the complexity from a naive \( O(n^2) \) to \( O(n \log n) \). Is this the best algorithm? Seems to be so. The same reasoning of the complexity of comparison based sorting applies here. TODO: Elaborate on this.
+* Fast interpolation for polynomials.
+[[https://neptune.cash/learn/stark-anatomy/faster/][Part 6: Speeding Things Up]] didn't use the targets at all. Is it wrong?
+#+BEGIN_SRC python
+def fast_interpolate( domain, values, primitive_root, root_order ):
+    assert(primitive_root^root_order == primitive_root.field.one()), "supplied root does not have supplied order"
+    assert(primitive_root^(root_order//2) != primitive_root.field.one()), "supplied root is not primitive root of supplied order"
+    assert(len(domain) == len(values)), "cannot interpolate over domain of different length than values list"
+
+    if len(domain) == 0:
+        return Polynomial([])
+
+    if len(domain) == 1:
+        return Polynomial([values[0]])
+
+    half = len(domain) // 2
+
+    left_zerofier = fast_zerofier(domain[:half], primitive_root, root_order)
+    right_zerofier = fast_zerofier(domain[half:], primitive_root, root_order)
+
+    left_offset = fast_evaluate(right_zerofier, domain[:half], primitive_root, root_order)
+    right_offset = fast_evaluate(left_zerofier, domain[half:], primitive_root, root_order)
+
+    if not all(not v.is_zero() for v in left_offset):
+        print("left_offset:", " ".join(str(v) for v in left_offset))
+
+    left_targets = [n / d for (n,d) in zip(values[:half], left_offset)]
+    right_targets = [n / d for (n,d) in zip(values[half:], right_offset)]
+
+    left_interpolant = fast_interpolate(domain[:half], left_targets, primitive_root, root_order)
+    right_interpolant = fast_interpolate(domain[half:], right_targets, primitive_root, root_order)
+
+    return left_interpolant * right_zerofier + right_interpolant * left_zerofier
+#+END_SRC
