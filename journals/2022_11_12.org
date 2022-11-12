@@ -47,5 +47,5 @@ def fast_interpolate( domain, values, primitive_root, root_order ):
 :PROPERTIES:
 :id: 636f660c-a8ef-4fd3-a7b4-70564526d252
 :END:
-\( \mathrm{ regular expression } \xleftrightarrow{ Tomp} \)
+\( \mathrm{ regular expression } \xrightarrow{ Thompson's construction } \mathrm \xrightarrow{ subset construction } \xrightarrow{  } \)
 *
