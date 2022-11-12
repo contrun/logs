@@ -47,6 +47,6 @@ def fast_interpolate( domain, values, primitive_root, root_order ):
 :PROPERTIES:
 :id: 636f660c-a8ef-4fd3-a7b4-70564526d252
 :END:
-The translation fP72
+P72 The translation from RE to DFA is
 \( \text{ regular expression } \xrightarrow{ \text{Thompson's construction} } \text{ non-deterministic finite automaton } \xrightarrow{ \text{subset construction} } \text{deterministic finite automaton}  \xrightarrow{ \text{Kleene's construction} } \text{regular expression} \)
 *
