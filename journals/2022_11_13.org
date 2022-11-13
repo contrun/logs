@@ -1,2 +1,2 @@
 * Let \( \mathbb{F}_p \) be the base field of a zkVM. When \( p \) is less than the word length, we need to represent word with multiple elements in \( mathbb{F}_p \). When \( p \) is larger than the word length, basic operations like addition/subtraction can not be done natively. What is the better choice. Both risc0 and triton-vm choose a field of size less than \( 2^64 \). [[zero knowledge virtual machines]]
-* How do we arithmetize private inputs? Do we simply ig
+* How do we arithmetize private inputs? Do we simply ignore them in the constraint polynomails? [[zero knowledge virtual machines]]
