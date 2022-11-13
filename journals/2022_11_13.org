@@ -1,1 +1,1 @@
-* B
+* Let \( \mathbb{F}_p \) be the base field of a zkVM. When \( p \) is less than the word length
