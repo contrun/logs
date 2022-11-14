@@ -7,5 +7,5 @@
 |  ~pop~  |  ~pop~  | 48 | 47 | 46 | 45 | [44,43,99,0,0,0,0] | 11 | 44 |
 #+END_QUOTE
 Here third element changed from 42 to 99. Is it a typo?
-* Does triton-vm's random access memory table rules have any memory consistency guarantee? [[triton-vm]]
+* Do triton-vm's random access memory table rules have any memory consistency guarantee? [[triton-vm]]
 [[https://triton-vm.org/spec/random-access-memory-table.html][Random Access Memory Table - Triton VM]] seems to have no rule to ensure we read the value that we wrote earlier.
