@@ -1,2 +1,3 @@
 * How do we ensure pop the correct result from OpStack registers in triton-vm? [[triton-vm]]
-[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]] seems to be not enforcing push/pop rules for stack registers. For example, my whole program consists of two instructions, a push 42 followed by a pop. It seems that there is no rule to enforce the pop result is 42.
+[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]] seems to be not enforcing push/pop rules for stack registers. For example, my whole program consists of two instructions, a push 42 followed by a pop. It seems that there is no rule to enforce the pop result is 42. Changing the definition of ~osp~ to be
+* Why did the OpStack underflow memory change
