@@ -1,2 +1,2 @@
 * How do we ensure pop the correct result from OpStack registers in triton-vm? [[triton-vm]]
-[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]]
+[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]] seems to be not enforcing push/pop rules for stack registers.
