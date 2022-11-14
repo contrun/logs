@@ -1,5 +1,5 @@
 * How do we ensure pop the correct result from OpStack registers in triton-vm? [[triton-vm]]
-[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]] seems to be not enforcing push/pop rules for stack registers. For example, my whole program consists of two instructions, a push 42 followed by a pop. It seems that there is no rule to enforce the pop result is 42. Changing the initial value of ~osp~ to be 0 seems to solve this problem. Why would we choose ~osp~ to be the number of stack registers? This choice would make the transition rules not cover stack registers. On the other hand, if we choose ~osp~
+[[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]] seems to be not enforcing push/pop rules for stack registers. For example, my whole program consists of two instructions, a push 42 followed by a pop. It seems that there is no rule to enforce the pop result is 42. Changing the initial value of ~osp~ to be 0 seems to solve this problem. Why would we choose ~osp~ to be the number of stack registers? This choice would make the transition rules not cover stack registers.
 * Why did the OpStack underflow memory change when we run a ~nop~ instruction. [[triton-vm]] 
 [[https://triton-vm.org/spec/operational-stack-table.html][Operational Stack Table - Triton VM]]
 #+BEGIN_QUOTE
