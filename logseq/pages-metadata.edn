@@ -548,7 +548,7 @@
   :block/updated-at 1668179730307}
  {:block/name "zero knowledge virtual machines",
   :block/created-at 1667262988660,
-  :block/updated-at 1668388377618}
+  :block/updated-at 1668412863531}
  {:block/name "zio",
   :block/created-at 1667262990071,
   :block/updated-at 1667262990071}
