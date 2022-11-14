@@ -116,8 +116,8 @@
   :block/created-at 1667262989475,
   :block/updated-at 1667262989475}
  {:block/name "engineering a compiler",
-  :block/created-at 1668245357520,
-  :block/updated-at 1668245357520}
+  :block/created-at 1668388315330,
+  :block/updated-at 1668388315330}
  {:block/name "expression problem",
   :block/created-at 1667262989747,
   :block/updated-at 1667262989747}
@@ -250,11 +250,11 @@
   :block/created-at 1668182459925,
   :block/updated-at 1668245440264}
  {:block/name "nov 13th, 2022",
-  :block/created-at 1668288409600,
-  :block/updated-at 1668353974451}
+  :block/created-at 1668388315266,
+  :block/updated-at 1668388412461}
  {:block/name "nov 14th, 2022",
   :block/created-at 1668355223723,
-  :block/updated-at 1668355223723}
+  :block/updated-at 1668388755593}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
@@ -504,6 +504,9 @@
  {:block/name "transactions",
   :block/created-at 1667262990215,
   :block/updated-at 1667262990215}
+ {:block/name "triton-vm",
+  :block/created-at 1668388469921,
+  :block/updated-at 1668388469921}
  {:block/name "troubleshooting",
   :block/created-at 1667262989415,
   :block/updated-at 1667262989415}
@@ -545,7 +548,7 @@
   :block/updated-at 1668179730307}
  {:block/name "zero knowledge virtual machines",
   :block/created-at 1667262988660,
-  :block/updated-at 1667262988660}
+  :block/updated-at 1668388377618}
  {:block/name "zio",
   :block/created-at 1667262990071,
   :block/updated-at 1667262990071}
