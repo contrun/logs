@@ -8,4 +8,4 @@
 #+END_QUOTE
 Here third element changed from 42 to 99. Is it a typo?
 * Does triton-vm's random access memory table rules have any memory consistency guarantee? [[triton-vm]]
-[[https://triton-vm.org/spec/random-access-memory-table.html][Random Access Memory Table - Triton VM]] seems to have no rule to ensure we read the value that w
+[[https://triton-vm.org/spec/random-access-memory-table.html][Random Access Memory Table - Triton VM]] seems to have no rule to ensure we read the value that we wrote earlier.
