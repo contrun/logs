@@ -116,8 +116,8 @@
   :block/created-at 1667262989475,
   :block/updated-at 1667262989475}
  {:block/name "engineering a compiler",
-  :block/created-at 1668388315330,
-  :block/updated-at 1668388315330}
+  :block/created-at 1668522698593,
+  :block/updated-at 1668522698593}
  {:block/name "expression problem",
   :block/created-at 1667262989747,
   :block/updated-at 1667262989747}
@@ -223,14 +223,14 @@
   :block/created-at 1654767649489,
   :block/updated-at 1654767649489}
  {:block/name "merkle mountain range",
-  :block/created-at 1668503002376,
-  :block/updated-at 1668503002376}
+  :block/created-at 1668522698396,
+  :block/updated-at 1668522698396}
  {:block/name "merkle tree",
   :block/created-at 1667262989853,
   :block/updated-at 1667262989853}
  {:block/name "miden",
-  :block/created-at 1668520109348,
-  :block/updated-at 1668520109348}
+  :block/created-at 1668522697997,
+  :block/updated-at 1668522697997}
  {:block/name "mlir",
   :block/created-at 1667262989886,
   :block/updated-at 1667262989886}
@@ -241,8 +241,8 @@
   :block/created-at 1667262989749,
   :block/updated-at 1667262989749}
  {:block/name "neptune cash",
-  :block/created-at 1668501942994,
-  :block/updated-at 1668501942994}
+  :block/created-at 1668522698395,
+  :block/updated-at 1668522698395}
  {:block/name "networking",
   :block/created-at 1667262989851,
   :block/updated-at 1667262989851}
@@ -259,14 +259,14 @@
   :block/created-at 1668182459925,
   :block/updated-at 1668495711806}
  {:block/name "nov 13th, 2022",
-  :block/created-at 1668388315266,
-  :block/updated-at 1668388412461}
+  :block/created-at 1668522698335,
+  :block/updated-at 1668522698335}
  {:block/name "nov 14th, 2022",
-  :block/created-at 1668355223723,
-  :block/updated-at 1668395818469}
+  :block/created-at 1668522698360,
+  :block/updated-at 1668522698360}
  {:block/name "nov 15th, 2022",
-  :block/created-at 1668475774543,
-  :block/updated-at 1668521732109}
+  :block/created-at 1668522698401,
+  :block/updated-at 1668523192079}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
@@ -397,8 +397,8 @@
   :block/created-at 1667262989943,
   :block/updated-at 1667262989943}
  {:block/name "permutation arguments",
-  :block/created-at 1668521358109,
-  :block/updated-at 1668521358109}
+  :block/created-at 1668522698400,
+  :block/updated-at 1668522698400}
  {:block/name "personal information management",
   :block/created-at 1667262989637,
   :block/updated-at 1667262989637}
@@ -520,8 +520,8 @@
   :block/created-at 1667262990215,
   :block/updated-at 1667262990215}
  {:block/name "triton-vm",
-  :block/created-at 1668388469921,
-  :block/updated-at 1668388469921}
+  :block/created-at 1668522697991,
+  :block/updated-at 1668522697991}
  {:block/name "troubleshooting",
   :block/created-at 1667262989415,
   :block/updated-at 1667262989415}
