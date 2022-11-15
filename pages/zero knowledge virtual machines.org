@@ -2,3 +2,4 @@
 * {{embed [[triton-vm]]}}
 * {{embed [[zk-SNARK]]}}
 * {{embed [[zk-STARK]]}}
+* {{embed [[miden]]}}
