@@ -228,6 +228,9 @@
  {:block/name "merkle tree",
   :block/created-at 1667262989853,
   :block/updated-at 1667262989853}
+ {:block/name "miden",
+  :block/created-at 1668520109348,
+  :block/updated-at 1668520109348}
  {:block/name "mlir",
   :block/created-at 1667262989886,
   :block/updated-at 1667262989886}
@@ -263,7 +266,7 @@
   :block/updated-at 1668395818469}
  {:block/name "nov 15th, 2022",
   :block/created-at 1668475774543,
-  :block/updated-at 1668519348039}
+  :block/updated-at 1668520272902}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
@@ -557,7 +560,7 @@
   :block/updated-at 1668179730307}
  {:block/name "zero knowledge virtual machines",
   :block/created-at 1667262988660,
-  :block/updated-at 1668412863531}
+  :block/updated-at 1668520125364}
  {:block/name "zio",
   :block/created-at 1667262990071,
   :block/updated-at 1667262990071}
