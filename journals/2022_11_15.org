@@ -1,4 +1,4 @@
-* Elaborate on archiving privacy with re-randomization.
+* Elaborate on archiving privacy with re-randomization. Give a concrete example. [[neptune]]
 [[https://neptune.cash/whitepaper/][Neptune whitepaper]]
 #+BEGIN_QUOTE
 The re-randomizability of the commitment scheme is an essential 
@@ -8,3 +8,4 @@ Specifically, to the outside observer (who has no access to the miner's
 randomness) the output and input UTXOs are unlinkable even though they 
 decommit to the same or matching information.
 #+END_QUOTE
+*
