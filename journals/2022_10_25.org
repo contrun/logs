@@ -1,7 +1,8 @@
 * Why is [[https://doi.org/10.4230/LIPIcs.ICALP.2018.14][Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] called Reed-Solomon? Is it related to the Reed-Solomon erasure code? [[zk-STARK]]
 [[https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security][Anatomy of a STARK, Part 3: FRI]] states "Intuitively, a prover who lies in one location is hardly cheating, because it is a single error in an error-correcting code."
-It seems we are filling the algebraic execution trace with redundant data (extending the row length to \( \rho \times \mathrm{len}(\text{row}) \) ), this is something like
-* What is the relationship between FRI and STARK? [[zk-STARK]] 
+It seems we are filling the algebraic execution trace with redundant data (extending the row length to \( \rho \times \mathrm{len}(\text{row}) \) ), this is something like make the code more resilient with Reed-Solomon erasure code.
+* What is the relationship between FRI and STARK? [[zk-STARK]]
+The STARK protocol converts  
 + FRI: somewhat like a polynomial commitment scheme.
 + STARK: a zero knowledge way to prove things.
 * What is the use of coset in FRI? [[zk-STARK]] 
