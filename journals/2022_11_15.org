@@ -10,3 +10,4 @@ decommit to the same or matching information.
 #+END_QUOTE
 * [[https://github.com/opentimestamps/opentimestamps-server/blob/master/doc/merkle-mountain-range.md][opentimestamps-server/merkle-mountain-range.md at master · opentimestamps/opentimestamps-server · GitHub]] [[merkle mountain range]]
 A variant of Merkle tree to accumulate new elements.
+*
