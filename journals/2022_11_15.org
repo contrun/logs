@@ -18,5 +18,5 @@ It is worth ensuring that the trace evaluation domain is disjoint from
 the FRI evaluation domain, for example by using the coset-trick. 
 However, if overlapping subgroups are used for both domains, then \( \omega^{1/\rho} = \omicron \) and \( \omega \) generates the larger domain whereas \( \omicron \) generates the smaller one.
 #+END_QUOTE
-This still does not explain what would happen if the trace evaluation domain is a subset of the FRI evaluation domain. But the terminal quotient here could be zero if
+This still does not explain what would happen if the trace evaluation domain is a subset of the FRI evaluation domain. But [[https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a09b3/triton-vm/src/cross_table_arguments.rs#L44-L65][the terminal quotient here]] could be zero if the trace evaluation domain is a subset of the FRI evaluation domain.
 *
