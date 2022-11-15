@@ -43,6 +43,7 @@ def fast_interpolate( domain, values, primitive_root, root_order ):
 
     return left_interpolant * right_zerofier + right_interpolant * left_zerofier
 #+END_SRC
+It is right. The tat
 * Any way to directly translate regular expressions to non-deterministic finite automata? [[compiling techniques]] [[Engineering a Compiler]]
 :PROPERTIES:
 :id: 636f660c-a8ef-4fd3-a7b4-70564526d252
