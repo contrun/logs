@@ -1,8 +1,10 @@
-* Archiving privacy with re-randomization.
-
+* Elaborate on archiving privacy with re-randomization.
+[[https://neptune.cash/whitepaper/][Neptune whitepaper]]
+#+BEGIN_QUOTE
 The re-randomizability of the commitment scheme is an essential 
 quality for privacy as it achieves de-linking the output UTXOs of 
 confirmed transactions from the input UTXOs of new transactions. 
 Specifically, to the outside observer (who has no access to the miner's 
 randomness) the output and input UTXOs are unlinkable even though they 
 decommit to the same or matching information.
+#+END_QUOTE
