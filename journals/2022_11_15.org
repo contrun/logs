@@ -8,4 +8,4 @@ Specifically, to the outside observer (who has no access to the miner's
 randomness) the output and input UTXOs are unlinkable even though they 
 decommit to the same or matching information.
 #+END_QUOTE
-*
+* [[https://github.com/opentimestamps/opentimestamps-server/blob/master/doc/merkle-mountain-range.md][opentimestamps-server/merkle-mountain-range.md at master · opentimestamps/opentimestamps-server · GitHub]]
