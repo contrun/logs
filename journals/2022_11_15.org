@@ -1,4 +1,4 @@
-* Elaborate on archiving privacy with re-randomization. Give a concrete example. [[neptune]]
+* Elaborate on archiving privacy with re-randomization. Give a concrete example. [[neptune cash]]
 [[https://neptune.cash/whitepaper/][Neptune whitepaper]]
 #+BEGIN_QUOTE
 The re-randomizability of the commitment scheme is an essential 
