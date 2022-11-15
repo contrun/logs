@@ -10,7 +10,7 @@ decommit to the same or matching information.
 #+END_QUOTE
 * [[https://github.com/opentimestamps/opentimestamps-server/blob/master/doc/merkle-mountain-range.md][opentimestamps-server/merkle-mountain-range.md at master · opentimestamps/opentimestamps-server · GitHub]] [[merkle mountain range]]
 A variant of Merkle tree to accumulate new elements.
-* What is the use of offset in FRI? [[fast Reed-Solomon interactive oracle proofs of proximity]]
+* What is the use of offset in FRI? [[fast Reed-Solomon interactive oracle proofs of proximity]] [[triton-vm]] 
 In FRI, we evaluate/interpolate in the coset of \( \{\omega^i\} \) instead \( \{\omega^i\} \) itself.
 [[https://aszepieniec.github.io/stark-anatomy/stark#fnref:1][Anatomy of a STARK, Part 4: The STARK Polynomial IOP | Anatomy of a STARK]]
 #+BEGIN_QUOTE
@@ -18,5 +18,5 @@ It is worth ensuring that the trace evaluation domain is disjoint from
 the FRI evaluation domain, for example by using the coset-trick. 
 However, if overlapping subgroups are used for both domains, then \( \omega^{1/\rho} = \omicron \) and \( \omega \) generates the larger domain whereas \( \omicron \) generates the smaller one.
 #+END_QUOTE
-This still does not explain what would happen if the trace evaluation domain is a subset of the FRI evaluation domain. But [[https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a09b3/triton-vm/src/cross_table_arguments.rs#L44-L65][the terminal quotien here]] could be zero if the trace evaluation domain is a subset of the FRI evaluation domain.
+This still does not explain what would happen if the trace evaluation domain is a subset of the FRI evaluation domain. But [[https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a09b3/triton-vm/src/cross_table_arguments.rs#L44-L65][the zerofier here]] could be zero if the trace evaluation domain is a subset of the FRI evaluation domain.
 *
