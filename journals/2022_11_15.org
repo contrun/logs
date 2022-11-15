@@ -31,4 +31,3 @@ For the pair of columns of instructions in program table and instruction table, 
 TODO: summarize [[https://triton-vm.org/spec/copy-constraints.html][Copy Constraints - Triton VM]]
 * The key of permutation arguments. [[permutation arguments]]
 Let \( \{ s_i \} \), \( \{ t_i \} \) be two subsets of \( \mathbb{F} \) with equal non-zero length. Then \( \prod_i (s_i - \beta) = \prod_i (t_i - \beta) \) over a uniformly random \( \beta \in \mathbb{F} \) has negligible  probability if \( \{ s_i \} \) is not a permutation of \( \{ t_i \} \). This is an application of [[https://en.wikipedia.org/wiki/Schwartz%E2%80%93Zippel_lemma][Schwartz–Zippel lemma - Wikipedia]].
-*
