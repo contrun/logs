@@ -17,4 +17,5 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
 #+END_SRC
 + It seems that ~fri_dom_v.mod_pow_u32(padded_height as u32)~ may equal ~one~. It will not equal ~one~ if the FRI domain has an offset.
 + Why is the zerofier multiplied with ~fri_dom_v - omicron_inverse~?
-* How can we combine polynomial with different degree bounds in FRI to batch
+* Can we combine polynomials with different degree bounds in FRI to batch prove the low-degreeness of polynomials?
+https://github.com/aszepieniec/stark-anatomy/blob/185b6be55309f6b2e1ab2378a214ae48d149484b/code/stark.py#L119-L143
