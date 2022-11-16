@@ -11,6 +11,9 @@ decommit to the same or matching information.
 * [[https://github.com/opentimestamps/opentimestamps-server/blob/master/doc/merkle-mountain-range.md][opentimestamps-server/merkle-mountain-range.md at master · opentimestamps/opentimestamps-server · GitHub]] [[merkle mountain range]]
 A variant of Merkle tree to accumulate new elements.
 * What is the use of offset in FRI? [[fast Reed-Solomon interactive oracle proofs of proximity]] [[triton-vm]] 
+:PROPERTIES:
+:id: 6373a2ca-3200-4bc4-bb32-5588142dce39
+:END:
 In FRI, we evaluate/interpolate in the coset of \( \{\omega^i\} \) instead \( \{\omega^i\} \) itself.
 [[https://aszepieniec.github.io/stark-anatomy/stark#fnref:1][Anatomy of a STARK, Part 4: The STARK Polynomial IOP | Anatomy of a STARK]]
 #+BEGIN_QUOTE
