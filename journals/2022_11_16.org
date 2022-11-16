@@ -1,1 +1,1 @@
-* Why is the zerofier of transition constraint
+* What is the zerofier of transition constraint? Justify the code below
