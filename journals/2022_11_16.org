@@ -18,15 +18,17 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
 + It seems that ~fri_dom_v.mod_pow_u32(padded_height as u32)~ may equal ~one~. It will not equal ~one~ if the FRI domain has an offset.
 + Why is the zerofier multiplied with ~fri_dom_v - omicron_inverse~?
 * Batch FRI. We can combine polynomials with different degree bounds in FRI to batch prove the low-degreeness of polynomials.
-[[https://github.com/aszepieniec/stark-anatomy/blob/185b6be55309f6b2e1ab2378a214ae48d149484b/code/stark.py#L119-L143][stark anatomy]]
+[[https://github.com/aszepieniec/stark-anatomy/blob/185b6be55309f6b2e1ab2378a214ae48d149484b/code/stark.py#L119-L143][stark anatomy  ]]
 #+BEGIN_SRC python
         # get weights for nonlinear combination
         #  - 1 randomizer
         #  - 2 for every transition quotient
         #  - 2 for every boundary quotient
         weights = self.sample_weights(1 + 2*len(transition_quotients) + 2*len(boundary_quotients), proof_stream.prover_fiat_shamir())
-assert([tq.degree() for tq in transition_quotients] == self.transition_quotient_degree_bounds(transition_constraints)), "transition quotient degrees do not match with expectation"
-# compute terms of nonlinear combination polynomial
+
+        assert([tq.degree() for tq in transition_quotients] == self.transition_quotient_degree_bounds(transition_constraints)), "transition quotient degrees do not match with expectation"
+
+        # compute terms of nonlinear combination polynomial
         x = Polynomial([self.field.zero(), self.field.one()])
         max_degree = self.max_degree(transition_constraints)
         terms = []
@@ -39,7 +41,8 @@ assert([tq.degree() for tq in transition_quotients] == self.transition_quotient_
             terms += [boundary_quotients[i]]
             shift = max_degree - self.boundary_quotient_degree_bounds(len(trace), boundary)[i]
             terms += [(x^shift) * boundary_quotients[i]]
-# take weighted sum
+
+        # take weighted sum
         # combination = sum(weights[i] * terms[i] for all i)
         combination = reduce(lambda a, b : a+b, [Polynomial([weights[i]]) * terms[i] for i in range(len(terms))], Polynomial([]))
 #+END_SRC
