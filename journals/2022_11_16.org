@@ -43,5 +43,5 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
         # combination = sum(weights[i] * terms[i] for all i)
         combination = reduce(lambda a, b : a+b, [Polynomial([weights[i]]) * terms[i] for i in range(len(terms))], Polynomial([]))
 #+END_SRC
-Given a maximum degree bound, we padding the polynomials with
+Given a maximum degree bound \( d \), we expand the polynomials \( f \) to \( f + x^{} * \mathrm{deg}(f) \)
 *
