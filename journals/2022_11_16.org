@@ -52,6 +52,7 @@ Given a maximum degree bound \( d \), random weights \( w_i \), we expand the po
 The solution is to pad the trace until its length is the next power of 2. Clearly this padding must be compatible with the transition constraints so that the composition polynomials still evaluate to zero on all (but one point) of the power-of-two subgroup. The natural solution is to apply the same transition function for a power of two number of cycles, and have the boundary conditions refer to the “output” whose cycle index is somewhere in the middle. However, this design decision introduces a problem when it comes to appending randomizers to the trace for the purpose of leaking zero knowledge.
 + If the randomizers are appended after padding the trace, then the randomized trace does not fit into the power-of-two subgroup. In this case the interpolant must be computed such that:
     + over the power-of-two subgroup it evaluates to the execution trace; and
-      over a distinct domain it evaluates to the uniformly random randomizers.
-    If the randomizers are appended before padding, then the transition constraints must by compatible with this operation, or else the composition polynomials will not evaluate to zero in the entire power-of-two subgroup. This option requires changing the AIR.
+    + over a distinct domain it evaluates to the uniformly random randomizers.
++ If the randomizers are appended before padding, then the transition constraints must by compatible with this operation, or else the composition polynomials will not evaluate to zero in the entire power-of-two subgroup. This option requires changing the AIR.
+#+END_QUOTE
 *
