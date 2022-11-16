@@ -20,7 +20,7 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
 * Can we combine polynomials with different degree bounds in FRI to batch prove the low-degreeness of polynomials?
 [[https://github.com/aszepieniec/stark-anatomy/blob/185b6be55309f6b2e1ab2378a214ae48d149484b/code/stark.py#L119-L143][stark anatomy]]
 #+BEGIN_SRC python
-* # get weights for nonlinear combination
+        # get weights for nonlinear combination
         #  - 1 randomizer
         #  - 2 for every transition quotient
         #  - 2 for every boundary quotient
@@ -42,4 +42,6 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
 # take weighted sum
         # combination = sum(weights[i] * terms[i] for all i)
         combination = reduce(lambda a, b : a+b, [Polynomial([weights[i]]) * terms[i] for i in range(len(terms))], Polynomial([]))
+#+END_SRC
+Given a maximum degree bound, we padding the polynomials with
 *
