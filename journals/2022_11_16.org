@@ -43,5 +43,5 @@ https://github.com/TritonVM/triton-vm/blob/bd2cf06016fbd591c7d2ee2e1b9dc348380a0
         # combination = sum(weights[i] * terms[i] for all i)
         combination = reduce(lambda a, b : a+b, [Polynomial([weights[i]]) * terms[i] for i in range(len(terms))], Polynomial([]))
 #+END_SRC
-Given a maximum degree bound \( d \), we expand the polynomials \( f_i \) to \( g_i = f_i + x^{(d - \mathrm{deg}(f_i))} * f_i\). This polynomial is of degree \( d \). We then
+Given a maximum degree bound \( d \), we expand the polynomials \( f_i \) to \( g_i = f_i + x^{(d - \mathrm{deg}(f_i))} * f_i\). Given random weights \( w_i \). The polynomial \( g = \sum_i w_i \times g_i \) is of degree \( d \). We then prove the low -degreeness of \(g\).
 *
