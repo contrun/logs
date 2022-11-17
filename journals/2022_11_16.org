@@ -55,4 +55,3 @@ The solution is to pad the trace until its length is the next power of 2. Clearl
     + over a distinct domain it evaluates to the uniformly random randomizers.
 + If the randomizers are appended before padding, then the transition constraints must by compatible with this operation, or else the composition polynomials will not evaluate to zero in the entire power-of-two subgroup. This option requires changing the AIR.
 #+END_QUOTE
-*
