@@ -1,4 +1,4 @@
-* Why verifying low-degreeness of polynomial is so powerful? zk-STARK reduces from an AIR instance to a pair of RPT problems, solved using the FRI protocol. [[zk-STARK]] 
+* Why is verifying low-degreeness of polynomial so powerful? zk-STARK reduces from an AIR instance to a pair of RPT problems, solved using the FRI protocol. [[zk-STARK]] 
 It seems to because if one polynomial can be divided by another polynomial, then the quotient of these two polynomial will have low degree. We can thus verify the divisibility of two polynomials by verify the low-degreeness of the quotient.
 [[https://eprint.iacr.org/2018/046.pdf][Scalable, transparent, and post-quantum secure computational integrity]] P33
 \( \text{algebraic intermediate representation (AIR)} \xrightarrow{\text{placement + routing}} \text{algebraic placement and routing (APR)} \xrightarrow{\text{algebraic linking}} \text{Reed-Solomon proximity testing (RPT)} \xrightarrow{\text{proximity testing}} \text{fast Reed-Solomon interactive oracle proofs of proximity (FRI)} \)
