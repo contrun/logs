@@ -1,0 +1,2 @@
+* Why was zkEVM hard? How is it possible for now to build a zkEVM?
+*
