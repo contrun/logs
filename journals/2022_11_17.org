@@ -76,4 +76,3 @@ recursion using special inner product argument. Aztec shows that you can
 computer conference (ISCA) this year. The GPU prover is around 5x-10x 
 faster than [[https://github.com/filecoin-project/bellperson][Filecoin’s implementation]]. This can greatly improve the prover’s computation efficiency.
 #+END_QUOTE
-*
