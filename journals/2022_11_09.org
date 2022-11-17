@@ -41,4 +41,4 @@ For the opening of \( f \) at value in the domain \( \mathbb{F} \)
 TODO: clarify this, reference [[https://neptune.cash/learn/stark-anatomy/fri/][ Anatomy of a STARK Part 3: FRI ]]
 + Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
 + Open: for a value \( z \), let \( y = f(z) \), send the proof that the polynomial \( g = \frac{f(X) - y}{X - z} \) is of degree \(\mathrm{deg}(f) - 1 \), commit the polynomial \( g \)
-+ Verify: check the relationship between \(g\)
++ Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(w^j\))
