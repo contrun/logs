@@ -41,4 +41,4 @@ For the opening of \( f \) at value in the domain \( S \)
 For the opening of \( f \) at value in the domain \( \mathbb{F} \)
 + Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
 + Open: for a value \( z \), let \( y = f(z), g = \frac{f(X) - y}{X - z} \), evaluate \( g \) at \( S \), send the Merkle tree root \( r' \) of the result of the evaluation, send the proof that the polynomial \( g \) is of degree \(\mathrm{deg}(f) - 1 \).
-+ Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(\omega^j\) satisfies \( g(\omega^j) =  \frac{f(\omega^j) - y}{\omega^j - z} \)?), check the commitment of \(f\) and \(g\), check the low-degreeness of \(g\)
++ Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(\omega^j\) satisfies \( g(\omega^j) =  \frac{f(\omega^j) - y}{\omega^j - z} \)?), check the Merkle commitment of \(f\) and \(g\), check the low-degreeness of \(g\)
