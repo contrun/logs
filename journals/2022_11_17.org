@@ -1,3 +1,6 @@
 * Why was zkEVM hard? How is it possible for now to build a zkEVM? [[zero knowledge virtual machines]] 
 [[https://scroll.io/blog/zkEVM][zkEVM]]
+#+BEGIN_QUOTE
+
+#+END_QUOTE
 *
