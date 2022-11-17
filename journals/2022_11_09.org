@@ -32,13 +32,13 @@ The typical life of a  ~Waker~  is that it is constructed by an executor, wrappe
 #+END_QUOTE
 A waker is created [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/harness.rs#L85-L141][here]] when tokio tries to poll the task, which calls [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/waker.rs#L117-L130][~raw_waker~]] to actually create the waker. The wake function calls [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/harness.rs#L247-L279][~wake_by_val~]] to [[https://github.com/tokio-rs/tokio/blob/236d02666765bc3a37ad8286983300854ab0f8a4/tokio/src/runtime/task/mod.rs#L249-L270][schedule the task]].
 * FRI as a polynomial commitment scheme. [[fast Reed-Solomon interactive oracle proofs of proximity]] [[polynomial commitments]] 
+[[https://neptune.cash/learn/stark-anatomy/fri/][ Anatomy of a STARK Part 3: FRI ]]
 Let \( f \) be a polynomial to be committed, \( S = \{\omega^i |  \omega \text{ is an agreed generator of the multiplicative group} \} \).
 For the opening of \( f \) at value in the domain \( S \)
 + Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
 + Open: for a given leaf \( i \), send \( f(\omega^i) \) along with the authentication path \( p \).
 + Verify: check leaf \( f(\omega^i) \)'s membership in Merkle tree by authentication path \( p \).
 For the opening of \( f \) at value in the domain \( \mathbb{F} \)
-TODO: clarify this, reference [[https://neptune.cash/learn/stark-anatomy/fri/][ Anatomy of a STARK Part 3: FRI ]]
 + Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
 + Open: for a value \( z \), let \( y = f(z) \), send the proof that the polynomial \( g = \frac{f(X) - y}{X - z} \) is of degree \(\mathrm{deg}(f) - 1 \), commit the polynomial \( g \)
-+ Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(w^j\) satisfies \( g(w^j) =  \frac{f(w^j) - y}{w^j - z} \)?), check the commitment of \(f\) and \(g\), c
++ Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(w^j\) satisfies \( g(w^j) =  \frac{f(w^j) - y}{w^j - z} \)?), check the commitment of \(f\) and \(g\), check the low-degreeness of \(g\)
