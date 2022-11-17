@@ -1,27 +1,6 @@
 * Why was zkEVM hard? How is it possible for now to build a zkEVM? [[zero knowledge virtual machines]] 
 [[https://scroll.io/blog/zkEVM][zkEVM]]
 #+BEGIN_QUOTE
-Design challenges of zkEVM
-
-zkEVM is hard to build. Even though the intuition is clear for years, no one has built a native EVM circuit successfully. Different from TinyRAM, it’s even more challenging to design and implement zkEVM due to the following reasons:
-
-    First, EVM has limited support of elliptic curves. For now, EVM only supports BN254 pairing. It’s hard to do proof recursion since cyclic elliptic curve is not directly supported. It’s also hard to use other specialized protocols under this setting. The verification algorithm has to be EVM friendly.
-    Second, EVM word size is 256bit. EVM operates over 256-bit integers (much like most regular VMs operate over 32-64 bit integers), whereas zk proofs most “naturally” work over prime fields. Doing “mismatched field arithmetic” inside a circuit requires range proofs, which will add ~100 constraints per EVM step. This will blow up EVM circuit size by two orders of magnitudes.
-    Third, EVM has many special opcodes. EVM is different from traditional VM, it has many special opcodes like CALL and it also has error types related to the execution context and gas. This will bring new challenges to circuit design.
-    Fourth, EVM is a stack-based virtual machine. The SyncVM (zksync) and Cario (starkware) architecture defines its own IR/AIR in the register-based model. They built a specialized compiler to compile smart contract code into a new zk-friendly IR. Their approach is language compatible instead of native EVM-compatible. It’s harder to prove for stack-based model and support native tool chain directly.
-    Fifth, Ethereum storage layout carries a huge overhead. The Ethereum storage layout highly relies on Keccak and a huge MPT[4], both of them are not zk-friendly and have a huge proving overhead. For example, Keccak hash is 1000x larger than Poseidon hash in circuit. However, if you replace Keccak with another hash, it will cause some compatibility problems for the existing Ethereum infrastructure.
-    Sixth, machine-based proof has a gigantic overhead. Even if you can handle all the aforementioned problems properly, you still need to find an efficient way to compose them together to get a complete EVM circuit. As I mentioned in previous section, even simple opcodes like add might result in the overhead of the entire EVM circuit.
-
-Why possible now?
-
-Thanks for the great progress made by researchers in this area, more and more efficiency problems are solved in the last two years, the proving cost for zkEVM is eventually feasible! The biggest technology improvement comes from the following aspects:
-
-    The usage of polynomial commitment. In the past few years, most succinct zero-knowledge proof protocols stick to R1CS with PCP query encoded in an application-specific trusted setup. The circuit size usually blows up and you can’t do many customized optimizations since the degree of each constraint needs to be 2 (bilinear pairing only allows one multiplication in the exponent). With polynomial commitment schemes, you can lift your constraints to any degree with a universal setup or even transparent setup. This allows great flexibility in the choice of backend.
-    The appearance of lookup table arguments and customized gadgets. Another strong optimization comes from the usage of lookup tables. The optimization is firstly proposed in Arya and then gets optimized in Plookup. This can save A LOT for zk-unfriendly primitives (i.e., bitwise operations like AND, XOR, etc.) . Customized gadgets allow you to do high degree constraints with efficiency. TurboPlonk and UltraPlonk defines elegant program syntax to make it easier to use lookup tables and define customized gadgets. This can be extremely helpful for reducing the overhead of EVM circuit.
-    Recursive proof is more and more feasible. Recursive proof has a huge overhead in the past since it relies on special pairing-friendly cyclic elliptic curves (i.e. MNT curve-based construction). This introduces a large computation overhead. However, more techniques are making this possible without sacrificing the efficiency. For example, Halo can avoid the need of pairing-friendly curve and amortize the cost of recursion using special inner product argument. Aztec shows that you can do proof aggregation for existing protocols directly (lookup tables can reduce the overhead of non-native field operation thus can make the verification circuit smaller). It can highly improve the scalability of supported circuit size.
-    Hardware acceleration is making proving more efficient. To the best of our knowledge, we have made the fastest GPU and ASIC/FPGA accelerator for the prover. Our paper describing ASIC prover has already been accepted by the largest computer conference (ISCA) this year. The GPU prover is around 5x-10x faster than Filecoin’s implementation. This can greatly improve the prover’s computation efficiency.
-
-#+END_QUOTE
 * Design challenges of zkEVM
 
 zkEVM is hard to build. Even though the intuition is clear for years,
@@ -61,4 +40,38 @@ compatibility problems for the existing Ethereum infrastructure.
 still need to find an efficient way to compose them together to get a 
 complete EVM circuit. As I mentioned in previous section, even simple 
 opcodes like  ~add~  might result in the overhead of the entire EVM circuit.
+* Why possible now?
+
+Thanks for the great progress made by researchers in this area, more 
+and more efficiency problems are solved in the last two years, the 
+proving cost for zkEVM is eventually feasible! The biggest technology 
+improvement comes from the following aspects:
+
+- *The usage of polynomial commitment.* In the past few
+ years, most succinct zero-knowledge proof protocols stick to R1CS with 
+PCP query encoded in an application-specific trusted setup. The circuit 
+size usually blows up and you can’t do many customized optimizations 
+since the degree of each constraint needs to be 2 ([[https://vitalik.ca/general/2017/01/14/exploring_ecp.html][bilinear pairing]] only allows one multiplication in the exponent). With [[https://www.youtube.com/watch?v=BfV7HBHXfC0][polynomial commitment schemes]],
+ you can lift your constraints to any degree with a universal setup or 
+even transparent setup. This allows great flexibility in the choice of 
+backend.
+
+- *The appearance of lookup table arguments and customized gadgets.* Another strong optimization comes from the usage of lookup tables. The optimization is firstly proposed in [[https://eprint.iacr.org/2018/380][Arya]] and then gets optimized in [[https://eprint.iacr.org/2020/315][Plookup]]. This can save A LOT for zk-unfriendly primitives (i.e., bitwise operations like AND, XOR, etc.) . [[https://kobi.one/2021/05/20/plonk-custom-gates.html][Customized gadgets]] allow you to do high degree constraints with efficiency. [[https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf][TurboPlonk]] and [[https://zcash.github.io/halo2/concepts/arithmetization.html][UltraPlonk]]
+ defines elegant program syntax to make it easier to use lookup tables 
+and define customized gadgets. This can be extremely helpful for 
+reducing the overhead of EVM circuit.
+
+- *Recursive proof is more and more feasible.* Recursive proof has a huge overhead in the past since it relies on special pairing-friendly cyclic elliptic curves (i.e. [[https://eprint.iacr.org/2014/595][MNT curve-based construction]]).
+ This introduces a large computation overhead. However, more techniques 
+are making this possible without sacrificing the efficiency. For 
+example, [[https://eprint.iacr.org/2019/1021][Halo]]
+ can avoid the need of pairing-friendly curve and amortize the cost of 
+recursion using special inner product argument. Aztec shows that you can
+ do proof aggregation for existing protocols directly (lookup tables can
+ reduce the overhead of [[https://hackmd.io/@arielg/B13JoihA8][non-native field operation]] thus can make the verification circuit smaller). It can highly improve the scalability of supported circuit size.
+
+- *Hardware acceleration is making proving more efficient.* To the best of our knowledge, we have made the fastest GPU and ASIC/FPGA accelerator for the prover. [[https://people.iiis.tsinghua.edu.cn/~gaomy/pubs/pipezk.isca21.pdf][Our paper]]
+ describing ASIC prover has already been accepted by the largest 
+computer conference (ISCA) this year. The GPU prover is around 5x-10x 
+faster than [[https://github.com/filecoin-project/bellperson][Filecoin’s implementation]]. This can greatly improve the prover’s computation efficiency.
 *
