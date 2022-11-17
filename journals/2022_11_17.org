@@ -1,7 +1,7 @@
 * Why was zkEVM hard? How is it possible for now to build a zkEVM? [[zero knowledge virtual machines]] 
 [[https://scroll.io/blog/zkEVM][zkEVM]]
 #+BEGIN_QUOTE
-* Design challenges of zkEVM
+Design challenges of zkEVM
 
 zkEVM is hard to build. Even though the intuition is clear for years,
  no one has built a native EVM circuit successfully. Different from 
@@ -41,7 +41,7 @@ still need to find an efficient way to compose them together to get a
 complete EVM circuit. As I mentioned in previous section, even simple 
 opcodes like  ~add~  might result in the overhead of the entire EVM circuit.
 
-* Why possible now?
+Why possible now?
 
 Thanks for the great progress made by researchers in this area, more 
 and more efficiency problems are solved in the last two years, the 
