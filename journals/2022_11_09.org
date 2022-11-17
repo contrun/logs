@@ -40,5 +40,5 @@ For the opening of \( f \) at value in the domain \( S \)
 + Verify: check leaf \( f(\omega^i) \)'s membership in Merkle tree by authentication path \( p \).
 For the opening of \( f \) at value in the domain \( \mathbb{F} \)
 + Commit: evaluate \( f \) at \( S \), send the Merkle tree root \( r \) of the result of the evaluation.
-+ Open: for a value \( z \), let \( y = f(z) \), evaluate \( g \) at \( S \), send the Merkle tree root \( r' \) of the result of the evaluation, send the proof that the polynomial \( g = \frac{f(X) - y}{X - z} \) is of degree \(\mathrm{deg}(f) - 1 \).
++ Open: for a value \( z \), let \( y = f(z), g = \frac{f(X) - y}{X - z} \), evaluate \( g \) at \( S \), send the Merkle tree root \( r' \) of the result of the evaluation, send the proof that the polynomial  is of degree \(\mathrm{deg}(f) - 1 \).
 + Verify: check the relationship between \(f\) and \(g\) (by randomly verify the evaluation of \(f\) and \(g\) at random point \(w^j\) satisfies \( g(w^j) =  \frac{f(w^j) - y}{w^j - z} \)?), check the commitment of \(f\) and \(g\), check the low-degreeness of \(g\)
