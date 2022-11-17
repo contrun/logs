@@ -1,7 +1,8 @@
 * Why is [[https://doi.org/10.4230/LIPIcs.ICALP.2018.14][Fast Reed-Solomon Interactive Oracle Proofs of Proximity]] called Reed-Solomon? Is it related to the Reed-Solomon erasure code? [[zk-STARK]]
 [[https://aszepieniec.github.io/stark-anatomy/fri#intuition-for-security][Anatomy of a STARK, Part 3: FRI]]
-
-states "Intuitively, a prover who lies in one location is hardly cheating, because it is a single error in an error-correcting code."
+#+BEGIN_QUOTE
+The description of the FRI protocol up until now involves codewords defined as the list of values taken by a polynomial of low degree on a given evaluation domain \(D\), where \(D\) is a subgroup of order \(2^k\) spanned by some subgroup generator \(\omega\). This leads to problems later on, when linking the FRI together with the STARK machinery. Specifically, the STARK protocol is also defined in terms of Reed-Solomon codewords. It is worthwhile to anticipate the problems that can occur when the points of evaluation coincide, by choosing two disjoint sets.
+#+END_QUOTE
 It seems we are filling the algebraic execution trace with redundant data (extending the row length to \( \rho \times \mathrm{len}(\text{row}) \) ), this is something like make the code more resilient with Reed-Solomon erasure code.
 * What is the relationship between FRI and STARK? [[zk-STARK]]
 The STARK protocol converts the proving of the validity of an algebraic execution trace into the proving of the low-degreeness of a polynomial. 
