@@ -278,7 +278,7 @@
   :block/updated-at 1668588361079}
  {:block/name "nov 17th, 2022",
   :block/created-at 1668647386349,
-  :block/updated-at 1668691320405}
+  :block/updated-at 1668692211878}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
@@ -578,7 +578,7 @@
   :block/updated-at 1668179730307}
  {:block/name "zero knowledge virtual machines",
   :block/created-at 1667262988660,
-  :block/updated-at 1668520125364}
+  :block/updated-at 1668692226720}
  {:block/name "zio",
   :block/created-at 1667262990071,
   :block/updated-at 1667262990071}
@@ -586,5 +586,8 @@
   :block/created-at 1667262989310,
   :block/updated-at 1667262989310}
  {:block/name "zk-stark",
-  :block/created-at 1667262989309, 
-  :block/updated-at 1667262989309}]
+  :block/created-at 1667262989309,
+  :block/updated-at 1667262989309}
+ {:block/name "zkevm",
+  :block/created-at 1668692211878, 
+  :block/updated-at 1668692211878}]
