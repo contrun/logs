@@ -3,3 +3,4 @@
 * {{embed [[zk-SNARK]]}}
 * {{embed [[zk-STARK]]}}
 * {{embed [[miden]]}}
+* {{embed [[zkEVM]]}}
