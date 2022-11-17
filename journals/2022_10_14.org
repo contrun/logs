@@ -1,1 +1,1 @@
-* How does windows administrator prompt work? What can't a malicious program fake it? [[further investigation needed]]
+* How does windows administrator prompt work? What can't a malicious program fake it? [[Windows]] [[further investigation needed]]
