@@ -173,6 +173,9 @@
  {:block/name "in-progress",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
+ {:block/name "interaction combinators",
+  :block/created-at 1668749766794,
+  :block/updated-at 1668749766794}
  {:block/name
   "introduction to automata theory, languages, and computation",
   :block/created-at 1667262989039,
@@ -281,7 +284,7 @@
   :block/updated-at 1668692211878}
  {:block/name "nov 18th, 2022",
   :block/created-at 1668731890622,
-  :block/updated-at 1668731890622}
+  :block/updated-at 1668750067650}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
