@@ -1,10 +1,4 @@
-[{:block/name "+end_quote",
-  :block/created-at 1668691258577,
-  :block/updated-at 1668691258577}
- {:block/name "+end_src",
-  :block/created-at 1668584758113,
-  :block/updated-at 1668584758113}
- {:block/name "6.035",
+[{:block/name "6.035",
   :block/created-at 1667262988939,
   :block/updated-at 1667262988939}
  {:block/name "a",
@@ -122,8 +116,8 @@
   :block/created-at 1667262989475,
   :block/updated-at 1667262989475}
  {:block/name "engineering a compiler",
-  :block/created-at 1668522698593,
-  :block/updated-at 1668522698593}
+  :block/created-at 1668868595897,
+  :block/updated-at 1668868595897}
  {:block/name "expression problem",
   :block/created-at 1667262989747,
   :block/updated-at 1667262989747}
@@ -285,6 +279,9 @@
  {:block/name "nov 18th, 2022",
   :block/created-at 1668731890622,
   :block/updated-at 1668750067650}
+ {:block/name "nov 19th, 2022",
+  :block/created-at 1668868595001,
+  :block/updated-at 1668868625555}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
@@ -571,8 +568,8 @@
   :block/created-at 1667262989639,
   :block/updated-at 1667262989639}
  {:block/name "windows",
-  :block/created-at 1668674807262,
-  :block/updated-at 1668674807262}
+  :block/created-at 1668868595722,
+  :block/updated-at 1668868595722}
  {:block/name "wireguard",
   :block/created-at 1667262989600,
   :block/updated-at 1667262989600}
