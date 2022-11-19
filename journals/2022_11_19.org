@@ -1,0 +1,1 @@
+* How does Android know an application has become unresponsive?
