@@ -116,8 +116,8 @@
   :block/created-at 1667262989475,
   :block/updated-at 1667262989475}
  {:block/name "engineering a compiler",
-  :block/created-at 1668868595897,
-  :block/updated-at 1668868595897}
+  :block/created-at 1668953925554,
+  :block/updated-at 1668953925554}
  {:block/name "expression problem",
   :block/created-at 1667262989747,
   :block/updated-at 1667262989747}
@@ -168,8 +168,8 @@
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
  {:block/name "interaction combinators",
-  :block/created-at 1668749766794,
-  :block/updated-at 1668749766794}
+  :block/created-at 1668953925262,
+  :block/updated-at 1668953925262}
  {:block/name
   "introduction to automata theory, languages, and computation",
   :block/created-at 1667262989039,
@@ -226,14 +226,14 @@
   :block/created-at 1654767649489,
   :block/updated-at 1654767649489}
  {:block/name "merkle mountain range",
-  :block/created-at 1668522698396,
-  :block/updated-at 1668522698396}
+  :block/created-at 1668953925083,
+  :block/updated-at 1668953925083}
  {:block/name "merkle tree",
   :block/created-at 1667262989853,
   :block/updated-at 1667262989853}
  {:block/name "miden",
-  :block/created-at 1668522697997,
-  :block/updated-at 1668522697997}
+  :block/created-at 1668953924788,
+  :block/updated-at 1668953924788}
  {:block/name "mlir",
   :block/created-at 1667262989886,
   :block/updated-at 1667262989886}
@@ -244,8 +244,8 @@
   :block/created-at 1667262989749,
   :block/updated-at 1667262989749}
  {:block/name "neptune cash",
-  :block/created-at 1668522698395,
-  :block/updated-at 1668522698395}
+  :block/created-at 1668953925082,
+  :block/updated-at 1668953925082}
  {:block/name "networking",
   :block/created-at 1667262989851,
   :block/updated-at 1667262989851}
@@ -262,29 +262,32 @@
   :block/created-at 1668182459925,
   :block/updated-at 1668495711806}
  {:block/name "nov 13th, 2022",
-  :block/created-at 1668522698335,
-  :block/updated-at 1668522698335}
+  :block/created-at 1668953924983,
+  :block/updated-at 1668953924983}
  {:block/name "nov 14th, 2022",
-  :block/created-at 1668522698360,
-  :block/updated-at 1668522698360}
+  :block/created-at 1668953925018,
+  :block/updated-at 1668953925018}
  {:block/name "nov 15th, 2022",
-  :block/created-at 1668522698401,
-  :block/updated-at 1668524095845}
+  :block/created-at 1668953925089,
+  :block/updated-at 1668953925089}
  {:block/name "nov 16th, 2022",
-  :block/created-at 1668559838531,
-  :block/updated-at 1668588361079}
+  :block/created-at 1668953925193,
+  :block/updated-at 1668953925193}
  {:block/name "nov 17th, 2022",
-  :block/created-at 1668647386349,
-  :block/updated-at 1668692211878}
+  :block/created-at 1668953925249,
+  :block/updated-at 1668953925249}
  {:block/name "nov 18th, 2022",
-  :block/created-at 1668731890622,
-  :block/updated-at 1668750067650}
+  :block/created-at 1668953925265,
+  :block/updated-at 1668953925265}
  {:block/name "nov 19th, 2022",
-  :block/created-at 1668868595001,
-  :block/updated-at 1668868625555}
+  :block/created-at 1668953925316,
+  :block/updated-at 1668953925316}
  {:block/name "nov 1st, 2022",
   :block/created-at 1667262988470,
   :block/updated-at 1667313620679}
+ {:block/name "nov 20th, 2022",
+  :block/created-at 1668953924606,
+  :block/updated-at 1668954306805}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667744467700,
   :block/updated-at 1667744467700}
@@ -412,8 +415,8 @@
   :block/created-at 1667262989943,
   :block/updated-at 1667262989943}
  {:block/name "permutation arguments",
-  :block/created-at 1668522698400,
-  :block/updated-at 1668522698400}
+  :block/created-at 1668953925088,
+  :block/updated-at 1668953925088}
  {:block/name "personal information management",
   :block/created-at 1667262989637,
   :block/updated-at 1667262989637}
@@ -535,8 +538,8 @@
   :block/created-at 1667262990215,
   :block/updated-at 1667262990215}
  {:block/name "triton-vm",
-  :block/created-at 1668522697991,
-  :block/updated-at 1668522697991}
+  :block/created-at 1668953924785,
+  :block/updated-at 1668953924785}
  {:block/name "troubleshooting",
   :block/created-at 1667262989415,
   :block/updated-at 1667262989415}
@@ -568,8 +571,8 @@
   :block/created-at 1667262989639,
   :block/updated-at 1667262989639}
  {:block/name "windows",
-  :block/created-at 1668868595722,
-  :block/updated-at 1668868595722}
+  :block/created-at 1668953925363,
+  :block/updated-at 1668953925363}
  {:block/name "wireguard",
   :block/created-at 1667262989600,
   :block/updated-at 1667262989600}
@@ -592,5 +595,5 @@
   :block/created-at 1667262989309,
   :block/updated-at 1667262989309}
  {:block/name "zkevm",
-  :block/created-at 1668692211878, 
-  :block/updated-at 1668692211878}]
+  :block/created-at 1668953924789, 
+  :block/updated-at 1668953924789}]
