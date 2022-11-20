@@ -3,3 +3,4 @@
 :id: 637a3744-3d0a-4cf0-a106-2557809ba5b4
 :END:
 [[https://vitalik.ca/general/2022/03/14/trustedsetup.html][How do trusted setups work?]]
+[[https://github.com/weijiekoh/perpetualpowersoftau][weijiekoh/perpetualpowersoftau: Phase 1 of a multi-party trusted setup ceremony for zk-SNARKs]]
