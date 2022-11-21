@@ -1,1 +1,2 @@
-* Can the range proof of a large range (say \( [0, 2^128) \)) too large to be constructed from lookup arguments? What to do then if we really want to construct range proof from lookup arguments?
+* Can the range proof of a large range (say \( [0, 2^128) \)) too large to be constructed from lookup arguments? What to do then if we really want to construct range proofs from lookup arguments?
+We can decompose a number \( n \in [0, 2^128) \) to \( n_1* \)
