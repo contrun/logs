@@ -1,5 +1,5 @@
 * Can the range proof of a large range (say \( [0, 2^{128}) \)) too large to be constructed from lookup arguments? What to do then if we really want to construct range proofs from lookup arguments? [[permutation arguments]] 
 Under the hood, lookup arguments use permutation arguments. The maximum cardinality of the set should not be larger than the maximum degree in the polynomial commitment scheme. We can decompose a number \( n \in [0, 2^{128}) \) to \( n_1*2^{64 }+ n_2 \), and prove both \( n_1 \) and \( n_2 \) are in the range \( [0, 2^{64}) \).
 * Subset arguments via set of adjacent pairs vs masks.
-[[https://triton-vm.org/spec/copy-constraints.html][Copy Constraints - Triton VM]]
-* How to ensure the
++ masking: [[https://triton-vm.org/spec/copy-constraints.html#subset][Copy Constraints - Triton VM]]
+* How to ensure the tau generated from
