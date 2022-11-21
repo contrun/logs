@@ -4,3 +4,4 @@
 :END:
 [[https://vitalik.ca/general/2022/03/14/trustedsetup.html][How do trusted setups work?]]
 [[https://github.com/weijiekoh/perpetualpowersoftau][weijiekoh/perpetualpowersoftau: Phase 1 of a multi-party trusted setup ceremony for zk-SNARKs]]
+[[https://github.com/ZcashFoundation/powersoftau-attestations/tree/master/0088][powersoftau-attestations/0088 at master · ZcashFoundation/powersoftau-attestations · GitHub]]
