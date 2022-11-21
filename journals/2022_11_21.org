@@ -3,4 +3,4 @@ Under the hood, lookup arguments use permutation arguments. The maximum cardinal
 * Subset arguments via set of adjacent pairs vs masks. [[permutation arguments]] 
 + masking: [[https://triton-vm.org/spec/copy-constraints.html#subset][Copy Constraints - Triton VM]]
 * Why is identity-based encryption not more popular? What is the current status of identity-based encryption in the industry? [[identity-based encryption]]
-Is it because the private key generator knows everything and is thus a single point of failure? Can the private key generator be distributed ?
+Is it because the private key generator knows everything and is thus a single point of failure? Can the private key generator be distributed? Can we use hardware to harden private key generator?
