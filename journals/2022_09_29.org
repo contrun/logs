@@ -25,7 +25,7 @@ The first scheme is called monomial basis while the second scheme is called Lagr
 t-Diffie-Hellman inversion (t-DHI) assumption is the claim that given \((g, g^a, g^{a^2}, ... , g^{a^t})\) it is hard to guess what \(g^{a^(-1)}\), or equivalently \(g^{a^(t+1)}\) is, while decisional Diffie–Hellman (DDH) assumption is the claim that given \((g, g^a, g^b)\), it is hard to guess what \(g^{(ab)}\) is. [[Diffie-Hellman assumptions]]
 * A naive polynomial commitment scheme. Let \(\phi(x) \in \Z_p[x]\) be a polynomial of degree less than \(t\), the polynomial commitment \(cm\) of \(\phi\) is \(\phi(a), g^{\phi(a)}\) where \(a \in \Z_p\) is randomly chosen by the chanllenger. By t-SDHI assumption, this commitment scheme is computationally binding. [[commitment schemes]]
 * Why the above scheme is not enough to commit a polynomial? Why do we need pairing? Is it for batch commitment? In what sense do we batch commit? On one hand, given a few randomly chosen \(a_i \in \Z_p\), we can generate a few commitments \((\phi(a_i), g^{\phi(a_i)})\), on another hand given a few polynomials  \(\phi_i\), we can generate a few commitments \((\phi_i(a), g^{\phi_i(a)})\). It seems the later one is more useful, as we can create batch commit a few polynomials. But we can also naturally embed a few polynomials into a single polynomial with higher degree and commit it. Why don't we do that? Is batch commit in the first sense useful? [[KZG commitments]] [[further investigation needed]]
-* Naive way to commit a polynomial and verify the commitment with witness. [[KZG commitments]]
+* Naïve way to commit a polynomial and verify the commitment with witness. [[KZG commitments]]
 :PROPERTIES:
 :id: 63606a0d-fc25-47a3-87c0-68e1e5aab020
 :END:
