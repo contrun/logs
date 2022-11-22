@@ -1,0 +1,1 @@
+* Early return in an embedded DSL.
