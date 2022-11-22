@@ -9,3 +9,8 @@ Using Lua as an example, the first early return method can be  accomplished with
 #+BEGIN_QUOTE
 Function return types cannot be annotated because in Lua, functions are un-named values and there is no reliable way for a static analysis of a function call’s return value.
 #+END_QUOTE
+[[https://the-ravi-programming-language.readthedocs.io/en/latest/lua-introduction.html#key-features-of-lua][Introduction to Lua — Ravi Programming Language 0.1 documentation]]
+#+BEGIN_QUOTE
+Functions in Lua are values stored in variables; in particular functions do not have names
+#+END_QUOTE
+*
