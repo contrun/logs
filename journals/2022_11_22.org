@@ -1,1 +1,2 @@
 * Early return in an embedded DSL.
+[[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]]
