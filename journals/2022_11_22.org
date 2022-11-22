@@ -1,3 +1,6 @@
 * Early return from the execution of an embedded DSL.
-There are two ways to early return from the 
+There are two ways to early return from the execution of an embedded DSL.
+ driven by external signals.
++ triggered by the running of a DSL function like ~early_return(code)~.
+The 
 [[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]]
