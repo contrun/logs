@@ -1,7 +1,7 @@
-* Early return from the execution of an embedded language.
+* Early return from the execution of an embedded language. [[Lua]] [[embedded languages]]
 There are two ways to early return from the execution of an embedded language.
 + driven by external signals.
 + triggered by the running of a custom language function like ~early_return(code)~.
 The first may require the embedded language runtime having some kind of hook mechanism (e.g. a way to allow hook to run every n instructions are executed in the embedded language). The second requires non-local jump mechanism like exception throwing and catching (jumping directly from the embedded language to the host language).
-Using Lua as an example, the first early return method can be  accomplished with techniques in [[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]],
+Using Lua as an example, the first early return method can be  accomplished with techniques in [[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]], and the second can be archived with a custom function like ~error~.
 *
