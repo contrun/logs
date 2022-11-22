@@ -3,5 +3,5 @@ There are two ways to early return from the execution of an embedded language.
 + driven by external signals.
 + triggered by the running of a custom language function like ~early_return(code)~.
 The first may require the embedded language runtime having some kind of hook mechanism. The second requires non-local jump mechanism like exception throwing and catching.
-[[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]]
+Using Lua as an example, the first early return [[https://stackoverflow.com/questions/6913999/forcing-a-lua-script-to-exit][Forcing a Lua script to exit - Stack Overflow]]
 *
