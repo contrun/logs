@@ -1,2 +1,3 @@
 * [[https://sillycross.github.io/2022/11/22/2022-11-22/][Building the fastest Lua interpreter.. automatically! |]] [[lua]] [[metacompiler]]
-* [[https://github.com/fereidani/kanal][fereidani/kanal: The fast sync and async channel that Rust deserves]]
+* [[https://github.com/fereidani/kanal][fereidani/kanal: The fast sync and async channel that Rust deserves]] [[performance and optimization]]
+*
