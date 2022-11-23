@@ -1,4 +1,4 @@
 * [[https://sillycross.github.io/2022/11/22/2022-11-22/][Building the fastest Lua interpreter.. automatically! |]] [[lua]] [[metacompiler]]
 * [[https://github.com/fereidani/kanal][fereidani/kanal: The fast sync and async channel that Rust deserves]] [[performance and optimization]]
 * [[https://raw.githubusercontent.com/cnrv/RVSC2022-Slides/main/high-perf.-gemm-on-riscv-rvsc2022.pdf][RISC-V平台下的高性能GEMM]] [[riscv]] [[performance and optimization]]
-*
+* [[https://msrc-blog.microsoft.com/2021/01/11/building-faster-amd64-memset-routines/][Building Faster AMD64 Memset Routines – Microsoft Security Response Center]] [[performance and optimization]]
