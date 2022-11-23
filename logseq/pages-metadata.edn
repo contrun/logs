@@ -115,6 +115,9 @@
  {:block/name "elm",
   :block/created-at 1667262989475,
   :block/updated-at 1667262989475}
+ {:block/name "embedded languages",
+  :block/created-at 1669174352902,
+  :block/updated-at 1669174352902}
  {:block/name "engineering a compiler",
   :block/created-at 1668953925554,
   :block/updated-at 1668953925554}
@@ -164,6 +167,9 @@
  {:block/name "hole punching",
   :block/created-at 1667262989639,
   :block/updated-at 1667262989639}
+ {:block/name "identity-based encryption",
+  :block/created-at 1669174352893,
+  :block/updated-at 1669174352893}
  {:block/name "in-progress",
   :block/created-at 1644806551827,
   :block/updated-at 1644806551827}
@@ -231,6 +237,9 @@
  {:block/name "merkle tree",
   :block/created-at 1667262989853,
   :block/updated-at 1667262989853}
+ {:block/name "metacompiler",
+  :block/created-at 1669174588687,
+  :block/updated-at 1669174588687}
  {:block/name "miden",
   :block/created-at 1668953924788,
   :block/updated-at 1668953924788}
@@ -288,6 +297,15 @@
  {:block/name "nov 20th, 2022",
   :block/created-at 1668953924606,
   :block/updated-at 1668954306805}
+ {:block/name "nov 21st, 2022",
+  :block/created-at 1669174352894,
+  :block/updated-at 1669174352894}
+ {:block/name "nov 22nd, 2022",
+  :block/created-at 1669174352903,
+  :block/updated-at 1669174352903}
+ {:block/name "nov 23rd, 2022",
+  :block/created-at 1669174352428,
+  :block/updated-at 1669174744861}
  {:block/name "nov 2nd, 2022",
   :block/created-at 1667744467700,
   :block/updated-at 1667744467700}
@@ -414,6 +432,9 @@
  {:block/name "pedersen commitments",
   :block/created-at 1667262989943,
   :block/updated-at 1667262989943}
+ {:block/name "performance and optimization",
+  :block/created-at 1669174744860,
+  :block/updated-at 1669174744860}
  {:block/name "permutation arguments",
   :block/created-at 1668953925088,
   :block/updated-at 1668953925088}
@@ -571,8 +592,8 @@
   :block/created-at 1667262989639,
   :block/updated-at 1667262989639}
  {:block/name "windows",
-  :block/created-at 1668953925363,
-  :block/updated-at 1668953925363}
+  :block/created-at 1669174353068,
+  :block/updated-at 1669174353068}
  {:block/name "wireguard",
   :block/created-at 1667262989600,
   :block/updated-at 1667262989600}
