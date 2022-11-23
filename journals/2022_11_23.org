@@ -2,4 +2,4 @@
 * [[https://github.com/fereidani/kanal][fereidani/kanal: The fast sync and async channel that Rust deserves]] [[performance and optimization]]
 * [[https://raw.githubusercontent.com/cnrv/RVSC2022-Slides/main/high-perf.-gemm-on-riscv-rvsc2022.pdf][RISC-V平台下的高性能GEMM]] [[riscv]] [[performance and optimization]]
 * [[https://msrc-blog.microsoft.com/2021/01/11/building-faster-amd64-memset-routines/][Building Faster AMD64 Memset Routines – Microsoft Security Response Center]] [[performance and optimization]]
-* The insertion of new leaves to a Merkle tree invalidates previous inclusion/non-inclusion proofs of other leaves. Other leaves are required to
+* The insertion of new leaves to a Merkle tree invalidates previous inclusion/non-inclusion proofs of other leaves. Other leaves are forced to update their proofs. Is there any simple way to updates proofs of other nodes? [[Merkle tree]]
