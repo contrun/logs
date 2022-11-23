@@ -13,4 +13,3 @@ Function return types cannot be annotated because in Lua, functions are un-named
 #+BEGIN_QUOTE
 Functions in Lua are values stored in variables; in particular functions do not have names
 #+END_QUOTE
-*
