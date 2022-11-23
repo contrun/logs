@@ -1,0 +1,1 @@
+* [[https://sillycross.github.io/2022/11/22/2022-11-22/][Building the fastest Lua interpreter.. automatically! |]]
