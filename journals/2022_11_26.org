@@ -14,4 +14,6 @@ The normal page table is created per process. When the operating system is doing
 The RMP is a single data structure shared across the system that contains one entry for every 4k page of DRAM that may be used by VMs. The goal of the RMP is simple: it tracks the owner for each page of memory. Pages of memory can be owned by the hypervisor, owned by a specific VM, or owned by the AMD-SP. Access to memory is controlled so only the owner of that page can write it. The RMP is used in conjunction with standard x86 page tables to enforce memory restrictions and page access rights.
 #+END_QUOTE
 Since there exists only one AMD SEV reverse map table, can we store all the the owner information in the reverse map table (64 bit of information may not be enough)? It seems that we need some indirection.
-*
+** Memory protection techniques.
++ Segmentation.
++ Paging.
