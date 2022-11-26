@@ -1,1 +1,3 @@
-* [[https://source.android.com/docs/security/features/verifiedboot/verified-boot#rollback-protection][Verifying Boot  |  Android Open Source Project]]
+* How does rollback protection in Android and Chrome OS works?
+[[https://source.android.com/docs/security/features/verifiedboot/verified-boot#rollback-protection][Verifying Boot  |  Android Open Source Project]]
+[[https://android.googlesource.com/platform/external/avb/+/master/README.md#Rollback-Protection][Android Verified Boot 2.0]]
