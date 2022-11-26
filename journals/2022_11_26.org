@@ -51,4 +51,5 @@ scheme to a chosen-ciphertext secure asymmetric encryption scheme in the
 [[https://link.springer.com/article/10.1007/s00145-011-9114-1][Secure Integration of Asymmetric and Symmetric Encryption Schemes | SpringerLink]]
 * Identity-Based Encryption from the Weil Pairing. [[identity-based encryption]] [[Boneh–Franklin scheme]]
 [[https://link.springer.com/chapter/10.1007/3-540-44647-8_13][Identity-Based Encryption from the Weil Pairing | SpringerLink]]
-Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve pairing. Let \( H_1: \{1, 2\}^* \to G_1^* \) be a hash function from strings to the elliptic group \( G_1^*\), \( H_2: G_2 \to \{1, 2\}^n \) be a hash function for some \( n \in \Z \), \( H_3 : \{1, 2 \}\)
+Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve pairing. Let \( H_1: \{1, 2\}^* \to G_1^* \) be a hash function from strings to the elliptic group \( G_1^*\), \( H_2: G_2 \to \{1, 2\}^n \) be a hash function for some \( n \in \Z \), \( H_3: \{1, 2\}^n \times \{1, 2\}^n \to \Z_q^* \) be a hash function, \( H_4: \{1, 2\}^n \to \{1, 2\}^n \) be a hash function.
+**
