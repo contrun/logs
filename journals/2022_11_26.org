@@ -1,2 +1,1 @@
-*
-*
+* [[https://source.android.com/docs/security/features/verifiedboot/verified-boot#rollback-protection][Verifying Boot  |  Android Open Source Project]]
