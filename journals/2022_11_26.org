@@ -59,11 +59,11 @@ Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve 
 Given a identification \( \text{id} \in \{0, 1\}^* \), computes \( Q_{\text{id}} = H_1(\text{id}) \in G_1^* \) as the public key of \(text{id}\), set the private key of \( s_{\text{id}} = sQ_{\text{id}} \).
 ** Encrypt (without chosen cipher-text security)
 To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), let \( r \in 
- \Z_q^*\) be a random scalar, output \( C = (rP, H(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
+ \Z_q^*\) be a random scalar, output \( C = (rP, H_2(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
 ** Decrypt (without chosen cipher-text security)
-Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), we can see \( H(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
+Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), we can see \( H_2(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
 ** Encrypt (with chosen cipher-text security)
 To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), choosing a random \( \sigma \in \{0, 1\}^n \), let \( r = H_3(\sigma, M) \in 
- \Z_q^*\), output \( C = (rP, \sigma \oplus H(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
+ \Z_q^*\), output \( C = (rP, \sigma \oplus H_2(e(r Q_{\text{id}}, P_{\text{pub}})), M \oplus H_4(\sigma)) \).
 ** Decrypt (with chosen cipher-text security)
 *
