@@ -58,4 +58,5 @@ Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve 
 ** Extract
 Given a identification \( \text{id} \in \{1,2\}^* \), computes \( Q_{\text{id}} = H_1(\text{id}) \in G_1^* \) as the public key of \(text{id}\), set the private key of \( s_{\text{id}} = sQ_{\text{id}} \).
 ** Encrypt
+To encrypt a message \( M \in \{0,1\}^n \)
 ** Decrypt
