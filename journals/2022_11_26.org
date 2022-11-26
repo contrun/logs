@@ -3,3 +3,7 @@
 [[https://android.googlesource.com/platform/external/avb/+/master/README.md#Rollback-Protection][Android Verified Boot 2.0]]
 * Any kind of side channel attacks for amd sev? [[AMD Secure Encrypted Virtualization]]
 [[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]]
+#+BEGIN_QUOTE
+Additionally, SEV-SNP optionally supports the ability to restrict how interrupts and exceptions can be injected into a VM. It can also support Branch Target Buffer (BTB) protection against certain types of side channel attacks. Both protections are discussed later in this white paper.
+#+END_QUOTE
+*
