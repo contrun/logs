@@ -1,1 +1,1 @@
-* How is the private key of a certificate authority protected in real world? [[development practices]]
+* How is the private key of a certificate authority protected in real world? [[security practices]]
