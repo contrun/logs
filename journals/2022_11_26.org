@@ -26,7 +26,7 @@ Since there exists only one AMD SEV reverse map table, can we store all the the 
 #+BEGIN_QUOTE
 New CPU instructions exist to enable manipulation of RMP entries, allowing the hypervisor to assign pages to specific guests, take pages back, etc.
 #+END_QUOTE
-* How does nested paging work? [[memory paging]]
+* How does nested memory paging work? [[memory paging]]
 Say ~son_os~ is a guest OS managed by the OS ~os~, ~grandson_os~ is a guest OS managed by ~son_os~. We can translate ~grandson_os~'s virtual memory address ~vma~ to the fake physical memory address ~fpma~ by the ~son_os~. The ~fpma~ is the translated to the real physical memory address ~rpma~. This chain of translation is obviously not efficient. Can nested paging reduce the complexity from \(o(n)\) to \(o(1)\)? How does it do that? Does it need help from the ~son_os~ (many many son OSes) in the middle. Will it leak hypervisor states so that the nested guests can tell it is in a nested virtualization environment?
 * How to check memory access rights with reverse map table? [[AMD Secure Encrypted Virtualization]]
 [[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]] 
@@ -40,4 +40,5 @@ When running in an SEV-SNP VM, the RMP check is slightly more complex. As with n
 #+END_QUOTE
 * Will AES encryption/decryption of data incur significant latency penalty in memory reading/writing? [[computer architecture]]
 On one hand, reading/writing memory is significantly slower than the running of AES encryption/decryption instruction. On the other hand, changing data bytes by bytes (encryption/decryption) will obviously have a high overhead on the reading/writing of data. So the corollary is that AES encryption/decryption must work a bulk of data (maybe it takes memory addresses as arguments, does not need to encrypt/decrypt data upfront, i.e. programs can use encrypted data without decrypt them first).
+[[https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf][Intel ® Advanced Encryption Standard (AES) New Instructions Set]]
 *
