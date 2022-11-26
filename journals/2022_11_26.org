@@ -66,5 +66,5 @@ Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{
 To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), choosing a random \( \sigma \in \{0, 1\}^n \), let \( r = H_3(\sigma, M) \in 
  \Z_q^*\), output \( C = (rP, \sigma \oplus H_2(e(r Q_{\text{id}}, P_{\text{pub}})), M \oplus H_4(\sigma)) \).
 ** Decrypt (with chosen cipher-text security)
-Let \( (U, V, W) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), let \( \psi = H_2(e(s_{\text{id}}, U)) \oplus V \), then \(\)
+Let \( (U, V, W) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), let \( \psi = H_2(e(s_{\text{id}}, U)) \oplus V \), then \( W \oplus H_4(\psi) \) is the clear text.
 *
