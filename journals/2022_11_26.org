@@ -22,3 +22,5 @@ Since there exists only one AMD SEV reverse map table, can we store all the the 
 [[https://en.wikipedia.org/wiki/Memory_paging][Memory paging - Wikipedia]]
 [[https://wiki.osdev.org/Paging][Paging - OSDev Wiki]]
 * How does reverse map table distinguish guests, nested guests? It must need helps from the operating system and hypervisor. Is there a new instruction? What kind of information is passed from the operating system and hypervisor to the hardware? [[AMD Secure Encrypted Virtualization]]
+* How does nested paging work? [[memory paging]]
+Say
