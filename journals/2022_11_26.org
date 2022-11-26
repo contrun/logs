@@ -63,5 +63,6 @@ To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{
 ** Decrypt (without chosen cipher-text security)
 Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), we can see \( H(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
 ** Encrypt (with chosen cipher-text security)
+**
 ** Decrypt (with chosen cipher-text security)
 *
