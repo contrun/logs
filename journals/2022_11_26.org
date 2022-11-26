@@ -49,5 +49,4 @@ Since the same physical memory should never be mapped twice, when the guest clai
 scheme to a chosen-ciphertext secure asymmetric encryption scheme in the
  random oracle model. [[Fujisaki-Okamoto transformation]]
 [[https://link.springer.com/article/10.1007/s00145-011-9114-1][Secure Integration of Asymmetric and Symmetric Encryption Schemes | SpringerLink]]
-* Why does ~BasicIdent~ scheme in Boneh–Franklin scheme not have chosen cipher text security? Give a concrete attacke.
-*
+* Why does ~BasicIdent~ scheme in Boneh–Franklin scheme not have chosen cipher text security? Give a concrete attacke. [[Boneh–Franklin scheme]]
