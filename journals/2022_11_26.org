@@ -42,4 +42,4 @@ When running in an SEV-SNP VM, the RMP check is slightly more complex. As with n
 On one hand, reading/writing memory is significantly slower than the running of AES encryption/decryption instruction. On the other hand, changing data bytes by bytes (encryption/decryption) will obviously have a high overhead on the reading/writing of data. So the corollary is that AES encryption/decryption must work a bulk of data (maybe it takes memory addresses as arguments, does not need to encrypt/decrypt data upfront, i.e. programs can use encrypted data without decrypt them first).
 [[https://www.intel.com/content/dam/doc/white-paper/advanced-encryption-standard-new-instructions-set-paper.pdf][Intel ® Advanced Encryption Standard (AES) New Instructions Set]]
 * Can the guests give DOS attacks to the host in AMD SEV by refusing to release its private memory? [[AMD Secure Encrypted Virtualization]]
-Since the
+Since the same physical memory should never be mapped twice, when the guest claims some physical memory, the hypervisor may not use s
