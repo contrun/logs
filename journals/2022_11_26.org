@@ -44,4 +44,5 @@ On one hand, reading/writing memory is significantly slower than the running of 
 * Can the guests give DOS attacks to the host in AMD SEV by refusing to release its private memory? [[AMD Secure Encrypted Virtualization]]
 Since the same physical memory should never be mapped twice, when the guest claims some physical memory, the hypervisor may not reuse this physical memory anymore. What if the guest continues to hold this memory, and refuse to give up? There must be some clean up mechanism for the guest shutdown. But only the hypervisor knows when and if the guest shuts down. If the hypervisor lies about it, will the guarantees of memory integrity of AMD SEV invalidated (for example, the physical memory is indeed mapped twice)?
 * Encoding less than relationship with arithmetic circuits. [[arithmetic circuits]]
-\( a <  b \)
+\( a <  b \Leftrightarrow a + r = b, r > 0\)
+*
