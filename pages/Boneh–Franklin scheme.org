@@ -1,0 +1,18 @@
+* Construnction
+[[https://link.springer.com/chapter/10.1007/3-540-44647-8_13][Identity-Based Encryption from the Weil Pairing | SpringerLink]]
+Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve pairing. Let \( H_1: \{0, 1\}^* \to G_1^* \) be a hash function from strings to the elliptic group \( G_1^*\), \( H_2: G_2 \to \{0, 1\}^n \) be a hash function for some \( n \in \Z \), \( H_3: \{0, 1\}^n \times \{0, 1\}^n \to \Z_q^* \) be a hash function, \( H_4: \{0, 1\}^n \to \{0, 1\}^n \) be a hash function.
+** Setup
++ Generate the elliptic curves (including the scalar field \Z_q^*, base point \( P \) of \( G_1 \)), pairing and the hash functions.
++ Choose a random scalar \( s \in \Z_q^*\) as the master key, let \( P_{\text{pub}} = sP \) be the public key.
+** Extract
+Given a identification \( \text{id} \in \{0, 1\}^* \), computes \( Q_{\text{id}} = H_1(\text{id}) \in G_1^* \) as the public key of \(text{id}\), set the private key of \( s_{\text{id}} = sQ_{\text{id}} \).
+** Encrypt (without chosen cipher-text security)
+To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), let \( r \in 
+ \Z_q^*\) be a random scalar, output \( C = (rP, H_2(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
+** Decrypt (without chosen cipher-text security)
+Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), we can see \( H_2(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
+** Encrypt (with chosen cipher-text security)
+To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), choosing a random \( \sigma \in \{0, 1\}^n \), let \( r = H_3(\sigma, M) \in 
+ \Z_q^*\), output \( C = (rP, \sigma \oplus H_2(e(r Q_{\text{id}}, P_{\text{pub}})), M \oplus H_4(\sigma)) \).
+** Decrypt (with chosen cipher-text security)
+Let \( (U, V, W) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) = e(s_{\text{id}}, rP) \), let \( \psi = H_2(e(s_{\text{id}}, U)) \oplus V \), let \( M = W \oplus H_4(\psi) \), if \( U = H_3(\psi, M)P \), then \( M \) is the clear text.
