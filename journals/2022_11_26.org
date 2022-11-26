@@ -10,11 +10,7 @@ Additionally, SEV-SNP optionally supports the ability to restrict how interrupts
 * How is the owner of a physical page in AMD SEV reverse map table tracked? [[operating system]]
 The normal page table is created per process. When the operating system is doing context switch, it also changes [[https://wiki.osdev.org/CPU_Registers_x86#CR3][the register cr3 in x86]] (level 0 of the page table). Thus the owner of a page table can be easily tracked by the operating system. On the other hand, the reverse map table maps the physical memory address to the owner information of that page.
 #+BEGIN_QUOTE
-e RMP is a single data structure shared across the
-system that contains one entry for every 4k page of DRAM that may be used by VMs. The goal of the
-RMP is simple: it tracks the owner for each page of memory. Pages of memory can be owned by the
-hypervisor, owned by a specific VM, or owned by the AMD-SP. Access to memory is controlled so only
-the owner of that page can write it. The RMP is used in conjunction with standard x86 page tables to enforce page 
+The RMP is a single data structure shared across the system that contains one entry for every 4k page of DRAM that may be used by VMs. The goal of the RMP is simple: it tracks the owner for each page of memory. Pages of memory can be owned by the hypervisor, owned by a specific VM, or owned by the AMD-SP. Access to memory is controlled so only the owner of that page can write it. The RMP is used in conjunction with standard x86 page tables to enforce memory restrictions and page access rights.
 #+END_QUOTE
  
-It seems there exists only one AMD SEV reverse map table. Where can the owner information stored in the reverse map table?
+Since there exists only one AMD SEV reverse map table. Where can the owner information stored in the reverse map table?
