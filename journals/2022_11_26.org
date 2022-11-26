@@ -47,4 +47,5 @@ Since the same physical memory should never be mapped twice, when the guest clai
 \( a <  b \Leftrightarrow a + r = b, r > 0\)
 * Generic transformation from an arbitrary one-way asymmetric encryption 
 scheme to a chosen-ciphertext secure asymmetric encryption scheme in the
- random oracle model
+ random oracle model. [[Fujisaki-Okamoto transformation]]
+[[https://link.springer.com/article/10.1007/s00145-011-9114-1][Secure Integration of Asymmetric and Symmetric Encryption Schemes | SpringerLink]]
