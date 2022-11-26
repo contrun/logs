@@ -61,7 +61,7 @@ Given a identification \( \text{id} \in \{0, 1\}^* \), computes \( Q_{\text{id}}
 To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), let \( r \in 
  \Z_q^*\) be a random scalar, output \( C = (rP, H(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
 ** Decrypt (without chosen cipher-text security)
-Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, s P) = e()\) then \( H(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
+Let \( (U, V) \) be the cipher text, noting that \( e(r Q_{\text{id}}, P_{\text{pub}}) = e(r Q_{\text{id}}, s P) = e(s Q_{\text{id}}, r P) \), we can see \( H(e(s_{\text{id}}, U)) \oplus V \) is the clear text.
 ** Encrypt (with chosen cipher-text security)
 ** Decrypt (with chosen cipher-text security)
 *
