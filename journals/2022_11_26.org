@@ -56,3 +56,4 @@ Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve 
 + Generate the elliptic curves (including the scalar field \Z_q^*, base point \( P \) of \( G_1 \)), pairing and the hash functions.
 + Choose a random scalar \( s \in \Z_q^*\) as the master key, let \( P_{\text{pub}} = sP \) be the public key.
 ** Extract
+Given a identification \( \text{id} \in \{1,2\}^* \), computes \( H_1()\)
