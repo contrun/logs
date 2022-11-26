@@ -57,8 +57,9 @@ Let \( e: G_1 \times G_1 \to G_2 \) be a bilinear non-degenerate Elliptic curve 
 + Choose a random scalar \( s \in \Z_q^*\) as the master key, let \( P_{\text{pub}} = sP \) be the public key.
 ** Extract
 Given a identification \( \text{id} \in \{0, 1\}^* \), computes \( Q_{\text{id}} = H_1(\text{id}) \in G_1^* \) as the public key of \(text{id}\), set the private key of \( s_{\text{id}} = sQ_{\text{id}} \).
-** Encrypt (no chosen cipher-text security)
+** Encrypt (without chosen cipher-text security)
 To encrypt a message \( M \in \{0,1\}^n \) to under the identification \( \text{id} \), let \( r \in 
  \Z_q^*\) be a random scalar, output \( C = (rP, H(e(r Q_{\text{id}}, P_{\text{pub}})) \oplus M) \).
-** Decrypt
+** Decrypt (without chosen cipher-text security)
+Let \( (U, V) \) be the cipher text, then \( U \oplus \)
 *
