@@ -8,4 +8,4 @@ Additionally, SEV-SNP optionally supports the ability to restrict how interrupts
 #+END_QUOTE
 * Any checklist of cryptographic libraries authors to avoid side-channel attacks? [[side-channel attacks]] [[development practices]]
 * How is the owner of a physical page in AMD SEV reverse map table tracked? [[operating system]]
-The normal page table is created per process. When the operating system is doing context switch, it also changes the register cr3 in x86 (level 0 of the page table)
+The normal page table is created per process. When the operating system is doing context switch, it also changes [[https://wiki.osdev.org/CPU_Registers_x86#CR3][the register cr3 in x86]] (level 0 of the page table). Thus the owner of a page table can be easily tracked by the operating system. On the other hand, it seems that the
