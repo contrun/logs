@@ -28,8 +28,11 @@ New CPU instructions exist to enable manipulation of RMP entries, allowing the h
 #+END_QUOTE
 * How does nested paging work? [[memory paging]]
 Say ~son_os~ is a guest OS managed by the OS ~os~, ~grandson_os~ is a guest OS managed by ~son_os~. We can translate ~grandson_os~'s virtual memory address ~vma~ to the fake physical memory address ~fpma~ by the ~son_os~. The ~fpma~ is the translated to the real physical memory address ~rpma~. This chain of translation is obviously not efficient. Can nested paging reduce the complexity from \(o(n)\) to \(o(1)\)? How does it do that? Does it need help from the ~son_os~ (many many son OSes) in the middle. Will it leak hypervisor states so that the nested guests can tell it is in a nested virtualization environment?
-* How to check memory access rights with reverse map table? [[AMD Secure Encrypted Virtualization]] 
+* How to check memory access rights with reverse map table? [[AMD Secure Encrypted Virtualization]]
+[[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]] 
 #+BEGIN_QUOTE
 The RMP is indexed by system physical address and is checked at the end of CPU and IOMMU table-walks. For example, in native (non-VM) mode, virtual addresses are translated into physical addresses using the standard x86 page tables. After that translation, the final physical address is used to index the RMP. The RMP entry is read out and checked. If the RMP entry indicates that the page is a hypervisor-owned page, then the checks pass and a new TLB entry is created. If the RMP entry indicates that the page is not a hypervisor-owned page though, the table-walk faults (#PF) and the access is denied.
 #+END_QUOTE
-* How to check memory access rights with reverse map table? [[AMD Secure Encrypted Virtualization]]
+* How to check memory access rights with reverse map table in nested virtualization? [[AMD Secure Encrypted Virtualization]]
+[[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]]
+#+BEGIN_QUOTE
