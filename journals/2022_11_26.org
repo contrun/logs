@@ -21,4 +21,4 @@ Since there exists only one AMD SEV reverse map table, can we store all the the 
 ** Paging
 [[https://en.wikipedia.org/wiki/Memory_paging][Memory paging - Wikipedia]]
 [[https://wiki.osdev.org/Paging][Paging - OSDev Wiki]]
-* How does
+* How does reverse map table distinguish guests, nested guests? It must need help from the operating system
