@@ -1,3 +1,5 @@
-* How does rollback protection in Android and Chrome OS works?
+* How does rollback protection in Android and Chrome OS works? [[security]]
 [[https://source.android.com/docs/security/features/verifiedboot/verified-boot#rollback-protection][Verifying Boot  |  Android Open Source Project]]
 [[https://android.googlesource.com/platform/external/avb/+/master/README.md#Rollback-Protection][Android Verified Boot 2.0]]
+* Any kind of side channel attacks for amd sev? [[AMD Secure Encrypted Virtualization]]
+[[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]]
