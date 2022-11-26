@@ -7,5 +7,5 @@
 Additionally, SEV-SNP optionally supports the ability to restrict how interrupts and exceptions can be injected into a VM. It can also support Branch Target Buffer (BTB) protection against certain types of side channel attacks. Both protections are discussed later in this white paper.
 #+END_QUOTE
 * Any checklist of cryptographic libraries authors to avoid side-channel attacks? [[side-channel attacks]] [[development practices]]
-* How is the owner of a page tracked? [[operating system]]
-*
+* How is the owner of a physical page in AMD SEV reverse map table tracked? [[operating system]]
+The normal page table may
