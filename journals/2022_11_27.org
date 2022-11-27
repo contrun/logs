@@ -1,4 +1,5 @@
 * How is the private key of a certificate authority protected in real world? [[security practices]]
 * How do asynchronous exceptions in Haskell work? [[haskell]] [[asynchronous programming]]
 [[https://dl.acm.org/doi/10.1145/378795.378858][Asynchronous exceptions in Haskell | Proceedings of the ACM SIGPLAN 2001 conference on Programming language design and implementation]]
-* Can the operating system stop one program from running without waiting for the preemptive context switch?
+* Can the operating system stop one program from running without waiting for the preemptive context switch, i.e. must the operating system wait for the time slice of this program to run out? [[further investigation needed]] [[system programming]]
+* How can the threads
