@@ -5,4 +5,3 @@
 * How can one thread (may be green threads) of a program stop other threads from running? Must we resort to operating system interfaces or use some like ~while (shouldContinue) { doWork(); }~? Does the thread to be killed have a change to clean up?
 The operating system actually does not provide syscalls to kill threads. [[https://unix.stackexchange.com/questions/1066/how-can-i-kill-a-particular-thread-of-a-process][shell - How can I kill a particular thread of a process? - Unix & Linux Stack Exchange]]
 It is safer to use ~while (shouldContinue) { doWork(); }~[[https://docs.oracle.com/javase/1.5.0/docs/guide/misc/threadPrimitiveDeprecation.html][Java Thread Primitive Deprecation]]
-*
