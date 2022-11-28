@@ -1,0 +1,2 @@
+* How does tokio's ~TaskController~ work? It seems to kill a thread.
+[[https://docs.rs/tokio-context/latest/tokio_context/#taskcontroller][tokio_context - Rust]]
