@@ -1,3 +1,3 @@
-* [[https://merkle.fun/][General smart contracts in bitcoin via covenants | matt]] [[bitcoin]]
+* [[https://merkle.fun/][General smart contracts in bitcoin via covenants | matt]] [[bitcoin]] [[Merkle tree]] 
 The covenants here need a instruction set. Are there any concrete examples?
 *
