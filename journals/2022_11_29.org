@@ -1,0 +1,2 @@
+* [[https://merkle.fun/][General smart contracts in bitcoin via covenants | matt]]
+What kind of convent
