@@ -3,4 +3,6 @@
 #+BEGIN_QUOTE
 It is believed that it is impossible to introduce covenants in Bitcoin as Script does not contain operations that allow reading of the transaction data. The only way to interact with the transaction data is by use of CHECKSIG that verifies a digital signature for a message built from the transaction data.
 #+END_QUOTE
-* Why does bitcoin
+* Why does bitcoin use double hash of the signed data generated from the transaction data instead of single hash? [[bitcoin]]
+[[https://fc17.ifca.ai/bitcoin/papers/bitcoin17-final28.pdf][Enhancing Bitcoin Transactions with Covenants]]
+#+BEGIN_QUOTE
