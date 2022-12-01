@@ -6,3 +6,6 @@ It is believed that it is impossible to introduce covenants in Bitcoin as Script
 * Why does bitcoin use double hash of the signed data generated from the transaction data instead of single hash? [[bitcoin]]
 [[https://fc17.ifca.ai/bitcoin/papers/bitcoin17-final28.pdf][Enhancing Bitcoin Transactions with Covenants]]
 #+BEGIN_QUOTE
+A signed hash is a double SHA-256 hash of signed data generated from the transaction data. 
+#+END_QUOTE
+*
