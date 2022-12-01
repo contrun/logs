@@ -1,1 +1,4 @@
-* Why does
+* Why does bitcoin not allow scripts to interact with transaction data? [[bitcoin]]
+#+BEGIN_QUOTE
+It is believed that it is impossible to introduce covenants in Bitcoin as Script does not contain operations that allow reading of the transaction data. The only way to interact with the transaction data is by use of CHECKSIG that verifies a digital signature for a message built from the transaction data.
+#+END_QUOT
