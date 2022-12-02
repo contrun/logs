@@ -1,2 +1,2 @@
-* How is protected virtual machine [[https://source.android.com/docs/core/virtualization][Android Virtualization Framework (AVF)]] isolated? Why can AVF guarantee that the guest's security and integrity despite of host being compromised.
+* How is protected virtual machine [[https://source.android.com/docs/core/virtualization][Android Virtualization Framework (AVF)]] isolated? Why can AVF guarantee that the guest's security and integrity despite of host being compromised. It must rely on technolodgy [[Android Virtualization Framework]]
 *
