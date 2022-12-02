@@ -1,1 +1,1 @@
-* How does
+* How is protected virtual machine [[https://source.android.com/docs/core/virtualization][Android Virtualization Framework]] isolated? Why can we trust the
