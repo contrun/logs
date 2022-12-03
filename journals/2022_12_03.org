@@ -1,0 +1,1 @@
+* How are pVM disk encrypted? [[Android Virtualization Framework]]
