@@ -12,7 +12,7 @@ Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send a
 + Transfer
 There are two kinds of transfers related to the exchange. Transfers within the exchange and transfers from the exchange user to non exchange user. Transfer from non exchange user to exchange user may be deemed as deposit.
   - Transfers within the exchange
-  Say \( A \) with balance \( a \) wants to send \( x \) bitcoins to \( B \) with initial balance \( b \), a sign message \( (B, x) \) and send it to \( EX \) who sends the proof of inclusion of \( (A, a+x) \)
+  Say \( A \) with balance \( a \) wants to send \( x \) bitcoins to \( B \) with initial balance \( b \), a sign message \( (B, x) \) and send it to \( EX \) who sends the signed proof of inclusion of \( (A, a+x) \) and \( (B, b-x) \) back to \( B \), then \( B \) sends proof of inclusion of \( (A, a+x) \) to 
    
 + Withdraw
 * [[https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance][What Is Proof of Reserves and How it Works on Binance | Binance Academy]]
