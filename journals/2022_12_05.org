@@ -1,2 +1,2 @@
 * A cheaper way to transfer assets for exchanges and its users.
-Let \( ex \) be a exchange with users \( A \) and \( B \), \(\)
+Let \( ex \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( ex \). Let \( T \) be a Merkle t
