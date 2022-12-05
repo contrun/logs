@@ -1,1 +1,1 @@
-* How does coinpool ensure the number of the withdrew balance is legal? []]
+* How does coinpool ensure the number of the withdrew balance is legal? [[CoinPool]]
