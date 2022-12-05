@@ -1,5 +1,5 @@
 * A cheaper way to transfer assets for exchanges and its users.
-Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information.
+Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information, \( M \) be the metadata that \
  
 One of the biggest problems of using Merkle tree to store state is that say \( A \) wants to add \( x \) bitcoins to his/her account by transitioning the Merkle tree from \( T \) to \( T' \), after the state transition, the proof of \( B \) having \( y \) bitcoins in \( T \) is no longer a valid proof of \( B \) having \( y \) bitcoins in \( T' \). If we can find a data structure that allows proof to remain valid, the following protocol can be greatly simplified.
 
@@ -15,5 +15,5 @@ There are two kinds of transfers related to the exchange. Transfers within the e
   Say \( A \) with balance \( a \) wants to send \( x \) bitcoins to \( B \) with initial balance \( b \), a sign message \( (B, x) \) and send it to \( EX \) who sends the signed the new tree \( T' \) proof of inclusion of \( (A, a+x) \) and \( (B, b-x) \) back to \( B \), then \( B \) sends the new tree and proof of inclusion of \( (A, a+x) \) to \( A \). Again, other participates' proof of balance is no longer valid in \( T' \). We defer this problem later. Another problem \( T' \) is not settled in the chain, and \( EX \) may choose to include other transactions or not to include this transaction. We defer this problem later.
   - Transfer from exchange user to non exchange user
 + Withdraw
-Say \( A \) wants to withdraw all their money from \( EX \), \( A \) directly call th
+Say \( A \) wants to withdraw all their money from \( EX \), \( A \) directly calls the contract. The contract adds a tombstone of \( A \)
 * [[https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance][What Is Proof of Reserves and How it Works on Binance | Binance Academy]]
