@@ -1,7 +1,7 @@
 * A cheaper way to transfer assets for exchanges and its users.
 Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information. The following logic is implemented in a public-auditable contract. Users should check the integrity of the contract first before using the contract.
 + Setup
-
+\( EX \) deploys the \( CT \) to the network, whose code is public-auditable. Other parties in the protocol verifies the integrity of the contract.
 + Deposit
 Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) communicates with \( EX \) on a off-chain channel.
 + Transfer
