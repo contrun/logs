@@ -4,6 +4,6 @@ One of the biggest problems of using Merkle tree to store state is that say \( A
 + Setup
 \( EX \) deploys the \( CT \) to the network, whose code is public-auditable. Other parties in the protocol verifies the integrity of the contract.
 + Deposit
-Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send the balance to the contract \(\)
+Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send the balance to the contract \( CT \)
 + Transfer
 + Withdraw
