@@ -8,7 +8,7 @@ Another difficulty lies in how to aggregate tombstones. Say at first \( A \) wit
 + Setup
 \( EX \) deploys the \( CT \) to the network, whose code is public-auditable. Other parties in the protocol verifies the integrity of the contract.
 + Deposit
-Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send an intention of deposit to \( EX \). \( EX \) gives back a new tree \( T
+Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send an intention of deposit to \( EX \). \( EX \) gives back a signed new tree \( T' \) and proof of inclusion of \( (A, x) \) in the tree.
 + Transfer
 + Withdraw
 * [[https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance][What Is Proof of Reserves and How it Works on Binance | Binance Academy]]
