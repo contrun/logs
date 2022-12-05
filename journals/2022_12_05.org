@@ -3,7 +3,7 @@ Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \)
  
 One of the biggest problems of using Merkle tree to store state is that say \( A \) wants to add \( x \) bitcoins to his/her account by transitioning the Merkle tree from \( T \) to \( T' \), after the state transition, the proof of \( B \) having \( y \) bitcoins in \( T \) is no longer a valid proof of \( B \) having \( y \) bitcoins in \( T' \). If we can find a data structure that allows proof to remain valid, the following protocol can be greatly simplified.
 
-
+Another difficulty lies in how to aggregate tombstones. Say at first \( A \) withdra
 + Setup
 \( EX \) deploys the \( CT \) to the network, whose code is public-auditable. Other parties in the protocol verifies the integrity of the contract.
 + Deposit
