@@ -1,6 +1,6 @@
 * A cheaper way to transfer assets for exchanges and its users.
-Let \( ex \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( ex \), \( T \) be the Merkle tree which stores the 
+Let \( ex \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( ex \), \( T \) be the Merkle tree in which \( ex \) stores the users and balances information.
 + Deposit
-Say \( A \) deposit a balance of \( x \) to the \( ex \).
+Say \( A \) want to deposit a balance of \( x \) to the \( ex \). \( A \)
 + Transfer
 + Withdraw
