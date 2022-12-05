@@ -10,6 +10,6 @@ Another difficulty lies in how to aggregate tombstones. Say at first \( A \) wit
 + Deposit
 Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send an intention of deposit to \( EX \). \( EX \) gives back a signed new tree \( T' \) and proof of inclusion of \( (A, x) \) in the tree. \( A \) sends the balance and new tree \( T' \) to \( CT \). Upon having verified the validity of the new tree with the signature, \( CT \) transitions its state to \( T' \). One problem here is that other participates' proof of balance is no longer valid in \( T' \). We defer this problem later.
 + Transfer
-There are two kinds of transfers related to the exchange. Transfers within the exchange and transfers from the exchange user to non exchange user.
+There are two kinds of transfers related to the exchange. Transfers within the exchange and transfers from the exchange user to non exchange user. Deposit may be deemed a
 + Withdraw
 * [[https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance][What Is Proof of Reserves and How it Works on Binance | Binance Academy]]
