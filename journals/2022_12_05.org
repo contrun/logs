@@ -1,4 +1,4 @@
-* TODO A cheaper way to transfer assets for exchanges and its users. [[blockchain]] 
+* A cheaper way to transfer assets for exchanges and its users. [[blockchain]] 
 Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information, \( M \) be the metadata that \( CT \) stores who has withdrew all their money from \( T \).
  
 One of the biggest problems of using Merkle tree to store state is that say \( A \) wants to add \( x \) bitcoins to his/her account by transitioning the Merkle tree from \( T \) to \( T' \), after the state transition, the proof of \( B \) having \( y \) bitcoins in \( T \) is no longer a valid proof of \( B \) having \( y \) bitcoins in \( T' \). If we can find a data structure that allows proof to remain valid, the following protocol can be greatly simplified.
