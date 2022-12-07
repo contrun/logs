@@ -1,20 +1,24 @@
-* A cheaper way to transfer assets for exchanges and its users.
-Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) and \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information, \( M \) be the metadata that \( CT \) stores who has withdrew all their money from \( T \).
+* TODO A cheaper way to transfer assets for exchanges and its users. [[blockchain]] 
+Let \( EX \) be a exchange (say bitcoin exchange) with users \( A \) \( B \), \( C \) be a bitcoin user who has not deposited bitcoins in \( EX \), \( CT \) be a contract implement the relevant logic described below, \( T \) be the Merkle tree in which \( CT \) stores the users and balances information, \( M \) be the metadata that \( CT \) stores who has withdrew all their money from \( T \).
  
 One of the biggest problems of using Merkle tree to store state is that say \( A \) wants to add \( x \) bitcoins to his/her account by transitioning the Merkle tree from \( T \) to \( T' \), after the state transition, the proof of \( B \) having \( y \) bitcoins in \( T \) is no longer a valid proof of \( B \) having \( y \) bitcoins in \( T' \). If we can find a data structure that allows proof to remain valid, the following protocol can be greatly simplified.
 
 Another difficulty lies in how to aggregate tombstones. Say at first \( A \) withdraw from \( EX \), we set up a tombstone for \( A \) in the metadata \( M \) companion to \( T \). This way \( T \) can remain unchanged. Then \( B \) also withdraw from \( EX \). We need also add the tombstone of \( B \) to \( M \). Can we aggregate them?
 
+Another problem is that how do we ensure that the off-chain transactions will be processed on chain. It is expected that the exchange \( EX \) settle the off-chain transactions in a timely, ordered manner. But how do we guarantee this? One user \( A \) sends balance \( x \) to user \( B \), the exchange promised that it will submit this transaction to the blockchain, but it deliberately holds this transaction indefinitely. What can we do?
+
 + Setup
-\( EX \) deploys the \( CT \) to the network, whose code is public-auditable and whose owner is set to \( EX \). Other parties in the protocol verifies the integrity of the contract.
+\( EX \) deploys the \( CT \) to the network, whose code is public-auditable and whose owner is set to \( EX \). Other parties in the protocol can verify the integrity of the contract.
 + Deposit
-Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send an intention of deposit to \( EX \). \( EX \) gives back a signed new tree \( T' \) and proof of inclusion of \( (A, x) \) in the tree. \( A \) sends the balance and new tree \( T' \) to \( CT \). Upon having verified the validity of the new tree with the signature, \( CT \) transitions its state to \( T' \). One problem here is that other participates' proof of balance is no longer valid in \( T' \). We defer this problem later.
+Say \( A \) want to deposit a balance of \( x \) to the \( EX \). \( A \) send an intention of deposit to \( EX \). \( EX \) gives back a signed new tree \( T' \) and proof of inclusion of \( (A, x) \) in the tree. \( A \) sends the balance and new tree \( T' \) to \( CT \). Upon verified the validity of the new tree with the signature, \( CT \) transitions its state to \( T' \). One problem here is that other participates' proof of balance is no longer valid in \( T' \). We defer this problem later.
 + Transfer
 There are two kinds of transfers related to the exchange. Transfers within the exchange and transfers from the exchange user to non exchange user. Transfer from non exchange user to exchange user may be deemed as deposit.
   - Transfers within the exchange
   Say \( A \) with balance \( a \) wants to send \( x \) bitcoins to \( B \) with initial balance \( b \), a sign message \( (B, x) \) and send it to \( EX \) who sends the signed the new tree \( T' \) proof of inclusion of \( (A, a+x) \) and \( (B, b-x) \) back to \( B \), then \( B \) sends the new tree and proof of inclusion of \( (A, a+x) \) to \( A \). Again, other participates' proof of balance is no longer valid in \( T' \). We defer this problem later. Another problem \( T' \) is not settled in the chain, and \( EX \) may choose to include other transactions or not to include this transaction. We defer this problem later.
   - Transfer from exchange user to non exchange user
+  TODO:
 + Withdraw
 Say \( A \) wants to withdraw all their money from \( EX \), \( A \) directly calls the contract. The contract adds a tombstone of \( A \) to \( M \).
-+ Settle
++ Aggregate and Settle
+We need to aggregate all off-chain transactions to a compact verifiable on-chain transaction. How do we do that.
 * [[https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance][What Is Proof of Reserves and How it Works on Binance | Binance Academy]]

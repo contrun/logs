@@ -1,0 +1,13 @@
+* Clarify why do we need this domain separation while calculating the root hash of the Merkel tree. [[Merkle tree]] [[further investigation needed]] 
+[[https://www.rfc-editor.org/rfc/rfc9162.html#name-definition-of-the-merkle-tr][RFC 9162: Certificate Transparency Version 2.0]]
+#+BEGIN_QUOTE
+Note that the hash calculations for leaves and nodes differ; this domain separation is required to give second preimage resistance.
+#+END_QUOTE
+* Consistency proof to prove that two Merkle tree hashes are calculated from two lists such that one is a sub list of another. [[Merkle tree]] 
+:PROPERTIES:
+:id: 638eb503-491d-4e9d-a78f-24bdb79fea65
+:END:
+[[https://www.rfc-editor.org/rfc/rfc9162.html#name-verifying-consistency-betwe][RFC 9162: Certificate Transparency Version 2.0]]
+* An exchange wants to record all its users' balance information (denoted ~i~) on chain compactly. It gives each user a proof that it has stored the correct number of balance on chain. Whenever one user ~A~ changes their balance, ~i~ changes correspondingly to ~i'~. The initial proof given to user ~B~ is no longer valid for ~i'~. Design a scheme that make the proof of user ~B~ still valid as long as user ~B~'s balance information is not changed. [[user stories]] [[blockchain]]
+* What is the upper bound of the length of the consistency proof ((638eb503-491d-4e9d-a78f-24bdb79fea65)) ? [[Merkle tree]]
+* Can we construct some file whose hash is the content of itself? [[collision attacks]] [[quine programs]]
