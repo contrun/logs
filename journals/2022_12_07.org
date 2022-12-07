@@ -6,7 +6,7 @@ In order to use accumulator to prove the membership/non-membership of a serial n
 * How do we convert generic identifiers to prime numbers in order to use accumulators in [[https://link.springer.com/chapter/10.1007/3-540-45708-9_5][Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials | SpringerLink]]? [[cryptographic accumulators]]
 Hash to prime numbers? Give a concrete example.
 * Can we construct a zero knowledge elementary database scheme from a zero knowledge set scheme? [[zero knowledge proofs]]
-We can convert any proposition of the form \( (k, v \in T )\) (which represents the key-value pair \( (k, v) \) is in the database) to proposition of the form \( s \in S \) (which represents the element \( s \) is in the set).
+We can convert any proposition of the form \( (k, v) \in T \) (which represents the key-value pair \( (k, v) \) is in the database) to proposition of the form \( s \in S \) (which represents the element \( s \) is in the set).
 * How does using class group instead of RSA group eliminate the need for a trusted setup? [[cryptography]] [[class groups]]
 [[https://cambrian.github.io/accumulator/docs/][accumulator - Rust]]
 #+BEGIN_QUOTE
