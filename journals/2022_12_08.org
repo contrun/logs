@@ -1,6 +1,3 @@
 * How to unrole a Turing Machine computation to a boolean circuit?
-a TM
-can be “unrolled” into a Boolean circuit that is not much larger than
-the number of steps in the computation. (This result is similar to
-the famous Cook-Levin theorem; see, for instance, the Arora-Barak
-text [2, Thm 6.6, Thm 6.18].)
+#+BEGIN_QUOTE
+A TM can be “unrolled” into a Boolean circuit that is not much larger than the number of steps in the computation. (This result is similar to the famous Cook-Levin theorem; see, for instance, the Arora-Barak text [2, Thm 6.6, Thm 6.18].)
