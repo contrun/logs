@@ -1,3 +1,6 @@
-* How to unrole a Turing Machine computation to a boolean circuit?
+* How to unrole a Turing Machine computation to a boolean circuit? [[theoretical computer science]] 
+[[https://dl.acm.org/doi/10.1145/2641562][Verifying computations without reexecuting them | Communications of the ACM]]
 #+BEGIN_QUOTE
 A TM can be “unrolled” into a Boolean circuit that is not much larger than the number of steps in the computation. (This result is similar to the famous Cook-Levin theorem; see, for instance, the Arora-Barak text [2, Thm 6.6, Thm 6.18].)
+#+END_QUOTE
+*
