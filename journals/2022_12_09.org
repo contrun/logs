@@ -1,0 +1,1 @@
+* [[https://bitcointalk.org/index.php?topic=312668.0][Feather-forks: enforcing a blacklist with sub-50% hash power]]
