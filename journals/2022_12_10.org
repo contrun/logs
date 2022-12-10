@@ -1,0 +1,2 @@
+* Intuition of why the prover can not cheat in Pederson commitment.
+Let \( c = ag + rh \),
