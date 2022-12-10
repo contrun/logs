@@ -4,3 +4,4 @@ Let \( c = ag + rh \) be a Pederson commitment of the number \( a \). The bindin
 A sufficient condition would be well-orderedness. That is to say, we can prove that some variable is decreasing in every recursion (e.g. factorial(0) = 1, factorial(n) = n*factorial(n-1)), here everytime factorial calls itself, the parameter decreases one).
 * In languages with first class types support, how do we do dynamic things like check type equality? [[type systems]]
 We need something to represent runtime type information, because normally the type information is only relevant in the type-checking stage of the compilation process.
+* How does total languages like agda represent unreachable conditions?
