@@ -1,2 +1,2 @@
 * Intuition of why the prover can not cheat in Pederson commitment.
-Let \( c = ag + rh \),
+Let \( c = ag + rh \) be a Pederson commitment of the number \( a \). The binding property of the Pederson commitment
