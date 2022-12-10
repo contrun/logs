@@ -2,4 +2,4 @@
 Let \( c = ag + rh \) be a Pederson commitment of the number \( a \). The binding property of the Pederson commitment depends on the prover can't easily find another \( a' \) and \( r' \) such that \( c = a'g + r'h \). If the prover can do such thing, then \( (a'-a)g + (r' - r)h = 0 \), that is to say, we can solve the generalized discrete logarithm problem!
 * What kind of recursive functions can a compiler prove them to be convergent? Give some sufficient conditions. The neccesary condition seems to be impossible, as it may implies decidibility. How do proof assistents determine if a recursive function would eventually stop? [[type systems]]
 A sufficient condition would be well-orderedness. That is to say, we can prove that some variable is decreasing in every recursion (e.g. factorial(0) = 1, factorial(n) = n*factorial(n-1)), here everytime factorial calls itself, the parameter decreases one).
-* In languages with sdf
+* In languages with first class types support, how do we do dynamic things like check type equality? [[type classes]
