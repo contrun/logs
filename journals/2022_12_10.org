@@ -1,2 +1,2 @@
 * Intuition of why the prover can not cheat in Pederson commitment.
-Let \( c = ag + rh \) be a Pederson commitment of the number \( a \). The binding property of the Pederson commitment depends on the prover can't easily find another \( a' \) and \( r' \) such that \( c = a'g + r'h \)
+Let \( c = ag + rh \) be a Pederson commitment of the number \( a \). The binding property of the Pederson commitment depends on the prover can't easily find another \( a' \) and \( r' \) such that \( c = a'g + r'h \). If the prover can do such thing, then \( (a'-a)g + (r' - r)h = 0 \), that is to say we can solve the generalized discrete loga
