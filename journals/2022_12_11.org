@@ -1,3 +1,2 @@
 * Dependent types while crossing the boundaries (dependent pairs). [[dependent types]]
 Say we want  to deserialize a vector of lenght n. The length of this vector can not be determined statically. We need to dynamically process such structure. This is how dependent pairs could be useful.
-* D
