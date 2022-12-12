@@ -1,4 +1,4 @@
 * From subset arguments to accumulators. [[cryptographic accumulators]] [[KZG commitments]] [[plonk]]
 * [[https://www.michaelstraka.com/posts/classgroups/][Class Groups for Cryptographic Accumulators · Michael Straka]] [[class groups]]
 Isomorphism between ideal class group (for negative determinant) and positive definite form class group.
-* How to implement a verifiable delay function with a group of unknown order.
+* How to implement a verifiable delay function with a group of unknown order? [[unknown-order groups
