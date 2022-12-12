@@ -1,4 +1,5 @@
 * From subset arguments to accumulators. [[cryptographic accumulators]] [[KZG commitments]] [[plonk]]
-* [[https://www.michaelstraka.com/posts/classgroups/][Class Groups for Cryptographic Accumulators · Michael Straka]] [[class groups]] [[quadratic forms]]
-Isomorphism between ideal class group (for negative determinant) and positive definite form class group.
+* Isomorphism between ideal class group (for negative determinant) and positive definite form class group. [[class groups]] [[quadratic forms]]
++ [[https://www.michaelstraka.com/posts/classgroups/][Class Groups for Cryptographic Accumulators · Michael Straka]]
++ [[https://github.com/Chia-Network/vdf-competition/blob/main/classgroups.pdf][vdf-competition/classgroups.pdf at main · Chia-Network/vdf-competition · GitHub]]
 * How to implement a verifiable delay function with a group of unknown order? [[unknown-order groups]] [[verifiable delay functions]]
