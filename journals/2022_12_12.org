@@ -4,3 +4,4 @@
 + [[https://github.com/Chia-Network/vdf-competition/blob/main/classgroups.pdf][vdf-competition/classgroups.pdf at main · Chia-Network/vdf-competition · GitHub]]
 * How to implement a verifiable delay function with a group of unknown order? [[unknown-order groups]] [[verifiable delay functions]]
 [[https://github.com/Chia-Network/vdf-competition/blob/main/vdf.cpp][vdf-competition/vdf.cpp at main · Chia-Network/vdf-competition]]
+*
