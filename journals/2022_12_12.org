@@ -4,5 +4,7 @@
 + [[https://github.com/Chia-Network/vdf-competition/blob/main/classgroups.pdf][vdf-competition/classgroups.pdf at main · Chia-Network/vdf-competition · GitHub]]
 * How to implement a verifiable delay function with a group of unknown order? [[unknown-order groups]] [[verifiable delay functions]]
 [[https://github.com/Chia-Network/vdf-competition/blob/main/vdf.cpp][vdf-competition/vdf.cpp at main · Chia-Network/vdf-competition]]
-* What do vector commitments with constant proof size inhereently require 
+* What do vector commitments with constant proof size inhereently require O(n) time to update the proofs? [[vector commitments]] 
+[[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]]
+
 Some VCs have O(1)-sized proofs [12, 20, 21, 28, 35, 37, 59], which inherently require O(n) time to update all proofs after a change.
