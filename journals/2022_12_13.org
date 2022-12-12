@@ -1,2 +1,2 @@
 * The benefit of using multivariate polynomial over univariate polynomial in vector commitments. [[vector commitments]]
-When the element in sd[[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]]
+When one element changes in the vector to be committed, we can only change part of the multivariate polynomial as in [[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]], while a univariate
