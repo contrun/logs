@@ -1,1 +1,2 @@
-* The benefit of using multivariant polynomial over
+* The benefit of using multivariant polynomial over univariant polynomial in vector commitments. [[vector commitments]]
+If
