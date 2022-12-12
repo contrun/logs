@@ -1,4 +1,4 @@
 * From subset arguments to accumulators. [[cryptographic accumulators]] [[KZG commitments]] [[plonk]]
 * [[https://www.michaelstraka.com/posts/classgroups/][Class Groups for Cryptographic Accumulators · Michael Straka]] [[class groups]]
-Isomorphism between ieal class group and positive definite form class group
+Isomorphism between ideal class group (for negative determinant) and positive definite form class group.
 *
