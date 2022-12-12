@@ -1,2 +1,3 @@
 * From subset arguments to accumulators. [[cryptographic accumulators]] [[KZG commitments]] [[plonk]]
-*
+* [[https://www.michaelstraka.com/posts/classgroups/][Class Groups for Cryptographic Accumulators · Michael Straka]] [[class groups]]
+Isomorphism between ieal class group and form class group with
