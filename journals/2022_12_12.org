@@ -9,4 +9,4 @@
 #+BEGIN_QUOTE
 Some VCs have O(1)-sized proofs [12, 20, 21, 28, 35, 37, 59], which inherently require O(n) time to update all proofs after a change.
 #+END_QUOTE
-* Watermarking in miner pool.
+* Watermarking in miner pool.wwwww
