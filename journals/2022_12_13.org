@@ -1,2 +1,2 @@
 * The benefit of using multivariant polynomial over univariant polynomial in vector commitments. [[vector commitments]]
-If
+[[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]]
