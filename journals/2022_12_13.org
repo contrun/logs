@@ -1,3 +1,3 @@
 * The benefit of using multivariate polynomial over univariate polynomial in vector commitments. [[vector commitments]]
-When one element changes in the vector to be committed, we can only change part of the multivariate polynomial as in [[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]], while a univariate might be complete different. Hyyperproofs
+When one element changes in the vector to be committed, we can only change part of the multivariate polynomial as in [[https://www.usenix.org/conference/usenixsecurity22/presentation/srinivasan][Hyperproofs: Aggregating and Maintaining Proofs in Vector Commitments | USENIX]], while a univariate might be complete different. Hyyperproofs uses something called mutltilinear tree to do that.
 *
