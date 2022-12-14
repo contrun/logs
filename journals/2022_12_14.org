@@ -1,5 +1,6 @@
-* Writing proofs to prove the properties of a language by the languge itself? How could that be possible? [[agda]]
-
+* Writing proofs to prove the properties of a language by the languge itself? How could that be possible? [[agda]] [[Curry-Howard correspondence]]
+[[https://github.com/jespercockx/agda-lecture-notes/blob/master/agda.pdf][Programming and Proving in Agda]]
 #+BEGIN_QUOTE
 In Agda, we can do better: thanks to the Curry-Howard correspondence, we can write proofs about Agda in Agda itself, and have the typechecker check their correctness automatically.
 #+END_QUOTE
+*
