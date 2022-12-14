@@ -1,6 +1,6 @@
 * What are the type systems whose type checkers are undecidable? [[theoretical computer science]] [[type systems]]
 [[https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf][A tutorial implementation of a dependently typed lambda calculus]]
 #+BEGIN_QUOTE
-
+Most functional programmers are hesitant to program with dependent types. It is said that type checking becomes undecidable; the type checker will always loop; and that dependent types are just really, really, hard.
 #+END_QUOTE
 *
