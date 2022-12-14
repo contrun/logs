@@ -1,1 +1,6 @@
-* What are the type systems t
+* What are the type systems whose type checkers are undecidable? [[theoretical computer science]] [[type systems]]
+[[https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf][A tutorial implementation of a dependently typed lambda calculus]]
+#+BEGIN_QUOTE
+
+#+END_QUOTE
+*
