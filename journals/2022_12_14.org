@@ -1,0 +1,1 @@
+* Writing proofs to prove the properties of a language by the languge itself? How could that be possible?
