@@ -3,4 +3,5 @@
 #+BEGIN_QUOTE
 Most functional programmers are hesitant to program with dependent types. It is said that type checking becomes undecidable; the type checker will always loop; and that dependent types are just really, really, hard.
 #+END_QUOTE
-* [[https://www.rfc-editor.org/rfc/rfc9106.html][RFC 9106: Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications]]
+* [[https://www.rfc-editor.org/rfc/rfc9106.html][RFC 9106: Argon2 Memory-Hard Function for Password Hashing and Proof-of-Work Applications]] [[memory-hard functions]]
+* [[https://lmax-exchange.github.io/disruptor/][LMAX Disruptor]]
