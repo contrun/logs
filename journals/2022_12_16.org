@@ -1,1 +1,2 @@
 * [[https://vitalik.ca/general/2022/11/19/proof_of_solvency.html][Having a safe CEX: proof of solvency and beyond]]
+* [[https://github.com/barryWhiteHat/roll_up][barryWhiteHat/roll_up: scale ethereum with snarks]]
