@@ -1,1 +1,1 @@
-* Given a zero knowledge proof system that is able to produce proof of knowledge of a language L that is a NP-complete relationship, can we compile any execution trace
+* Given a zero knowledge proof system that is able to produce proof of knowledge of a language L that is a NP-complete relationship, can we compile the execution trace of any program (one that will always terminate)
