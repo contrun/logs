@@ -1,3 +1,3 @@
 * Given a zero knowledge proof system that is able to produce proof of knowledge of a language L that is a NP-complete relationship, can we compile the execution trace of any program (one that will always terminate) into a zero knowledge proof? [[zero knowledge proofs]]
 Most zero knowledge proof systems can show that something is in a NP-complete language (like R1CS satisficability), while a zkvm can prove that the execution of some program is legal. How do we convert zero knowledge proof systems to zero knowledge virtual machine? Is there a general way?
-* How to generate proof from ark r1cs satisfiability? []
+* How to generate proof from ark r1cs satisfiability? [[]]
