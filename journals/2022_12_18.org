@@ -1,1 +1,2 @@
 * Wouldn't the transactions data in [barryWhiteHat/roll_up_token: yellow paper for roll_up token](https://github.com/barryWhiteHat/roll_up_token) too big to store on-chain? [[layer 2 scaling]]
+* Why do we nominate withdraw first
