@@ -1,5 +1,5 @@
 * [[https://vitalik.ca/general/2022/11/19/proof_of_solvency.html][Having a safe CEX: proof of solvency and beyond]] [[safe CEX]]
-* [[https://github.com/barryWhiteHat/roll_up][barryWhiteHat/roll_up: scale ethereum with snarks]] [[layer 2 scalability]]
-* [[https://medium.com/dragonfly-research/the-life-and-death-of-plasma-b72c6a59c5ad][The Life and Death of Plasma. A layer-2 murder mystery | by Ashwin Ramachandran | Dragonfly Research | Medium]] [[layer 2 scalability]]
-* [[https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two][2️⃣ Validium And The Layer 2 Two-By-Two — Issue No. 99 — Build Blockchain Tech]] [[layer 2 scalability]]
+* [[https://github.com/barryWhiteHat/roll_up][barryWhiteHat/roll_up: scale ethereum with snarks]] [[layer 2 scaling]]
+* [[https://medium.com/dragonfly-research/the-life-and-death-of-plasma-b72c6a59c5ad][The Life and Death of Plasma. A layer-2 murder mystery | by Ashwin Ramachandran | Dragonfly Research | Medium]] [[layer 2 scaling]]
+* [[https://www.buildblockchain.tech/newsletter/issues/no-99-validium-and-the-layer-2-two-by-two][2️⃣ Validium And The Layer 2 Two-By-Two — Issue No. 99 — Build Blockchain Tech]] [[layer 2 scaling]]
 *
