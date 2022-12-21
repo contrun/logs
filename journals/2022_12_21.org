@@ -1,1 +1,5 @@
 * Practical trustless accumulator with constant witness size? [[cryptographic accumulators]]
+
+#+BEGIN_QUOTE
+But, there is no practical trapdoorless (strong) accumulator that can produce constant-size proofs. In trapdoorless accumulators, since the accumulator manager is also considered untrusted, the witness size grows at least like logN where N is the number of accumulated elements (Ghosh et al., 2016).
+#+END_QUOTE
