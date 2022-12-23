@@ -1,0 +1,1 @@
+* Adapt FastKitten to use zero knowledge virtual machine instead of trusted execution environement.
