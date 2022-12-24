@@ -1,3 +1,2 @@
 * Adapt FastKitten to use zero knowledge virtual machine instead of trusted execution environment. [[zero knowledge virtual machines]] [[trusted execution environment]]
 [[https://www.usenix.org/conference/usenixsecurity19/presentation/das][FastKitten: Practical Smart Contracts on Bitcoin | USENIX]]
-*
