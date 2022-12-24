@@ -1,4 +1,5 @@
 * How to generate a new key pair from ethereum wallet? How does Immutable X generate STARK keypairs from etherum wallet signatures?
+[[https://support.immutable.com/en/articles/6470640-immutable-x-whitepaper][Immutable X Whitepaper | Immutable Help Center]]
 #+BEGIN_QUOTE
 In order to trade on Immutable X, users require a key pair derived from a custom, STARK-friendly elliptic curve. To solve this problem, we have built the “Link”, to be an intermediate layer between any Ethereum wallet and Immutable X. Users sign a security message, and that message is used as the seed for the generation of the STARK keypair. This “delegates” wallet security and recovery to the user’s underlying Ethereum wallet, as even if the STARK keypair is lost, the user will be able to re-generate it using a fresh Ethereum signature.
 #+END_QUOTE
