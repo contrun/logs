@@ -2,4 +2,4 @@
 #+BEGIN_QUOTE
 In order to trade on Immutable X, users require a key pair derived from a custom, STARK-friendly elliptic curve. To solve this problem, we have built the “Link”, to be an intermediate layer between any Ethereum wallet and Immutable X. Users sign a security message, and that message is used as the seed for the generation of the STARK keypair. This “delegates” wallet security and recovery to the user’s underlying Ethereum wallet, as even if the STARK keypair is lost, the user will be able to re-generate it using a fresh Ethereum signature.
 #+END_QUOTE
-What is the message signed by Ethereum wallet? How to deterministically sign this message?
+What is the message signed by Ethereum wallet? Does Ethereum wallets support deterministically signing a message?
