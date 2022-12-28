@@ -2,7 +2,7 @@
 [[https://docs.starkware.co/starkex/overview.html][High-level overview :: StarkEx Documentation]]
 #+BEGIN_QUOTE
 1. Your user deposits their funds to the StarkEx Contract.
-1. After the application accepts the deposit, your user can access their funds off-chain.
+2. After the application accepts the deposit, your user can access their funds off-chain.
 #+END_QUOTE
 #+BEGIN_QUOTE
 To prevent censorship, if the user’s withdrawal requests are not fulfilled, they can force the execution with forced transactions.
