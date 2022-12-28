@@ -1,1 +1,2 @@
-* [[https://docs.starkware.co/starkex/overview.html][High-level overview :: StarkEx Documentation]]
+* How do deposition and withdrawal work in StarkEX?
+[[https://docs.starkware.co/starkex/overview.html][High-level overview :: StarkEx Documentation]]
