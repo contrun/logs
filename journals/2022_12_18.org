@@ -1,2 +1,3 @@
 * Wouldn't the transactions data in [barryWhiteHat/roll_up_token: yellow paper for roll_up token](https://github.com/barryWhiteHat/roll_up_token) too big to store on-chain (both in terms of storage space and network bandwidth)? [[layer 2 scaling]]
 * Why do we nominate withdraw first in [[https://github.com/barryWhiteHat/roll_up_token#withdraw-mechanism][barryWhiteHat/roll_up_token: yellow paper for roll_up token]]? Is it because we can't create a new transaction when the contract receives a call? [[layer 2 scaling]]
+See also [[https://docs.starkware.co/starkex/spot/withdrawal.html#step_6_on_chain_withdrawal_transaction][The withdrawal flow :: StarkEx Documentation]]
