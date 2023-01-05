@@ -1,8 +1,9 @@
 * Quantum-safe cryptographic accumulators? [[cryptographic accumulators]]
 [[https://crypto.stackexchange.com/questions/12253/can-one-use-a-cryptographic-accumulator-to-efficiently-store-lamport-public-keys][post quantum cryptography - Can one use a Cryptographic Accumulator to efficiently store Lamport public keys without the need of a Merkle Tree? - Cryptography Stack Exchange]]
-* How to safely reuse the public key that is used to generate Lamport signatures? [[Lamport one-time signature scheme]] [[]]
+* How to safely reuse the public key that is used to generate Lamport signatures? [[Lamport one-time signature scheme]] [[Merkle signature scheme]]
 [[https://en.wikipedia.org/wiki/Lamport_signature][Lamport signature - Wikipedia]]
 #+BEGIN_QUOTE
 Combined with hash trees, a single key could be used for many messages, making this a fairly efficient digital signature scheme. 
 #+END_QUOTE
-* Merkle signature scheme
+[[https://en.wikipedia.org/wiki/Merkle_signature_scheme][Merkle signature scheme - Wikipedia]]
+*
