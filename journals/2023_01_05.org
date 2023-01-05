@@ -1,0 +1,2 @@
+* Quantum-safe cryptographic accumulators? [[cryptographic accumulators]]
+[[https://crypto.stackexchange.com/questions/12253/can-one-use-a-cryptographic-accumulator-to-efficiently-store-lamport-public-keys][post quantum cryptography - Can one use a Cryptographic Accumulator to efficiently store Lamport public keys without the need of a Merkle Tree? - Cryptography Stack Exchange]]
