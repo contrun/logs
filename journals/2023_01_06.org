@@ -1,1 +1,5 @@
 * [[https://users.rust-lang.org/t/how-to-create-a-macro-to-impl-a-provided-type-parametrized-trait/5289][How to create a macro to impl a provided type-parametrized trait? - help - The Rust Programming Language Forum]] [[rust macros]]
+* [[https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/][The Pasta Curves for Halo 2 and Beyond - Electric Coin Company]]
+#+BEGIN_QUOTE
+Like the Tweedle curves, the Pasta curves form a cycle with one another: the order of each curve is exactly the base field of the other. This 
+property is [[https://www.youtube.com/watch?v=YlTt12s7vGE&t=2070][critical to the efficiency of recursive proof systems]].
