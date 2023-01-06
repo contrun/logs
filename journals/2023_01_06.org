@@ -1,0 +1,1 @@
+* [[https://users.rust-lang.org/t/how-to-create-a-macro-to-impl-a-provided-type-parametrized-trait/5289][How to create a macro to impl a provided type-parametrized trait? - help - The Rust Programming Language Forum]]
