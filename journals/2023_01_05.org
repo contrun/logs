@@ -6,4 +6,3 @@
 Combined with hash trees, a single key could be used for many messages, making this a fairly efficient digital signature scheme. 
 #+END_QUOTE
 [[https://en.wikipedia.org/wiki/Merkle_signature_scheme][Merkle signature scheme - Wikipedia]]
-*

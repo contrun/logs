@@ -1,2 +1,2 @@
-* [[https://neptune.cash/blog/scalable-privacy-problem/][The Problem of Scalable Privacy]]
-* [[https://ethresear.ch/t/the-stateless-client-concept/172][The Stateless Client Concept - Sharding - Ethereum Research]]
+* [[https://neptune.cash/blog/scalable-privacy-problem/][The Problem of Scalable Privacy]] [[layer 2 scaling]]
+* [[https://ethresear.ch/t/the-stateless-client-concept/172][The Stateless Client Concept - Sharding - Ethereum Research]] [[blockchain scalability]]

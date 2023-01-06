@@ -1,4 +1,4 @@
-* How do deposition and withdrawal work in StarkEX?
+* How do deposition and withdrawal work in StarkEX? [[layer 2 scaling]] 
 [[https://docs.starkware.co/starkex/overview.html][High-level overview :: StarkEx Documentation]]
 #+BEGIN_QUOTE
 1. Your user deposits their funds to the StarkEx Contract.
@@ -7,4 +7,3 @@
 #+BEGIN_QUOTE
 To prevent censorship, if the user’s withdrawal requests are not fulfilled, they can force the execution with forced transactions.
 #+END_QUOTE
-*
