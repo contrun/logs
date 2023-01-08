@@ -1,0 +1,1 @@
+* In what sense is proof-carrying data more general than SNARKs? [[zero knowledge proofs]]
