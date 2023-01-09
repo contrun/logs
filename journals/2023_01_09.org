@@ -6,6 +6,6 @@ Previously, standard batched evaluation techniques for homomorphic polynomial co
 * How to construct proof-carrying data or incrementally verifiable computation from polynomial commitment scheme aggregation? [[proof-carrying data]] [[incrementally verifiable computation]] [[polynomial commitments]]
 [[https://eprint.iacr.org/2020/1536.pdf][Halo Infinite: Proof-Carrying Data from Additive Polynomial Commitments]]
 #+BEGIN_QUOTE
-It turns out that given any succinct PCS with an efficient aggregation scheme, it is possible to construct an efficient non-interactive proof system for this type of statement whose proof size and verification complexity is proportional to the size and verification complexity of the PCS on polynomials of degree |F|, completely independent of t.
+It turns out that given any succinct PCS with an efficient aggregation scheme, it is possible to construct an efficient non-interactive proof system for this type of statement whose proof size and verification complexity is proportional to the size and verification complexity of the PCS on polynomials of degree \abs{F}, completely independent of \.
 #+END_QUOTE
 *
