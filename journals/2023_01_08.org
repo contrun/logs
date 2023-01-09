@@ -1,5 +1,5 @@
 * In what sense is proof-carrying data more general than SNARKs? [[zero knowledge proofs]] [[proof-carrying data]]
-[[]【】]
+[[https://eprint.iacr.org/2020/1536.pdf][Halo Infinite: Proof-Carrying Data from Additive Polynomial Commitments]]
 #+BEGIN_QUOTE
 A proof-carrying data (PCD) system [CT10, BCCT13] is a powerful primitive that is more general than a SNARK. 
 #+END_QUOTE
