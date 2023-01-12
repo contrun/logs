@@ -1,5 +1,5 @@
 * How to achieve functional privacy with recursion?
-
+[[https://zeroknowledge.fm/144-2/][Episode 144: Aleo with Howard Wu - ZK Podcast]]
 #+BEGIN_QUOTE
 Anna (12:11):
 But is that recursion? You say it's only level two, this, like, is that how you described it? I've heard that just said a few different ways, like curse a depth to that too. Yeah. Layer two. Okay. But I guess, are you doing that for compression in any way? Like, is it to make it smaller as well? Are you combining lots of them under one of these recursive SNARKs and then making it smaller?
