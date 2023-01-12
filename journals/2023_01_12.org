@@ -1,1 +1,16 @@
 * How to achieve functional privacy with recursion?
+
+#+BEGIN_QUOTE
+Anna (12:11):
+But is that recursion? You say it's only level two, this, like, is that how you described it? I've heard that just said a few different ways, like curse a depth to that too. Yeah. Layer two. Okay. But I guess, are you doing that for compression in any way? Like, is it to make it smaller as well? Are you combining lots of them under one of these recursive SNARKs and then making it smaller?
+
+Fredrik (12:32):
+Yeah, that's definitely another added benefit is that by checking multiple proofs here within one single invocation, you actually compress the transaction so that you can bundle it in our case. In the example in ZEXE is a two and two out that you can actually compress those four proofs into just one proof. And because of that, you actually save space you know, as an added benefit.
+
+Fredrik:
+But the main purpose is functional privacy, right? It's not like you're not doing it because of compression. 
+
+Howard:
+Yeah. It comes as a side effect for free. And it's certainly nicer to be more efficient also in space. 
+
+#+END_QUOTE
