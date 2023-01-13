@@ -1,2 +1,6 @@
 * How to prevent the man in the middle from claiming the benefits of the actual miner?
-&
+[[https://eprint.iacr.org/2020/352.pdf]]
+#+BEGIN_QUOTE
+Remark 6.1. Given a proof and an associated fee request, we require that an adversary cannot maul the fee request. Otherwise, an attacker could pass-off a different party’s proof as their own (by replacing the public key) or modify someone’s fee request.
+Signatures of knowledge are a cryptographic primitive that allows us to accomplish exactly this, as recalled in Section 3. In Coda, we use a construction based on the Bowe–Gabizon simulation-extractable SNARK [9].
+#+END_QUOTE
