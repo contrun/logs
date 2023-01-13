@@ -1,0 +1,2 @@
+* How to prevent the man in the middle from claiming the benefits of the actual miner?
+&
