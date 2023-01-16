@@ -1,0 +1,1 @@
+* How to use [[https://github.com/matrix-org/pinecone][matrix-org/pinecone]] to create a personal mesh network? [[project ideas]] [[networking]]
