@@ -1,1 +1,2 @@
 * How to use activity pub as client API?
+See also [[https://github.com/bookwyrm-social/bookwyrm/issues/785][Client API · Issue #785 · bookwyrm-social/bookwyrm]]
