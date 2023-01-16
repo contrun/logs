@@ -1,1 +1,1 @@
-* Is bulletproofs a polynomial commitment scheme? If not, how does halo2 turn it into one? [[polynomial commitments]]
+* Is bulletproofs a polynomial commitment scheme? If not, how does halo2 turn it into one? [[polynomial commitments]] [[bulletproofs]] [[halo2]]
