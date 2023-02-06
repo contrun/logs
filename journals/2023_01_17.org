@@ -1,0 +1,1 @@
+* How are halo2 gadgets composed into circuits?
