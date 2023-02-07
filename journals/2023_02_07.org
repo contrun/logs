@@ -1,2 +1,3 @@
 * [[https://eprint.iacr.org/2020/081.pdf][Efficient polynomial commitment schemes for multiple points and polynomials]] [[polynomial commitments]]
-Related:
+[[https://hackmd.io/@tompocock/shplonk][SHPLONK - HackMD]]
+Related: ((63bb66d1-d283-483d-969b-e1b4539960b2))

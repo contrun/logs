@@ -1,4 +1,7 @@
 * Batch opening multiple polynomials at multiple points of a polynomial commitment scheme. [[polynomial commitments]]
+:PROPERTIES:
+:id: 63bb66d1-d283-483d-969b-e1b4539960b2
+:END:
 [[https://eprint.iacr.org/2020/1536.pdf][Halo Infinite: Proof-Carrying Data from Additive Polynomial Commitments]]
 #+BEGIN_QUOTE
 Previously, standard batched evaluation techniques for homomorphic polynomial commitments included: (1) opening distinct commitments at the same point, and (2) opening a single commitment at multiple points. The first is accomplished by opening a random linear combination of the original commitments. The second is accomplished by interpolating a degree-n polynomial t over the \( n \) opening points such that the committed polynomial \( f \) is equal to \( t \) over the domain \( H \) of these points, and proving that \( f - t \) is divisible by the zero polynomial \( z_H \) over this domain. The prover computes a commitment \( C_q \) to the quotient polynomial \( q := \frac{f - t}{z_H} \)  and proves that \(  q \times z_H = (f - t) \) by opening \( C_q \) and \( C_f \) at a random challenge point. Both of these standard batch evaluation protocols are single-round. We elegantly compose these two approaches to get a two-round protocol for batch opening multiple polynomials at multiple points.
