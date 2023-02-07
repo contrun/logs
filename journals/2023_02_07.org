@@ -1,0 +1,2 @@
+* [[https://eprint.iacr.org/2020/081.pdf][Efficient polynomial commitment schemes for multiple points and polynomials]] [[polynomial commitments]]
+Related:
