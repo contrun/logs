@@ -4,3 +4,10 @@ Proofs, Arguments, and Zero-Knowledge P20:
 Such encoding functions, in which the vector a is a subset of its encoding LDE(a) are called systematic. The systematic nature of the low-degree extension encoding turns out to render it more useful in the context of interactive proofs and arguments than the Reed-Solomon encoding of Section 2.3 (see, for example, Section 10.3.2).
 #+END_QUOTE
 * How to transform a interactive proof system with imperfect completeness into one with perfect completeness? [[Proofs, Arguments, and Zero-Knowledge]] [[theoretical computer science]]
+P25
+#+BEGIN_QUOTE
+It is actually known [FGM+89] that any IP for a function \(\) with \( \delta_c \leq \frac{1}{3} \) can be transformed into
+an IP for f with perfect completeness, with a polynomial blowup in the verifier’s costs (e.g., verifier
+time, round complexity, communication complexity).29 We will not need such transformations in this
+manuscript, because the IPs we give will naturally satisfy perfect completeness.
+#+END_QUOTE
