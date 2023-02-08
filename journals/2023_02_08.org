@@ -1,1 +1,1 @@
-* Why is the
+* Why is the univariate low-degree extension encoding of a vector more useful than the Reed-Solomon encoding
