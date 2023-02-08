@@ -3,4 +3,4 @@ Proofs, Arguments, and Zero-Knowledge P20:
 #+BEGIN_QUOTE
 Such encoding functions, in which the vector a is a subset of its encoding LDE(a) are called systematic. The systematic nature of the low-degree extension encoding turns out to render it more useful in the context of interactive proofs and arguments than the Reed-Solomon encoding of Section 2.3 (see, for example, Section 10.3.2).
 #+END_QUOTE
-* How to transform a interactive proof system with
+* How to transform a interactive proof system with imperfect completeness into one with perfect completeness? [[Proofs, Arguments, and Zero-Knowledge]] [[theoretical computer science]]
