@@ -1,1 +1,1 @@
-* While  rendering GIS data, when to use vector tiles and when vector data
+* While  rendering GIS data, when to use vector tiles (e.g. MVT) and when to use vector data (e.g. GEOjson)
