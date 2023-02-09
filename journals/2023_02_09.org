@@ -1,1 +1,1 @@
-* While rendering GIS data, when to use vector tiles (e.g. [[https://docs.mapbox.com/data/tilesets/guides/vector-tiles-introduction/][MVT]]) and when to use vector data (e.g. [[https://geojson.org/][GeoJSON]])?
+* While rendering GIS data, when to use vector tiles (e.g. [[https://docs.mapbox.com/data/tilesets/guides/vector-tiles-introduction/][MVT]]) and when to use vector data (e.g. [[https://geojson.org/][GeoJSON]])? [[geographic information systems]]
