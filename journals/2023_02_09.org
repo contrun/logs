@@ -1,1 +1,1 @@
-* Vector t
+* While  rendering GIS data, when to use vector tiles and when vector data
