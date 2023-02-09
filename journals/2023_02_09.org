@@ -1,2 +1,3 @@
 * While rendering GIS data, when to use vector tiles (e.g. [[https://docs.mapbox.com/data/tilesets/guides/vector-tiles-introduction/][MVT]]) and when to use vector data (e.g. [[https://geojson.org/][GeoJSON]])? [[geographic information systems]]
 * [[https://blog.cleverelephant.ca/2022/10/postgresql-links.html][Learning PostgreSQL Internals · Paul Ramsey]] [[postgresql]]
+* [[https://github.com/pramsey/minimal-mvt][GitHub - pramsey/minimal-mvt: Example MVT server and map for pedagogical purposes]] [[geographic information systems]]
