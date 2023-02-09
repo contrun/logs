@@ -3,4 +3,4 @@
 * [[https://github.com/pramsey/minimal-mvt][GitHub - pramsey/minimal-mvt: Example MVT server and map for pedagogical purposes]] [[geographic information systems]]
 * [[https://en.wikipedia.org/wiki/R*-tree][R*-tree - Wikipedia]] for indexing spatial information. [[data structures]] [[geographic information systems]]
 * [[https://docs.google.com/presentation/d/1qYXdeCIymLl32uoAHvAPrp1r-hK-_4Z8InG7sHEo6vc/edit#slide=id.gdd2fd99493_0_1034][PostGIS Workshop - Google Slides]] [[postgis]]
-* A postgresql foreign data wrapper to transparently encrypt data?
+* A postgresql foreign data wrapper to transparently encrypt data. [[postgresql]] [[project ideas]]
