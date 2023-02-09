@@ -7,3 +7,4 @@
 References:
 [[https://github.com/pgspider/sqlite_fdw][GitHub - pgspider/sqlite_fdw: SQLite Foreign Data Wrapper for PostgreSQL]]
 [[https://swarm64.com/post/scaling-elastic-postgres-cluster/][Creating an elastic PostgreSQL cluster using foreign data wrappers]]
+[[https://multicorn.org/][Overview - Multicorn - A Foreign Data Wrapper Library for PostgreSQL]]
