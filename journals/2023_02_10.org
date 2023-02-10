@@ -1,2 +1,2 @@
-* Can we create index for postgresql's foreign data wrapper in postgresql? If so, how does postgresql accomplish this? [[postgresql]]
-*
+* Can we create index for postgresql's foreign data wrapper in postgresql? If so, how does postgresql accomplish this? [[postgresql]] [[foreign data wrapper]]
+* What is the wire
