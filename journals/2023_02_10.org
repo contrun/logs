@@ -1,3 +1,5 @@
 * Can we create index for postgresql's foreign data wrapper in postgresql? If so, how does postgresql accomplish this? [[postgresql]] [[foreign data wrapper]]
 * What do databases need to do to support asynchronous database queries? How do we relate responses and requests in an asynchronous database queries? [[databases]] [[asynchronous programming]]
+References:
+[[https://www.postgresql.org/docs/current/protocol-flow.html#PROTOCOL-ASYNC][PostgreSQL: Documentation: 15: 55.2. Message Flow]]
 *
