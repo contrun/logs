@@ -2,4 +2,4 @@
 * What do databases need to do to support asynchronous database queries? How do we relate responses and requests in an asynchronous database queries? [[databases]] [[asynchronous programming]]
 References:
 [[https://www.postgresql.org/docs/current/protocol-flow.html#PROTOCOL-ASYNC][PostgreSQL: Documentation: 15: 55.2. Message Flow]]
-*
+* [[https://datastation.multiprocess.io/blog/2022-02-08-the-world-of-postgresql-wire-compatibility.html][The world of PostgreSQL wire compatibility]]
