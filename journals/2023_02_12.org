@@ -1,2 +1,2 @@
 * Prove the security of the sum-checking protocol in P34. [[Proofs, Arguments, and Zero-Knowledge]]
-* What if we didn't check the condition \( \mathrm(g_i) \leq \mathrm{deg}_i(g) \)? Will
+* What if we didn't check the condition \( \mathrm(g_i) \leq \mathrm{deg}_i(g) \) in the sum-checking protocol in P34? Will there be any security problem? [[Proofs, Arguments, and Zero-Knowledge]]
