@@ -1,2 +1,2 @@
 * Prove the security of the sum-checking protocol in P34. [[Proofs, Arguments, and Zero-Knowledge]]
-* What if we didn't check the degree of each \( g_i \leq \)
+* What if we didn't check the condition \( \mathrm(g_i) \leq \mathrm{deg}_i(g) \)? Will
