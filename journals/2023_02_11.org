@@ -1,1 +1,1 @@
-* What techniques can be applied to compress [[raster data][https://postgis.net/docs/raster.html]? I mean raster data specific
+* What techniques can be applied to compress [[raster data][https://postgis.net/docs/raster.html]? I mean raster data specific techniques instead of techniques that apply to all graphic data.
