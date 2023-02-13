@@ -1,4 +1,5 @@
-* Cross compilation error for cargo from Linux to freebsd.
+* Cross compilation error for cargo from Linux to freebsd. [[rust]] [[cross compilation]]
+See asol
 #+BEGIN_QUOTE
 cargo build --target x86_64-unknown-freebsd
    Compiling rust-hello-world v0.1.0 (/home/e/Workspace/rust-hello-world)
