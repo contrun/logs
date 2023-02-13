@@ -1,5 +1,5 @@
 * Cross compilation error for cargo from Linux to freebsd. [[rust]] [[cross compilation]]
-See asol
+See also: [[https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/][Zig Makes Rust Cross-compilation Just Work · Um, actually...]]
 #+BEGIN_QUOTE
 cargo build --target x86_64-unknown-freebsd
    Compiling rust-hello-world v0.1.0 (/home/e/Workspace/rust-hello-world)
@@ -12,3 +12,4 @@ error: linking with `cc` failed: exit status: 1
 
 error: could not compile `rust-hello-world` due to previous error
 #+END_QUOTE
+*
