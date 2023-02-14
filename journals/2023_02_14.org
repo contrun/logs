@@ -1,1 +1,1 @@
-* In p53Since the point of
+* In p53 (section A Useful Subroutine: Reducing Multiple Polynomial Evaluations to One), the author state that the verification of the evaluation of \( \tilde{W}  \) at two points can be reduced to ince the point of
