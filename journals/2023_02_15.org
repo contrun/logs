@@ -1,1 +1,1 @@
-* What is the prover's complexity of the GKR protocol? Since the multi-linear polynomials \( \tilde{\mathrm{Add}}(z, a, b) \) and  [[Proofs, Arguments, and Zero-Knowledge]]
+* What is the prover's complexity of the GKR protocol? The calculation of multi-linear polynomials \( \tilde{\mathrm{Add}}(z, a, b) \) and \( \tilde{\mathrm{Mult}}(z, a, b) \) is not obvious. [[Proofs, Arguments, and Zero-Knowledge]]
