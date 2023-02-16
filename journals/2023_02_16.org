@@ -1,1 +1,1 @@
-* Give some concrete examples where the GKR protocols are useful.
+* Give some concrete examples where the GKR protocol are useful. [[Proofs, Arguments, and Zero-Knowledge]]
