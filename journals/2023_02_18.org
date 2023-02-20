@@ -1,3 +1,5 @@
-* The security of Fiat-Shamir transformation? [[Fiat–Shamir heuristic]]
+* The security of Fiat-Shamir transformation? [[Fiat–Shamir heuristic]] [[Proofs, Arguments, and Zero-Knowledge]] 
 P78
-#+
+#+BEGIN_QUOTE
+In summary, applying the Fiat-Shamir Transformation to a public coin interactive protocol with negligible round-by-round soundness error yields a non-interactive argument in the random oracle model with negligible soundness error against efficient provers. The protocol can then be heuristically instantiated in the “real world” by replacing the random oracle with a cryptographic hash function.
+#+END_QUOTE
