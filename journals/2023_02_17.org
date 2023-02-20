@@ -1,2 +1,2 @@
 * Pitfalls in instantiating random oracle models. [[Fiat–Shamir heuristic]]
-+ Results not dependent on the
++ Results not dependent on the query message. For example if the result only depends on the round number then the adversary can pre-derive all "random" messages
