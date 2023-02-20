@@ -1,3 +1,3 @@
-* Pitfalls in instantiating random oracle models. [[Fiat–Shamir heuristic]]
+* Pitfalls in instantiating random oracle models. [[Fiat–Shamir heuristic]] [[random oracle model]]
 + Results not dependent on the query message. For example if the result only depends on the round number then the adversary can pre-determine all "random" messages.
 + Not hashing the input message while doing Fiat-Shamir transformation. When the adversary can choose input messages and the hashing process of Fiat Shamir transformation does not consider the input message, the adversary may change their input message that passes the verification process but does not establish the desired relationship between the input and the output. A concrete example is available on p77 of [[Proofs, Arguments, and Zero-Knowledge]].
