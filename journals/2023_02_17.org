@@ -1,1 +1,2 @@
-* Pitfalls in applying Fit
+* Pitfalls in instantiating random oracle models. [[Fiat–Shamir heuristic]]
++ Results not dependent on the
