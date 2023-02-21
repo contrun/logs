@@ -1,0 +1,2 @@
+* How is the geoid determined? [[geography]]
+[[https://en.wikipedia.org/wiki/Physical_geodesy#Geoid_determination][Physical geodesy - Wikipedia]]
