@@ -1,0 +1,1 @@
+* Use machine learning to guess spatial reference systems. [[project ideas]]
