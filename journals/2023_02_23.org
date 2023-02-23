@@ -1,3 +1,2 @@
 * Why aren't architectures other than von Neumann more popular? [[computer history]]
-E.g. we practically see no computer with a [[https://en.wikipedia.org/wiki/Harvard_architecture][Harvard architecture - Wikipedi]].
-*
+E.g. we practically see no computer with a [[https://en.wikipedia.org/wiki/Harvard_architecture][Harvard architecture]].
