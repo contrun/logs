@@ -1,1 +1,2 @@
-* Why is
+* Why aren't architectures other than von Neumann more pu
+*
