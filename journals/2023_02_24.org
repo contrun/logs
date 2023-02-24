@@ -1,1 +1,1 @@
-* Give a concrete  memory consistency circuit by routing network. [[Proofs, Arguments, and Zero-Knowledge]]
+* Give a concrete memory consistency circuit by routing network in 6.5.3 The Transformation From Computer Programs To Arithmetic Circuit Satisfiability. [[Proofs, Arguments, and Zero-Knowledge]]
