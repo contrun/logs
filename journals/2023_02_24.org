@@ -1,2 +1,2 @@
 * Give a concrete memory consistency circuit by routing network in 6.5.3 The Transformation From Computer Programs To Arithmetic Circuit Satisfiability. [[Proofs, Arguments, and Zero-Knowledge]]
-* H
+* How to convert the permutation checking protocol to a order checking protocol? [[zero knowledge proofs]]
