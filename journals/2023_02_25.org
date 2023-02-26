@@ -1,1 +1,1 @@
-* Can a compiler directly compile programs to circuits?
+* Can a compiler directly compile programs (like c source files) to circuits?
