@@ -1,1 +1,1 @@
-* Can a compiler directly compile programs (like c source files) to circuits?
+* Can a compiler directly compile programs (like c source files) to circuits? It seems that we can only compile the running of a program with inputs xxx to a circuit. We can't convert structures like jump and branching to circuits.
