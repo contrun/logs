@@ -1,1 +1,1 @@
-* Can one compile
+* Can a compiler directly compile programs to circuits?
