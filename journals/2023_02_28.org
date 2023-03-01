@@ -1,0 +1,2 @@
+* Reducing memory-consistency-checking to multiset equality checking by padding each write/read operations with an corresponding read/write operation. [[zero knowledge proofs]]
+For each write operation, we precede it w
