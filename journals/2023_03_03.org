@@ -1,2 +1,2 @@
 * [[https://prog21.dadgum.com/][Programming in the 21st Century]] [[programming languages]]
-* [[http://ratfactor.com/forth/forth_talk_2023.html][Dave's Forth Talk 2023]] [[[[https://en.wikipedia.org/wiki/Forth_(programming_language)][Forth programming language]]]]
+* [[http://ratfactor.com/forth/forth_talk_2023.html][Dave's Forth Talk 2023]]
