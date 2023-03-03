@@ -1,0 +1,1 @@
+* [Array DBMS - Wikipedia](https://en.m.wikipedia.org/wiki/Array_DBMS) [[databases]]
