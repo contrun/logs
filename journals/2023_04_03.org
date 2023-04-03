@@ -1,2 +1,2 @@
-* How to reliably check double free bugs?
+* How to reliably check double free bugs? [[system programming]] 
 I can check all the arguments to the call ~free~, and then write some gibberish (like ~0x66666666~) to that memory address. In the next call of ~free~ with the same address, I will first check if the content of that memory address is still the same gibberish. If so, it is likely that we found a double free bug. But this is not bullet-proof, as we may have a fall positive when ~0x66666666~ is a legal content.
