@@ -1,0 +1,2 @@
+* [[https://github.com/nsacyber/Hardware-and-Firmware-Security-Guidance][GitHub - nsacyber/Hardware-and-Firmware-Security-Guidance: Guidance for the Spectre, Meltdown, Speculative Store Bypass, Rogue System Register Read, Lazy FP State Restore, Bounds Check Bypass Store, TLBleed, and L1TF/Foreshadow vulnerabilities as well as general hardware and firmware security guidance. #nsacyber]] [[side-channel attacks]] [[security practices]]
+* [[https://www.bearssl.org/constanttime.html][BearSSL - Constant-Time Crypto]] [[side-channel attacks]]

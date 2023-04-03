@@ -1,0 +1,3 @@
+* Algorand vs verifiable random functions, what's the difference? [[alogrand]] [[verifiable random functions]]
+[[https://www.sciencedirect.com/science/article/pii/S030439751930091X?via=ihub][Algorand: A secure and efficient distributed ledger - ScienceDirect]]
+[[https://en.wikipedia.org/wiki/Verifiable_random_function][Verifiable random function - Wikipedia]]

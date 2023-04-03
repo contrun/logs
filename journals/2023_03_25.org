@@ -1,0 +1,1 @@
+* [[https://a16zcrypto.com/content/article/symbolic-testing-with-halmos-leveraging-existing-tests-for-formal-verification/][Symbolic testing with Halmos: Leveraging existing tests for formal verification - a16z crypto]] [[symbolic execution]]

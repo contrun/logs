@@ -1,0 +1,6 @@
+* How can we obtain more accurate inline information for JVM symbol tables? [[Java virtual machine]]
+[[https://www.usenix.org/conference/srecon18americas/presentation/goldshtein][Profiling JVM Applications in Production | USENIX]] Slides page 25
+#+BEGIN_QUOTE
+Consider -XX:+UnlockDiagnosticVMOptions -XX:+DebugNonSafepoints for
+more accurate inline info.
+#+END_QUOTE

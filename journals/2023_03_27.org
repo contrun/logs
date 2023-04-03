@@ -1,0 +1,27 @@
+* How does ~uretprobe~ in bpftrace work? Why are there problems to trace golang programs?
+[[https://www.mankier.com/8/bpftrace#Probes-uprobe,_uretprobe][bpftrace: a high-level tracing language | bpftrace System Administration | Man Pages | ManKier]] [[tracing]]
+#+BEGIN_QUOTE
+It is important to note that for uretprobe s to work the kernel runs a special helper on user-space function entry which overrides the return address on the stack. This can cause issues with languages that have their own runtime like Golang:
+
+example.go
+
+func myprint(s string) {
+  fmt.Printf("Input: %s\n", s)
+}
+
+func main() {
+  ss := []string{"a", "b", "c"}
+  for _, s := range ss {
+    go myprint(s)
+  }
+  time.Sleep(1*time.Second)
+}
+
+bpftrace
+
+# bpftrace -e 'uretprobe:./test:main.myprint { @=count(); }' -c ./test
+runtime: unexpected return pc for main.myprint called from 0x7fffffffe000
+stack: frame={sp:0xc00008cf60, fp:0xc00008cfd0} stack=[0xc00008c000,0xc00008d000)
+fatal error: unknown caller pc 
+#+END_QUOTE
+*

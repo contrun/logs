@@ -1,0 +1,2 @@
+* Why do all transparent SNARKs have logarithmic proof size? Is it intrinsic? [[zk-SNARK]]
+* [[https://dl.acm.org/doi/10.1145/3319535.3363230][Learning to Fuzz from Symbolic Execution with Application to Smart Contracts | Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security]] [[fuzzing]] [[symbolic execution]] [[smart contracts]]
