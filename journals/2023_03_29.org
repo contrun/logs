@@ -1,2 +1,2 @@
 * How does disassembling one function works? [[https://stackoverflow.com/questions/22769246/how-to-disassemble-one-single-function-using-objdump][elf - How to disassemble one single function using objdump? - Stack Overflow]] [[system programming]]
-It seems to be har
+We only know the start address of the function from the symbol table. We can indeed disassemble a function without dwarf information.
