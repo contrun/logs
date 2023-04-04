@@ -1,0 +1,1 @@
+* Why does Android need a customized toolchain for [[https://developer.android.com/ndk][Android NDK  |  Android Developers]]? [[Android]]
