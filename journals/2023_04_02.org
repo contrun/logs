@@ -1,1 +1,2 @@
-* [[https://www.malloydata.dev/][malloy]]
+* [[https://www.malloydata.dev/][malloy]] is the first hyper-dimensional programming language built for the needs of a big data world. [[big data]]
+*
