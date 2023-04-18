@@ -1,0 +1,1 @@
+* [[https://arxiv.org/abs/1502.05767][[1502.05767] Automatic differentiation in machine learning: a survey]]
