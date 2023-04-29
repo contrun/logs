@@ -1,4 +1,4 @@
 * [[https://arxiv.org/abs/2303.18223][[2303.18223] A Survey of Large Language Models]] [[large model training]]
 * [[https://github.com/eto-ai/lance][eto-ai/lance: Modern columnar data format for ML implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, with more integrations coming..]] [[big data]] [[machine learning]]
-* The chapter Assume you know Confirmation bias
+* How can we avoid the confirmation bias s
 *
