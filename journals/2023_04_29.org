@@ -2,4 +2,4 @@
 * [[https://github.com/eto-ai/lance][eto-ai/lance: Modern columnar data format for ML implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, with more integrations coming..]] [[big data]] [[machine learning]]
 * How can we avoid the confirmation bias described in Assume You know? It seems to be human's instinct to confirm his theory when asked an open-end question (like the one given in the book, we want to confirm that what the author described is Kennedy). [[Start with Why]]
 * Way to manipulate people to buy some products. [[Start with Why]]
-+ Price, price plummet makes people buy things they don't really need, another example given in [[Predictably Irrational]] is that people buy a comparatively better
++ Price, price plummet makes people buy things they don't really need, another example given in [[Predictably Irrational]] is that people buy a comparatively better choice (like digital and paper)
