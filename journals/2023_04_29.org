@@ -7,5 +7,5 @@
 *** another example given in [[Predictably Irrational]] is that people buy a comparatively better choice (like digital and paper-version of The Economist bundle in $9.9 vs only the paper version in $9.9)
 *** coupons
 ** Promotions
-*** coupons
-*** bundles that have so many things that
+*** coupons that can't be fulfilled (e.g. having pre-conditions like you can use t)
+*** bundles that have so many things that are not needed
