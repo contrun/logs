@@ -5,7 +5,8 @@
 ** Price
 *** price plummet makes people buy things they don't really need
 *** another example given in [[Predictably Irrational]] is that people buy a comparatively better choice (like digital and paper-version of The Economist bundle in $9.9 vs only the paper version in $9.9)
+*** free is most expensive (see [[Predictably Irrational]] )
 *** coupons
 ** Promotions
-*** coupons that can't be fulfilled (e.g. having pre-conditions like you can use t)
+*** coupons that can't be fulfilled (e.g. having pre-conditions like you can use the coupon only if you have spent more than $1000, you can use only one in one purchase)
 *** bundles that have so many things that are not needed
