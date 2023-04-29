@@ -7,5 +7,7 @@
 *** another example given in [[Predictably Irrational]] is that people buy a comparatively better choice (like digital and paper-version of The Economist bundle in $9.9 vs only the paper version in $9.9)
 *** the cost of free is highest (see [[Predictably Irrational]] )
 ** Promotions
-*** coupons that can't be fulfilled, also call breakage(e.g. having pre-conditions like you can use the coupon only if you have spent more than $1000, you can use only one in one purchase)
+*** breakage, rebate or coupons that can't be fulfilled (e.g. having pre-conditions like you can use the coupon only if you have spent more than $1000, you can use only one in one purchase)
 *** bundles that have so many things that are not needed
+** Fear
+*** FUD
