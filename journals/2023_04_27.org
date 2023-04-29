@@ -1,0 +1,4 @@
+* [[https://stackoverflow.com/questions/4980819/what-are-the-gcc-default-include-directories][c++ - What are the GCC default include directories? - Stack Overflow]] [[compilation]]
+#+BEGIN_SRC
+echo | gcc -xc -E -v -
+#+END_SRC
