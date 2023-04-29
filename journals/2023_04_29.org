@@ -29,3 +29,4 @@ Ironically, it is Apple's disregarding of user's privacy (being pretentious, not
 :PROPERTIES:
 :id: 644d3c7d-d56c-4ad2-ba24-3d64b191e35c
 :END:
+* When do we trust
