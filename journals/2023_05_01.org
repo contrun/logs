@@ -1,0 +1,1 @@
+* [[https://queue.acm.org/detail.cfm?id=1454466][Software Transactional Memory: Why Is It Only a Research Toy? - ACM Queue]]
