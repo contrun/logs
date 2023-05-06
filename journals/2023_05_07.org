@@ -1,3 +1,4 @@
 * How  to do lockless cloud backup? [[data backup]]
 + [[https://github.com/restic/restic/issues/1141][replace lock files with two-phase compaction · Issue #1141 · restic/restic]]
-+
++ [[https://github.com/rustic-rs/rustic][rustic-rs/rustic: rustic - fast, encrypted, deduplicated backups powered by Rust]]
++ [[https://github.com/gilbertchen/duplicacy][gilbertchen/duplicacy: A new generation cloud backup tool]]
