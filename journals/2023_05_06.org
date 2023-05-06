@@ -1,1 +1,3 @@
-* Why do we need ROM support to copy nfc id cards?
+* Why do we need ROM support to copy nfc id cards? [[near field communication]] [[radio-frequency identification]]
+[[https://www.v2ex.com/t/920911][意外发现一种可能通用的原生安卓 rom 免 root 使用 NFC 门禁卡、公交的方式 - V2EX]]
+* Why do we need a hardware pn
