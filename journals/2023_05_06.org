@@ -1,0 +1,1 @@
+* Why do we need ROM support to copy nfc id cards?
