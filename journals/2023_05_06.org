@@ -2,4 +2,4 @@
 [[https://www.v2ex.com/t/920911][意外发现一种可能通用的原生安卓 rom 免 root 使用 NFC 门禁卡、公交的方式 - V2EX]]
 * Why do we need a hardware pn532 module to crack rfid cards? [[near field communication]] [[radio-frequency identification]]
 [[https://github.com/nfc-tools/mfoc][nfc-tools/mfoc: Mifare Classic Offline Cracker]]
-* What kind of nfc cards are hard to copy? [[https://en.wikipedia.org/wiki/MIFARE][MIFARE - Wikipedia]] [[near field communication]] [[radio-frequency identification]] [[cryptography]]
+* What kind of nfc cards are hard to copy? [[https://en.wikipedia.org/wiki/MIFARE][MIFARE]] is known to be easy to copy. [[near field communication]] [[radio-frequency identification]] [[cryptography]]
