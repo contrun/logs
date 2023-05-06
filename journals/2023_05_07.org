@@ -1,0 +1,3 @@
+* How  to do lockless cloud backup? [[data backup]]
++ [[https://github.com/restic/restic/issues/1141][replace lock files with two-phase compaction · Issue #1141 · restic/restic]]
++
