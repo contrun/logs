@@ -1,5 +1,6 @@
 * How can one make sure that a message from page script is sent to the content script of an extension? [[browser extensions]]
 [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#communicating_with_the_web_page][Content scripts - Mozilla | MDN]]
+The script below posts a message to the origin ~*~. But ~window.postMessage~ may post scripts to other 
 #+BEGIN_SRC javascript
 // page-script.js
 
@@ -13,3 +14,4 @@ function messageContentScript() {
     message: "Message from the page"
   }, "*");
 }
+#+END_SRC
