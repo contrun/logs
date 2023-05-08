@@ -15,3 +15,5 @@ function messageContentScript() {
   }, "*");
 }
 #+END_SRC
+
+We can't, see [[https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage#using_window.postmessage_in_extensions_non-standard][Window: postMessage() method - Web APIs | MDN]].
