@@ -3,3 +3,6 @@
 * How do the payer and payee know the payment amount in Monero? [[monero]]
 [[https://www.getmonero.org/library/RctCheatsheet20210604.pdf][ring confidential transaction cheatsheet]]
 #+BEGIN_QUOTE
+amount is the way payer and payee secretly share the value: the payer calculates it from the plain value ~a~ by the given definition; the payee can get back and verify the plain value a by just XORing the amount with the same hash function used in its definition (two equal XORs elide themselves). To have an hash computable by both payer and payee, transaction and view keys
+are used in the same Diffie-Hellman-like way they are in stealth addresses generation
+#+END_QUOTE
