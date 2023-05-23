@@ -1,2 +1,3 @@
 * Ring signature scheme with Schnorr signature. [[Schnorr signatures]] [[ring signatures]]
 [[https://www.getmonero.org/library/RingsCheatsheet20210301.pdf][Ring signature cheatcheet]].
+* How do the payer and payee know the
