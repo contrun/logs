@@ -1,1 +1,1 @@
-* How come I can't use two sim cards even if the Korean edition of galaxy s10e has the same hardware as the Chinese edition of galaxy s10e? What are the things presented in Chinese ROM image that are required for double sim cards to work
+* How come I can't use two sim cards even if the Korean edition of galaxy s10e has the same hardware as the Chinese edition of galaxy s10e? What are the things presented in Chinese ROM image that are required for double sim cards to work? [[Android]]
