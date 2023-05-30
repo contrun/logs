@@ -1,1 +1,1 @@
-* How to encrypt Chinese plaintexts in a way that humans can easily decrypt the ciphertexts? Note that Chinese have a huge collection of characters with definitive order for the alphabet (thus no clear one-one mapping from the characters to integers). [[cryptography]]
+* How to encrypt Chinese plaintexts in a way that humans can easily decrypt the ciphertexts? Note that Chinese have a huge collection of characters with definitive order for the alphabet (thus no clear one-one mapping from the characters to integers that is memoizable to mere mortals). [[cryptography]]
