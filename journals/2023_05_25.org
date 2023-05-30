@@ -1,1 +1,1 @@
-* What is the benefit of using exclusive or over using addition/subtraction in symmetric encryption? [[cryptography]]
+* What is the benefit of using exclusive or over using addition/subtraction in symmetric encryption? Is it because it is easier to find the inverse of exclusive or (just do exclusive or again)? [[cryptography]]
