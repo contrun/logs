@@ -1,4 +1,6 @@
 * How to construct a ring signature scheme from one-way permutation with trapdoor, symmetric encryption and hash function? [[ring signatures]]
-* How to construct a signature scheme from one-way permutation with trapdoor? [[signature schemes]] [[RSA signature scheme]]
+* How to construct a signature scheme and an encryption scheme from one-way permutation with trapdoor? [[signature schemes]] [[RSA signature scheme]]
 TODO: something is wrong here.
-Let \( n = p * q \) be a product of two large primes \( p, q \), let \( e < n \) be a random nature number, \( m < n \) be the "message" to encrypt. Then the encrypted message of \( m \) in RSA encryption scheme \( m^\prime \) is \( E(m) = m^e mod n \). One can decrypt this message by \( D(m^\prime) {(m^\prime)}^f \), where \( f \) is a number coprime to \( e \). We can construct a signature scheme from this. Let \( v \) be a message to sign, the signature of this message is \( (H(v), v) \)
+Let \( n = p * q \) be a product of two large primes \( p, q \), let \( e < n \) be a random nature number, \( m < n \) be the "message" to encrypt. Then the encrypted message of \( m \) in RSA encryption scheme \( m^\prime \) is \( E(m) = m^e mod n \). One can decrypt this message by \( D(m^\prime) {(m^\prime)}^f \), where \( f \) is a number coprime to \( e \). We can construct a signature scheme from this. Let \( v \) be a message to sign, the signature of this message is \( (H(v), D(H(v)) \).
+This can be signature generalized to one-way permutation with trapdoor. Just
+*
