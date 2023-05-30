@@ -1,0 +1,1 @@
+* How can ZKLLVM turn llir into verifiable computation? It seems other zero knowledge protocols can only turn programs into circuits by
