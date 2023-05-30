@@ -1,1 +1,2 @@
-* How to construct a ring signature scheme from
+* How to construct a ring signature scheme from one-way permutation with trapdoor, symmetric encryption and hash function? [[ring signatures]]
++
