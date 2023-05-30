@@ -1,4 +1,4 @@
 * How to construct a ring signature scheme from one-way permutation with trapdoor, symmetric encryption and hash function? [[ring signatures]]
 * How to construct a signature scheme from one-way permutation with trapdoor? [[signature schemes]] [[RSA signature scheme]]
 TODO: something is wrong here.
-Let \( n = p * q \) be a product of two large primes \( p, q \), let \( e < n \) be a random nature number, \( m < n \) be the "message" to encrypt. Then the encrypted message of \( m \) in RSA encryption scheme \( m^\prime \) is \( m^e mod n \). We can construct a signature scheme from this. Let \( v \) be a message to be signed
+Let \( n = p * q \) be a product of two large primes \( p, q \), let \( e < n \) be a random nature number, \( m < n \) be the "message" to encrypt. Then the encrypted message of \( m \) in RSA encryption scheme \( m^\prime \) is \( f(m) = m^e mod n \). One can  We can construct a signature scheme from this. Let \( v \) be a message to sign, the signature of this message is \( (H(v), v) \)
