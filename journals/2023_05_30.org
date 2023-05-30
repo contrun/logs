@@ -1,3 +1,3 @@
 * How to construct a ring signature scheme from one-way permutation with trapdoor, symmetric encryption and hash function? [[ring signatures]]
 * How to construct a signature scheme from one-way permutation with trapdoor? [[signature schemes]] [[RSA signature scheme]]
-The essence of RSA encryption is that we can encrypt one message by
+Let \( n \) be a
