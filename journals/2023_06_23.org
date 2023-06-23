@@ -1,4 +1,6 @@
 * {{query [[signature schemes]]}}
 :PROPERTIES:
-:query-table: false
+:query-table: true
+:query-sort-by: page
+:query-sort-desc: false
 :END:
