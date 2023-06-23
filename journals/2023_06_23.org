@@ -1,7 +1,8 @@
-* {{query [[signature schemes]]}}
+* {{query (and [[signature schemes]] (and))}}
 :PROPERTIES:
 :query-table: false
 :query-sort-by: page
 :query-sort-desc: false
 :query-properties: [:block]
 :END:
+*
