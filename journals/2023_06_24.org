@@ -1,5 +1,5 @@
 * How do create a query that returns both the aggregated value and scalar value unchanged in datalog? [[datalog]] [[SQL]] 
-[[https://www.learndatalogtoday.org/chapter/7][Learn Datalog Today!]]. It is 
+[[https://www.learndatalogtoday.org/chapter/7][Learn Datalog Today!]] It is easy to create a aggregation query in datalog. For example,
 #+BEGIN_SRC
 [:find ?category (avg ?rating)
 :where
@@ -9,3 +9,4 @@
 ]
 #+END_SRC
 Say I have a table movie with columns title, category and rating as its columns, I want to create a table that has title, category, category_average_rating and rating as its columns. How do I do that?In postgresql, we can do that with [PostgreSQL: Documentation: 15: 3.5. Window Functions](https://www.postgresql.org/docs/current/tutorial-window.html).
+*
