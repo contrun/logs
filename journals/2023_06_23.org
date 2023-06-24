@@ -29,6 +29,6 @@
          [?b :block/refs ?p]]}
   :result-transform (fn [result]
                       (sort-by (fn [h]
-                                 (get h :block/created-at)) result))
+                                 (get h :block/created-at) >) result))
 #+END_QUERY
 *
