@@ -24,9 +24,11 @@
 #+BEGIN_QUERY
 {:title "All blocks with tag project"
  :query [:find (pull ?b [*])
+         :in $ :tag
          :where
-         [?p :block/name "signature schemes"]
+        [?p :block/name "signature schemes"]
          [?b :block/refs ?p]]}
+  :inputs ["tags"]
   :result-transform (fn [result]
                       (sort-by (fn [h]
                                  (get h :block/created-at) >) result))
