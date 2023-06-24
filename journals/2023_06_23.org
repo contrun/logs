@@ -5,4 +5,19 @@
 :query-sort-desc: false
 :query-properties: [:block]
 :END:
-* Query examples
+* Query examples. [[logseq]]
+#+BEGIN_QUERY
+{:title "All pages have a *signature schemes* tag"
+ :query [:find ?name
+       :in $ ?tag
+       :where
+       [?t :block/name ?tag]
+       [?p :block/tags ?t]
+       [?p :block/name ?name]]
+ :inputs ["signature schemes"]
+ :view (fn [result]
+       [:div.flex.flex-col
+        (for [page result]
+          [:a {:href (str "#/page/" page)} (clojure.string/capitalize page)])])}
+#+END_QUERY
+*
