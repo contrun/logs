@@ -20,4 +20,9 @@
         (for [page result]
           [:a {:href (str "#/page/" page)} (clojure.string/capitalize page)])])}
 #+END_QUERY
-*
+* #+BEGIN_QUERY
+{:title "All tasks"
+ :query [:find (pull ?b [*])
+         :where
+         [?b]]}
+#+END_QUERY
