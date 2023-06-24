@@ -5,4 +5,4 @@
 :query-sort-desc: false
 :query-properties: [:block]
 :END:
-*
+* Query examples
