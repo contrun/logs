@@ -9,4 +9,5 @@
 ]
 #+END_SRC
 Say I have a table movie with columns title, category and rating as its columns, I want to create a table that has title, category, category_average_rating and rating as its columns. How do I do that?In postgresql, we can do that with [PostgreSQL: Documentation: 15: 3.5. Window Functions](https://www.postgresql.org/docs/current/tutorial-window.html).
-*
+* How to express logic expression easily in datalog? [[datalog]]
+We can express logic or with
