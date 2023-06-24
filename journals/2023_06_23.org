@@ -20,9 +20,12 @@
         (for [page result]
           [:a {:href (str "#/page/" page)} (clojure.string/capitalize page)])])}
 #+END_QUERY
-* #+BEGIN_QUERY
-{:title "All tasks"
+* All pages referring to some tag.
+#+BEGIN_QUERY
+{:title "All blocks with tag project"
  :query [:find (pull ?b [*])
          :where
-         [?b]]}
+         [?p :block/name "logseq"]
+         [?b :block/refs ?p]]}
 #+END_QUERY
+*
