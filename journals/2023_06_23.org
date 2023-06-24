@@ -13,7 +13,7 @@
        :where
        [?t :block/name ?tag]
        [?p :block/tags ?t]
-       ]
+       [?p :block/name ?name]]
  :inputs ["signature schemes"]
  :view (fn [result]
        [:div.flex.flex-col
