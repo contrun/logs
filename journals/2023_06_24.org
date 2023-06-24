@@ -1,12 +1,11 @@
 * How do create a query that returns both the aggregated value and scalar value unchanged in datalog? [[datalog]] [[SQL]] 
-[[https://www.learndatalogtoday.org/chapter/7][Learn Datalog Today!]]
+[[https://www.learndatalogtoday.org/chapter/7][Learn Datalog Today!]]. It is 
 #+BEGIN_SRC
 [:find ?category (avg ?rating)
- :in $ [?actor ...] [[?movie ?rating]]
- :where
- [?m :movie/cast ?c]
- [?m :movie/title ?movie]
- [?c :person/name ?actor]
+:where
+ [?m :movie/title ?title]
+ [?m :movie/category ?category]
+ [?m :movie/rating ?rating]
 ]
 #+END_SRC
 Say I have a table movie with columns title, category and rating as its columns, I want to create a table that has title, category, category_average_rating and rating as its columns. How do I do that?In postgresql, we can do that with [PostgreSQL: Documentation: 15: 3.5. Window Functions](https://www.postgresql.org/docs/current/tutorial-window.html).
