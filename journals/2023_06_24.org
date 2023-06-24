@@ -1,0 +1,1 @@
+* How do create a query that returns both the aggregated value and scalar value unchanged in
