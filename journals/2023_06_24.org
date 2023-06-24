@@ -1,3 +1,3 @@
-* How do create a query that returns both the aggregated value and scalar value unchanged in datalog? [[datalog]]
+* How do create a query that returns both the aggregated value and scalar value unchanged in datalog? [[datalog]] [[postgresql]] 
 [[https://www.learndatalogtoday.org/chapter/7][Learn Datalog Today!]]
 Say I have a table movie with columns title, category and rating as its columns, I want to create a table that has title, category, category_average_rating and rating as its columns. How do I do that?
