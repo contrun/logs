@@ -1,1 +1,4 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Decentralized Hole Punching]] [[hole punching]]
+** Identify protocol
+Find out the public ip and port
+** AutoNAT protocol
