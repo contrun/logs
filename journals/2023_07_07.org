@@ -1,5 +1,8 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Decentralized Hole Punching]] [[hole punching]]
 ** Results
+*** 45 volunteers
+*** 86% success rate for tcp
+*** 93% success rate for udp
 ** Protocols
 *** Identify protocol
 Find out the public ip and port
