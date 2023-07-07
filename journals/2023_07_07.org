@@ -4,4 +4,6 @@ Find out the public ip and port
 ** AutoNAT protocol
 Request to dial a lot of public addresses
 ** Circuit v2 protocol
-Relay
+Relay traffic through public nodes
+** Hole punch coordination
+Coordinate the whole connection. Try
