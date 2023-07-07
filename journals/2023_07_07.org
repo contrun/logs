@@ -1,5 +1,5 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Decentralized Hole Punching]] [[hole punching]]
-** Results
+** Preliminary Results
 *** 45 volunteers
 *** 86% success rate for tcp
 *** 93% success rate for quic
@@ -14,4 +14,4 @@ Relay traffic through public nodes
 Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try to use relay server as the last resort.
 ** Transport protocols
 *** TCP: simultaneous open
-*** Quic: responding
+*** Quic: responding with random packet
