@@ -1,5 +1,6 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Libp2p Decentralized Hole Punching]] [[hole punching]]
-[Project Flare(decentralised Hole Punching) Phase1 Meta Issue · Issue #1039 · libp2p/go-libp2p](https://github.com/libp2p/go-libp2p/issues/1039)
+** Implem[Project Flare(decentralised Hole Punching) Phase1 Meta Issue · Issue #1039 · libp2p/go-libp2p](https://github.com/libp2p/go-libp2p/issues/1039)
+[[https://github.com/libp2p/test-plans/issues/126][add tests for hole punching · Issue #126 · libp2p/test-plans]]
 ** Preliminary Results
 *** 45 volunteers
 *** 86% success rate for tcp
