@@ -1,4 +1,7 @@
-* [[https://research.protocol.ai/publications/decentralized-hole-punching/][Libp2p Decentralized Hole Punching]] [[hole punching]]
+* [[https://research.protocol.ai/publications/decentralized-hole-punching/][Libp2p Decentralized Hole Punching [[hole punching]]
+** Documentation
+*** [[https://docs.libp2p.io/concepts/nat/hole-punching/#what-if-we-could-use-node-r-to-help-facilitate-a-direct-connection-between-node-a-and-node-b][Hole Punching - libp2p]]
+*** [[https://research.protocol.ai/publications/decentralized-hole-punching/][Decentralized Hole Punching | Protocol Labs Research]]
 ** Implementation
 *** [Project Flare(decentralised Hole Punching) Phase1 Meta Issue · Issue #1039 · libp2p/go-libp2p](https://github.com/libp2p/go-libp2p/issues/1039)
 ** Follow-up
