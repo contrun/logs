@@ -1,11 +1,13 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Libp2p Decentralized Hole Punching]] [[hole punching]]
-** Implem[Project Flare(decentralised Hole Punching) Phase1 Meta Issue · Issue #1039 · libp2p/go-libp2p](https://github.com/libp2p/go-libp2p/issues/1039)
-[[https://github.com/libp2p/test-plans/issues/126][add tests for hole punching · Issue #126 · libp2p/test-plans]]
+** Implementation
+*** [Project Flare(decentralised Hole Punching) Phase1 Meta Issue · Issue #1039 · libp2p/go-libp2p](https://github.com/libp2p/go-libp2p/issues/1039)
+** Follow-up
+*** [[https://github.com/libp2p/test-plans/issues/126][add tests for hole punching · Issue #126 · libp2p/test-plans]]
 ** Preliminary Results
 *** 45 volunteers
 *** 86% success rate for tcp
 *** 93% success rate for quic
-** Protocols
+** Libp2p Protocols
 *** Identify protocol
 Find out the public ip and port
 *** AutoNAT protocol
