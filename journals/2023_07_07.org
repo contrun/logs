@@ -6,4 +6,4 @@ Request to dial a lot of public addresses
 ** Circuit v2 protocol
 Relay traffic through public nodes
 ** Hole punch coordination
-Coordinate the whole connection. Try
+Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try NAT.
