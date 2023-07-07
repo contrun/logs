@@ -2,7 +2,7 @@
 ** Results
 *** 45 volunteers
 *** 86% success rate for tcp
-*** 93% success rate for udp
+*** 93% success rate for quic
 ** Protocols
 *** Identify protocol
 Find out the public ip and port
@@ -12,3 +12,6 @@ Request to dial a lot of public addresses
 Relay traffic through public nodes
 *** Hole punch coordination
 Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try to use relay server as the last resort.
+** Transport protocols
+*** TCP: simultaneous open
+*** Quic: responding
