@@ -1,9 +1,11 @@
 * [[https://research.protocol.ai/publications/decentralized-hole-punching/][Decentralized Hole Punching]] [[hole punching]]
-** Identify protocol
+** Results
+** Protocols
+*** Identify protocol
 Find out the public ip and port
-** AutoNAT protocol
+*** AutoNAT protocol
 Request to dial a lot of public addresses
-** Circuit v2 protocol
+*** Circuit v2 protocol
 Relay traffic through public nodes
-** Hole punch coordination
-Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try NAT.
+*** Hole punch coordination
+Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try to use relay server as the last resort.
