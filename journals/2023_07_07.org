@@ -16,7 +16,7 @@ Find out the public ip and port
 *** AutoNAT protocol
 Request to dial a lot of public addresses
 *** Circuit v2 protocol
-Relay traffic through public nodes (limited time and traffic)
+Relay traffic through public nodes (with time and traffic limit)
 *** Hole punch coordination
 Coordinate the whole connection. Send messages (like list of discovered addresses) through the relay. Try to connect to each other. Do connection reversal. Finally try to use relay server as the last resort.
 ** Transport protocols
