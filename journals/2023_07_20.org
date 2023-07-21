@@ -1,4 +1,4 @@
 * p2p 连通性。
 ** 独立网络节点程序
 ** node probe 获取到更多的信息（通过 identify 获取到节点的 nat 状态）
-** rpc 接口获取NAT节点
+** rpc 接口获取位于 NAT 网络内的节点
