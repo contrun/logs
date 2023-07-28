@@ -3,3 +3,4 @@
 [Distributed Systems Part-3: Managing Anti-Entropy using Merkle Trees | by Pawan Bhadauria | Medium](https://pawan-bhadauria.medium.com/distributed-systems-part-3-managing-anti-entropy-using-merkle-trees-443ea3fc6213)
 * How do network convergency simulators work? Are they reliable? [[distributed systems]]
 + [Convergence Simulator - Serf by HashiCorp](https://www.serf.io/docs/internals/simulator.html)
+* What does "Riak Core provides a superset of the features of Serf" mean? How to implement a serf like
