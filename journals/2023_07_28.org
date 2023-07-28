@@ -1,1 +1,1 @@
-* Expressiveness of operation-based CRDT vs state-based CRDT. It seems that operations and states in CRDT are just like batch and stream in computation. Are the express
+* Expressiveness of operation-based CRDT vs state-based CRDT. It seems that operations and states in CRDT are just like batch and stream in computation. Are the expressive power of these two equivalent? What about operations like ~UPDATE table_name SET column_name = column_name + 1~? [[conflict-free replicated data type]]
