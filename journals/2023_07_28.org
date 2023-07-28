@@ -1,1 +1,1 @@
-* Expressiveness of operation-based CRDT vs state-based CRDT. It seems that operations and states in CRDT are just like batch and stream in computation.
+* Expressiveness of operation-based CRDT vs state-based CRDT. It seems that operations and states in CRDT are just like batch and stream in computation. Can
