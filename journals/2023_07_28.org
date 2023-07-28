@@ -1,5 +1,5 @@
 * Expressiveness of operation-based CRDT vs state-based CRDT. It seems that operations and states in CRDT are just like batch and stream in computation. Are the expressive power of these two equivalent? What about SQL statements like ~UPDATE table_name SET column_name = column_name + 1~ that both are operations and rely on current state? [[conflict-free replicated data type]]
 * How can we use Merkle tree to fast sync states in distributed systems? [[Merkle tree]] [[distributed systems]]
 [Distributed Systems Part-3: Managing Anti-Entropy using Merkle Trees | by Pawan Bhadauria | Medium](https://pawan-bhadauria.medium.com/distributed-systems-part-3-managing-anti-entropy-using-merkle-trees-443ea3fc6213)
-* How do network convergency simulators work? [[distributed systems]]
+* How do network convergency simulators work? Are they reliable? [[distributed systems]]
 + [Convergence Simulator - Serf by HashiCorp](https://www.serf.io/docs/internals/simulator.html)
