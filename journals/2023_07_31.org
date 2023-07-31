@@ -1,1 +1,2 @@
-* How to efficiently implement ~file(1)~? [[algorithms]]
+* How to efficiently implement ~file(1)~? It seems to be a problem of Backtrack and
+Branch+Bound. How to parallelize this? [[algorithms]] [[parallel computing]]
