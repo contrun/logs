@@ -8,5 +8,5 @@ Branch+Bound. How to parallelize this? [[algorithms]] [[parallel computing]]
 + Calculate \( kG = s^{-1}(z + ra)G = s^{-1}zG + r A \)
 + Verify the x coordinate of \( kG \) is \( r \)
 * How to recover public key from EcDSA signature? Why does the recover process does not always work? [[Elliptic Curve Digital Signature Algorithm]]
-By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}(z - ks) \), which implies \( aG = r^{-1}(z - ks)G = r^{-1}zG - r^{-1}skG\). We only need to calculate \( kG \) to recover the public key. Let \( (x,y) = kG\) be the coordinates of \( kG \). By the signature creation process, we have \( r = x \mod n \), i.e. \( \exists m \in \mathbb{Z} \) such that \( x = r + mn \). We can try
+By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}(z - ks) \), which implies \( aG = r^{-1}(z - ks)G = r^{-1}zG - r^{-1}skG\). We only need to calculate \( kG \) to recover the public key. Let \( (x,y) = kG\) be the coordinates of \( kG \). By the signature creation process, we have \( r = x \mod n \), i.e. \( \exists m \in \mathbb{Z} \) such that \( x = r + mn \). For each \( t \in \mathbb{Z} \), we
 *
