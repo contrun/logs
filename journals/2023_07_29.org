@@ -1,1 +1,2 @@
-* Da
+* [[https://dl.acm.org/doi/10.1145/1562764.1562783][A view of the parallel computing landscape | Communications of the ACM]]
+** Dwarfs in parallel computing ()
