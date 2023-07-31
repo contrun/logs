@@ -3,4 +3,9 @@
 *** Dense Linear Algebra
 *** Sparse Linear Algebra
 *** Spectral Methods
+*** N-Body Methods
+*** Structured Grids
+*** Unstructured Grids
+*** Monte Carlo
+*** Combinational Logic
 ***
