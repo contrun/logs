@@ -1,4 +1,4 @@
 * How to efficiently implement ~file(1)~? It seems to be a problem of Backtrack and
 Branch+Bound. How to parallelize this? [[algorithms]] [[parallel computing]]
 * How to recover public key from EcDSA signature? Why does the recover process does not always work? [[Elliptic Curve Digital Signature Algorithm]]
-Given a Elliptic curve in the finite field of characteristics \( p \) with generator \( G \) of order \( n \). We sign the message \( z \) () by the private key \( a \) as follows. Generate a random scalar \( k \), calculate the coordinates
+Given a Elliptic curve in the finite field of characteristics \( p \) with generator \( G \) of order \( n \). We sign the message \( z \) (assumed \( z \in \mathbb{Z}_n \) hashed to the finite field \( \mathbb{Z}_n \)) by the private key \( a \) as follows. Generate a random scalar \( k \), calculate the coordinates
