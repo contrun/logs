@@ -1,0 +1,1 @@
+* How to efficiently implement ~file(1)~? [[algorithms]]
