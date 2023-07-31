@@ -1,2 +1,3 @@
-* [[https://dl.acm.org/doi/10.1145/1562764.1562783][A view of the parallel computing landscape | Communications of the ACM]] [[computer architecture]]
+* [[https://dl.acm.org/doi/10.1145/1562764.1562783][A view of the parallel computing landscape | Communications of the ACM]] [[computer architecture]] [[parallel computing]]
 ** Dwarfs in parallel computing (common problems that are hard to parallelize)
+***
