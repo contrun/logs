@@ -8,4 +8,8 @@
 *** Unstructured Grids
 *** Monte Carlo
 *** Combinational Logic
-***
+*** Graph traversal
+*** Dynamic Programming
+*** Backtrack and Branch+Bound
+*** Construct Graphical Models
+*** Finite State Machine
