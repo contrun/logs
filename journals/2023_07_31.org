@@ -3,11 +3,11 @@ Branch+Bound. How to parallelize this? [[algorithms]] [[parallel computing]]
 * Given a Elliptic curve in the finite field of characteristics \( p \) with generator \( G \) of order \( n \). We sign the message \( z \) (assumed \( z \in \mathbb{Z}_n \), otherwise hashing it to the finite field \( \mathbb{Z}_n \)) by the private key \( a \) (assuming the corresponding public key \( aG = A\)) as follows. [[Elliptic Curve Digital Signature Algorithm]]
 ** Signature generation
 + Generate a random scalar \( k \), calculate the coordinates \( (x, y) = k G \)
-+ Let \( r = x \mathrm{ mod } n \), \( s = k^{-1}(z + ra) \), return \( (r,s) \in \mathbb{Z}_n^2 \)
++ Let \( r = x \operatorname{ mod } n \), \( s = k^{-1}(z + ra) \), return \( (r,s) \in \mathbb{Z}_n^2 \)
 ** Signature verification
 + Calculate \( kG = s^{-1}(z + ra)G = s^{-1}zG + r A \)
 + Verify the x coordinate of \( kG \) is \( r \)
 * How to recover public key from EcDSA signature? Why does the recover process does not always work? [[Elliptic Curve Digital Signature Algorithm]]
-By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}(z - ks) \). Note this equation is actually a modular equation, i.e.  \( a \equiv r^{-1}(z - ks) \operatorname{mod} n \)
+By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}(z - ks) \). Note this equation is actually a modular equation, i.e.  \( a \equiv r^{-1}(z - ks) \operatorname{mod} n \). This does not tr
 *
 *
