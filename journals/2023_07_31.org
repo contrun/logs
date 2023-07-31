@@ -8,4 +8,4 @@ Branch+Bound. How to parallelize this? [[algorithms]] [[parallel computing]]
 + Calculate \( kG = s^{-1}(z + ra)G = s^{-1}zG + r A \)
 + Verify the x coordinate of \( kG \) is \( r \)
 * How to recover public key from EcDSA signature? Why does the recover process does not always work? [[Elliptic Curve Digital Signature Algorithm]]
-By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}() \)
+By the equation \( s = k^{-1}(z + ra) \), we can see that \( a = r^{-1}(z - ks) \).
