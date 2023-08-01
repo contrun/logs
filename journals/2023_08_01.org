@@ -3,3 +3,31 @@
 #+BEGIN_SRC json
 #+END_SRC
 ** Assertion
+#+BEGIN_SRC json
+{
+signature: 3045022062b3536b8bacf5d2d63208ce06830e8782cb86608624b5457b4d54a0f2d6f0460221008de8f7a7ff329c4393d2bad143c195d39027fba8fb00af070ec1d87f2c4eb04d
+userHandle: undefined
+clientDataJSON: {
+  "type": "webauthn.get",
+  "challenge": "N0Ck-UB9VAY4jBsdbeMAnkd7F_Dn8hsdEEZKvCL79wc",
+  "origin": "https://webauthn.me",
+  "crossOrigin": false
+}
+authenticatorAttachment: cross-platform,
+authenticatorData: {
+  "rpIdHash": "f95bc73828ee210f9fd3bbe72d97908013b0a3759e9aea3d0ae318766cd2e1ad",
+  "flags": {
+    "userPresent": true,
+    "reserved1": false,
+    "userVerified": false,
+    "backupEligibility": false,
+    "backupState": false,
+    "reserved2": false,
+    "attestedCredentialData": false,
+    "extensionDataIncluded": false
+  },
+  "signCount": 3
+},
+extensions: {}
+}
+#+END_SRC
