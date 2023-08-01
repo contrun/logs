@@ -95,4 +95,6 @@ whose output is the bigints r and s in [[Elliptic Curve Digital Signature Algori
 This response is verified by the relying party as in the standard [[https://www.w3.org/TR/webauthn/#sctn-verifying-assertion][WebAuthn Relying Party Operations > Verifying an Authentication Assertion]] (sample code [[https://github.com/go-webauthn/webauthn/blob/9cb3504fb344bae988f6c073b054ed3b2b6d99f9/protocol/assertion.go#L120-L183][webauthn/protocol/assertion.go at 9cb3504fb344bae988f6c073b054ed3b2b6d99f9 · go-webauthn/webauthn]]). In particular, Using credentialPublicKey, verify that sig is a valid signature over the binary concatenation of authData and hash (Let hash be the result of computing a hash over the cData using SHA-256).
 ** What is the use of challenge in WebAuthn? Is it used prevent replay attacks? If so, how? [[WebAuthn]]
 Seems to be only a nonce. [[https://www.w3.org/TR/webauthn-2/#sctn-cryptographic-challenges][Cryptographic Challenges]]. Not used in signature.
-* What does
+* What is the concrete speedup number of using precomputed tables in secp256k1? [[performance and optimization]] [[elliptic curves]]
+#+BEGIN_QUOTE
+Use a precomputed table of multiples of powers of 16 multiplied with the generator, so general multiplication becomes a series of additions.
