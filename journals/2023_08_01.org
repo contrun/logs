@@ -100,4 +100,5 @@ Seems to be only a nonce. [[https://www.w3.org/TR/webauthn-2/#sctn-cryptographic
 #+BEGIN_QUOTE
 Use a precomputed table of multiples of powers of 16 multiplied with the generator, so general multiplication becomes a series of additions.
 #+END_QUOTE
-* Why wouldn't bitcoin's secp256k1 public key recovery process continue forever as in general EcDSA public key recovery? Secp256k1 only has
+* Why wouldn't bitcoin's secp256k1 public key recovery process continue forever as in general EcDSA public key recovery? Secp256k1 only has 4 possible recovery id (recid) as shown in [[https://github.com/bitcoin-core/secp256k1/blob/26392da2fb7153addae0bd604495eb96f995d76c/src/modules/recovery/main_impl.h#L148-L148][secp256k1/src/modules/recovery/main_impl.h at 26392da2fb7153addae0bd604495eb96f995d76c · bitcoin-core/secp256k1]]. [[Elliptic Curve Digital Signature Algorithm]]
+This is because
