@@ -96,5 +96,7 @@ This response is verified by the relying party as in the standard [[https://www.
 ** What is the use of challenge in WebAuthn? Is it used prevent replay attacks? If so, how? [[WebAuthn]]
 Seems to be only a nonce. [[https://www.w3.org/TR/webauthn-2/#sctn-cryptographic-challenges][Cryptographic Challenges]]. Not used in signature.
 * What is the concrete speedup number of using precomputed tables in secp256k1? [[performance and optimization]] [[elliptic curves]]
+[[https://github.com/bitcoin-core/secp256k1][bitcoin-core/secp256k1: Optimized C library for EC operations on curve secp256k1]]
 #+BEGIN_QUOTE
 Use a precomputed table of multiples of powers of 16 multiplied with the generator, so general multiplication becomes a series of additions.
+#+END_QUOTE
