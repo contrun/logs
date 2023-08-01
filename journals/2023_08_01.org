@@ -1,6 +1,52 @@
 * Webauthn workflow
+[[https://webauthn.me/debugger][See your WebAuthn config in action]]
 ** Registration
-#+BEGIN_SRC json
+#+BEGIN_SRC text
+rawId: ccf4058f6f2ed9ae9637c0495c224b83315728a8e48499aa3e551abaad32a006
+id: zPQFj28u2a6WN8BJXCJLgzFXKKjkhJmqPlUauq0yoAY
+type: public-key
+response: {
+clientDataJSON: {
+  "type": "webauthn.create",
+  "challenge": "N0Ck-UB9VAY4jBsdbeMAnkd7F_Dn8hsdEEZKvCL79wc",
+  "origin": "https://webauthn.me",
+  "crossOrigin": false
+}
+authenticatorAttachment: cross-platform,
+transports: [
+  "usb"
+],
+attestationObject: {
+  "fmt": "none",
+  "attStmt": {},
+  "authData": {
+    "rpIdHash": "f95bc73828ee210f9fd3bbe72d97908013b0a3759e9aea3d0ae318766cd2e1ad",
+    "flags": {
+      "userPresent": true,
+      "reserved1": false,
+      "userVerified": false,
+      "backupEligibility": false,
+      "backupState": false,
+      "reserved2": false,
+      "attestedCredentialData": true,
+      "extensionDataIncluded": false
+    },
+    "signCount": 1,
+    "attestedCredentialData": {
+      "aaguid": "00000000-0000-0000-0000-000000000000",
+      "credentialId": "ccf4058f6f2ed9ae9637c0495c224b83315728a8e48499aa3e551abaad32a006",
+      "credentialPublicKey": {
+        "kty": "EC",
+        "alg": "ECDSA_w_SHA256",
+        "crv": "P-256",
+        "x": "wDOEcnm9YLjV1hPScEafkDA0ShlQ8g7NuPHvla3sluU=",
+        "y": "1lxwsvqnlHvfavVT5HJH4GYJMm0gMdjLvICYm54faKc="
+      }
+    }
+  }
+},
+extensions: {}
+}
 #+END_SRC
 ** Assertion
 #+BEGIN_SRC text
