@@ -100,3 +100,4 @@ Seems to be only a nonce. [[https://www.w3.org/TR/webauthn-2/#sctn-cryptographic
 #+BEGIN_QUOTE
 Use a precomputed table of multiples of powers of 16 multiplied with the generator, so general multiplication becomes a series of additions.
 #+END_QUOTE
+* Why does bitcoin's secp256k1 public key recovery process
