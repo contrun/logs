@@ -5,6 +5,7 @@
 rawId: ccf4058f6f2ed9ae9637c0495c224b83315728a8e48499aa3e551abaad32a006
 id: zPQFj28u2a6WN8BJXCJLgzFXKKjkhJmqPlUauq0yoAY
 type: public-key
+
 response: {
 clientDataJSON: {
   "type": "webauthn.create",
