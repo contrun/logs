@@ -83,3 +83,13 @@ extensions: {}
 }
 #+END_SRC
 The signature here is DER formatted binary string.
+#+BEGIN_SRC bash
+printf "$(printf 3045022062b3536b8bacf5d2d63208ce06830e8782cb86608624b5457b4d54a0f2d6f0460221008de8f7a7ff329c4393d2bad143c195d39027fba8fb00af070ec1d87f2c4eb04d | fold -w 2 | xargs -n 1 printf '\\x%s')" | openssl asn1parse -inform DER
+#+END_SRC
+whose output is
+#+BEGIN_SRC text
+    0:d=0  hl=2 l=  69 cons: SEQUENCE
+    2:d=1  hl=2 l=  32 prim: INTEGER           :62B3536B8BACF5D2D63208CE06830E8782CB86608624B5457B4D54A0F2D6F046
+   36:d=1  hl=2 l=  33 prim: INTEGER           :8DE8F7A7FF329C4393D2BAD143C195D39027FBA8FB00AF070EC1D87F2C4EB04D
+#+END_SRC
+*
