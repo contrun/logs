@@ -1,4 +1,4 @@
-* Webauthn workflow
+* Webauthn workflow 
 [[https://webauthn.me/debugger][See your WebAuthn config in action]]
 ** Registration
 #+BEGIN_SRC text
