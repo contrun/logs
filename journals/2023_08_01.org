@@ -3,8 +3,12 @@
 #+BEGIN_SRC json
 #+END_SRC
 ** Assertion
-#+BEGIN_SRC json
-{
+#+BEGIN_SRC text
+rawId: ccf4058f6f2ed9ae9637c0495c224b83315728a8e48499aa3e551abaad32a006
+id: zPQFj28u2a6WN8BJXCJLgzFXKKjkhJmqPlUauq0yoAY
+type: public-key
+
+response: {
 signature: 3045022062b3536b8bacf5d2d63208ce06830e8782cb86608624b5457b4d54a0f2d6f0460221008de8f7a7ff329c4393d2bad143c195d39027fba8fb00af070ec1d87f2c4eb04d
 userHandle: undefined
 clientDataJSON: {
