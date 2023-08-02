@@ -1,2 +1,3 @@
 * Difficulties of hole punching with TCP. [[hole punching]]
-+ We need a socket to both dial and
++ We need a socket to both dial and listen for connections.
++
