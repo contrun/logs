@@ -1,1 +1,2 @@
-* Compare different multi exponentiation algorithms and their respective tradeoffs
+* Compare different multi exponentiation algorithms. [[multi-exponentiation algorithm]]
+*
