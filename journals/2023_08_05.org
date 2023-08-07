@@ -1,0 +1,7 @@
+* How to do fast large number shift on commodity x86 hardware? We need to change multiple words. [[performance and optimization]]
+* Why are elliptic curve operations done in projective coordinates faster than affine coordinates? [[elliptic curves]]
+[[https://eprint.iacr.org/2020/972.pdf][Optimized Binary GCD for Modular Inversion]]
+#+BEGIN_QUOTE
+Its cost (modular inversion) is the main reason why, for instance, operations on elliptic curves are often done with projective coordinates or other similar systems where coordinates are handled as fractions, so that all costly inversions can be mutualized into a final inversion, once the whole computation is finished.
+#+END_QUOTE
+*

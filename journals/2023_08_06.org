@@ -1,0 +1,11 @@
+* How to do keyless SSL without compromise the integrity of SSL connection? [[keyless TLS]]
+The solution [[https://blog.cloudflare.com/keyless-ssl-the-nitty-gritty-technical-details/][Keyless SSL: The Nitty Gritty Technical Details]] here seems to be nonideal, as the middle man can freely change whatever it wants.
+The solution [[https://true-keyless.thejh.net/][True Keyless CDN]] uses TLS 1.2 as different keys are used for encryption and authentication. 
+#+BEGIN_QUOTE
+TLS 1.2 has a lot of ciphersuites with the same kinda design; but the one ciphersuite that is [[https://datatracker.ietf.org/doc/html/rfc5246#section-9][mandatory to implement in TLS 1.2]]
+ is TLS_RSA_WITH_AES_128_CBC_SHA; and a variant with the same 
+encryption/authentication but a perfect-forward-secure handshake is 
+TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA. Both of these are supported by 
+browsers; and both of these use separate keys for encryption (with 
+AES-128-CBC) and authentication (HMAC-SHA1).
+#+END_QUOTE

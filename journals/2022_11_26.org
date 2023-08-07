@@ -7,6 +7,10 @@
 Additionally, SEV-SNP optionally supports the ability to restrict how interrupts and exceptions can be injected into a VM. It can also support Branch Target Buffer (BTB) protection against certain types of side channel attacks. Both protections are discussed later in this white paper.
 #+END_QUOTE
 * Any checklist of cryptographic libraries authors to avoid side-channel attacks? [[side-channel attacks]] [[development practices]]
+:PROPERTIES:
+:id: 6395a67f-1b33-4611-ad33-e7a47e52596d
+:END:
+[[https://crypto.stackexchange.com/questions/41691/timing-attack-and-good-coding-practices][Timing attack and good coding practices - Cryptography Stack Exchange]]
 * How is the owner of a physical page in AMD SEV reverse map table tracked? [[operating system]] [[memory paging]] [[AMD Secure Encrypted Virtualization]] 
 The normal page table is created per process. When the operating system is doing context switch, it also changes [[https://wiki.osdev.org/CPU_Registers_x86#CR3][the register cr3 in x86]] (level 0 of the page table). Thus the owner of a page table can be easily tracked by the operating system. On the other hand, the reverse map table maps the physical memory address to the owner information of that page.
 [[https://www.amd.com/en/processors/amd-secure-encrypted-virtualization][AMD Secure Encrypted Virtualization | AMD]]

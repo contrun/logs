@@ -1,0 +1,2 @@
+* Is it neccesary to protect signature verification against side-channel attacks? [[signature schemes]] [[constant-time cryptography]]
+No. Because no secrets are leaked in signature verification (everything is open). [[https://crypto.stackexchange.com/questions/24529/do-asymmetric-signatures-require-constant-time-verification][public key - Do asymmetric signatures require constant-time verification? - Cryptography Stack Exchange]]

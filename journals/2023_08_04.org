@@ -1,0 +1,1 @@
+* [[https://bearssl.org/constanttime.html][BearSSL - Constant-Time Crypto]] [[constant-time cryptography]]
