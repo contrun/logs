@@ -1,2 +1,2 @@
 * Compare different multi exponentiation algorithms. [[multi-exponentiation algorithm]]
-* How to convert a number to
+* How to convert a number to its non-adjacent form? Is it unique?
