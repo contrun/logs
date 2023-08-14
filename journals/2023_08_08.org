@@ -1,0 +1,1 @@
+* How does gcc avoid multiple definitions of standard library functions? [[system programming]] [[compiling techniques]]
