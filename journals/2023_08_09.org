@@ -1,0 +1,1 @@
+* Real world expression problem [[https://github.com/volatiletech/sqlboiler#extending-generated-models][volatiletech/sqlboiler: Generate a Go ORM tailored to your database schema.]]. What is the best practice here?
