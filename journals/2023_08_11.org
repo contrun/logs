@@ -1,0 +1,1 @@
+* Why do most pairing based algorithms need trusted setup? [[pairing-based cryptography]]
