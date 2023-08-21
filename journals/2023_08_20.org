@@ -1,2 +1,4 @@
 * Properties of vector commitment schemes dynamic, updatble, aggregatable, and maintainable. [[vector commitments]]
-** Dynamic: can be
+** Dynamic: can add/remove elements to the vector.
+** Updatable: can easily update the commitment from the element changes (instead of computing the commitment from scratch)
+** Aggregateble: can
