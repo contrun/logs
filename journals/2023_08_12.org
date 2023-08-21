@@ -1,1 +1,1 @@
-* Are there any vector commitment schemes that does not need trusted setup
+* Are there any vector commitment schemes that is not based on Merkle tree and does not need trusted setup? [[vector commitments]]
