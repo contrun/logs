@@ -1,4 +1,4 @@
 * How to turn a vector commitment scheme into an authenticated dictionary scheme? [[vector commitments]] [[authenticated dictionaries]]
 [[https://www.usenix.org/conference/usenixsecurity22/presentation/leung][Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies | USENIX]]
-* Why is it so important for a vector commitment scheme to be position-hiding? [[vector commitments]]
-[Vector Commitments and Their Applications | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-642-36362-7_5)
+* Why is it so important for a vector commitment scheme to be position-hiding? Is being position-hiding is what differentiate vector commitment scheme from ze [[vector commitments]]
+[[https://link.springer.com/chapter/10.1007/978-3-642-36362-7_5][Vector Commitments and Their Applications | SpringerLink]]
