@@ -1,0 +1,1 @@
+* Are there any vector commitment schemes that does not need trusted setup
