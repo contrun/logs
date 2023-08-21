@@ -1,5 +1,5 @@
 * What are standard constant-size assumptions in cryptography? [[cryptography]]
-
+[[https://link.springer.com/chapter/10.1007/978-3-642-36362-7_5][Vector Commitments and Their Applications | SpringerLink]]
 #+BEGIN_QUOTE
 we can solve the open problem of building compact ZK-EDBs based on standard constant-size assumptions.
 #+END_QUOTE
