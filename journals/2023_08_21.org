@@ -2,4 +2,5 @@
 [[https://www.usenix.org/conference/usenixsecurity22/presentation/leung][Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies | USENIX]]
 * Why is it so important for a vector commitment scheme to be position-hiding? Is being position-hiding is what differentiate vector commitments from zero knowledge sets? What are the things enabled by vector commitments but not available in zero knowledge sets? [[vector commitments]] [[zero knowledge sets]]
 [[https://link.springer.com/chapter/10.1007/978-3-642-36362-7_5][Vector Commitments and Their Applications | SpringerLink]]
-It seems that the (position, value) pair may be viewed as a key-value pair. In this sense, the vector commitment scheme
+It seems that the (position, value) pair may be viewed as a key-value pair. In this sense, the a vector commitment may be viewed as authenticated dictionary.
+*
