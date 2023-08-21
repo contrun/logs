@@ -1,0 +1,1 @@
+* Is KZG as a vector commitment scheme dynamic, updatable? [[KZG commitments]] [[vector commitments]]
