@@ -1,1 +1,2 @@
-* Is KZG as a vector commitment scheme dynamic, updatble, aggregatable, and maintainable? [[KZG commitments]] [[vector commitments]]
+* Properties of vector commitment schemes dynamic, updatble, aggregatable, and maintainable. [[vector commitments]]
+** Dynamic: can be
