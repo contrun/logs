@@ -1,2 +1,2 @@
-* Are there any vector commitment schemes that is not based on Merkle tree and does not need trusted setup? [[vector commitments]]
-See the comparison chart in [[https://www.di.ens.fr/~nitulesc/files/vc-sok.pdf][SoK: Vector Commitments]]. Only Merkle tree based algorithms are trustless.
+* Are there any vector commitment schemes that is not based on Merkle tree or group of unknown order and does not need trusted setup? [[vector commitments]]
+See the comparison chart in [[https://www.di.ens.fr/~nitulesc/files/vc-sok.pdf][SoK: Vector Commitments]].
