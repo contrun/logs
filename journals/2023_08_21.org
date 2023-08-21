@@ -1,1 +1,2 @@
-* How to turn a vector commitment scheme into an authenticated dictionary scheme? [[vector commitments]]
+* How to turn a vector commitment scheme into an authenticated dictionary scheme? [[vector commitments]] [[authenticated dictionaries]]
+[[https://www.usenix.org/conference/usenixsecurity22/presentation/leung][Aardvark: An Asynchronous Authenticated Dictionary with Applications to Account-based Cryptocurrencies | USENIX]]
