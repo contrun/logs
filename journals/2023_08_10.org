@@ -1,4 +1,5 @@
 * What are standard constant-size assumptions in cryptography? [[cryptography]]
+
 #+BEGIN_QUOTE
-we can solve the open problem
-of building compact ZK-EDBs based on standard constant-size assumptions.
+we can solve the open problem of building compact ZK-EDBs based on standard constant-size assumptions.
+#+END_QUOTE
