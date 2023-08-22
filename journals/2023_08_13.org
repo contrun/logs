@@ -1,1 +1,1 @@
-* Does Merkle Mountain Range s
+* Does Merkle Mountain Range supports non-membership proofs? [[merkle mountain range]]
