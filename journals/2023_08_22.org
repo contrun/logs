@@ -1,0 +1,2 @@
+* Why is hidden order groups so useful in cryptography? [[hidden order groups]]
+[[https://crypto.stackexchange.com/questions/103498/hidden-order-groups-any-pointers-to-reading-material][Hidden order groups any pointers to reading material? - Cryptography Stack Exchange]]
