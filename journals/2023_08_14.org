@@ -1,2 +1,5 @@
 * Why do we need a trapdoor in RSA accumulators? [[cryptographic accumulators]]
-[]
+[[https://tokyo2018.scalingbitcoin.org/files/Day1/scalable-drop-in-replacement-for-merkle-trees.pdf][]]
+#+BEGIN_QUOTE
+Efficient delete needs trapdoor. 
+#+END_QUOTE
