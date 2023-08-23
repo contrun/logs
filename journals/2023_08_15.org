@@ -1,4 +1,5 @@
 * Why do we need to append the height within the tree to calculate the hash in Merkle mountain range? [[merkle mountain range]]
+[[https://eprint.iacr.org/2019/611.pdf][Utreexo: A dynamic hash-based accumulator optimized for the Bitcoin UTXO set]]
 #+BEGIN_QUOTE
 we append the height within the tree to prevent attacks such as in [9]
 #+END_QUOTE
