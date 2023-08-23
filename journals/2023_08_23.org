@@ -4,7 +4,7 @@
 2: n ← ∅
 3: h ← 0
 4: while h < len(proof ) do
-5: p ← proof [h] . Iterate over each proof element
+5: p ← proof [h]
 6: if n 6 = ∅ then
 7: n ← Parent(p, n)
 8: else if acc[h] = ∅ then
@@ -16,3 +16,4 @@
 14: acc[h] ← n
 15: return acc
 #+END_SRC
+*
