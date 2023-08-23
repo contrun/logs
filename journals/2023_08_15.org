@@ -3,4 +3,3 @@
 #+BEGIN_QUOTE
 we append the height within the tree to prevent attacks such as in [9]
 #+END_QUOTE
-*
