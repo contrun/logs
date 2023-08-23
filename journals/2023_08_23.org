@@ -1,1 +1,18 @@
-* Removing leaves from Merkle mountain range. [[merkle mountain range]]
+* Removing one leaf from utreexo. [[merkle mountain range]]
+#+BEGIN_SRC
+1: function DeleteOne(acc, proof )
+2: n ← ∅
+3: h ← 0
+4: while h < len(proof ) do
+5: p ← proof [h] . Iterate over each proof element
+6: if n 6 = ∅ then
+7: n ← Parent(p, n)
+8: else if acc[h] = ∅ then
+9: acc[h] ← p
+10: else
+11: n ← Parent(p, acc[h])
+12: acc[h] ← ∅
+13: h ← h + 1
+14: acc[h] ← n
+15: return acc
+#+END_SRC
