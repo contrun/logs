@@ -1,1 +1,5 @@
 * How does aptos process transactions in parallel? [[blockchain scalability]]
+[[https://aptos.dev/assets/files/Aptos-Whitepaper-47099b4b907b432f81fc0effd34f3b6a.pdf][Aptos whitepaper]]
+#+BEGIN_QUOTE
+Novel parallel transaction processing that efficiently supports atomicity with arbitrarily complex transactions through Block-STM, unlike existing parallel execution engines that require upfront knowledge of data locations to be read and written.
+#+END_QUOTE
