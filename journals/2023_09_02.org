@@ -1,1 +1,2 @@
-* How to exchange keys without revealing the identities of both parts? [[A Graduate Course in Applied Cryptography]]
+* How to exchange keys without revealing the identities of both parts? [[A Graduate Course in Applied Cryptography]] [[key exchange]]
+In section 2.4 A fun application: anonymous routing, the author claims
