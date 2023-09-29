@@ -1,1 +1,2 @@
 * Does semantic security imply that the length is preserved under encryption, i.e. messages with the same length are encrypted into messages with the same length? [[A Graduate Course in Applied Cryptography]]
+This must be hold as nested encryption are semantically secure.
