@@ -1,1 +1,1 @@
-* Is semantic security strictly stronger than message recovery security? [[cryptography]]
+* Is semantic security strictly stronger than message recovery security? [[A Graduate Course in Applied Cryptography]]
