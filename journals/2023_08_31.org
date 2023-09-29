@@ -1,2 +1,2 @@
 * Is semantic security strictly stronger than message recovery security? [[A Graduate Course in Applied Cryptography]]
-Yes, see exercise 2.12 which
+Yes, see exercise 2.12 which intends to construct a cipher that is message recovery secure but not sematic secure.
