@@ -1,0 +1,2 @@
+* [[https://stackoverflow.com/questions/23879473/the-token-of-announce-peer-in-dht][bittorrent - The token of announce_peer in DHT - Stack Overflow [[bittorrent]] [[distributed hash table]]
+This is to ensure the IP address obtained from ~recvfrom~ is truely an IP address that the sender can make use of.
