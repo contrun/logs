@@ -1,1 +1,2 @@
-* How to Deduce from part (b) that if E is semantically secure and \( | \matc| \)is super-poly, then |K| cannot be poly-bounded.
+* How to Deduce from part (b) that if \( | \mathcal{E} | \) is semantically secure and \( | \mathcal{M} | \) is super-poly, then \( | \mathcal{K} | \) cannot be poly-bounded.
+*
