@@ -1,0 +1,2 @@
+* How does netbird do NAT traversal with BPF? [[NAT traversal]] [[BPF]]
+[[https://github.com/netbirdio/netbird/pull/911][Wg ebpf proxy by pappz · Pull Request #911 · netbirdio/netbird]]

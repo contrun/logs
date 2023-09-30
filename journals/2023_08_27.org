@@ -1,0 +1,1 @@
+* Why does go-delve failes with a ~Command failed: call not at safe point~ in some situation when I call a function like ~call addrInfo.Addrs[0].String()~? [[golang]]

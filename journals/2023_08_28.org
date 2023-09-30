@@ -1,0 +1,1 @@
+* What is the handshake process of [[https://berty.tech/docs/protocol][Wesh Protocol · Berty Technologies]] so subtle (by generating two ephemeral keys and communicate a few roundtrips)? Which attacks are avoided by designing the the handshake process to be this way? [[cryptography]]
