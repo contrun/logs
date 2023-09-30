@@ -1,1 +1,1 @@
-* What is the biggest adversary advantage to discern a random coin tossing experiment and a always tail coin tossing experiment? Why? [[A Graduate Course in Applied Cryptography]]
+* What is the biggest adversary advantage to discern a random coin tossing experiment and a always tail coin tossing experiment? Why? Problem 2.13 (Advantage calculations in simple settings). [[A Graduate Course in Applied Cryptography]]
