@@ -1,2 +1,2 @@
-* How to Deduce from part (b) that if \( \left| \mathcal{E} \right| \) is semantically secure and \( \left| \mathcal{M} \right| \) is super-poly, then \( \left| \mathcal{K} \right| \) cannot be poly-bounded? Here part (b) states \( KRadv[A, E] ≤ SSadv[B, E] + \varepsilon \) [[A Graduate Course in Applied Cryptography]]
+* How to Deduce from part (b) that if \( \left| \mathcal{E} \right| \) is semantically secure and \( \left| \mathcal{M} \right| \) is super-poly, then \( \left| \mathcal{K} \right| \) cannot be poly-bounded? Here part (b) states \( \operatorname{KRadv}[A, E] \leq \operatorname{SSadv}[B, E] + \frac{}{} \) [[A Graduate Course in Applied Cryptography]]
 *
