@@ -1,1 +1,1 @@
-* If we have an advantage of \( \frac{} \)
+* If we have an advantage of \( \frac{1}{2} + \varepsilon \) in the bit guessing game, where \( \varepsilon \) is a non zero number (maybe negative),
