@@ -1,1 +1,1 @@
-* How to
+* How to Deduce from part (b) that if E is semantically secure and \( | \matc| \)is super-poly, then |K| cannot be poly-bounded.
