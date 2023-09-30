@@ -1,1 +1,1 @@
-* Any universal property to test randomness? There are many ways to test
+* Any universal property to test randomness? There are many ways to test if a bit string is generated randomly. For example, a randomly generated b
