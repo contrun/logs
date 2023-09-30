@@ -1,1 +1,1 @@
-* How to construct encryption schemes from self-referential encrytions.
+* How to construct encryption schemes from self-referential encryptions? Construct both a secure one and insecure one. [[A Graduate Course in Applied Cryptography]]
