@@ -1,1 +1,2 @@
 * If we have an adversary whose advantage is \( \frac{1}{2} + \varepsilon \) in the bit guessing game, where \( \varepsilon \) is a non zero number (maybe negative), how do we create a new advantage whose advantage is strictly greater than \( \frac{1}{2} \)? Why is inverting the guessed bit not working? Problem 2.22 (Bias correction). [[A Graduate Course in Applied Cryptography]]
+*
