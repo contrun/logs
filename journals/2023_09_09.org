@@ -1,1 +1,1 @@
-* A completely trivial example of semantically secure encryption scheme that is not pseudo-random ciphertext secure encryption scheme is given any \( (\mathcal{K}, \mathcal{}) \)
+* A completely trivial example of semantically secure encryption scheme that is not pseudo-random ciphertext secure encryption scheme is given any sematically secure encryption scheme defined on \( (\mathcal{K}, \mathcal{M}, \mathcal{C}) \), we extend the
