@@ -1,2 +1,2 @@
 * How do we turn a semantically secure under random message encryption scheme into a semantic secure encryption scheme? [[A Graduate Course in Applied Cryptography]]
-A encryption scheme is called semantically secure under random message is the challenger randomly choose message to encrypt instead of the adversary.
+A encryption scheme is called semantically secure under random message is the challenger randomly choose message to encrypt instead of the adversary. An example of semantically secure under random message encryption scheme is
