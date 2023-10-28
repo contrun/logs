@@ -1,1 +1,1 @@
-* Sybil and eclipse attacks in DHT network. [[Sybil attack]]
+* Sybil and eclipse attacks prevention in TON network. [[Sybil attacks]] [[eclipse attacks]]
