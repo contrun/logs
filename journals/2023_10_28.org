@@ -1,1 +1,10 @@
 * Sybil and eclipse attacks prevention in TON network. [[Sybil attacks]] [[eclipse attacks]]
+
+#+BEGIN_QUOTE
+
+3.2.11. Fall-back keys. Most of the key types described so far have an
+extra 32-bit integer eld in their TL description, normally equal to zero.
+However, if the key obtained by hashing that description cannot be retrieved
+from or updated in the TON DHT, the value in this eld is increased, and
+
+#+END_QUOTE
