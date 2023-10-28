@@ -1,5 +1,5 @@
-* Eclipse attacks prevention in TON network. [[eclipse attacks]]
-[[https://ton.org/whitepaper.pdf]]
+* Eclipse attacks prevention in TON network. But how do network participants learn the TL description in the first place? [[eclipse attacks]]
+[[https://ton.org/whitepaper.pdf][The Open Network whitepaper]]
 #+BEGIN_QUOTE
 3.2.11. Fall-back keys. Most of the key types described so far have an
 extra 32-bit integer field in their TL description, normally equal to zero.
