@@ -1,1 +1,1 @@
-* Is POS inheritedly more susceptible to DDOS attacks? What are the
+* Is POS inheritedly more susceptible to DDOS attacks? Give some mitigation methods.
