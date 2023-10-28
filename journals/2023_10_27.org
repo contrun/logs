@@ -1,1 +1,8 @@
-* Eclipse attacks prevention in TON network. [[Sybil attacks]] [[eclipse attacks]]
+* Eclipse attacks prevention in i2p network. [[Sybil attacks]] [[eclipse attacks]]
+#+BEGIN_QUOTE
+As a partial defense against this attack, the algorithm used to determine Kademlia "closeness" varies over time. Rather than using the Hash of the key (i.e. H(k)) to determine closeness, we use the Hash of the key appended with the current date string, i.e. H(k + YYYYMMDD). A function called the "routing key generator" does this, which transforms the original key into a "routing key". In other words, the entire netdb keyspace "rotates" every day at UTC midnight. Any partial-keyspace attack would have to be regenerated every day, for after the rotation, the attacking routers would no longer be close to the target key, or to each other.
+
+This attack becomes more difficult as the network size grows. However, recent research demonstrates that the keyspace rotation is not particularly effective. An attacker can precompute numerous router hashes in advance, and only a few routers are sufficient to "eclipse" a portion of the keyspace within a half hour after rotation.
+
+One consequence of daily keyspace rotation is that the distributed network database may become unreliable for a few minutes after the rotation -- lookups will fail because the new "closest" router has not received a store yet. The extent of the issue, and methods for mitigation (for example netdb "handoffs" at midnight) are a topic for further study.
+#+END_QUOTE
