@@ -1,10 +1,9 @@
-* Sybil and eclipse attacks prevention in TON network. [[Sybil attacks]] [[eclipse attacks]]
-
+* Eclipse attacks prevention in TON network. [[eclipse attacks]]
+[[https://ton.org/whitepaper.pdf]]
 #+BEGIN_QUOTE
-
 3.2.11. Fall-back keys. Most of the key types described so far have an
 extra 32-bit integer field in their TL description, normally equal to zero.
 However, if the key obtained by hashing that description cannot be retrieved
-from or updated in the TON DHT, the value in this field is increased, and a new attempt is made. In this way, one cannot "capture" and "censor "a key (i.e., perform a key retention attack) by creating a lot of abstract addresses lying near the key under attack and controlling the corresponding DHT no
+from or updated in the TON DHT, the value in this field is increased, and a new attempt is made. In this way, one cannot "capture" and "censor "a key (i.e., perform a key retention attack) by creating a lot of abstract addresses lying near the key under attack and controlling the corresponding DHT nodes.
 DHT nodes.
 #+END_QUOTE
