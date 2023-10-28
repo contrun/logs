@@ -1,1 +1,1 @@
-* What to do when
+* Is POS inheritedly more susceptible to DDOS attacks? What are the
