@@ -1,4 +1,5 @@
-* Eclipse attacks prevention in i2p network. [[Sybil attacks]] [[eclipse attacks]]
+* Eclipse attacks prevention in i2p network. [[eclipse attacks]]
+[[https://geti2p.net/en/docs/how/network-database][The Network Database - I2P]]
 #+BEGIN_QUOTE
 As a partial defense against this attack, the algorithm used to determine Kademlia "closeness" varies over time. Rather than using the Hash of the key (i.e. H(k)) to determine closeness, we use the Hash of the key appended with the current date string, i.e. H(k + YYYYMMDD). A function called the "routing key generator" does this, which transforms the original key into a "routing key". In other words, the entire netdb keyspace "rotates" every day at UTC midnight. Any partial-keyspace attack would have to be regenerated every day, for after the rotation, the attacking routers would no longer be close to the target key, or to each other.
 
