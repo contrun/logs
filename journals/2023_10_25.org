@@ -1,0 +1,2 @@
+* How can we store such large volume of data (like DNS data) on TON? [[blockchain]] 
+[[https://ton.org/whitepaper.pdf][The Open Network whitepaper]]
