@@ -1,0 +1,2 @@
+* How to construct new overlay networks based on existing one? [[overlay networks]]
+[[https://ton.org/whitepaper.pdf][The Open Network whitepaper]] didn't provide enough techni
