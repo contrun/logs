@@ -1,1 +1,1 @@
-* Is POS inheritedly more susceptible to DDOS attacks? Give some mitigation methods.
+* Is POS inheritedly more susceptible to DDOS attacks? Give some mitigation methods. [[proof of stake]] [[security]]
