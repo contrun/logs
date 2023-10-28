@@ -1,4 +1,4 @@
-* Eclipse attacks prevention in TON network. But how do network participants learn the TL description in the first place? [[eclipse attacks]]
+* Eclipse attacks prevention in TON network. In the case of node address discovery, how do network participants learn the TL description in the first place? Don't they only know the node ID? [[eclipse attacks]]
 [[https://ton.org/whitepaper.pdf][The Open Network whitepaper]]
 #+BEGIN_QUOTE
 3.2.11. Fall-back keys. Most of the key types described so far have an
