@@ -1,0 +1,2 @@
+* Is the checking of small order in ed25519 signature verification necessary?
+E.g. [[https://github.com/signalapp/curve25519-dalek/blob/463e5c7cba32561ffee8a281c4455ff3c25660d4/ed25519-dalek/src/verifying.rs#L475-L478][curve25519-dalek/ed25519-dalek/src/verifying.rs at main · signalapp/curve25519-dalek]]
