@@ -1,1 +1,1 @@
-* Vulnerability and Migitition against eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
+* Vulnerability and miligition for eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
