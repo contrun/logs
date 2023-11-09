@@ -6,6 +6,7 @@
 * Questions on the susceptibility of eclipse attacks to DHT and gossip based p2p network.
 ** How do we compare the susceptibility of DHT network with gossip based network?
 ** Are attacks existing in the literature fixed by state of art DHT networks?
+** What does "因为选择 peer 时会有一些倾向性且容易被别人预测" mean?
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
