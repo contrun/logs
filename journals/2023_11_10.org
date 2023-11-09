@@ -8,6 +8,7 @@
 ** Are attacks existing in the literature fixed by state of art DHT networks?
 ** What eclipse attack hardening feature are implemented in current DHT networks, e.g. TOR and Ethereum?
 ** What does "因为选择 peer 时会有一些倾向性且容易被别人预测" mean?
+It seems that this means
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
