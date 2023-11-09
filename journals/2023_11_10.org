@@ -1,1 +1,1 @@
-* Major va
+* Vulnerability and Migitition against eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
