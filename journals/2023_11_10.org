@@ -1,7 +1,8 @@
 * Vulnerability and miligition for eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
-** Attacks can be initiated round by round (the same attacker can try repeatedly until it successfully inititate a ).
+** Attacks can be initiated round by round (the same attacker can try repeatedly until it successfully initiate an successful attack).
 ** Bitcoin let bad address occupy the ~new~ table, thus a malicious user may flood innocent nodes with unroutable addresses, whence only nodes controlled by adversary are connected.
 ** Bitcoin made it possible for replacing
+* Question on the security of
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
