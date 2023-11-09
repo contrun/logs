@@ -5,4 +5,4 @@
 ** Currently ckb is not completely transport agnostic in the sense
 *** It is tentacle that has the functionality to obtain peer addresses to connect and manage connections (not ckb).
 *** We are not connecting peers with the underlying TCP connection directly. We connect to them with secio. For example, we need to implement secio over TOR. Is that easy?
-*** Can we run our gossip/rpc protocols over any connection, i.e. can we factor  the
+*** Can we run our gossip/rpc protocols over any connection, i.e. can make   this gossip/rpc code base
