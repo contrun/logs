@@ -13,5 +13,5 @@ It seems that this means when peers tends to connect more peers with the shorter
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
 *** It is tentacle that has the functionality to obtain peer addresses to connect and manage connections (not ckb).
-*** We are not connecting peers with the underlying TCP connection directly. We connect to them with secio. For example, we need to implement secio over TOR. Is that easy?
+*** We are not connecting peers with the underlying TCP connection directly. We connect to them with secio. For example, we need to implement secio over TOR. Is that easy? Bitcoin's p2p communication is not encrypted, so it is easy to add i2p/tor support to bitcoin (see [[https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki][bips/bip-0324.mediawiki at master · bitcoin/bips]]). How can we do that in ckb?
 *** Can we run our gossip/rpc protocols over any connection, i.e. can make a library out of this gossip/rpc code base?
