@@ -2,7 +2,9 @@
 ** Attacks can be initiated round by round (the same attacker can try repeatedly until it successfully initiate an successful attack).
 ** Bitcoin let bad address occupy the ~new~ table, thus a malicious user may flood innocent nodes with unroutable addresses, whence only nodes controlled by adversary are connected.
 ** Bitcoin made it possible for replacing
-* Questions on the susceptibility of eclipse attacks  DHT and gossip based p2p network.
+* Questions on the susceptibility of eclipse attacks to DHT and gossip based p2p network.
+** How do we compare the susceptibility of DHT network with gossip based network?
+** Is existing at
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
