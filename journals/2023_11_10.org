@@ -1,2 +1,4 @@
 * Vulnerability and miligition for eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
 + Attacks can be initiated round by round
+* Pluggable network modules in ckb.
++
