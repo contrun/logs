@@ -1,5 +1,5 @@
 * Vulnerability and miligition for eclipse attacks in bitcoin. [[eclipse attacks]] [[bitcoin]]
-** Attacks can be initiated round by round.
+** Attacks can be initiated round by round (the same attacker can try repeatedly until it successfully inititate a ).
 ** Bitcoin let bad address occupy the ~new~ table, thus a malicious user may flood innocent nodes with unroutable addresses, whence only nodes controlled by adversary are connected.
 ** Bitcoin made it possible for replacing
 * Pluggable network modules in ckb.
