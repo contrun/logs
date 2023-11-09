@@ -8,7 +8,7 @@
 ** Are attacks existing in the literature fixed by state of art DHT networks?
 ** What eclipse attack hardening feature are implemented in current DHT networks, e.g. TOR and Ethereum?
 ** What does "因为选择 peer 时会有一些倾向性且容易被别人预测" mean?
-It seems that this means when peers tends to connect more peers with the shorter distance. But the peer ID are uniformly distributed in the ID space. How can
+It seems that this means when peers tends to connect more peers with the shorter distance. But the peer ID are uniformly distributed in the ID space. How can attackers generate IDs near the specific address range?
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
