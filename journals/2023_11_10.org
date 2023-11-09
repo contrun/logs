@@ -3,4 +3,5 @@
 * Pluggable network modules in ckb.
 ** Different p2p networks may provide different functionality. Do we want to use libp2p's pubsub or just establish connection through it (just like TOR).
 ** Currently ckb is not completely transport agnostic in the sense
-*** It is tentacle that has the functionality to send ckb address
+*** It is tentacle that has the functionality to obtain peer addresses to connect and manage connections (not ckb).
+*** We use a few
