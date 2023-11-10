@@ -1,8 +1,7 @@
 * How do we use a pseudorandom bytestream to mimic other protocols? [[cryptography]] [[obfuscation]]
 [[https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki][bips/bip-0324.mediawiki at master · bitcoin/bips]]
 #+BEGIN_QUOTE
-A pseudorandom bytestream excludes identification techniques based on pattern matching, and makes it easier to shape the bytestream in order to mimic other protocols used on the Internet. This raises the cost of a connection censoring firewall, forcing them to either resort to a full MitM attack, or operate on a more obvious allowlist basis, 
-rather than a blocklist basis.
+A pseudorandom bytestream excludes identification techniques based on pattern matching, and makes it easier to shape the bytestream in order to mimic other protocols used on the Internet. This raises the cost of a connection censoring firewall, forcing them to either resort to a full MitM attack, or operate on a more obvious allowlist basis, rather than a blocklist basis.
 
 A pseudorandom bytestream is not self-identifying. Moreover, it is unopinionated and thus a canonical choice for similar protocols. As a result, Bitcoin P2P traffic will be indistinguishable from traffic of other protocols which make the same choice (e.g., [[https://gitlab.com/yawning/obfs4][obfs4]] and a recently proposed [[https://datatracker.ietf.org/doc/draft-cpbs-pseudorandom-ctls/][cTLS extension]]). Moreover, traffic shapers and protocol wrappers (for example, making 
 the traffic look like HTTPS or SSH) can further mitigate traffic analysis and active attacks but are out of scope for this proposal.
