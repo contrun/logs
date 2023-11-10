@@ -1,1 +1,10 @@
-* How do we use a pseudorandom bytestream to mimic other protocols? [[cryptography]]
+* How do we use a pseudorandom bytestream to mimic other protocols? [[cryptography]] [[obfuscation]]
+[[https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki][bips/bip-0324.mediawiki at master · bitcoin/bips]]
+#+BEGIN_QUOTE
+A pseudorandom bytestream excludes identification techniques based 
+on pattern matching, and makes it easier to shape the bytestream in 
+order to mimic other protocols used on the Internet. This raises the 
+cost of a connection censoring firewall, forcing them to either resort 
+to a full MitM attack, or operate on a more obvious allowlist basis, 
+rather than a blocklist basis.
+#+END_QUOTE
