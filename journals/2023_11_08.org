@@ -1,1 +1,1 @@
-* How do we
+* How do we use a pseudorandom bytestream to mimic other protocols? [[cryptography]]
