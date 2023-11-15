@@ -1,1 +1,1 @@
-* How do we confirm that some payment channel is not closed yet in a lig
+* How do we confirm that some payment channel is not closed yet in a lightning network? [[payment channels]]
