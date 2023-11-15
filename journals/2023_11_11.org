@@ -1,1 +1,1 @@
-* What is the use of ~static-shared-secret = ecdh.agree(privkey, remote-pubk)~ in the [[https://github.com/ethereum/devp2p/blob/master/rlpx.md][devp2p/rlpx.md at master · ethereum/devp2p]]
+* What is the use of ~static-shared-secret = ecdh.agree(privkey, remote-pubk)~ in the [[https://github.com/ethereum/devp2p/blob/master/rlpx.md][The RLPx Transport Protocol]]? [[ethereum]]
