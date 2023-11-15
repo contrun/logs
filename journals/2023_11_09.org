@@ -1,0 +1,1 @@
+* How do we confirm that some payment channel is not closed yet in a lig
