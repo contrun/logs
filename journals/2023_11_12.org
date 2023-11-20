@@ -1,2 +1,2 @@
 * How to index files shared in a DHT network? [[distributed hash table]]
-[[https://inria.hal.science/inria-00490509][Efficient DHT attack mitigation through peers' ID distribution - Inria - Institut national de recherche en sciences et technologies du numérique]] describes the process of
+[[https://inria.hal.science/inria-00490509][Efficient DHT attack mitigation through peers' ID distribution - Inria - Institut national de recherche en sciences et technologies du numérique]] describes relating files to key words as a two-step indexing process. We
