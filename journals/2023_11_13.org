@@ -1,1 +1,3 @@
 * Techniques to improve searching in unstructured p2p network. [[peer to peer]]
+[[https://ics.uci.edu/~cs237/reading/reading2020/unstructuredP2P.pdf][Search and Replication in Unstructured Peer-to-Peer Networks]]
++ Expansion ring (start flooding with lesser TTL, then gradually increase it)
