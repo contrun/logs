@@ -1,2 +1,9 @@
 * How to index files shared in a DHT network? [[distributed hash table]]
-[[https://inria.hal.science/inria-00490509][Efficient DHT attack mitigation through peers' ID distribution - Inria - Institut national de recherche en sciences et technologies du numérique]] describes relating files to key words as a two-step indexing process. We
+[[https://inria.hal.science/inria-00490509][Efficient DHT attack mitigation through peers' ID distribution - Inria - Institut national de recherche en sciences et technologies du numérique]] describes relating files to key words as a two-step indexing process.
+#+BEGIN_QUOTE
+To publish a file, two types of service requests are sent:
+- the KADEMLIA2 PUBLISH KEY REQ requests: sent towards the hash of the keyword to link it to a file
+- the KADEMLIA2 PUBLISH SOURCE REQ requests: sent towards the hash of the file to link it to a source (a peer sharing the file).
+#+END_QUOTE
+Are there any other ways?
+*
