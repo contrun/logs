@@ -1,0 +1,1 @@
+* What is in a pretrained model file? Why can we fine tune this model file to new datasets? [[machine learning]]
