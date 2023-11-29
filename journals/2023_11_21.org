@@ -1,1 +1,2 @@
-* What is in a pretrained model file (e.g. ImageNet models, large language models)? Why can we fine tune this model file to new datasets? [[machine learning]]
+* What is in a pretrained model file (e.g. ImageNet models, large language models)? Why can we fine tune this model file to new datasets? [[machine learning]] [[fine-tuning]]
+[[https://stats.stackexchange.com/questions/331369/what-is-meant-by-fine-tuning-of-neural-network][deep learning - What is meant by fine-tuning of neural network? - Cross Validated]]
