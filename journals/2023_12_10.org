@@ -1,2 +1,3 @@
 * Improvements of dotnet orleans over normal actor models. [[actors]]
-- Virtual addressing: the actor references do not contain physical information.
+- Virtual addressing: the actor references do not contain physical information, thus can be easily persisted and started on demand.
+- Messaging passing is just OOP method calling.
