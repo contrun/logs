@@ -1,0 +1,2 @@
+* Improvements of dotnet orleans over normal actor models. [[actors]]
+- Virtual addressing: the actor references do not contain physical information.
