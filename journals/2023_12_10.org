@@ -1,3 +1,4 @@
 * Improvements of dotnet orleans over normal actor models. [[actors]]
+[[https://www.microsoft.com/en-us/research/publication/orleans-distributed-virtual-actors-for-programmability-and-scalability/][Orleans: Distributed Virtual Actors for Programmability and Scalability - Microsoft Research]]
 - Virtual addressing: the actor references do not contain physical information, thus can be easily persisted and started on demand.
-- Messaging passing is just OOP method calling.y
+- Messaging passing is just OOP method calling.
