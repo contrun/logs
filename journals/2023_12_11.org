@@ -1,5 +1,6 @@
 * What is dart's solution to expression problem?  And how does it solve the implementation clash problem? [[expression problem]] [[dart]]
 [[https://dart.dev/language/extension-methods][Extension methods | Dart]]
+Dart uses [[https://dart.dev/language/extension-methods][Extension methods | Dart]] to solve the expression problem.
 #+BEGIN_QUOTE
 API conflicts
 
@@ -7,7 +8,7 @@ If an extension member conflicts with an interface or with another extension mem
 
 One option is changing how you import the conflicting extension, using show or hide to limit the exposed API:
 
-#+BEGIN_SRC
+#+BEGIN_SRC dart
 // Defines the String extension method parseInt().
 import 'string_apis.dart';
 * // Also defines parseInt(), but hiding NumberParsing2
@@ -21,7 +22,7 @@ print('42'.parseInt());
 Another option is applying the extension explicitly,
 which results in code that looks as if the extension is a wrapper class:
 
-#+BEGIN_SRC
+#+BEGIN_SRC dart
 // Both libraries define extensions on String that contain parseInt(),
 // and the extensions have different names.
 import 'string_apis.dart'; // Contains NumberParsing extension.
@@ -35,7 +36,7 @@ print(NumberParsing2('42').parseInt());
 If both extensions have the same name,
 then you might need to import using a prefix:
 
-#+BEGIN_SRC
+#+BEGIN_SRC dart
 // Both libraries define extensions named NumberParsing
 // that contain the extension method parseInt(). One NumberParsing
 // extension (in 'string_apis_3.dart') also defines parseNum().
