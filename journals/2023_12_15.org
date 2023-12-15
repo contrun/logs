@@ -17,4 +17,8 @@ It seems that the purpose of this it to keep track the derivative even if ~f~ is
 #+BEGIN_QUOTE
 Understanding this bit depends on remembering recent history. To calculate the gradients we call ~backward~ on the ~loss~. But this ~loss~ was itself calculated by ~mse~, which in turn took ~preds~ as an input, which was calculated using ~f~ taking as an input ~params~, which was the object on which we originally called ~requires_grad_~—which is the original call that now allows us to call ~backward~ on ~loss~. This chain of function calls represents the mathematical composition of functions, which enables PyTorch to use calculus's chain rule under the hood to calculate these gradients.
 #+END_QUOTE
-* Why does the ~backward~ method of pytorch add gradient to stored
+* Why does the ~backward~ method of pytorch add gradient to stored gradient? [[pytorch]]
+[[https://nbviewer.org/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb][Jupyter Notebook Viewer]]
+#+BEGIN_QUOTE
+The gradients have changed! The reason for this is that `loss.backward` actually /*adds*/ the gradients of `loss` to any gradients that are currently stored. So, we have to set the current gradients to 0 first.
+#+END_QUOTE
