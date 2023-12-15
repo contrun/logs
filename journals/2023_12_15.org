@@ -1,2 +1,2 @@
 * How to encode categorical values in machine learning? [[machine learning]]
-Say that a field F has a few alternative values (f_1, f_2, f_3)/
+Say that a field F has a few alternative values (f_1, f_2, f_3), we normally encode this field by create fields like has_field_1, has_field_2
