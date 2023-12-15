@@ -2,3 +2,9 @@
 [[https://towardsdatascience.com/all-about-categorical-variable-encoding-305f3361fd02][All about Categorical Variable Encoding | by Baijayanta Roy | Towards Data Science]]
 Say that a field F has a few alternative values (f_1, f_2, f_3), we normally encode this field by create fields like has_field_1, has_field_2 (has_field_3 is ignored as it can be inferred from has_field_1 and has_field_2), the value of has_field_1 and has_field_2 are 1 or 0 to signify the existence of f_1 and f_2. This method is also called [[https://en.wikipedia.org/wiki/One-hot][One-hot encoding].
 * Why is pytorch's way to calculate derivative so peculiar? [[pytorch]]
+#+BEGIN_SRC python
+def mse(preds, targets): return ((preds-targets)**2).mean()
+time = torch.arange(0,20).float(); time
+params = torch.randn(3).requires_grad_()
+preds = f(time, params)
+loss = mse(preds, speed)
