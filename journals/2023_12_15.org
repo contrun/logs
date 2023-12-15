@@ -13,4 +13,5 @@ loss.backward()
 params.grad
 #+END_SRC
 
-It seems that the purpose of this it to keep track of
+It seems that the purpose of this it to keep track the derivative even if ~f~ is a compose of serveral functions.
+*
