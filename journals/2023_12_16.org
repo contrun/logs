@@ -1,3 +1,3 @@
 * How to reduce a classification problem into a regression problem? [[machine learning]]
-The difference between 2-classification problem and regression problem is that the range of 2-classification (say \( \{1, 2\} \) problem is discrete. We can use sigmoid function to smoothen the range of
+The difference between 2-classification problem and regression problem is that the range of 2-classification (say \( \{1, 2\} \) problem is discrete. We can use sigmoid function to smoothen the function from features to the category of the classification. And then use regression techniques to solve this problme.
 *
