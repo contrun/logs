@@ -27,4 +27,4 @@ plt.show()
 - accurancy
 - precision
 - recall
-**
+** Multi
