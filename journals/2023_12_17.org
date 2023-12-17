@@ -45,4 +45,6 @@ Before the days of 1cycle training it was very common to save the model at the e
 #+END_QUOTE
 * Make machine learning algorithms more effective when there are not a huge amount of data. [[machine learning]]
 ** Random forest bagging [[random forest]]
-Make a few decision trees a
+Make a few decision trees and take the most predicted category as output.
+** Mixup
+** Ensemble learning
