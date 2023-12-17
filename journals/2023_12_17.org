@@ -33,3 +33,6 @@ Our advice is to pick either:
     One order of magnitude less than where the minimum loss was achieved (i.e., the minimum divided by 10)
     The last point where the loss was clearly decreasing
 #+END_QUOTE
+* Why should we use lower learning rates in early layers and high learning rates in late layers? [[deep learning]]
+#+BEGIN_QUOTE
+Like many good ideas in deep learning, it is extremely simple: use a lower learning rate for the early layers of the neural network, and a higher learning rate for the later layers (and especially the randomly added layers). The idea is based on insights developed by Jason Yosinski, who showed in 2014 that with transfer learning different layers of a neural network should train at different speeds
