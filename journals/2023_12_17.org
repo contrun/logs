@@ -22,5 +22,5 @@ category1  category2   tgt idx	result
 0.366118 	0.633882 	0 	5 	0.366118
 #+END_SRC
 
-The cross entropy loss is calculated as \( \sum \log(result) \)
+Here the result is ~df['result'] = df.category0 if df.tgt == 0~. The cross entropy loss is calculated as \( \sum \log(result) \)
 *
