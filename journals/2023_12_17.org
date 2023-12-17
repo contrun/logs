@@ -52,4 +52,4 @@ Make a few decision trees and take the most predicted category as output.
 * Techniques to avoid overfitting in machine learning. [[machine learning]]
 ** label smoothing
 - [[https://paperswithcode.com/method/label-smoothing][Label Smoothing Explained | Papers With Code]]
--
+- [[1906.02629] When Does Label Smoothing Help?](https://arxiv.org/abs/1906.02629)
