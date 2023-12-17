@@ -38,4 +38,6 @@ Our advice is to pick either:
 #+BEGIN_QUOTE
 Like many good ideas in deep learning, it is extremely simple: use a lower learning rate for the early layers of the neural network, and a higher learning rate for the later layers (and especially the randomly added layers). The idea is based on insights developed by Jason Yosinski, who showed in 2014 that with transfer learning different layers of a neural network should train at different speeds
 #+END_QUOTE
-* [[]]
+* Early stopping in deep learning training. [[deep learning]]
+#+BEGIN_QUOTE 
+Before the days of 1cycle training it was very common to save the model at the end of each epoch, and then select whichever model had the best accuracy out of all of the models saved in each epoch. This is known as early stopping.
