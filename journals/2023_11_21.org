@@ -1,8 +1,10 @@
 * What is in a pretrained model file (e.g. ImageNet models, large language models)? Why can we fine tune this model file to new datasets? [[machine learning]] [[fine-tuning]]
 [[https://stats.stackexchange.com/questions/331369/what-is-meant-by-fine-tuning-of-neural-network][deep learning - What is meant by fine-tuning of neural network? - Cross Validated]]
 
+[[https://nbviewer.org/github/fastai/fastbook/blob/master/05_pet_breeds.ipynb][Jupyter Notebook Viewer]]
 #+BEGIN_QUOTE
 When we create a model from a pretrained network fastai automatically freezes all of the pretrained layers for us. When we call the fine_tune method fastai does two things:
 
     Trains the randomly added layers for one epoch, with all other layers frozen
     Unfreezes all of the layers, and trains them all for the number of epochs requested
+#+END_QUOTE
