@@ -1,7 +1,7 @@
 * When to use weight decay to avoid overfitting? [[machine learning]]
 In [[https://github.com/fastai/fastbook/blob/master/08_collab.ipynb][Collaborative Filtering Deep Dive]], the author used weight decay to prevent overfitting. How does the author know to do this?
 * How to interpret the principal component analysis result of the emdding matrix of the top movies? [[principal component analysis]]
-
+[[https://github.com/fastai/fastbook/blob/master/08_collab.ipynb][Collaborative Filtering Deep Dive]]
 #+BEGIN_SRC python 
 #hide_input
 #id img_pca_movie
@@ -22,3 +22,4 @@ for i, x, y in zip(top_movies[idxs], X, Y):
     plt.text(x,y,i, color=np.random.rand(3)*0.7, fontsize=11)
 plt.show()
 #+END_SRC
+*
