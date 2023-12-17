@@ -54,4 +54,4 @@ Make a few decision trees and take the most predicted category as output.
 - [[https://paperswithcode.com/method/label-smoothing][Label Smoothing Explained | Papers With Code]]
 - [[https://arxiv.org/abs/1906.02629][[1906.02629] When Does Label Smoothing Help?]]
 
-Instead of using 1 or 0 to represent whether a sample belongs to a category or not, we use values slightly away from 1 or 0. This helps because
+Instead of using 1 or 0 to represent whether a sample belongs to a category or not, we use values slightly away from 1 or 0. This helps because 1 or 0 represent infinity in softmax. When we are minimizing the loss, the model tends to overfit-
