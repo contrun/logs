@@ -23,10 +23,10 @@ for i, x, y in zip(top_movies[idxs], X, Y):
 plt.show()
 #+END_SRC
 * Metrics used in machine learning. [[machine learning]]
-** Binary classification problems
+** Binary classification
 *** accurancy
 accurancy = \( \frac{\#\{ \text{correct predictions} \}}{\#\{ \text{predictions} \} }\)
 *** precision
 precision = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FP} )  }\)
 *** recall
-** Multi
+** Multi-class classification
