@@ -23,5 +23,8 @@ for i, x, y in zip(top_movies[idxs], X, Y):
 plt.show()
 #+END_SRC
 * Metrics used in machine learning. [[machine learning]]
-** Classification problems
+** Binary classification problems
+- accurancy
+- precision
+- recall
 **
