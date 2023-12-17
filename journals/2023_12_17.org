@@ -1,4 +1,7 @@
 * Why do we need to take exponential in softmax? [[deep learning]]
 The definition of softmax is \( \operatorname{softmax}(x_i) = \frac{ e^{x_i} }{ \sum_i e^{x_i} } \). Why don't we directly define softmax as \( \operatorname{softmax}(x_i) = \frac{ {x_i} }{ \sum_i {x_i} } \)? Is it used to amplify the difference and smoothen the function?
 It seems the reason is the same as why do we use sigmoid to 2-classification problem. In 2-classification case softmax is the same as sigmoid, as \( sigmoid(x) = \frac{e^x}{1+e^x} \).
+
+#+BEGIN_QUOTE
+We could create other functions that have the properties that all activations are between 0 and 1, and sum to 1; however, no other function has the same relationship to the sigmoid function, which we've seen is smooth and symmetric. Also, we'll see shortly that the softmax function works well hand-in-hand with the loss function we will look at in the next section.
 *
