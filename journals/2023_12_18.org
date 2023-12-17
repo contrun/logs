@@ -25,7 +25,8 @@ plt.show()
 * Metrics used in machine learning. [[machine learning]]
 ** Binary classification problems
 *** accurancy
-accurancy = \( \frac{}{#\{ \text{predictions} \} }\)
+accurancy = \( \frac{\#\{ \text{correct predictions} \}}{\#\{ \text{predictions} \} }\)
 *** precision
+precision = \( \frac{\#\{ \text{correct predictions} \}}{\#\{ \text{predictions} \} }\)
 *** recall
 ** Multi
