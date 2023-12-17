@@ -24,7 +24,8 @@ plt.show()
 #+END_SRC
 * Metrics used in machine learning. [[machine learning]]
 ** Binary classification problems
-** accurancy
-- precision 
-- recall
+*** accurancy
+accurancy = \( \frac{}{#\{ \text{predictions} \} }\)
+*** precision
+*** recall
 ** Multi
