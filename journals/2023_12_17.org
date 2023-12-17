@@ -1,3 +1,3 @@
 * Why do we need to take exponential in softmax? [[deep learning]]
-The definition of softmax is \( (x_i) = \frac{ e^{x_i} }{ \sum_i e^{x_i} } \). Why don't we directly define softmax as \( softmax(x_i) = \frac{ {x_i} }{ \sum_i {x_i} } \)? Is it used to amplify the difference and smoothen the function?
+The definition of softmax is \( \operatorname{softmax}(x_i) = \frac{ e^{x_i} }{ \sum_i e^{x_i} } \). Why don't we directly define softmax as \( \operatorname{softmax}(x_i) = \frac{ {x_i} }{ \sum_i {x_i} } \)? Is it used to amplify the difference and smoothen the function?
 *
