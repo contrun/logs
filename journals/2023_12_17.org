@@ -52,4 +52,6 @@ Make a few decision trees and take the most predicted category as output.
 * Techniques to avoid overfitting in machine learning. [[machine learning]]
 ** label smoothing
 - [[https://paperswithcode.com/method/label-smoothing][Label Smoothing Explained | Papers With Code]]
-- [[1906.02629] When Does Label Smoothing Help?](https://arxiv.org/abs/1906.02629)
+- [[https://arxiv.org/abs/1906.02629][[1906.02629] When Does Label Smoothing Help?]]
+
+Instead of using 1 or 0 to represent whether a sample belongs to a category or not, we use vl
