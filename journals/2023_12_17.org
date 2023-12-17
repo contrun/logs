@@ -9,4 +9,5 @@ We could create other functions that have the properties that all activations ar
 
 #+BEGIN_QUOTE
 The exponential also has a nice property: if one of the numbers in our activations x is slightly bigger than the others, the exponential will amplify this (since it grows, well... exponentially), which means that in the softmax, that number will be closer to 1.
+#+END_QUOTE
 *
