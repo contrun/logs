@@ -43,4 +43,6 @@ Like many good ideas in deep learning, it is extremely simple: use a lower learn
 #+BEGIN_QUOTE 
 Before the days of 1cycle training it was very common to save the model at the end of each epoch, and then select whichever model had the best accuracy out of all of the models saved in each epoch. This is known as early stopping.
 #+END_QUOTE
-* Make machine learning algorithms more effective when there are not a huge amount of data
+* Make machine learning algorithms more effective when there are not a huge amount of data. [[machine learning]]
+** Random forest bagging [[random forest]]
+Make a few decision trees a
