@@ -1,3 +1,3 @@
 * When to use weight decay to avoid overfitting? [[machine learning]]
 In [[https://github.com/fastai/fastbook/blob/master/08_collab.ipynb][Collaborative Filtering Deep Dive]], the author used weight decay to prevent overfitting. How does the author know to do this?
-*
+* How to interpret the principal component analysis result of the emdding matirx
