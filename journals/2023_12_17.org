@@ -49,4 +49,7 @@ Make a few decision trees and take the most predicted category as output.
 ** Mixup
 [[https://openreview.net/forum?id=r1Ddp1-Rb][mixup: Beyond Empirical Risk Minimization | OpenReview]]
 ** Ensemble learning
-* Tecch
+* Techniques to avoid overfitting in machine learning. [[machine learning]]
+** label smoothing
+- [[https://paperswithcode.com/method/label-smoothing][Label Smoothing Explained | Papers With Code]]
+-
