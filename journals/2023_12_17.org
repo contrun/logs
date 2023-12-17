@@ -22,5 +22,5 @@ category1  category2   tgt idx	results
 0.366118 	0.633882 	0 	5 	0.366118
 #+END_SRC
 
-Here the results is calculated by ~ df['results'] = df.category0 if df.tgt == 0 else df.category1 ~. The cross entropy loss is calculated as \( \frac{\sum -\log_{r \in results}(\mathrm{r})}{\operatorname{len}(results)} \). The question is that why is it called cross entropy?
+Here the results is calculated by ~ df['results'] = df.category0 if df.tgt == 0 else df.category1 ~. The cross entropy loss is calculated as \( \frac{\sum_{r \in results} -\log(\mathrm{r})}{\operatorname{len}(results)} \). The question is that why is it called cross entropy?
 *
