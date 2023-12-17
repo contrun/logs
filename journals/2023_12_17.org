@@ -23,4 +23,4 @@ category1  category2   tgt idx	results
 #+END_SRC
 
 Here the results is calculated by ~ df['results'] = df.category0 if df.tgt == 0 else df.category1 ~. The cross entropy loss is calculated as \( \frac{\sum_{r \in results} -\log(\mathrm{r})}{\operatorname{len}(results)} \). The question is that why is it called cross entropy?
-*
+* How does the learning rate selection algorithm described in
