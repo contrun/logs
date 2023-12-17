@@ -47,4 +47,6 @@ Before the days of 1cycle training it was very common to save the model at the e
 ** Random forest bagging [[random forest]]
 Make a few decision trees and take the most predicted category as output.
 ** Mixup
+[[https://openreview.net/forum?id=r1Ddp1-Rb][mixup: Beyond Empirical Risk Minimization | OpenReview]]
 ** Ensemble learning
+* Tecch
