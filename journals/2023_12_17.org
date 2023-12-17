@@ -6,4 +6,7 @@ It seems the reason is the same as why do we use sigmoid to 2-classification pro
 #+BEGIN_QUOTE
 We could create other functions that have the properties that all activations are between 0 and 1, and sum to 1; however, no other function has the same relationship to the sigmoid function, which we've seen is smooth and symmetric. Also, we'll see shortly that the softmax function works well hand-in-hand with the loss function we will look at in the next section.
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+The exponential also has a nice property: if one of the numbers in our activations x is slightly bigger than the others, the exponential will amplify this (since it grows, well... exponentially), which means that in the softmax, that number will be closer to 1.
 *
