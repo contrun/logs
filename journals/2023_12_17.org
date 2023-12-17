@@ -13,7 +13,7 @@ The exponential also has a nice property: if one of the numbers in our activatio
 * Why is cross-entropy loss function called cross-entropy? [[deep learning]]
 Given the following dataframe (category{1,2} stand for the probability predicted by the model for category one or two, tgt stands fot the correct label for the training data, idx stands for the index of the sample),
 #+BEGIN_SRC text
-category1  category2   tgt idx	result
+category1  category2   tgt idx	results
 0.602469 	0.397531 	0 	0 	0.602469
 0.502065 	0.497935 	1 	1 	0.497935
 0.133188 	0.866811 	0 	2 	0.133188
@@ -22,5 +22,5 @@ category1  category2   tgt idx	result
 0.366118 	0.633882 	0 	5 	0.366118
 #+END_SRC
 
-Here the result is calculated by ~ df['result'] = df.category0 if df.tgt == 0 else df.category1 ~. The cross entropy loss is calculated as \( \frac{}\sum -\log(\mathrm{result}) \). The question is that why is it called cross entropy?
+Here the results is calculated by ~ df['results'] = df.category0 if df.tgt == 0 else df.category1 ~. The cross entropy loss is calculated as \( \frac{\sum -\log_{r \in results}(\mathrm{r})}{\operatorname{len}(results)} \). The question is that why is it called cross entropy?
 *
