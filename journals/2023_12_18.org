@@ -29,5 +29,5 @@ accurancy = \( \frac{\#\{ \text{correct predictions} \}}{\#\{ \text{predictions}
 *** precision
 precision = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FP} )  }\)
 *** recall
-precision = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FP} )  }\)
+rercall = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FN} )  }\)
 ** Multi-class classification
