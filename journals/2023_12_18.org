@@ -32,3 +32,8 @@ precision = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FP} )  }\)
 rercall = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FN} )  }\)
 ** Multi-class classification
 * There is a DecisionTreeRegressor in scikit-learn? How can we use decision tree for regression tasks? What is the staticstical value that we want to minimize while divide a set into two subsets? This value should represent how homogenous the two subsets are. [[decision tree]]
+[[https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html][sklearn.tree.DecisionTreeRegressor — scikit-learn 1.3.2 documentation]]
+#+BEGIN_QUOTE
+criterion{“squared_error”, “friedman_mse”, “absolute_error”, “poisson”}, default=”squared_error”
+The function to measure the quality of a split. Supported criteria are “squared_error” for the mean squared error, which is equal to variance reduction as feature selection criterion and minimizes the L2 loss using the mean of each terminal node, “friedman_mse”, which uses mean squared error with Friedman’s improvement score for potential splits, “absolute_error” for the mean absolute error, which minimizes the L1 loss using the median of each terminal node, and “poisson” which uses reduction in Poisson deviance to find splits.
+#+END_QUTOE
