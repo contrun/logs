@@ -2,3 +2,5 @@
 ** Nature model value (the sensible default value).
 ** Calculate the correlation coefficients and then fill in with the average value of according to correlated columns.
 * Whar is out-of-bag error in random forest? [[random forest]]
+* How to measure the importance of each features in machine learning? [[feature engineering]]
+** In random forest,,
