@@ -1,3 +1,4 @@
-* Strategy for filling in missing data in machine learning. [[machine learning]]
+* Strategies to deal with missing data in machine learning. [[machine learning]]
 ** Nature model value (the sensible default value).
 ** Calculate the correlation coefficients and then fill in with the average value of according to correlated columns.
+*
