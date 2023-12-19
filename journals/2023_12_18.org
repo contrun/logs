@@ -31,3 +31,4 @@ precision = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FP} )  }\)
 *** recall
 rercall = \( \frac{\#\{ \text{TP} \}}{\#( \text{TP} \cup \text{FN} )  }\)
 ** Multi-class classification
+* There is a DecisionTreeRegressor in scikit-learn? How can we use decision tree for regression tasks? What is the staticstical value that we want to minimize while divide a set into two subsets? This value should represent how homogenous the two subsets are. [[decision tree]]
