@@ -3,6 +3,17 @@
 ** Calculate the correlation coefficients and then fill in with the average value of according to correlated columns.
 * Whar is out-of-bag error in random forest? [[random forest]]
 * How to measure the importance of each features in machine learning? [[feature engineering]]
-** random forest
+** With random forest
 [[https://stackoverflow.com/questions/15810339/how-are-feature-importances-in-randomforestclassifier-determined?rq=3][scikit learn - How are feature_importances in RandomForestClassifier determined? - Stack Overflow]]
+#+BEGIN_QUOTE
+There are indeed several ways to get feature "importances". As often, there is no strict consensus about what this word means.
+
+In scikit-learn, we implement the importance as described in [1] (often cited, but unfortunately rarely read...). It is sometimes called "gini importance" or "mean decrease impurity" and is defined as the total decrease in node impurity (weighted by the probability of reaching that node (which is approximated by the proportion of samples reaching that node)) averaged over all trees of the ensemble.
+
+In the literature or in some other packages, you can also find feature importances implemented as the "mean decrease accuracy". Basically, the idea is to measure the decrease in accuracy on OOB data when you randomly permute the values for that feature. If the decrease is low, then the feature is not important, and vice-versa.
+
+(Note that both algorithms are available in the randomForest R package.)
+
+[1]: Breiman, Friedman, "Classification and regression trees", 1984.
+#+END_QUOTE
 *
