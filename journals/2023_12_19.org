@@ -3,4 +3,6 @@
 ** Calculate the correlation coefficients and then fill in with the average value of according to correlated columns.
 * Whar is out-of-bag error in random forest? [[random forest]]
 * How to measure the importance of each features in machine learning? [[feature engineering]]
-** In random forest,,
+** random forest
+[[https://stackoverflow.com/questions/15810339/how-are-feature-importances-in-randomforestclassifier-determined?rq=3][scikit learn - How are feature_importances in RandomForestClassifier determined? - Stack Overflow]]
+*
