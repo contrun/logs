@@ -1,1 +1,2 @@
 * What are the tradeoffs of different kinds of neural networks? When to use each of them? Why are some types more efficient? Is there any rigorous proof? [[deep learning]]
+* What do we mean by "Turing Machines are Recurrent Neural Networks"
