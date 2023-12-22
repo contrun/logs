@@ -1,1 +1,2 @@
-* How to verify the authenticity of large language model outputs? [[language models]] combine retrieval augmented generation
+* How to verify the authenticity of large language model outputs? [[language models]] [[retrieval augmented generation]]
+With retrieval augmented generation, we can manually view the original source of the LLM outputs and verify the information provided by LLM.
