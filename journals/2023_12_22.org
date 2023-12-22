@@ -1,2 +1,2 @@
 * How to verify the authenticity of large language model outputs? [[language models]] [[retrieval augmented generation]]
-With retrieval augmented generation, we can manually view the original source of the LLM outputs and verify the information provided by LLM.
+With retrieval augmented generation, we can manually view the original source of the LLM outputs and verify the information provided by LLM. The thing is that  due to the limitation of token size, retrieval augmented generation can not synthesize a large volume of data and provide a single comprehensive output. This is what large language model do. One the other hand,
