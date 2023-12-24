@@ -1,1 +1,2 @@
-* Give some vector database indexing methods and their respective advantages.
+* Give some vector database index methods and their respective advantages. [[database index]] [[vector databases]]
+** [[https://blog.lancedb.com/product-quantization-compress-high-dimensional-vectors-dfcba98fab47][Inverted File Product Quantization (IVF_PQ): Accelerate vector search by creating indices | by Prasant Kumar | Dec, 2023 | LanceDB]]
