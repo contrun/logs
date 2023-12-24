@@ -26,4 +26,5 @@ Did it actually considered the distance between each destinations? How is distan
 ** Many-to-many Growing Joins
 Find out all the person that have degree-two connection to another person. For example, if A follows B and B follows C, then A has a degree connection to C.
 ** Recursive Join Queries
-Find out all the person that directly or indirectly follow another person
+Find out all the person that directly or indirectly follow another person.
+*
