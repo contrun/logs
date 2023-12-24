@@ -21,3 +21,5 @@ Recursive joins: Graph queries excel in performance for recursive join queries w
 ** [[https://playground.memgraph.com/lesson/usa-national-parks-traveling-salesman-1][Lesson - Travelling salesman in USA national parks]] [[graph databases]]
 Did it actually considered the distance between each destinations? How is distance calculated? [[https://memgraph.com/docs/advanced-algorithms/available-algorithms/tsp][tsp]]
 ** [[https://playground.memgraph.com/sandbox/europe-backpacking][Sandbox - Europe backpacking]]
+** [[https://kumo.ai/ns-newsarticle-using-graph-learning-for-personalization-how-gnns-solve-inherent-structural-issues-with-recommender-systems][Using Graph Learning for Personalization]]
+*
