@@ -24,5 +24,5 @@ Did it actually considered the distance between each destinations? How is distan
 ** [[https://kumo.ai/ns-newsarticle-using-graph-learning-for-personalization-how-gnns-solve-inherent-structural-issues-with-recommender-systems][Using Graph Learning for Personalization]]
 * Implement all the graph algorithms mentioned in [[https://kuzudb.com/docusaurus/blog/what-every-gdbms-should-do-and-vision/][What Every Competent GDBMS Should Do (aka The Goals & Vision of Kùzu | Kùzu]] with SQL. [[graph algorithms]] [[SQL]]
 ** Many-to-many Growing Joins
-A follows B, B follows C
+Find out all the person that have degree-two connection to another person. For example, if A follows B, B follows C
 ** Recursive Join Queries
