@@ -1,0 +1,1 @@
+* Similarity search vs semantic search in vector databases.  [[vector databases]]
