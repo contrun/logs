@@ -16,4 +16,4 @@ Many-to-many growing joins: A graph database is natively designed for many-to-ma
 
 Recursive joins: Graph queries excel in performance for recursive join queries when compared with SQL, mainly because of the efficiency of the graph model in “hopping” over multiple levels of depth. Although SQL queries permit recursion, the idea of recursion was added as an afterthought in the relational data model, whereas in graphs, recursion is a first-class citizen.
 #+END_QUOTE
-*
+* [[https://playground.memgraph.com/lesson/usa-national-parks-traveling-salesman-1][Lesson - Travelling salesman in USA national parks]] [[graph databases]]
