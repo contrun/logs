@@ -18,5 +18,5 @@ Recursive joins: Graph queries excel in performance for recursive join queries w
 #+END_QUOTE
 * Interesting graph algorihtms. [[graph algorithms]]
 ** [[https://playground.memgraph.com/lesson/usa-national-parks-traveling-salesman-1][Lesson - Travelling salesman in USA national parks]] [[graph databases]]
-How
+Did it actually considered the distance between each destinations? How is distance calculated? [[https://memgraph.com/docs/advanced-algorithms/available-algorithms/tsp][tsp]]
 ** [[https://playground.memgraph.com/sandbox/europe-backpacking][Sandbox - Europe backpacking]]
