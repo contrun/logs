@@ -22,4 +22,4 @@ Recursive joins: Graph queries excel in performance for recursive join queries w
 Did it actually considered the distance between each destinations? How is distance calculated? [[https://memgraph.com/docs/advanced-algorithms/available-algorithms/tsp][tsp]]
 ** [[https://playground.memgraph.com/sandbox/europe-backpacking][Sandbox - Europe backpacking]]
 ** [[https://kumo.ai/ns-newsarticle-using-graph-learning-for-personalization-how-gnns-solve-inherent-structural-issues-with-recommender-systems][Using Graph Learning for Personalization]]
-*
+* Implement all the graph algorithms metion
