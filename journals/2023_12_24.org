@@ -11,4 +11,9 @@ All of this means you'll need to retrieve a multiple of K vectors, figure out so
 [[https://thedataquarry.com/posts/embedded-db-1/][Embedded databases (1): The harmony of DuckDB, KùzuDB and LanceDB | The Data Quarry]]
 #+BEGIN_QUOTE
 Pre-defined, pointer-based joins: A graph database stores the neighbours of a node (a “record”, or a “row” in SQL terminology) as pre-defined relationships. While in a relational DB, a SQL query can make no prior assumptions about which tables are being joined with each other until query time, a graph database is all about exploiting the prior knowledge of existing relationships from the data, and instead uses a join index (i.e., and adjacency list index) to store these pre-defined relationships at load time.
+
+Many-to-many growing joins: A graph database is natively designed for many-to-many joins, on data that’s ever growing. If on average, each of the nodes connects with many other nodes and there are also many relationships in the pattern being searched, we’re basically asking the system to search through an exponentially growing number of combinations! Relational (OLTP) databases, because of their row-oriented design, cannot optimize for this use case.
+
+Recursive joins: Graph queries excel in performance for recursive join queries when compared with SQL, mainly because of the efficiency of the graph model in “hopping” over multiple levels of depth. Although SQL queries permit recursion, the idea of recursion was added as an afterthought in the relational data model, whereas in graphs, recursion is a first-class citizen.
 #+END_QUOTE
+*
