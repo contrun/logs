@@ -8,6 +8,7 @@ The second unstated assumption is that the vector index can accurately identify 
 All of this means you'll need to retrieve a multiple of K vectors, figure out some way to re-rank them to exclude the irrelevant ones, and have your own ground truth to measure the index's precision and recall. 
 #+END_QUOTE
 * Graph database relationships vs relational database joins. [[graph databases]] [[relational databases]]
+[[https://kuzudb.com/docusaurus/blog/what-every-gdbms-should-do-and-vision/][What Every Competent GDBMS Should Do (aka The Goals & Vision of Kùzu | Kùzu]]
 [[https://thedataquarry.com/posts/embedded-db-1/][Embedded databases (1): The harmony of DuckDB, KùzuDB and LanceDB | The Data Quarry]]
 #+BEGIN_QUOTE
 Pre-defined, pointer-based joins: A graph database stores the neighbours of a node (a “record”, or a “row” in SQL terminology) as pre-defined relationships. While in a relational DB, a SQL query can make no prior assumptions about which tables are being joined with each other until query time, a graph database is all about exploiting the prior knowledge of existing relationships from the data, and instead uses a join index (i.e., and adjacency list index) to store these pre-defined relationships at load time.
