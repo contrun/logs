@@ -1,1 +1,1 @@
-* Similarity search vs semantic search in vector databases. Vector databases are based on similarity search, but what we really want is semantic search for relevant contents. How  [[vector databases]]
+* Similarity search vs semantic search in vector databases. Vector databases are based on similarity search, but what we really want is semantic search for relevant contents.  [[vector databases]]
