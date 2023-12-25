@@ -1,0 +1,1 @@
+* What is the best way to avoid sross-site request forgery while having a single page application?
