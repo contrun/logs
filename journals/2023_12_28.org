@@ -1,4 +1,4 @@
-* [[https://stackoverflow.com/questions/74541484/recommended-simple-access-token-expire-handling-for-app][authentication - Recommended simple access token expire handling for app - Stack Overflow]] [[development practices]]
+* [[https://stackoverflow.com/questions/74541484/recommended-simple-access-token-expire-handling-for-app][authentication - Recommended simple access token expire handling for app - Stack Overflow]] [[development practices]] [[security practices]] 
 #+BEGIN_QUOTE
 You have a few options to choose from, I'll try provide an overview. There is a significant difference depending on whether the client is a browser or a mobile app.
 
@@ -33,3 +33,4 @@ What you can consider doing to make such very long sessions more secure is check
 
 Another new-ish feature you could consider is WebAuthn and Passkey, for passwordless authentication. These basically provide device authentication, a key will be seamlessly generated for the user on the specific device, and that will be used for logging in. UX is now getting better, but there are still challenges. The way device authentication translates into user authentication is that the key is associated with the user session (the user "unlocks" the keystore, ie. decrypts the stored keys upon login, with their login credentials). This can also provide "remember me" (seamless auto-login), but in my experience the technology is not fully ready yet, though it's getting there.
 #+END_QUOTE
+* [[https://stackoverflow.com/questions/40555855/does-the-refresh-token-expire-and-if-so-when][oauth 2.0 - Does the refresh token expire and if so when? - Stack Overflow]] [[development practices]] [[security practices]]
