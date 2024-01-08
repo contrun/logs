@@ -1,2 +1,2 @@
 * Why do we need a refresh token in oauth? [[oauth]]
-It seems that it is because the authorization server and application backend server are not the same server. We need the authorization server to issu
+It seems that it is because the authorization server and application backend server are not the same server. We need the authorization server to issue access token with which applications can access data from application backend server.
