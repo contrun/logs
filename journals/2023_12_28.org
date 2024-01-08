@@ -1,1 +1,36 @@
 * [[https://stackoverflow.com/questions/74541484/recommended-simple-access-token-expire-handling-for-app][authentication - Recommended simple access token expire handling for app - Stack Overflow]] [[development practices]]
+#+BEGIN_QUOTE
+
+
+You have a few options to choose from, I'll try provide an overview. There is a significant difference depending on whether the client is a browser or a mobile app.
+
+First, for browsers, plain old session tokens are generally more secure than JWT or other structured tokens. If your requirements don't force you to store stuff on or flow stuff through the client, then don't.
+
+The most secure option for a browser client (single page javascript app or plain old rendered app) is the following:
+
+    When the user hits the login endpoint with their username and password, the endpoint creates a random session id, and stores it in a database.
+    The server sends back the session token as a httpOnly cookie, thus it protects it from potential XSS.
+    The client then automatically includes the session token in all subsequent requests.
+    Additional data can be stored server-side for the session.
+
+This above is basically plain old stateful session management. The length of such a session should be limited, but if your requirements and threat model allows, you can make this a very long session, like months even if you want, but be aware of the associated risk. These tokens can be inspected in the browser and stolen from a user if not else then by physical access to the client, so a very long expiry has its risks.
+
+Note that mobile apps can pretty much just do the same. The difference is that mobile apps do have a way to store secrets more securely on current mobile platforms. As the storage is protected by user login, and also segregated by app, a session id stored correctly in a mobile app has a lot less chance to be compromised, meaning a longer expiry presents lower risk than in case of a plain browser.
+
+You can also implement a refresh token. However, the point in refresh tokens is that you want to store them in a different way than the other token. If they are stored the same way, a refresh token provides very little benefit (sure, it won't be sent with every request, but that's not where it will get compromised anyway, TLS / HTTPS is secure for transport). In case of OAuth / OpenID, the authentication server can for example set the refresh token on its own origin (like login.example.com), and then forward the user to the app with an authorization code for example, which can be exchanged by the application (service provider) for an access token, that is set for the application domain (like app.example.com). This way, the two tokens have different access models, a compromised app will not leak the refresh token, even if the current access token is leaked, and the access token can be refreshed relatively seamlessly.
+
+If you don't have a separate login endpoint, all this doesn't make a lot of sense, except in one very specific case. Thinking about browser clients, you can set a refresh token in a httpOnly cookie, so it's protected from XSS, and you can store an access token in something like localStorage. However, why would you do this? Pretty much the only reason you would do this is if you need to send the access token to some other origin, which is the whole point in OAuth and OpenID.
+
+You could also argue that statelessness is a benefit of such tokens. In reality, the vast majority of services don't actually benefit from statelessness, but it makes some features technically impossible (like for example forcing logout, as in terminating existing user sessions - for that, you would have to store and check revoked tokens, which is not stateless at all).
+
+Ok so to provide "remember me" as in auto-login, you basically have two options. You can either just make your sessions very long (like months, years, forever), which is more ok for mobile apps as they can store the token more securely than a browser, or you can implement some kind of a refresh mechanism. As discussed above, this only makes sense if the refresh token is stored and accessed differently than the session token.
+
+In case of a browser app with a single origin (no auth/login service), this is not really possible, there is no real separation, and a refresh token doesn't make a lot of sense. If you want an auth service, you should be looking into OpenID Connect (OIDC).
+
+For a mobile app, what you could do is store a refresh token in secure storage, and use access tokens from the localStorage of something like a webview, but unless there are very specific requirements, this would likely not be worth the complexity, as you could just store a longer lived session token in the secure storage.
+
+As for remember me, you can just implement it in a way that users that choose to be remembered will have a sessino token with a longer expiry - as you already store expiry for each token in your database, everything is already set up for that, and in many usecases this is fine. There is some additional risk for users that choose this, but there is also some additional benefit in terms of convenience - it's always a compromise.
+
+What you can consider doing to make such very long sessions more secure is check and store some kind of a device fingerprint (there are Javascript libs for this). If you have a very long lived session, but only valid for a specific fingerprint (ie. it only works from the same device), that mitigates the risk somewhat. However, almost everything that is used for a device fingerprint can be spoofed by an attacker, but it still makes it significantly harder for an attacker to steal a session, and you can have approrpiate monitoring in place for attempts. There will be UX considerations too, like the fingerprint might change with browser/app updates and so on, but it's still worth it sometimes.
+
+Another new-ish feature you could consider is WebAuthn and Passkey, for passwordless authentication. These basically provide device authentication, a key will be seamlessly generated for the user on the specific device, and that will be used for logging in. UX is now getting better, but there are still challenges. The way device authentication translates into user authentication is that the key is associated with the user session (the user "unlocks" the keystore, ie. decrypts the stored keys upon login, with their login credentials). This can also provide "remember me" (seamless auto-login), but in my experience the technology is not fully ready yet, though it's getting there.
