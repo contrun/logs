@@ -16,4 +16,6 @@ In the literature or in some other packages, you can also find feature importanc
 
 [1]: Breiman, Friedman, "Classification and regression trees", 1984.
 #+END_QUOTE
+
+The way these importances are calculated is quite simple yet elegant. The feature importance algorithm loops through each tree, and then recursively explores each branch. At each branch, it looks to see what feature was used for that split, and how much the model improves as a result of that split. The improvement (weighted by the number of rows in that group) is added to the importance score for that feature. This is summed across all branches of all trees, and finally the scores are normalized such that they add to 1.
 * Compare different tokenization methods in natural language processing. What are their tradeoffs? [[natural language processing]]

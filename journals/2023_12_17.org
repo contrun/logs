@@ -11,7 +11,7 @@ We could create other functions that have the properties that all activations ar
 The exponential also has a nice property: if one of the numbers in our activations x is slightly bigger than the others, the exponential will amplify this (since it grows, well... exponentially), which means that in the softmax, that number will be closer to 1.
 #+END_QUOTE
 * Why is cross-entropy loss function called cross-entropy? [[deep learning]]
-Given the following dataframe (category{1,2} stand for the probability predicted by the model for category one or two, tgt stands fot the correct label for the training data, idx stands for the index of the sample),
+Given the following dataframe (category{1,2} stand for the probability predicted by the model for category one or two, tgt stands for the correct label for the training data, idx stands for the index of the sample),
 #+BEGIN_SRC text
 category1  category2   tgt idx	results
 0.602469 	0.397531 	0 	0 	0.602469
