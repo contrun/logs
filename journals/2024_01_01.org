@@ -1,1 +1,1 @@
-* A suitable metric for multilabel classification problem?
+* A suitable metric for multilabel classification problem? [[machine learning metrics]]
