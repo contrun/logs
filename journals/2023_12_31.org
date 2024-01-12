@@ -1,1 +1,2 @@
-* [[https://www.typescriptlang.org/docs/handbook/declaration-merging.html][TypeScript: Documentation - Declaration Merging]]
+* [[https://www.typescriptlang.org/docs/handbook/declaration-merging.html][TypeScript: Documentation - Declaration Merging]] [[expression problem]]
+Is this somewhat a typescript solution to the expression problem?
