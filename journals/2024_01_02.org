@@ -1,2 +1,3 @@
 * Reservior sampling to randomly select \( k \) samples from a data source with unknown cardinality. [[algorithms]]
 + Initialize a list of \( k \) elements with the first \( k \) elements from the data source.
++ For the nth element of the data source with \( n > k \), generate a random eleme
