@@ -1,2 +1,2 @@
-* Reservior sampling to randomly select \( k \) samples from a dataset with unknown cardinality. [[algorithms]]
-+ Select \( k \)
+* Reservior sampling to randomly select \( k \) samples from a data source with unknown cardinality. [[algorithms]]
++ Initialize a list of \( k \) elements with the first \( k \) elements from the data source.
