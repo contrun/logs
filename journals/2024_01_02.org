@@ -1,1 +1,1 @@
-* Reservior sampling to randomly select \( \
+* Reservior sampling to randomly select \( k \) samples from a dataset with unknown cardinality. [[algorithms]]
