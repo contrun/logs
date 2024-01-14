@@ -2,4 +2,4 @@
 + Initialize a list of \( k \) elements with the first \( k \) elements from the data source.
 + For the nth element of the data source with \( n > k \), generate a random number \( x \) with \( 1 \leq x \leq n \), if \( 1 \leq x \leq k \), then replace the \( x \)th element with this \( n \)th element.
 + Continue the above process until data source has exhausted.
-*
+* Importance Sampling. [[statisctics]]
