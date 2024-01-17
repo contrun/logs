@@ -21,5 +21,8 @@ Name       Type       MBR  Size  Parent
 /dev/sda   device     -    100G  -
 #+END_SRC
 ** Resize disk file
-
-~sudo qemu-img resize /var/lib/libvirt/images/devagrant_default.img +100G~
+#+BEGIN_SRC shell
+sudo qemu-img resize /var/lib/libvirt/images/devagrant_default.img +100G
+sudo qemu-nbd -c /dev/nbd0 /var/lib/libvirt/images/devagrant_default.im
+sudo parted /dev/nbd0 resizepart 3 100%
+sudo qemu-nbd -d /dev/nbd0
