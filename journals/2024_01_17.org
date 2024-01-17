@@ -1,4 +1,13 @@
 * Resize a vagrant guest disk.
 ** Get current disk information
-sudo virsh dumpxml devagrant_default
-+#
+Running ~sudo virsh dumpxml devagrant_default~ shows
+
+#+BEGIN_SRC xml
+    <disk type='file' device='disk'>                                                                                                                                                                
+      <driver name='qemu' type='qcow2'/>                                                          
+      <source file='/var/lib/libvirt/images/devagrant_default.img'/>                              
+      <target dev='vda' bus='virtio'/>
+      <alias name='ua-box-volume-0'/>                                                             
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>    
+    </disk>   
+#+END_SRC
