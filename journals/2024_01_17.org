@@ -12,11 +12,12 @@ Running ~sudo virsh dumpxml devagrant_default~ shows
     </disk>   
 #+END_SRC
 ** Get current disk size
-sudo virt-filesystems --long --parts --blkdevs -h -a /var/lib/libvirt/images/devagrant_default.img
+Running ~sudo virt-filesystems --long --parts --blkdevs -h -a /var/lib/libvirt/images/devagrant_default.img~ shows
 #+BEGIN_SRC txt
 Name       Type       MBR  Size  Parent
 /dev/sda1  partition  -    1.0M  /dev/sda
 /dev/sda2  partition  -    300M  /dev/sda
 /dev/sda3  partition  -    100G  /dev/sda
 /dev/sda   device     -    100G  -
+#+END_SRC
 *
