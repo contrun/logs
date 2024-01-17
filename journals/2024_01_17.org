@@ -1,0 +1,2 @@
+* Resize a vagrant guest disk.
+ sudo virsh dumpxml devagrant_default
