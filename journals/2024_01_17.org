@@ -26,3 +26,9 @@ sudo qemu-img resize /var/lib/libvirt/images/devagrant_default.img +100G
 sudo qemu-nbd -c /dev/nbd0 /var/lib/libvirt/images/devagrant_default.im
 sudo parted /dev/nbd0 resizepart 3 100%
 sudo qemu-nbd -d /dev/nbd0
+#+END_SRC
+** Resize guest fs size
+#+BEGIN_QUOTE shell
+sudo btrfs filesystem resize max /
+#+END_QUOTE
+*
