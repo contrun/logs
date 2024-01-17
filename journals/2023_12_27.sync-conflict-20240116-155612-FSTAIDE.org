@@ -1,0 +1,5 @@
+* What is an embedding matrix for the input layer of neural network like? [[deep learning]]
+* How different kinds of tokenization affect the expressivity of the language models using them? [[language models]]
+* What does the temperature parameter in language models actually do? [[language models]]
+* What's the use of encoder in language models? When is it more appropriate to use encoder instead of the whole model? [[language models]]
+* What does it mean to fit one cycle and unfreeze in fastai? [[deep learning]]

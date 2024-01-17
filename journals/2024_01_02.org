@@ -1,5 +1,6 @@
-* Reservior sampling to randomly select \( k \) samples from a data source with unknown cardinality. [[algorithms]]
-+ Initialize a list of \( k \) elements with the first \( k \) elements from the data source.
-+ For the nth element of the data source with \( n > k \), generate a random number \( x \) with \( 1 \leq x \leq n \), if \( 1 \leq x \leq k \), then replace the \( x \)th element with this \( n \)th element.
-+ Continue the above process until data source has exhausted.
-* Importance Sampling. [[statisctics]]
+* Ways to create labels
++ hand labeling
++ weak supervision with label functions (giving many potentially inaccurate ways to label dataset, and combine these functions)
++ semi supervision (assume that the labels of the whole dataset can be learned from a small subset)
++ transfer learning
++ active learning (based on the uncertainty of a model to some data or disagreeness of serveral models to some data, send the data to annotator to manually label them)

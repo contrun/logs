@@ -1,0 +1,3 @@
+* What do the detach method of pytorch actually do? detach is also called backpropagation through time, which seems to remove the variable from back proprogation (not considering it while calculating the gradient). [[backpropagation through time]] [[deep learning]]
+* How to deal with vanishing gradients and exploding gradients in deep learning? For RNNs, two types of layers are frequently used to avoid exploding gradients. One is gated recurrent units (GRU) and the other is long short-term memory (LSTM). [[deep learning]]
+* Demonstrate that we have a vanishing/exploding gradient problem in pytorch. [[deep learning]]
