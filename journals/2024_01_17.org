@@ -1,2 +1,4 @@
 * Resize a vagrant guest disk.
- sudo virsh dumpxml devagrant_default
+** Get current disk information
+sudo virsh dumpxml devagrant_default
++#
