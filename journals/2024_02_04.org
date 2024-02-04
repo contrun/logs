@@ -10,6 +10,10 @@ cd build
 ~/glibc/glibc-2.38/configure --prefix=$HOME/glibc/glibc-2.38-install
 make
 make install
+#+END_SRC
 
 Patch binaries to use new glibc
-``````
+#+BEGIN_SRC shell
+patchelf --set-interpreter /opt/glibc/lib/ld-linux-x86-64.so.2 --set-rpath /opt/glibc/lib:/usr/lib/x86_64-linux-gnu BINARY_TO_PATCH
+#+END_SRC
+*
