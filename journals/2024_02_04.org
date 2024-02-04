@@ -1,13 +1,15 @@
 * Use a separated glibc on ubuntu. 
 Build glibc 
-```
+#+BEGIN_SRC shell
 mkdir $HOME/glibc/ && cd $HOME/glibc
 wget http://ftp.gnu.org/gnu/libc/glibc-2.38.tar.gz
 tar -xvzf glibc-2.38.tar.gz
 mkdir build
 mkdir glibc-2.38-install
 cd build
-~/glibc/glibc-2.38/configure --prefix=$HOME/glibc/glibc-2.32-install
+~/glibc/glibc-2.38/configure --prefix=$HOME/glibc/glibc-2.38-install
 make
 make install
-```
+
+Patch binaries to use new glibc
+``````
