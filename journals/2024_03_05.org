@@ -2,7 +2,15 @@
 [bolts/02-peer-protocol.md at master · lightning/bolts](https://github.com/lightning/bolts/blob/master/02-peer-protocol.md#the-accept_channel-message)
 The field ~funding_pubkey~ in the message ~open_channel~ is the public key in the 2-of-2 multisig script of the funding transaction output. The thing is that we need to communicate with each other so that we know the public key of the receiver? How does the sender know this? By node advertisement?
 * How does revocation of old transaction in lightning network work exactly? [[lightning network]]
-* What are ~payment_basepoint~ in bolts
+* What are ~payment_basepoint~ in bolts? [[lightning network]]
+[[https://github.com/lightning/bolts/blob/master/03-transactions.md#keys][bolts/03-transactions.md at master · lightning/bolts]]
+implies that ~payment_basepoint~ are secretly held values that are different from  
+#+BEGIN_QUOTE 
+This obscures the number of commitments made on the channel in the
+case of unilateral close, yet still provides a useful index for both
+nodes (who know the ~payment_basepoint~s) to quickly find a revoked
+commitment transaction.
+#+END_QUOTE
 #+BEGIN_SRC
 SHA256(payment_basepoint from open_channel || payment_basepoint from accept_channel)
 #+END_SRC
