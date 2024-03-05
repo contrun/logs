@@ -1,0 +1,2 @@
+* How do we know the ~funding_pubkey~ before ~open_channel~ in lightning network? [[lightning network]]
+[bolts/02-peer-protocol.md at master · lightning/bolts](https://github.com/lightning/bolts/blob/master/02-peer-protocol.md#the-accept_channel-message)
