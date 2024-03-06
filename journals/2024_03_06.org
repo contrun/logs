@@ -30,4 +30,5 @@ OP_ENDIF
 [[https://github.com/lightning/bolts/blob/master/03-transactions.md#to_local-output][bolts/03-transactions.md at master · lightning/bolts]]
 We use both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ to prevent a transaction to local from being spent to early. But why is both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ being used? ~nSequence~ is used for transaction level time lock, while ~OP_CHECKSEQUENCEVERIFY~ is used for TXO level time lock. Does ~nSequence~ already imply ~OP_CHECKSEQUENCEVERIFY~?
 * What are the inputs of commitment transactions in lightning network? Is it just the funding transaction? [[lightning network]]
-* Does any HTLC
+* Does any HTLC corresponds to a output? [[lightning network]]
+[[https://github.com/lightning/bolts/blob/master/03-transactions.md#appendix-f-commitment-and-htlc-transaction-test-vectors-anchors][bolts/03-transactions.md at master · lightning/bolts]] seems to be the case.
