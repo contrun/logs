@@ -30,6 +30,10 @@ OP_ENDIF
 [[https://github.com/lnbook/lnbook/blob/develop/07_payment_channels.asciidoc][lnbook/07_payment_channels.asciidoc at develop · lnbook/lnbook]]
 #+BEGIN_QUOTE
 The first clause allows the output to be spent by anyone who can sign for <revocationpubkey>. A critical requirement to the security of this script is that the remote party cannot unilaterally sign with the revocationpubkey. To see why this is important, consider the scenario in which the remote party breaches a previously revoked commitment. If they can sign with this key, then they can simply take the revocation clause themselves and steal all the funds in the channel. Instead, we derive the revocationpubkey for each state based on information from both the self (local) and remote party. A clever use of symmetric and asymmetric cryptography is used to allow both sides to compute the revocationpubkey public key, but only allow the honest self party to compute the private key given their secret information, as detailed in Revocation and Commitment Secret Derivations. 
+
+
+
+revocationpubkey = revocation_basepoint * sha256(revocation_basepoint || per_commitment_point) + per_commitment_point * sha256(per_commitment_point || revocation_basepoint)
 #+END_QUOTE
 * We use both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ to prevent a transaction to local from being spent to early. But why is both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ being used? ~nSequence~ is used for transaction level time lock, while ~OP_CHECKSEQUENCEVERIFY~ is used for TXO level time lock. Does ~nSequence~ already imply ~OP_CHECKSEQUENCEVERIFY~? [[bitcoin]] 
 [[https://github.com/lightning/bolts/blob/master/03-transactions.md#to_local-output][bolts/03-transactions.md at master · lightning/bolts]]
