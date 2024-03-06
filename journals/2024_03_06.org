@@ -27,3 +27,5 @@ OP_ELSE
 OP_ENDIF
 #+END_SRC
 * Who do we prevent the adversaries from broadcast old commitment transactions and take all assets by revoking them immediately? [[lightning network]]
+[[https://github.com/lightning/bolts/blob/master/03-transactions.md#to_local-output][bolts/03-transactions.md at master · lightning/bolts]]
+We use both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ to prevent a transaction to local from being spent to early. But what
