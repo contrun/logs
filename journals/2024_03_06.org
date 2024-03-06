@@ -26,4 +26,4 @@ OP_ELSE
     OP_ENDIF
 OP_ENDIF
 #+END_SRC
-* Who do we prevent the adversaries from broadcast old
+* Who do we prevent the adversaries from broadcast old commitment transactions and take all assets by revoking them immediately? [[lightning network]]
