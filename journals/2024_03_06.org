@@ -26,4 +26,4 @@ OP_ELSE
     OP_ENDIF
 OP_ENDIF
 #+END_SRC
-*
+* Who do we prevent the adversaries from broadcast old
