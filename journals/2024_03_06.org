@@ -29,4 +29,4 @@ OP_ENDIF
 * Who do we prevent the adversaries from broadcast old commitment transactions and take all assets by revoking them immediately? [[lightning network]]
 [[https://github.com/lightning/bolts/blob/master/03-transactions.md#to_local-output][bolts/03-transactions.md at master · lightning/bolts]]
 We use both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ to prevent a transaction to local from being spent to early. But why is both ~nSequence~ and ~OP_CHECKSEQUENCEVERIFY~ being used? ~nSequence~ is used for transaction level time lock, while ~OP_CHECKSEQUENCEVERIFY~ is used for TXO level time lock. Does ~nSequence~ already imply ~OP_CHECKSEQUENCEVERIFY~?
-* What are the inputs of commitment transactions in lightning network? It must not be the funding transaction as only one funding transaction. [[lightning network]]
+* What are the inputs of commitment transactions in lightning network? Is it just the funding transaction? [[lightning network]]
