@@ -3,7 +3,9 @@
 #+BEGIN_QUOTE
 As of this writing, the most recent versions of the design add two outputs to the commitment transaction—one for each LN party—and require all other outputs in the commitment transaction to have their scripts encumbered by a ~1 OP_CHECKSEQUENCEVERIFY~ (CSV) condition that prevents them from being spent for at least one block.
 #+END_QUOTE
- 
+
+#+BEGIN_QUOTE
+Each party has its own anchor output that locks to their funding key. This is to prevent a malicious peer from attaching child transactions with a low fee density to an anchor and thereby blocking the victim from getting the commit tx confirmed in time. This defense is supported by a change in Bitcoin core 0.19: bitcoin/bitcoin#15681. This is also the reason that every non-anchor output on the commit tx is CSV locked. 
 #+END_QUOTE
 * Why are offered HTLC transactions in lightning network using a multisig to lock outputs and check time lock in the subsequent transaction? Can we directly build time lock into this HTLC transcation? [[lightning network]]
 [[https://github.com/lightning/bolts/blob/master/03-transactions.md#offered-htlc-outputs][bolts/03-transactions.md at master · lightning/bolts]]
