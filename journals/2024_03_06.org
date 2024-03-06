@@ -3,4 +3,21 @@
 #+BEGIN_QUOTE
 As of this writing, the most recent versions of the design add two outputs to the commitment transaction—one for each LN party—and require all other outputs in the commitment transaction to have their scripts encumbered by a ~1 OP_CHECKSEQUENCEVERIFY~ (CSV) condition that prevents them from being spent for at least one block.
 #+END_QUOTE
-* Why are offered HTLC transactions in lightning network using a multisig to lock outputs and in the subsequent transaction checking
+* Why are offered HTLC transactions in lightning network using a multisig to lock outputs and check time lock in the subsequent transaction? Can we directly build time lock into this HTLC transcation? [[lightning network]]
+[[https://github.com/lightning/bolts/blob/master/03-transactions.md#offered-htlc-outputs][bolts/03-transactions.md at master · lightning/bolts]]
+#+BEGIN_SRC
+# To remote node with revocation key
+OP_DUP OP_HASH160 <RIPEMD160(SHA256(revocationpubkey))> OP_EQUAL
+OP_IF
+    OP_CHECKSIG
+OP_ELSE
+    <remote_htlcpubkey> OP_SWAP OP_SIZE 32 OP_EQUAL
+    OP_NOTIF
+        # To local node via HTLC-timeout transaction (timelocked).
+        OP_DROP 2 OP_SWAP <local_htlcpubkey> 2 OP_CHECKMULTISIG
+    OP_ELSE
+        # To remote node with preimage.
+        OP_HASH160 <RIPEMD160(payment_hash)> OP_EQUALVERIFY
+        OP_CHECKSIG
+    OP_ENDIF
+OP_ENDIF
