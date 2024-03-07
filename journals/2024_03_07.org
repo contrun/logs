@@ -1,1 +1,1 @@
-* Why are we using ~OP_CHECKLOCKTIMEVERIFY~ in HTLC output scripts, while ~OP_CHECKSEQUENCEVERIFY~ in
+* Why are we using ~OP_CHECKLOCKTIMEVERIFY~ in HTLC output scripts, while ~OP_CHECKSEQUENCEVERIFY~ in HTLC-timeout and HTLC-success Transactions? [[lightning network]]
