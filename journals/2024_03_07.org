@@ -1,1 +1,1 @@
-* Why are we using ~OP_CHECKLOCKTIMEVERIFY~ in HTLC output scripts
+* Why are we using ~OP_CHECKLOCKTIMEVERIFY~ in HTLC output scripts, while ~OP_CHECKSEQUENCEVERIFY~ in
