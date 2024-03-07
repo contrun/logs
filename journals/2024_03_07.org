@@ -1,1 +1,1 @@
-* Why are we using
+* Why are we using ~OP_CHECKLOCKTIMEVERIFY~ in HTLC output scripts
